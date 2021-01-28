@@ -1,2 +1,0 @@
-# neuron
-My zettelkasten
