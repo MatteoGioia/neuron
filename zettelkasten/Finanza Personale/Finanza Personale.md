@@ -5,15 +5,18 @@ dirtree:
 
 
 # Glossario Finanziario
-Questa è una repository dedicata a spiegare la finanza pesonale in modo semplice con un approccio simile a quello di una wiki.  Si tratta di un documento completamente open source e ispirato liberamente a varie risorse, consultabili tutte nella sezione ==Risorse==
+Questa è una repository dedicata a spiegare la finanza personale in modo semplificato. Si tratta di un documento completamente open source creato a partire dalle seguenti ==Risorse==.
 
 ## Indice dei contenuti
 
 ### Finanza personale
- - Strumenti bancari:
-   + [[Denaro contante]]
-- Strumenti finanziari:
-   + [[Investimento]]
+#### Strumenti bancari
+#### Strumenti finanziari
+Attività di un investitore volta a incrementare i propri beni capitali mediante acquisizione o creazione di risorse economiche da usare nel processo produttivo.
+- [[Derivati]]
+- [[Azioni]]
+#### Strumenti previdenziali
+#### Strumenti assicurativi
 ### Finanza pubblica
  
 

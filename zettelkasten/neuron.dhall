@@ -1,7 +1,7 @@
 { siteTitle = 
 	"Matteo Gioia's Zettelkasten",
   theme = 
-	"green",
+	"teal",
   plugins = 
 	[ "dirtree", "neuronignore", "links", "tags","uptree"]
 }
