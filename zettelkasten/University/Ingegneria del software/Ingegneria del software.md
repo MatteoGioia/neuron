@@ -1,0 +1,24 @@
+---
+dirtree:
+  display: False
+---
+
+# Ingegneria del software
+
+Sezione dedicata agli appunti di Ingegneria del Software
+
+### Appunti
+
+[[Requirements engineering]]
+
+[[Non functional requirements]]
+
+[[Use case diagrams]]
+
+[[Project Planning]]
+
+[[Unified Modeling Language]]
+
+[[Rational Unified Process]]
+
+[[Component Diagram]]
