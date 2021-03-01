@@ -22,3 +22,7 @@ Sezione dedicata agli appunti di Ingegneria del Software
 [[Rational Unified Process]]
 
 [[Component Diagram]]
+
+[[Sequence Diagram]]
+
+[[Macchine a stati]]

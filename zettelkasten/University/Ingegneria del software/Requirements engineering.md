@@ -1,7 +1,7 @@
   # Requirements engineering
 
   ## Recall questions
-     Cosa sono i requisiti?
+    - Cosa sono i requisiti?
     - Cosa sono i requisiti funzionali e non? 
     - Quali sono i 4 step fondamentali del processo di analisi dei requisiti?
     - A cosa bisogna fare attenzione quando si individuano i requisiti? 
