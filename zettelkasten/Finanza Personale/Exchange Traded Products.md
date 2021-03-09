@@ -25,7 +25,7 @@ Caratteristiche comuni:
 Struttura a ==replica fisica==: l'ETP acquista effettivamente gli attivi sottostanti che deve replicare.
 Si ha ==replica completa== quando tutte le attività sottostanti sono detenute in proporzione pari al peso che hanno nell'indice che viene replicato. Si ha ==replica a campione==, invece, quando il prodotto detiene un campione di alcuni componenti dell’indice.\
 
-Struttura a ==replica sintetica==: ETP non ha gli attivi sottostanti ma conclude accordi swap (vedi [[Derivati]]) con una controparte che si impegna a fornire il rendimento degli attivi. Rischio di ==insolvenza==.
+Struttura a ==replica sintetica==: ETP non ha gli attivi sottostanti ma conclude accordi swap (vedi #[[Derivati]]) con una controparte che si impegna a fornire il rendimento degli attivi. Rischio di ==insolvenza==.
 
 ### Profilo di rischio
 

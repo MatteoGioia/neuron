@@ -11,4 +11,8 @@ Sezione dedicata ad appunti università
 
 [[Ingegneria del software]]
 
+[[Sviluppo Agile]]
+
 [[Cybersec]]
+
+[[Web Engineering]]

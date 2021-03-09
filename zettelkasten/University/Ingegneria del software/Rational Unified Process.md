@@ -1,7 +1,13 @@
 # Rational Unified Process
 
 ## Recall questions
-    - WIP
+    - Cosa è il RUP? Chi lo ha creato?
+    - Quali sono le caratteristiche del RUP? (hint: 3)
+    - Quali sono le dimensioni del RUP?
+    - Cosa si fa nella fase di ideazione?
+    - Cosa si fa nella fase di elaborazione?
+    - Cosa si fa nella fase di costruzione?
+    - Cosa si fa nella fase di transizione?
 ## Metodi di progettazione
 ### Waterfall
 Il modello waterfall nasce nel 1970 come modello lineare e sequenziale

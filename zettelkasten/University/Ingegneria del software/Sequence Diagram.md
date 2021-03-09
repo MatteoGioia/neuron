@@ -1,5 +1,9 @@
 # Sequence diagrams
 ## Recall questions
+    - Dove è l'enfasi nei sequence diagrams? Perchè si parla di oggetti?
+    - Cosa rappresentano i 2 assi?
+    - Cosa sono i messaggi? Di che tipo sono? E le lifeline?
+    - Cosa sono gli operatori di PAR (SEQ), OPT, LOOP, ALT e CR, REF e NEQ?
 ## Sequence Diagram
 ### Introduzione
 Evoluzione a oggetti dello scenario 
