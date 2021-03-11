@@ -6,7 +6,7 @@
 
 ## Basics of cybersecurity
 
-### SCOPES OF CYBERSEC
+### Scopes of cybersec
 
 ==Dependability== (cfr. #[[Non functional requirements]]) fatta di: 
 
@@ -14,7 +14,7 @@
 
 ==Security==: protezione nei confronti di oggetti
 
-### COMPUTER SECURITY
+### Computer security
 
 Misure di controllo di ==confidenzialità, integrità e availability== dell'
 informazione. 
@@ -28,15 +28,14 @@ Stabilite in base a ==security policies==
 2. Error (dominio informazione)
 3. Failure (dominio user)
 
-### CYBERSPACE
+### Cyberspace
 
 Vulnerabilità legata ad ==alta complessità== 
 - le vulnerabilità diventano threats per il mondo reale
 
 --- 
 
-### CIA TRIAD
-
+### CIA Triad
 ==Confidentiality== 
 - Data: distributi solo a persone autorizzate
 - Individuals a.k.a. Privacy: controllo sui dati riguardanti noi stessi
@@ -54,7 +53,7 @@ Legata inoltre a
 - dati disponibili quando gli utenti autorizzati ne richiedono l'uso
 - misurata con probabilità $D(t)$
 
-### ATTACKS TO CIA
+### Attacks to CIA triad
 
 DAD o Disclosure, Alteration and Destruction
 
@@ -67,13 +66,13 @@ DAD o Disclosure, Alteration and Destruction
 ==Inhibiting==: attacco a disponibilità
 - i.e. DoS attack
 
-### CLASSIC COUNTERMEASURES
+### Classic countermeasures
 
 Use of ==hash functions== to check integrity or ==encryption==
 
 --- 
 
-### ADDITIONAL PILLARS
+### Additional Pillars
 
 ==Resilience== 
 - manage and protect
@@ -84,7 +83,7 @@ Use of ==hash functions== to check integrity or ==encryption==
 ==Non-repudiation==
 
 ==Authenticity==
-- attacco di forging
+- attacco di forging, i.e. l'attaccante crea un falso di un messaggio autentico
 
 ==Access control==
 

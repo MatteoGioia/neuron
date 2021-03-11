@@ -3,10 +3,13 @@ dirtree:
   display: False
 ---
 
-# Sviluppo Agile
+# Algoritmica Avanzata
 
 Sezione dedicata agli appunti di Sviluppo Agile
 
 ### Appunti
 
-[[Lezione I - Metodi Agili]]
+[[Lezione I - Introduzione Esercizi Lab A.A.]]
+
+
+

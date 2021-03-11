@@ -16,3 +16,7 @@ Sezione dedicata ad appunti università
 [[Cybersec]]
 
 [[Web Engineering]]
+
+[[TCC]]
+
+[[Algoritmica Avanzata]]

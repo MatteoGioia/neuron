@@ -1,20 +1,38 @@
 # Lezione I - Metodi Agili
 
 ## Recall questions
+    - Descrivere le varie metodologie di sviluppo: wf, rup, agile, devops, vmodel.
+    - Cosa dice il manifesto del metodo agile?
+    - Quali sono retoriche ricorrenti nel mondo agile?
+    - Quali sono i valori dei metodi agili (Assunzioni) ?
+    - Quali sono i principi organizzativi e tecnici dei metodi agili (Regole) ?
+    - Quali sono i ruoli nei metodi agili?
+    - Quali sono pratiche comuni nel lavoro tramite metodi agili (Artefatti) ?
 
 ## Introduzione a metodi agili
 
 ### Metodologie di sviluppo
 
-Waterfall 
+Waterfall: See **section to add: The waterfall is a lie**
 
 V-Model: ogni fase è corredata da quella di validazione tramite testing 
+
+![](./static/vmodel.png)
 
 Rational Unified Process (RUP): multiple iterazioni
 
 Agile development: fatto di sprints
 
-DevOps
+![](./static/agile.png)
+
+DevOps: mix di 
+- Dev: sviluppo software
+- Ops: information-technology operations (i.e task di mantenimento dell'infrastruttura o
+       di configurazione del sw)
+
+![](./static/devops.png)
+
+---
 
 ### Agile manifesto
 
@@ -26,17 +44,18 @@ DevOps
 
 ==Responding to change== over following a plan
 
-### Agile principles
-
 ### Agile rhetorical traps
 
 Retorica comunemente usata nel contesto agile
 - proof by anectode
-- slander by association
-- intimidation
+- slander by association: associare una cosa buona e negativa per mettere entrambe in cattiva luce
+- intimidation: verso chi non vuole usare agile 
 - catasrophism
-- all or nothing
+- all or nothing: agile funziona solo se applicato al 100% (falso)
 - unverifiable claims
+
+Perchè sono retoriche errate:
+- un aneddoto non equivale ad una prova
 
 
 ### Caratteristiche di base dei metodi agili
@@ -56,7 +75,7 @@ Retorica comunemente usata nel contesto agile
 - accettare il cambiamento!
 
 ==Principi tecnici== dei metodi agili: 
-- sviluppo iterativo
+- sviluppo iterativo (durante lo sviluppo NON possono essere modificati i requisiti)
 - i test sono fondamentali
 - esprimere requisiti tramite scenari
 
@@ -74,8 +93,8 @@ Retorica comunemente usata nel contesto agile
 - ownership del codice condivisa
 
 ==Pratiche tecniche== nei metodi agili:
-- test driven development
-- refactoring
+- test driven development: testare nuove feature tramite test da fixare progressivamente
+- refactoring: modifica del codice (i.e. per migliorarlo) senza modificare le precedenti funzionalità esterne
 - pair programming
 - coding standards
 - simplest solution that can possibly work
