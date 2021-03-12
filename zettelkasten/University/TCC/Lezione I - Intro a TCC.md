@@ -83,7 +83,7 @@ Per provare che $P(n)$ è vera per tutti i naturali:
 
 Problema ==concreto== se la risposta è una ==stringa==, ==decisionale== se la risposta ==$\in \{1,0\}$==
 
-In seguito verranno affrontati problemi la cui versione comune è costruttiva, nel senso che si intende trovare una soluzione concreta, e.g. al problema del cammino minimo. Tuttavia sarà dimostato che in questi casi rispondere al problema decisionale associato e che questo ha difficoltà *non superiore* a quella del problema formulato in termini di ottimizzazione.
+In seguito verranno affrontati problemi la cui versione comune è costruttiva, nel senso che si intende trovare una soluzione concreta, e.g. al problema del cammino minimo. Tuttavia sarà dimostato che in questi casi rispondere al problema decisionale associato ha difficoltà *non superiore* a quella del problema formulato in termini di ottimizzazione.
 
 Nel caso del problema del cammino minimo, esso infatti diventa: *È possibile trovare un cammino minimo di lunghezza al più k?*, la cui soluzione può essere poi ottenuta col problema di ottimizzazione, banalmente usando un algoritmo che cerchi un cammino minimo ma di lunghezza al massimo $k$.
 

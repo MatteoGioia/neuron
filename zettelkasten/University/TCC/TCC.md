@@ -11,3 +11,5 @@ Sezione dedicata agli appunti di Teoria della Calcolabilità e Complessità
 
 [[Lezione I - Intro a TCC]]
 
+[[Lezione II - Macchine di Turing]]
+

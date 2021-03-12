@@ -9,6 +9,8 @@ dirtree:
 
 [[Cybersec 3 - Basic Knowledge]]
 
-## Esercizi
+[[Cybersec 4 - Access Control Theory]]
 
-[[Esercizi Cybersec]]
+[[Cybersec 5 - Unix File Permission]]
+
+[[Cybersec 6 - Weaknesses]]
