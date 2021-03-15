@@ -5,11 +5,13 @@ dirtree:
 
 # Algoritmica Avanzata
 
-Sezione dedicata agli appunti di Sviluppo Agile
+Sezione dedicata agli appunti di Algoritmica Avanzata
 
 ### Appunti
 
-[[Lezione I - Introduzione Esercizi Lab A.A.]]
+[[Lezione I - Prefix sums]]
 
+### Code 
 
+[[Head or tails]]
 
