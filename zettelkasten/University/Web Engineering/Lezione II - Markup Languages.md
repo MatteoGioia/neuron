@@ -80,7 +80,7 @@ Utili se i documenti presentano ==mix di linguaggi XML== in quanto specificano c
 Si usano per inserire un ==particolare sostituto==, ad esempio caratteri riservati
 - i.e. le parentesi angolari
 
-Sono ==parsed== se vengono sostituite dal compiler con un valore testuale o ==unparsed== se invece il valore è non testuale ed è accessibile nelle annotazioni.
+Sono ==parsed== se vengono sostituite dal compiler con un valore testuale o ==unparsed== se invece il valore è non testuale ed è accessibile nelle annotazioni. 
 
 Vulnerabilità legate al non uso delle entità:
 - cross site scripting (sanitizzazione!)
@@ -89,11 +89,18 @@ Vulnerabilità legate al non uso delle entità:
 
 ### Sezioni CDATA
 
+Sezioni in cui il testo viene copiato esattamente come è, ovvero dove il parser ==non espande== le operazioni in HTML.
+
+È comunemente usata per ==embeddare== script in js dentro pagine html.
+
 ### Istruzioni di processing
 
 ### Commenti XML
 
+I commenti sono inseriti con `<!-- Questo è un commento -->`
+
 ### Validazione
+
 
 
 

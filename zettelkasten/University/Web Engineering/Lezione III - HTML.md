@@ -1,0 +1,124 @@
+# Hypetext markup language
+
+## HTML e HTML 5
+
+### Nascita di HTML 5
+
+Nasce nel 2008 ma diventa una ==W3C Recommendation== il 28 ottobre 2014.
+È completamente ==indipendente da SGML==.
+
+### Modalità Standard e Quirks
+
+I broswer supportano 2 modalità di rendering: 
+- ==Standard==: segue le regole del W3C ed è quindi altamente indipendente dal broswer
+- ==Quirks==: esegue regole di formattazione dello specifico broswer
+
+Qualora sia mancante il prologo `<!DOCTYPE>`, il broswer entra in modalità quirks.
+- questo può comportare situazioni imprevedibili
+
+Nelle versioni di HTML precedenti alla 5 era presenti la modalità ==transitional==, creata per facilitare la compatibilità con codice non standard, e quella ==strict== che invece è aderente ad esso.
+==In HTML5 questa differenza viene a mancare== ma è obbligatorio sempre inserire la dichiarazione `<!DOCTYPE html>` per far si che la pagina venga fornita con media type adatto.
+- notare che in tal caso la dichiarazione del charset si sposta in `<meta>`
+- la dichiarazione `<!DOCTYPE html>` può essere esclusa qualora venga il documento venga servito con ==media type corretto==
+
+Esiste anche una versione detta ==Polyglot== dell'HTML5, compatibile con sintassi XML senza usare media types particolari.
+È quella ==consigliata al momento==: 
+
+````
+    <!DOCTYPE html>
+        <html xmlns="http://www.w3.org/1999/xhtml" lang=“...” xml:lang=“...”>
+            <head>
+                <title>...</title>
+                <meta charset=“UTF-8”/>
+            </head>
+            <body> ... </body>
+        </html>
+````
+
+### Struttura di un documento HTML
+<small> Di seguito saranno riportate solo le informazioni più importanti</small>
+
+Struttura di un documento HTML:
+- `<html>`: attributi `lang` e `dir`
+- `<head>`: intestazione, contiene `<title>` (obbligatorio), `<meta>` etc...
+- `<body>`: racchiude il contenuto della pagina HTML vero e proprio
+
+### Classificazione storica degli elementi
+
+Originariamente HTML classificava gli elementi come ==inline== e ==blocco==, a seconda che questi potessero essere o meno ==inclusi== nel testo senza causare interruzioni. Esisteva anche il tipo ==flusso==, combinazione dei due precedenti.
+
+Questa classificazione ==è stata poi cambiata in HTML5== in modo da rispecchiare di più il ruolo dell'elemento. 
+
+### Attributi HTML standard e HTML5
+
+Oltre agli attributi comunemente noti vale la pena ricordare:
+- `lang`: indica codice linguistico (usato ad esempio dai traduttori)
+- `dir`: indica direzione di scrittura
+- `title`: usato da molti broswer come tooltip dell'elemento
+
+HTML5 introduce nuovi attributi interessanti come:
+- `contenteditable`: che rende editabile un elemento
+- `spellcheck`: controlla errori ortografici
+- `hidden`: marca l'elemento come ==non rilevante==
+- `data-*`: usato per definire attributi ==estesi== dall'utente, è usato ad esempio nei framework per memorizzare dati addizionali
+- `role`: indica il ruolo dell'elemento (che può essere diverso dal tag)
+- `aria-*`: usati a supporto dei ruoli per aggiungere informazioni, i.e. elementi con `role="checkbox` possono avere `aria="checked"` per marcarne lo stato
+
+### Flusso del testo
+
+Alcune note utili:
+- `<p>` non possono essere vuoti
+- `<br>` è deprecated in HTML5
+
+Metodo di ==sezionamento classico==:header dal primo a sesto livello, i.e. `<h4><\h4>`
+- molto utili nell'indicizzazione
+
+Vari modi per realizzare sezionamento introdotti da html5 (cfr. slide 17):
+- `<main>`
+- `<section>`
+- `<header>`
+- `<footer>`
+- ...
+
+In più, ci sono ==due elementi invisibili== presenti da sempre in HTML, sono usati per dare stile alle varie parti della pagina e molte ne fanno ancora uso:
+- `<div>`: preceduto e seguito da un a capo
+- `<span>`: possono essere inseriti nel testo
+
+Oggi lo stile può essere tranquillamente applicato anche alle varie sezioni `<main>`, `<header>`, etc...
+Fondamentale che abbiano `<id>` e `<class>` correttamente specificate.
+
+### Formattazione semantica
+
+Elementi per attribuire un significato ad alcune parti del testo, come ad esempio `<em>` che produce testo enfatizzato, oppure per aggiungere info extra, come `<address>`, usato per riportare un indirizzo.
+
+### Formattazione di base
+
+Si tratta di elementi che forniscono formattazione di base molto semplice, come `<big>` e `<small>`, tuttavia il loro uso sta lentamente decadendo essendo sconsigliato.
+
+### Liste di elementi
+
+Utili per ==creare liste di elementi==, sono spesso utilizzate in combinazione con CSS per creare componenti come delle navbar (liste di link) e simili.
+
+Inoltre la semantica ben definita permette di aumentare il grado di accessibilità.
+
+### Tabella
+
+Molti degli attributi classici sono ora ==deprecated== a favore dell'uso dei fogli di stile.
+
+Pro tip:
+>==usare tabelle solo dove effettivamente serve, ovvero useresti una tabella anche sul foglio di carta==
+
+### Collegamenti 
+
+Il tag `<a>` può avere due utilizzi principali:
+- ..
+- ..
+
+Un trick utile per quanto riguarda i ==fragment identifiers== è anche inserirli in un link per far saltare ad un punto preciso della pagina oppure come elemento per incrementare l'accessibilità (i.e. pulsanti come "salta a sezione" per schermi piccoli).
+
+Esiste anche l'elemento `<link>`, usato invece per relazioni tra i documenti. Presenta un attributo `rel` che permette di far riferimento a diversi tipi di contenuti, come:
+- `stylesheet`: fa riferimento a fogli di stile CSS
+- ...
+
+
+### Immagini

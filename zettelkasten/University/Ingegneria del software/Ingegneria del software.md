@@ -7,6 +7,8 @@ dirtree:
 
 Sezione dedicata agli appunti di Ingegneria del Software
 
+Lecturer: Henry Muccini
+
 ### Appunti
 
 [[Requirements engineering]]

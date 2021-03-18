@@ -7,6 +7,8 @@ dirtree:
 
 Sezione dedicata agli appunti di Sviluppo Agile
 
+Lecturer: Patrizio Pelliccione
+
 ### Appunti
 
 [[Lezione I - Metodi Agili]]
