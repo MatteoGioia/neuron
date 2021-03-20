@@ -17,8 +17,14 @@ https://exploit.education/
 
 https://cryptopals.com/
 
+https://cryptohack.org/
+
 ### Tools online
 
 https://gchq.github.io/CyberChef/
 
 https://godbolt.org/
+
+https://www.dcode.fr/en
+
+http://rumkin.com/tools/cipher/cryptogram-solver.php
