@@ -1,7 +1,5 @@
 # Weaknesses
 
-## Recall questions
-
 ## Confused Deputy
 
 ### Che cosa è 

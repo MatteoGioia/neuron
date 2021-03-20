@@ -1,9 +1,5 @@
 # Basic Knowledge
 
-## Recall questions
-
-    - WIP
-
 ## First module (C compiling)
 
 ### Quick CLANG (and GCC) steps recap

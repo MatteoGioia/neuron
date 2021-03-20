@@ -15,5 +15,6 @@ Lecturer: Matteo Spezialetti
 
 [[Lezione II - Macchine di Turing]]
 
-[[Lezione III - Descrizioni Istantanee]]
+[[Lezione III - Macchine di Turing 2]]
 
+[[Lezione IV - Macchine di Turing 3]]

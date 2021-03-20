@@ -97,7 +97,7 @@ Si tratta di elementi che forniscono formattazione di base molto semplice, come 
 
 ### Liste di elementi
 
-Utili per ==creare liste di elementi==, sono spesso utilizzate in combinazione con CSS per creare componenti come delle navbar (liste di link) e simili.
+Utili per ==creare liste di elementi==, sono spesso utilizzate in combinazione con CSS per creare componenti come delle navbar (liste di link) e simili. 
 
 Inoltre la semantica ben definita permette di aumentare il grado di accessibilità.
 
@@ -105,20 +105,44 @@ Inoltre la semantica ben definita permette di aumentare il grado di accessibilit
 
 Molti degli attributi classici sono ora ==deprecated== a favore dell'uso dei fogli di stile.
 
+Le tabelle mettono a disposizione raggruppamenti di righe come:
+- `<thead>`: parte dedicata all'inizio della tabella
+- `<tfooter>`: parte dedicata alla fine della tabella
+- `<tbody>`: parte obbligatoria in ogni tabella, viene implicitamente inserita se mancante (in questo caso tutte le righe sono messe al suo interno)
+ 
+Inserire elementi come `<thead>` o info sulle dimensioni della tabella velocizzano il processing della pagina e evitano che questa si carichi ad esempio a pezzi.
+
 Pro tip:
 >==usare tabelle solo dove effettivamente serve, ovvero useresti una tabella anche sul foglio di carta==
 
-### Collegamenti 
+### Collegamenti con `a` e `link`
 
-Il tag `<a>` può avere due utilizzi principali:
-- ..
-- ..
+L'elemento `<a>` può avere due utilizzi principali:
+- individuare un ==URI di destinazione==, tramite `name` o ancora meglio `id` (==modalità preferita in HTML5==) che può essere indirizzato dal fragment identifier di una URI (vedi sotto)
+- indicare un ==URI di origine==, `href`
 
 Un trick utile per quanto riguarda i ==fragment identifiers== è anche inserirli in un link per far saltare ad un punto preciso della pagina oppure come elemento per incrementare l'accessibilità (i.e. pulsanti come "salta a sezione" per schermi piccoli).
 
-Esiste anche l'elemento `<link>`, usato invece per relazioni tra i documenti. Presenta un attributo `rel` che permette di far riferimento a diversi tipi di contenuti, come:
+Esiste anche l'elemento `<link>`, usato invece per relazioni tra i documenti e utilizzabile solo nella `head` del documento. Presenta un attributo `rel` che permette di far riferimento a diversi tipi di contenuti, come:
 - `stylesheet`: fa riferimento a fogli di stile CSS
+- `index` fa riferimento ad un indice
+- `alternate` per fare riferimento alla versione alternativa di un documento (es. per una lingua diversa)
 - ...
 
+È molto importante l'elemento `<base>` che indica la base per le ==URI relative== tramite `href`. Nel caso manchi, verrà usato la URI del documento corrente. Inoltre può avere un attributo `<target>` per definire il target di default in un documento con frames, ovvero se cliccando sui link bisogna aprirlo nello stesso frame o una nuova pagina.
 
 ### Immagini
+
+Elemento `<img>`.
+Attributi interessanti possono essere `<ismap>` o `<usemap>`:  il primo usa l'immagine come una ==server side map==, ovvero passa al server le coordinate di dove l'utente ha cliccato sull'immagine nel parametro ==get==, mentre il secondo in una ==client side map== che deve fare riferimento ad una ==image map==.
+
+Pro-tip:
+> Inlcudere immagini resizate comunque causa il caricamento dell'immagine regolare che viene poi ridotta per entrare nella pagina. Richiede più processing e più dati. Il primo problema viene risolto dicendo al browser le dimensioni della immagine per fare una sorta di pre allocazione di spazio, nel secondo caso linkando ad immagini di taglia appropriata.
+
+### Mappe immagini
+
+Rende le immagini mappe cliccabili dall'utente. Prediligere quelle ==client side== per questioni di accessibilità.
+
+### Oggetti
+
+Permettono di includere un oggetto generico, ma oggi hanno uso molto limitato ad ==audio, video== o aree in cui ad esempio si può disegnare tramite l'elemento `<canvas>`.

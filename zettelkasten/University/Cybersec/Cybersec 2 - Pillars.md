@@ -1,9 +1,5 @@
 # Pillars of cibersecurity
 
-## Recall questions
-
-    - Empty for now
-
 ## Basics of cybersecurity
 
 ### Scopes of cybersec

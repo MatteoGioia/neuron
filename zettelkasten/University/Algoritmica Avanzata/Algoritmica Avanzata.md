@@ -19,5 +19,5 @@ Lecturer: Stefano Leucci
 
 [[Head or tails]]
 
-[[Asteroid Mining & Number Station]]
+[[Asteroid Mining, Number Station]]
 

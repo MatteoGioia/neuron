@@ -16,3 +16,5 @@ dirtree:
 [[Cybersec 5 - Unix File Permission]]
 
 [[Cybersec 6 - Weaknesses]]
+
+[[Cybersec 7 - Crittografia]]

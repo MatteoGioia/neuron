@@ -1,8 +1,5 @@
 # Access Control Theory
 
-## Recall questions
-    - WIP
-
 ## Access Control
 
 ### Di cosa si tratta

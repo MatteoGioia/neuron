@@ -16,3 +16,5 @@ Lecturer: Patrizio Pelliccione
 [[Lezione II - Quality]]
 
 [[Lezione III - No Big Upfront]]
+
+[[Lezione IV - Different Kind of Speeds]]

@@ -1,8 +1,5 @@
 # Unix File Permission
 
-## Recall questions
-    - WIP
-
 ## Unix access control
 
 ### Linux Principals and Subjects

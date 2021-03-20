@@ -86,20 +86,16 @@ Vulnerabilità legate al non uso delle entità:
 - cross site scripting (sanitizzazione!)
 - sql injection (statement preparati)
 
-
 ### Sezioni CDATA
 
 Sezioni in cui il testo viene copiato esattamente come è, ovvero dove il parser ==non espande== le operazioni in HTML.
 
 È comunemente usata per ==embeddare== script in js dentro pagine html.
 
-### Istruzioni di processing
-
 ### Commenti XML
 
 I commenti sono inseriti con `<!-- Questo è un commento -->`
 
-### Validazione
 
 
 
