@@ -3,9 +3,9 @@ dirtree:
   display: False
 ---
 
-## Teoria
+Sezione dedicata agli appunti per il seminario di (introduzione alla) Cybersecurity.
 
-[[Exercises List]]
+## Teoria
 
 [[Cybersec 2 - Pillars]]
 
@@ -18,3 +18,9 @@ dirtree:
 [[Cybersec 6 - Weaknesses]]
 
 [[Cybersec 7 - Crittografia]]
+
+[[Resources]]
+
+## Diaro Esercizi
+
+[[CyS 20_03]]

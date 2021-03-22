@@ -1,4 +1,4 @@
-# Lista esercizi
+# Lista Risorse
 
 ## Risorse per esercizi
 

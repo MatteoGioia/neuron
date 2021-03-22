@@ -9,15 +9,17 @@ Sezione dedicata agli appunti di Algoritmica Avanzata
 
 Lecturer: Stefano Leucci
 
-### Appunti
+### Teoria
 
-[[Lezione I - Prefix Sums]]
+Lezione I - Somme Prefisse
 
-[[Lezione II - Binary Search]]
+Lezione III - Sorting, Binary Search, Exponential Search, Sliding Windows
 
-### Code 
+### Laboratorio
 
 [[Head or tails]]
 
-[[Asteroid Mining, Number Station]]
+Lezione II - Asteroid Mining, Numbers Station
+
+Lezione IV - 
 
