@@ -146,3 +146,19 @@ Rende le immagini mappe cliccabili dall'utente. Prediligere quelle ==client side
 ### Oggetti
 
 Permettono di includere un oggetto generico, ma oggi hanno uso molto limitato ad ==audio, video== o aree in cui ad esempio si può disegnare tramite l'elemento `<canvas>`.
+
+### Moduli
+
+...
+
+L'attributo `enctype` può aiutare a specificare quale tipo di encoding ci si aspetta dal form ed evitare problemi di compatibilità.
+
+L'attributo `method` indica se i dati vengono mandati tramite `GET` o `POST`. Il metodo `POST` permette di inserire i dati nel payload e viene usato per grandi quantità di dati come ad esempio i file binari (per cui è presente la modalità).
+
+Pro-tip:
+>La validazione lato client è utile per ridurre il carico verso il server e gli errori ma non basta a sanificare l'input - qualche malintenzionato potrebbe scrivere il proprio client, usare la console...
+
+### Input
+
+Pro-tip:
+>Associare gli input ai numeri protegge ulteriormente da injection (i.e. le opzioni le enumero lato server e poi lato client associo un numero e basta).

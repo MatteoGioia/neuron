@@ -1,9 +1,13 @@
 # Ulteriori costrutti per le Macchine di Turing
 
 ## Recall questions 
-    - WIP
+    - Cosa sono le descrizioni istantee?
+    - Cosa sono le descrizioni tabellari?
+    - Cosa sono le descrizioni con macchine a stati?
+    - Descrivere le distinzioni tra i linguaggi accettati dalla macchina di Turing. Cosa è l'halting?
+    - In cosa consistono le varianti della macchina di Turing con memoria dello stato e a tracce multiple?
 
-## Macchine di Turing nel dettaglio
+## Macchine di Turing 
 
 ### Descrizione istantanee
 
@@ -78,6 +82,6 @@ Ogni simbolo del nastro è una ==tupla== $[X_1,X_2, \ldots ]$ dove X indica il s
 
 ![](./static/multiple_tracks_TM.png)
 
-Esempio di macchina di turing che ...
+Esempio di macchina di turing che  riconosce stringhe palindrome (?)
 
 ![](./static/multiple_tracks_TM_ex.png)

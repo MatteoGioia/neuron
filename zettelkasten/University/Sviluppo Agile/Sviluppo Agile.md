@@ -18,3 +18,5 @@ Lecturer: Patrizio Pelliccione
 [[Lezione III - No Big Upfront]]
 
 [[Lezione IV - Different Kind of Speeds]]
+
+[[Lezione V - Agile Roles]]
