@@ -6,6 +6,8 @@
     - Come funziona una macchina multinastro? Come cambia la settupla?
     - Dimostrare che una macchina multinastro (k nastri) è equivalente a una mononastro con 2k tracce.
     - Dimostrare che una macchina multinastro (k nastri) può essere emulata da una mononastro con 2k tracce in tempo O(n^2).
+    - Come funziona una macchina di Turing non deterministica? 
+    - Dimostrare che una TM normale può emulare una macchina di Turing non deterministica (iff).
 
 ## Macchine di Turing
 
@@ -66,5 +68,28 @@ In totale, per simulare ==una== mossa di $M$ sono necessarie $4n + 2k$ mosse di 
 
 Per $n$ mosse ovviamente questo diventa $O(n^2)$.
 
+### Macchina di Turing non deterministica
+
+A differenza delle macchine precedenti la macchina in questione può ==scegliere una qualsiasi transizione tra le triple elencate==. Le funzioni di transizione infatti sono del tipo: $\delta(q,X) = \{(q_1,X_1,D_1), \ldots, (q_n, X_n, D_n)\}$ e la ==NTM== può scegliere ad ogni step una delle triple a scelta.
+
+Teorema:
+>Se $M_N$ è una macchina di Turing non deterinistica, allora c'è una macchina di Turing $M_D$ tale che $L(M_N) = L(M_D)$.
+
+Possiamo creare $M_D$ come una TM multinastro, dove il primo nastro contiene una sequenza delle descrizioni istantanee di $M_N$ separate da un carattere speciale. Tra questi, c'è ne uno marcato per indicare la ID che si sta leggendo al momento.
+
+Per processare la ID corrente sul secondo nastro, la $TM$ $M_D$:
+- esamino lo stato e la descrizione istantanea letta, e se lo stato è di accettazione si ferma
+- se lo stato non è di accettazione, e la combinazione stato simbolo ha $k$ mosse, allora fa $k$ copie di quella ID dopo l'ultima ID sul primo nastro, ognuna modificata secondo una delle $k$ scelte possibili di $M_N$; ritorna infine alla ID corrente, elimina il marker e lo muove sulla prossima ID a destra. 
+
+All'effettivo questa macchina non fa altro che "enumerare" le scelte come fossero nodi di un albero e le esamina con ==una ricerca breadth first==.
+
+![](./static/ntm_emulated.png)
+
+Dobbiamo ora mostrare che $M_D$ accetta sempre se lo fa $M_N$, questo perchè l'altro lato dell'implicazione $\leftarrow$ è provato per costruzione in quanto $M_D$ accetta *iff* $M_N$ lo fa.
+
+Supponiamo che sia $m$ il massimo numero di scelte per $M_N$ in ogni configurazione. Quindi, dopo $n$ mosse, $M_N$ può raggiungere al massimo $1 + m + m^2 + \ldots + m^n \leq nm^n$ stati. 
+Se $M_N$ entra in uno stato di accettazione in $n$ mosse, una ID accettata sarà esaminata entro $nm^n$ sul secondo nastro di $M_D$.
+
+Infatti solo la ==visita in ampiezza== ci garantisce che visitiamo anche i rami che ci portano ad uno stato di accettazione...la macchina originale potrebbe avere infatti una sequenza che va in loop e se esplorassimo in profondità non finiremmo mai.
 
 <small> Vedi anche #[[Lezione II - Macchine di Turing]] </small>

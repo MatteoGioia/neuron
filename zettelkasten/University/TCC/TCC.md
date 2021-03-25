@@ -18,3 +18,7 @@ Lecturer: Matteo Spezialetti
 [[Lezione III - Macchine di Turing 2]]
 
 [[Lezione IV - Macchine di Turing 3]]
+
+[[Lezione V - Macchine di Turing 4]]
+
+[[Eserciziario TCC]]

@@ -34,7 +34,7 @@
     }
 ```
 
-Compile `with g++ -std=c++17 -Wall -pedantic -O3 -DNDEBUG solution.cpp -o solution` 
+Compile `g++ -std=c++17 -Wall -pedantic -O3 -DNDEBUG solution.cpp -o solution` 
 
 Test with `(time ./solution < example.in) | diff -bBZ - example.out`
 
