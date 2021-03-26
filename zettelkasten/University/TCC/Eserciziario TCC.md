@@ -2,7 +2,7 @@
 
 ### Macchine di Turing
 
-1. MT che calcola y = x - 1 con x > 0
+1. MT che calcola y = x - 1 con x > 0 
 2. Descrizioni istantanee
 3. Subroutine per MT che rifiuta stringhe con due 1 consecutivi
 4. MT che accettano grafi di funzione e computano funzione

@@ -16,4 +16,13 @@ Assumiamo che i nastri della $TM$ in questione ==non abbiano celle a sx dell'inp
 - è presente un simbolo speciale che evita che la testina strabordi a SX
 - $M_1$ non scrive mai blanks, ovvero il nastro, in ogni istante, è un prefisso di simboli non vuoti (non blank) seguiti da una sequenza infinita di blank e questa sequenza di simboli non vuoti inizia sempre all'inizio della posizione iniziale del nastro.
 
+....
+
+La dimostrazione che questa macchina è possibile si fa in modo ==costruttivo==
+
+### Macchina multi stack
+
+### Macchine a contatori
+
 <small> Vedi anche #[[Lezione II - Macchine di Turing]] </small>
+
