@@ -23,6 +23,8 @@ Lecturer: Patrizio Pelliccione
 
 [[Lezione VI - Agile Practices]]
 
+[[Lezione VII - Agile Metrics]]
+
 ### Agile Manifesto and Principles
 
 1. Individuals and interactions over processes and tools

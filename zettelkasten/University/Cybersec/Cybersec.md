@@ -19,8 +19,12 @@ Sezione dedicata agli appunti per il seminario di (introduzione alla) Cybersecur
 
 [[Cybersec 7 - Crittografia]]
 
+[[Cybersec 8 - Web Security]]
+
 [[Resources]]
 
 ## Diaro Esercizi
 
 [[CyS 20_03]]
+
+[[CyS 27_03]]
