@@ -21,4 +21,6 @@ Lecturer: Matteo Spezialetti
 
 [[Lezione V - Macchine di Turing 4]]
 
+[[Lezione VI - temp]]
+
 [[Eserciziario TCC]]

@@ -21,6 +21,8 @@ Sezione dedicata agli appunti per il seminario di (introduzione alla) Cybersecur
 
 [[Cybersec 8 - Web Security]]
 
+[[Cybersec 9 - Secure Programming]]
+
 [[Resources]]
 
 ## Diaro Esercizi
@@ -28,3 +30,5 @@ Sezione dedicata agli appunti per il seminario di (introduzione alla) Cybersecur
 [[CyS 20_03]]
 
 [[CyS 27_03]]
+
+[[CyS 2_03]]
