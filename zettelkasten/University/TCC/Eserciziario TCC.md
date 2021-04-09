@@ -8,3 +8,4 @@
 4. MT che accettano grafi di funzione e computano funzione
 5. NMT che accetta stringhe che contengono stringhe di l. 100 ripetute 
 6. Esercizi su macchine a contatori
+7. Esercizio su $w_{37}$ e $w_{100}$

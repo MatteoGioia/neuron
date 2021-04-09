@@ -21,6 +21,8 @@ Lecturer: Matteo Spezialetti
 
 [[Lezione V - Macchine di Turing 4]]
 
-[[Lezione VI - temp]]
+[[Lezione VI - Undecidability]]
+
+[[Lezione VII - Undecidability II]]
 
 [[Eserciziario TCC]]

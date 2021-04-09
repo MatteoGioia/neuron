@@ -18,7 +18,7 @@ Lezione III - Sorting, Binary Search, Exponential Search, Sliding Windows
 Lezione V - Interval Scheduling, Interval Partitioning, Minimizing Lateness
 - Greedy Stays Ahead
 - Finding Structural Properties
-- Exchange Argument (Proprietà di scambio 2: Electric Boogaloo)
+- Exchange Argument 
 
 ### Laboratorio
 
@@ -28,7 +28,7 @@ Lezione II - Asteroid Mining, Numbers Station
 
 Lezione IV - Mountain Trip, Massive Bookworm 
 
-Lezione VI - 
+Lezione VI - Travelling Salesman, Postal Service
 
 
 <small> In questo caso le note non sono disponibili essendo prevalentemente riprese da slides e argomenti affrontati nel laboratorio.</small>

@@ -1,9 +1,0 @@
-# Temp
-
-## Recall questions 
-
-## ??
-
-### Indecidibilità
-  
-

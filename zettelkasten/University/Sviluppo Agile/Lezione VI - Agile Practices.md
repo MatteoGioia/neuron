@@ -42,7 +42,7 @@ In questa fase non si definiscono ancora i membri assegnati alle task e quali ta
 
 Per quanto riguarda l'==iteration backlog==, questo viene creato in 2 step:
 - ==selezione delle user stories== dal backlog dell'intero prodotto
-- == decomposizione in task== di ogni user story e ==stima del costo temporale== di ognuna di esse 
+- ==decomposizione in task== di ogni user story e ==stima del costo temporale== di ognuna di esse 
 
 Questo meeting ha di norma anche una finestra temporale prefissata per evitare di renderlo troppo lungo.
 
