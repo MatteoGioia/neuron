@@ -149,8 +149,6 @@ Permettono di includere un oggetto generico, ma oggi hanno uso molto limitato ad
 
 ### Moduli
 
-...
-
 L'attributo `enctype` può aiutare a specificare quale tipo di encoding ci si aspetta dal form ed evitare problemi di compatibilità.
 
 L'attributo `method` indica se i dati vengono mandati tramite `GET` o `POST`. Il metodo `POST` permette di inserire i dati nel payload e viene usato per grandi quantità di dati come ad esempio i file binari (per cui è presente la modalità).

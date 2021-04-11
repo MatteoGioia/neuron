@@ -23,8 +23,6 @@ Sezione dedicata agli appunti per il seminario di (introduzione alla) Cybersecur
 
 [[Cybersec 9 - Secure Programming]]
 
-[[Cybersec 10 - Docker]]
-
 [[Resources]]
 
 ## Diaro Esercizi
