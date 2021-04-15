@@ -91,8 +91,8 @@ Il nostro obiettivo è ==provare che questo linguaggio==, definito come segue, =
 
 Questo ovviamente implicherà che l'affermazione è vera anche per linguaggi più complessi dell'alfabeto binario.
 
-==Lingauggio di diagonalizzazione==:
->Il linguaggio $L_d$ è il set di stringhe $w_i$ tali che $w_i \notin $L(M_i)$, ovvero che non è accettato dalla $TM$.
+==Linguaggio di diagonalizzazione==:
+>Il linguaggio $L_d$ è il set di stringhe $w_i$ tali che $w_i \notin L(M_i)$, ovvero che non è accettato dalla $TM$.
 
 Il motivo per cui questo linguaggio è detto di diagonalizzazione è il seguente:
 costruiamo una tabella dove $i$ riporta la $TM \space M_i$ e $j$ la stringa $w_j$ e inseriamo 1 se la stringa è accettata, 0 altrimenti. Ogni riga $i$ ci dirà il ==vettore caratteristico== di $M_i$, ossia quali stringhe sono nel suo linguaggio.

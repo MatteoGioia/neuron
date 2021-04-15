@@ -26,3 +26,5 @@ Lecturer: Matteo Spezialetti
 [[Lezione VII - Undecidability II]]
 
 [[Eserciziario TCC]]
+
+[[Lista teoremi]]

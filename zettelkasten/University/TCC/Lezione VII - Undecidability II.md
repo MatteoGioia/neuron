@@ -1,6 +1,11 @@
 # Indecidibilità
 
 ## Recall questions
+    - Cosa è una riduzione di un problema?
+    - Descrivere il teorema sulle riduzioni.
+    - Descrivere i linguaggi L_ne e L_e.
+    - Cosa dice il teorema di Rice? Perchè riassume buona parte delle dimostrazioni precedenti? 
+    - Dimostrare il th. di Rice.
 
 ## Trasformazione di problemi
 
@@ -15,7 +20,7 @@ Più semplicemente si tratta di un algoritmo che converte istanze di $P_1$ in in
 
 Le riduzioni sono utili a ==mostrare che $P_2$ è difficile almeno quanto $P_1$==, come se mettessimo una sorta di lower bound alla complessità del problema.
 
-### Teoremi sulle riduzioni]
+### Teoremi sulle riduzioni
 
 Mostriamo ora un teorema utile sulle riduzioni
 
@@ -92,10 +97,10 @@ Di seguito faremo riferimento non tanto ai linguaggi con certe proprietà quanto
 
 Dimostriamo ora il teorema: sia $P$ una proprietà non banale e supponiamo che il linguaggio vuoto non sia in $P$ - ovvero che ci sia almeno una macchina che riconosce un linguggio con tale proprietà. Sia $L$ tale linguaggio e $L = L(M_L)$. Se riduciamo $L_u$ a $L_p$ proviamo che questo è indecidibile.
 
-....
+![](./static/rice_theorem_proof1.png)
 
-La riduzione prnede in input una coppia $(M,w)$ e produce il codice per $M_1$:
-- se $M$ accetta $w$m, allora $L(M_1) = L$
+La riduzione prende in input una coppia $(M,w)$ e produce il codice per $M_1$:
+- se $M$ accetta $w$, allora $L(M_1) = L$
 - altrimenti $L(M_1) = \emptyset$
 
 $M_1$ sarà una macchina a due nastri:
@@ -106,3 +111,7 @@ E si comporta nel seguente modo:
 - simula $M$ su input $w$ con la $TM$ universale
 - se $M$ non accetta $w$ non fa nient'altro
 - se accetta, allora simula $M_L$ su input $x$
+
+È chiaro che questa modifica può essere scritta sotto forma di un algoritmo, quindi abbiamo effetivamente una riduzione che prova che il generico $L_p$ dove $P$ è una ==proprietà non banale== è difficile almeno quanto $L_u$.
+
+Rimane solo il caso in cui $\emptyset \in P$. Se consideriamo il complemento di $P$, ossia $\neg P$, sappiamo che questo è indecidibile (per il th. di Rice). È facile vedere che se $P$ fosse stato decidibile,  allora lo sarebbe stato anche il suo complemento, che per ipotesi è però indecidibile (**contraddizione**).

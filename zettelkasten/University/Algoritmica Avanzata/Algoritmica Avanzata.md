@@ -20,6 +20,11 @@ Lezione V - Interval Scheduling, Interval Partitioning, Minimizing Lateness
 - Finding Structural Properties
 - Exchange Argument 
 
+Lezione VIII - Divide et impera
+- Divide et impera
+- Memoization
+- Dynamic programming
+
 ### Laboratorio
 
 [[Head or tails]]
@@ -28,7 +33,9 @@ Lezione II - Asteroid Mining, Numbers Station
 
 Lezione IV - Mountain Trip, Massive Bookworm 
 
-Lezione VI - Travelling Salesman, Postal Service
+Lezione VI - Travelling Salesman, Postal Service              
+
+Lezione VII - Lazy Hikers, Tree problem                                                                                                  
 
 
 <small> In questo caso le note non sono disponibili essendo prevalentemente riprese da slides e argomenti affrontati nel laboratorio.</small>

@@ -5,8 +5,9 @@
 ### Siti di CTF online 
 
 https://overthewire.org/wargames/
+- bandit 
+- natas (Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ)
 
-https://overthewire.org/wargames/natas/
 
 https://exploit.education/
 - phoenix
