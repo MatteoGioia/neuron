@@ -23,6 +23,8 @@ Sezione dedicata agli appunti per il seminario di (introduzione alla) Cybersecur
 
 [[Cybersec 9 - Secure Programming]]
 
+[[Cybersec 10 - Safety Operazioni Input e Output]]
+
 [[Resources]]
 
 ## Diaro Esercizi

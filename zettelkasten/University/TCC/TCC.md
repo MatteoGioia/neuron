@@ -25,6 +25,8 @@ Lecturer: Matteo Spezialetti
 
 [[Lezione VII - Undecidability II]]
 
+[[Lezione VIII - Problemi Intrattibili]]
+
 [[Eserciziario TCC]]
 
 [[Lista teoremi]]
