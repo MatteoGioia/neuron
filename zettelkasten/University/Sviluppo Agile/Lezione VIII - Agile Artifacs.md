@@ -1,5 +1,12 @@
 # Agile Artifacts
 
+## Recall questions
+    - Cosa sono tema, epiche e user stories?
+    - Come è fatta una user story? Come viene decomposta? Cosa rappresenta?
+    - Cosa è il product backlog?
+    - Cosa sono le burnup e burndown charts?
+
+
 ## Artifatti nei metodi agili
 
 ### Tema, epiche e user stories

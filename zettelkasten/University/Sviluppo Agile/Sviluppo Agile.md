@@ -7,7 +7,7 @@ dirtree:
 
 Sezione dedicata agli appunti di Sviluppo Agile
 
-Lecturer: Patrizio Pelliccione
+Lecturer: Patrizio Pelliccione / Daniele Di Pompeo
 
 ### Appunti
 
@@ -24,6 +24,10 @@ Lecturer: Patrizio Pelliccione
 [[Lezione VI - Agile Practices]]
 
 [[Lezione VII - Agile Metrics]]
+
+[[Lezione VIII - Agile Artifacts]]
+
+[[Lezione IX - Agile Methods]]
 
 ### Agile Manifesto and Principles
 

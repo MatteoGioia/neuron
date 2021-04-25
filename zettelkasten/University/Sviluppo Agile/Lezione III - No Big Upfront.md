@@ -1,7 +1,13 @@
 # No Big Upfront 
 
 ## Recall questions
-    - WIP
+    - Cosa è l'idea di no big upfront? Come viene applicata ai metodi agili?
+    - Come viene effettuata l'elicitazione dei requisiti nei metodi agili? Hint: sparisce quasi..
+    - Quali sono le problematiche legate a fare elicitation lunghe e complesse?
+    - Cosa si può fare per velocizzare la fase di ricerca dei requisiti senza renderla inaccurata? Light PreDev + Accurate PostDev
+    - Cosa succede all'architettura di un progetto con il passare del tempo? È inevitabile?
+    - Quali sono gli antipattern identificati dai metodi agili nei modi classici di progettare le architetture?
+    - Come fanno i metodi agili a produrre architetture continuamente al passo con i tempi? Cosa è il refactoring?
 
 ## No Big Upfront Requirements
 

@@ -1,7 +1,13 @@
 # Agile Roles
 
 ## Recall questions
-    - WIP
+    - Quale figura è resa centrale nei nuovi ruoli introdotti nei metodi agili?
+    - Come cambiano i ruoli nei metodi agili? Quali spariscono e quali cambiano?\
+    - Chi è il product owner? Che differenze ci sono con un manager?
+    - Cosa vuol dire che il team si auto-organizza?
+    - Come può un'azienda mantenere il controllo del workflow del team senza essere troppo intrusiva? Hint: Subtle control
+    - Cosa significa che i team agili sono crossfunctional? Che vantaggio viene introdotto?
+    - Chi è lo scrum master (o il coach)?
 
 ## Il cambiamento dei ruoli nei metodi agili
 

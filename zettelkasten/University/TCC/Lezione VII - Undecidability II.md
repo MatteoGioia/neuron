@@ -83,7 +83,7 @@ Una ==proprietà dei linguaggi $RE$== non è altro che ==un insieme di linguaggi
 - un esempio sono tutti i $CFL$
 
 Diremo inoltre che una ==proprietà== è:
-- ===banale== se l'insieme di linguaggi è vuoto o è tutto $RE$
+- ==banale== se l'insieme di linguaggi è vuoto o è tutto $RE$
 - ==non-banale== altrimenti
 
 Di seguito faremo riferimento non tanto ai linguaggi con certe proprietà quanto a macchine di Turing che li accettino. Questo perchè i linguaggi, per loro definizione, sono infiniti e quindi non potrebbero essere input di un algoritmo che riconosce se verificano una certa proprietà.

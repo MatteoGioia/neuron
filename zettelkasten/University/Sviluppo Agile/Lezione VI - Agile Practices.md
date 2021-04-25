@@ -1,7 +1,13 @@
 # Agile Practices
 
 ## Recall questions
-    - WIP
+    - Cosa è una pratica? Cosa la differenzia da un metodo usato occasionalmente?
+    - Cosa è uno sprint? Cosa è la closed window rule? Quanto deve durare uno sprint?
+    - Che tipologie di meeting ci sono nei metodi agili?
+    - Cosa è l'iteration planning? Cosa si fa in questo meeting?
+    - Che sono planning poker e planning game? Come possono essere usati nell'iteration planning?
+    - Cosa si fa nel daily meeting? 
+    - Cosa sono lo sprint review meeting il retrospective meeting? Cosa si fa? 
 
 ## Agile Practices
 

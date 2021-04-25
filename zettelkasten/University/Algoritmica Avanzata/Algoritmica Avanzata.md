@@ -29,6 +29,11 @@ Lezione X - More on dynamic programming
 - Max weight indipendent set
 - Max weight indipendent set with budget
 
+Lezione XII - More on dynamic programming II
+- Edit distance
+- Subset Sum (NP-complete)
+- Split and list
+
 ### Laboratorio
 
 [[Head or tails]]
@@ -41,6 +46,8 @@ Lezione VI - Travelling Salesman, Postal Service
 
 Lezione VII - Lazy Hikers, Tree problem                                                                                                  
 Lezione IX - Tavernello, Souvenirs
+
+Lezione XI - HDMI cables, Tunnel
 
 
 <small> In questo caso le note non sono disponibili essendo prevalentemente riprese da slides e argomenti affrontati nel laboratorio.</small>

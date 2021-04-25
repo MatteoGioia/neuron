@@ -1,8 +1,10 @@
 # Agile Metrics
 
 ## Recall questions
-    - WIP
+    - Cosa è una metrica? A cosa ci serve?
     - Perchè scegliere metriche poco costose ma espressive?
+    - Quali sono gli aspetti sotto i quali viene valutata la performance del team? Descrivili brevemente.
+    - Cosa sono recidivism e comment to commit ratio? A cosa sono utili?
 
 ## Measuring Agile Teams Performance
 
