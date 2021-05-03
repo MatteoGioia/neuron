@@ -62,8 +62,8 @@ Le mosse di $M$ sono implementate da $N$ nel seguente modo. $N$ visita tutti i $
 ==Teorema==:
 >Il tepo impiegato da $N$ per simulare $n$ mosse della macchina $M$ multi nastro è $O(n^2)$
 
-Dopo $n$ mosse, non ci sono infatti più di $2n$ celle di distanza tra i markers, quindi sono necessarie al massimo $2n$ mosse per leggere il marker più a destra.
-Per tornare a sinistra e cambiare nastro sono invece necessarie $2n + 2k$ mosse.
+Dopo $n$ mosse, non ci sono infatti più di $2n$ celle di distanza tra i markers, quindi sono necessarie al massimo $2n$ mosse per leggere tutti i marker.
+Per tornare a sinistra sono necessarie altre $2n$ mosse e, evenutalmente, altre $2k$ per scrivere un marker a destra (qualora la testina si sia spostata a dx e non a sinistra).
 In totale, per simulare ==una== mossa di $M$ sono necessarie $4n + 2k$ mosse di $N$.
 
 Per $n$ mosse ovviamente questo diventa $O(n^2)$.
