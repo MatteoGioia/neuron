@@ -27,7 +27,7 @@ Lecturer: Matteo Spezialetti
 
 [[Lezione VIII - Problemi Intrattabili]]
 
-[[Lezione IX - Problemi Intrattabili II]]
+[[Lezione IX - SAT, CSAT, k-SAT]]
 
 [[Eserciziario TCC]]
 

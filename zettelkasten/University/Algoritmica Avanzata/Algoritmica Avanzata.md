@@ -34,6 +34,15 @@ Lezione XII - More on dynamic programming II
 - Subset Sum (NP-complete)
 - Split and list
 
+Lezione XIV - Even more on dynamic programming?
+- Knapsack
+- Limited Backtracking
+- 1 in 3 positive SAT
+
+Lezione XVI - 2 SAT, Graphs I
+- 2 SAT (Tarjan Algorithm)
+- Intro to BGL
+
 ### Laboratorio
 
 [[Head or tails]]
@@ -48,6 +57,10 @@ Lezione VII - Lazy Hikers, Tree problem
 Lezione IX - Tavernello, Souvenirs
 
 Lezione XI - HDMI cables, Tunnel
+
+Lezione XIII - Book Printing, DNA alignement
+
+Lezione XV - Deep sea research, water treatment plant
 
 
 <small> In questo caso le note non sono disponibili essendo prevalentemente riprese da slides e argomenti affrontati nel laboratorio.</small>
