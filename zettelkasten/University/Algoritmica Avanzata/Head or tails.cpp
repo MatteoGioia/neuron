@@ -1,4 +1,4 @@
-```
+
     #include <iostream>
     #include <string>
     #include <cstdlib>
@@ -32,9 +32,9 @@
 
         return EXIT_SUCCESS;
     }
-```
 
-Compile `g++ -std=c++17 -Wall -pedantic -O3 -DNDEBUG solution.cpp -o solution` 
 
-Test with `(time ./solution < example.in) | diff -bBZ - example.out`
+//Compile `g++ -std=c++17 -Wall -pedantic -O3 -DNDEBUG solution.cpp -o solution` 
+
+//Test with `(time ./solution < example.in) | diff -bBZ - example.out`
 

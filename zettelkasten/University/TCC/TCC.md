@@ -29,6 +29,8 @@ Lecturer: Matteo Spezialetti
 
 [[Lezione IX - SAT, CSAT, k-SAT]]
 
+[[Lezione X - Problemi NP-completi]]
+
 [[Eserciziario TCC]]
 
 [[Lista teoremi]]
