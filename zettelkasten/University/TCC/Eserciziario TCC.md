@@ -9,3 +9,10 @@
 5. NMT che accetta stringhe che contengono stringhe di l. 100 ripetute 
 6. Esercizi su macchine a contatori
 7. Esercizio su $w_{37}$ e $w_{100}$
+
+---
+
+8. Spiegare perchè nella riduzione da DHC a HC sono necessari almeno 3 nodi
+9. Esercizio 13: proprietà del grafo
+10. Esercizio 14: tSAT, fSAT, dSAT, nTAUT
+11. Esercizio su one way function

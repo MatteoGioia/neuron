@@ -43,6 +43,15 @@ Lezione XVI - 2 SAT, Graphs I
 - 2 SAT (Tarjan Algorithm)
 - Intro to BGL
 
+Lezione XVIII - Graphs II, Flow I
+- BGL
+- Flow I
+
+Lezione XX - Flow, LCA
+- Flow II
+- LCA, RMQ
+
+
 ### Laboratorio
 
 [[Head or tails]]
@@ -62,6 +71,9 @@ Lezione XIII - Book Printing, DNA alignement
 
 Lezione XV - Deep sea research, water treatment plant
 
+Lezione XVII - Bookshelf, Candies
+
+Lezione XIX - Buffering, Planet Express
 
 <small> In questo caso le note non sono disponibili essendo prevalentemente riprese da slides e argomenti affrontati nel laboratorio.</small>
 

@@ -27,9 +27,13 @@ Lecturer: Matteo Spezialetti
 
 [[Lezione VIII - Problemi Intrattabili]]
 
+---
+
 [[Lezione IX - SAT, CSAT, k-SAT]]
 
 [[Lezione X - Problemi NP-completi]]
+
+[[Lezione XI - Altre classi di problemi]]
 
 [[Eserciziario TCC]]
 

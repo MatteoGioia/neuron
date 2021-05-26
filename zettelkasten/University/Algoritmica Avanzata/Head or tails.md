@@ -1,4 +1,4 @@
-
+```
     #include <iostream>
     #include <string>
     #include <cstdlib>
@@ -38,3 +38,4 @@
 
 //Test with `(time ./solution < example.in) | diff -bBZ - example.out`
 
+```

@@ -1,8 +1,5 @@
 # Problemi NP-completi
 
-## Recall questions
-    - WIP
-
 ## Problemi NP-completi celebri
 
 ### Albero delle riduzioni

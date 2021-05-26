@@ -110,7 +110,6 @@ Si tratta della tecnica principale con cui mostriamo che
 
 Idealmente anche qui sfrutteremo un algoritmo del tipo:
 
-*to add*
 ![](./static/poli_red.png) 
 
 Vediamo che questo algoritmo, a differenza di quando lo usavamo per le TM, non basta a dimostrare l'enunciato, perchè ci possono essere dei casi in cui $P_1 \notin P$ ma $P_2 \in P$. Intuitivamente questo avviene perchè in quel caso non ci stavamo occupando di complessità ma più di accettazione/halting.
