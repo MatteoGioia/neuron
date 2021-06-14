@@ -35,6 +35,8 @@ Lecturer: Matteo Spezialetti
 
 [[Lezione XI - Altre classi di problemi]]
 
+[[Lezione XII - Altre classi di problemi II]]
+
 [[Eserciziario TCC]]
 
 [[Lista teoremi]]

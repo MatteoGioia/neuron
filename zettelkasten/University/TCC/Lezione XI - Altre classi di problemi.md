@@ -1,7 +1,12 @@
 # Altre classi di complessità
 
 ## Recall questions
-    - WIP
+    - Cosa puoi dire della classe co-NP? Enuncia un importante teorema che lo lega a NP e mostra i due lati dell'inclusione.
+    - Cosa sono PS e NPS? Che garanzie abbiamo sulle TM in PS (2 teoremi: c^1+p(n) accettazione, c^q(n) step)?
+    - Cosa dice il th. di Savicht? hint Mostrare come la TM M è in NPS, e la NTM N è in PS.
+    - Cosa è la PS completezza? Come si lega alle classi NP e P?
+    - Cosa è QBF?
+    - QBF è PS-completo?
 
 ## Classi di complessità addizionali
 
