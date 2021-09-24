@@ -7,7 +7,7 @@ dirtree:
 
 Sezione dedicata ad appunti università
 
-## Terzo Anno I Semestre
+## Terzo Anno 
 
 [[Ingegneria del software]]
 
@@ -20,3 +20,11 @@ Sezione dedicata ad appunti università
 [[TCC]]
 
 [[Algoritmica Avanzata]]
+
+## Primo anno LM
+
+[[Machine Learning]]
+
+[[Distributed Systems]]
+
+[[Foundations of Data Science]]

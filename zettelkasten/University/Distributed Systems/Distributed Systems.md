@@ -3,12 +3,12 @@ dirtree:
   display: False
 ---
 
-# Machine Learning
+# Distributed Systems
 
 Sezione dedicata agli appunti di Machine Learning
 
-Lecturer: 
+Lecturer: Mei
 
 ### Appunti
 
-[[ML I - Intro]]
+[[DS I - Intro]]
