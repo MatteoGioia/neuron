@@ -7,7 +7,7 @@ dirtree:
 
 Sezione dedicata agli appunti di Machine Learning
 
-Lecturer: Mei
+Lecturer: Alessandro Mei
 
 ### Appunti
 

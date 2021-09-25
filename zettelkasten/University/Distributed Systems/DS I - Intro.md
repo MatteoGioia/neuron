@@ -5,20 +5,28 @@
 - 
 
 ## Recall questions
-    - WIP
+    - What is a distributed system (in a nutshell)?
+    - What type of channel we assume to work with in DS? Why?
+    - What is an async system? Why most real life are async?
+    - What is the "happened before" binary relation? What properties does it have?
+    - What are the local and global history? What is a distributed computation (formally)? 
+    - What is a system's run?
+    - What is a cut? Why is it important for it to be consistent?
+    - Why we can't use another process as a monitor? 
+    - What is a logical clock? Why it is not enough to monitor the other processes?
 
 ## Basic notions
 
 ### Distributed System
 
-System with $n$ processes that are distributed on a network and all processes
+==System with $n$ processes that are distributed on a network and all processes==
 cooperate to complete a single task.
 - processes are also called nodes
 
 Processes communicate with a communication channel
 - channels can also be a process
 
-We won't make assumptions about each processes' running time
+==We won't make assumptions about each processes' running time==
 
 ### Communication channels
 
@@ -30,7 +38,7 @@ Reliable:
 - can receive messages out of order
 - can also be FIFO
 
-We'll assume channels are reliable
+==We'll assume channels are reliable==
 - doing otherwise would cause problems (i.e. 2 generals infinite loop)
 
 ### Types of DS
@@ -41,65 +49,94 @@ Async: no bound on messages' travelling time
 
 Sync: assumption about time elapsed for each message to travel
 
-We'll assume our systems are asyncronous.
+==We'll assume our systems are asyncronous.==
 
 ### DS representation
 
-(Image here)
+![](./static/DS/discomp.png)
 
-System's RUN: possible order of events in the system
-- if a run $R$ can't happen is called inconsistent
-
-Event: any meaningful instruction for the process
+==Event $(e_{p}^{i})$: the i-th meaningful instruction for the process p==
 - i.e. something that changes the state of the process
-- i.e. sending or receiving a message (arrows)
+- i.e. ==sending or receiving a message== 
 
 If two events happen at the same time they are concurrent.
 
-There is an "happen before" relation $\to$ if:
+There is also a ==binary relation== to define the concept of =="an event happened before another"==:
 1. $e_{i}^{k}, e_{i}^{l} \in h_i$ with $k < l$, then $e_{i}^{k} \to e_{i}^{l}$ (reads)
 2. if $e_i$ = send(m) and $e_j$ = receiving(m), $e_i \to e_j$
-3. if $e' \to e''$ and $e' \to e'''$ then $e' \to e'''$
+3. if $e' \to e''$ and $e' \to e'''$ then $e' \to e'''$ 
+
 $\to$ is the smallest relation with properties 1,2,3
+
+Notice that ==only in the case of sent/received messages there is the certainty that 2 events interacted with each other==
+- otherwise $\to$ merely implies that one happened before another
+
+### Distributed computation
+
+==Local history of a process $h_{i}^{k}$ = $e_{i}^{1} \ldots e_{i}^{k}$==
+- $h_{i}^{0}$ denotes an empty sequence
+- ==global history $H = h_1 \cup \ldots h_n$==
+
+Formally, a ==distributed computation is a partially ordered set defined by the pair ($H, \to$)==
 
 ## Consistency in DS
 
+### Process' state
+
+We denote the state of the process $p_i$ after executing event $e_{i}^{k}$ as $\sigma_{i}^{k}$.
+- $\sigma_0$ is the initial state
+
+The ==globabl state is a tuple of local states $\Sigma = (\sigma_1, \ldots, \sigma_n)$==
+
+### System run
+
+==System's RUN: possible order of events in the system==
+- if a run $R$ can't happen is called inconsistent
+
 ### Run Cuts
 
+![](./static/DS/dscut.png)
+
 A cut $C$ is a portion of a system run $R$
-- $C$ is consistent $iff e \to e' \land e' \in C \to e \in C$ 
+- formally a cut is specified trough a set of n. number $C = (c_1, \ldots, c_n)$ where each number indicates the last event included for each process
+- $C$ is consistent $\iff e \to e' \land e' \in C \implies e \in C$ 
+
+A ==consistent cut is associated with a consistent global state==
+- this is important for detecting deadlocks
 
 An easy way to check for consistency is to check for received messages that were not sent
 - visually a message outside of the cut "goes" inside 
 
 ### Deadlocks
 
-(Image with queries and answers)
-
 System can be engineered to either be deadlock avoidant or to have a deadlock removal mechanism
 - the second is ususally easier
 
-In DS, there is a process monitor that checks for deadlocks by using a snapshot of a message graph
-- each time the monitor asks a process if it is waiting for some other process to answer
-- but the monitor itself has to avoid looking at inconsistent cuts that give false positives
-- we need ad hoc snapshot protocols, this one does not work
+In DS, there is a process monitor that checks for deadlocks 
+- but a simple snapshot of the system could lead to ghost deadlocks: the monitor itself is part of the DS and could be examining an inconsistent cut
+- there is the need for ad hoc protocols
 
-### Clocks in DS
+==Lattice==: set of all global states of a computation with a ==leads to== relation
+- a state $\Sigma_{i-1}$ leads to $\Sigma_{i}$ if the latter is obtained by the first when the process executes a certain event $e_i$
+- a state $\Sigma^{'}$ is reachable from another state $\Sigma$ in a run $R$ $\iff$ $\Sigma \rightsquigarrow_{R} \Sigma^{'}$ (transitive closure)
 
-(Image)
+![](./static/DS/dsmanystates.png)
+
+### Monitors in DS
 
 Real Global clock: ideal perfect clock used by all processes 
 - cannot exists
 
 Network Time Protocol (NTP): protocol to keep clocks aligned in real impl.
 
-The new monitor now receives a message for each event
-- with each event, the process also sends a timestamp used to reconstruct a run 
+The monitor now is passive and only receives a message by the other processes for each event 
+- with each event, the process also sends a timestamp $TS$ used to reconstruct a run (otherwise the event could be arranged in inconsistent runs/cuts)
 - each timestamp is a natural number 
-- the timestamp increases if the message is sending, otherwise it is the maximum + 1 between the process before and the sender process 
 
-This type of clock is called Lamport's clock (LC)
-- we want to check for clock conditions: $e \to e' \to LC(e) < LC(e')$
-- this system works because our DS must work for each possible run (even if it doesn't actually happen!)
+![](./static/DS/dslogicalclock.png)
 
-But what if there are any gaps?
+This type of clock is also called Lamport's clock
+
+We want to ensure for a ==clock condition==: $e \to e' \to LC(e) < LC(e')$
+- if the property it's true, it means that if $e$ comes before $e'$, there is no way $e'$ timestamp is bigger
+- but what happens if a message with a small timestamp than the current one gets delivered with a huge delay? 

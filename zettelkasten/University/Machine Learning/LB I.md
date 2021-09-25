@@ -1,3 +1,0 @@
-# Lab I
-
-## Useful info

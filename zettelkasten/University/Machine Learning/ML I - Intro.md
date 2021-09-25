@@ -1,11 +1,8 @@
 # Introduzione a ML
 
-## Useful Info
-
-- Self assessments + 1 and useful for the test
-
 ## Recall questions
-    - WIP
+    - What are predictive and prescriptive learning?
+    - Describe the typical workflow in both cases.
 
 ## Basic notions
 
@@ -15,39 +12,40 @@ Set of methodologies to find regularities in data
 
 ### Type of tasks
 
-Predictive tasks: given previously labelled data, learn a model to predict future outcomes 
-- i.e. predict future ...
+==Predictive tasks==: ==given previously labelled data, learn a model to predict future outcomes== 
+- i.e. predict future sales of a new product
 - labelled data can also be discrete/continous
 
-Example image: ML to create a risk model from past data (columns = features, rows = instances) 
+![](./static/ML/pred.png)
 
-Prescriptive: given unlabelled data, or given an environment/some stimuli, prescribe the best course of action
+==Prescriptive==: ==given unlabelled data, or given an environment/some stimuli, prescribe the best course of action==
 - i.e. model learning to play a game or customer segmentation
 
-Example image: model learns classify customers to provide custom suggestions
+![](./static/ML/presc.png)
 
 ### General Workflow
 
-Supervised workflow: 
+==Supervised workflow==: 
 1. historical data $\to$ algorithm $\to$ predictive model
 2. new unlabelled data $\to$ predictive model $\to$ prediction (opt. confidency)
+
+![](./static/ML/wopred.png)
 
 Instead of updating the model, it is commonly preferred to just train a new model on the new (bigger) set of data
 - there is still the possibility of creating an adaptive model
 
-Prescriptive workflow: image
+==Unsupervised workflow==:
+
+![](./static/ML/wopresc.png)
 
 ### Importance of data
 
-Data needs to be collected and categorized before becoming usable for a ML model
+==Data needs to be collected and categorized before becoming usable for a ML model==
+- main and hardest part of the work
 
 ### The heart of ML
 
-To program systems that can learn, we need to understand:
-- what learning is
-- how we learn
-- what can be learned
-- why we learn 
+To program systems that can learn, ==we need to understand what learning is and how we learn==
 
 There are things difficult to learn or to teach for us humans but not for machines
 - i.e. when there is too much data, the environment is dangerous...

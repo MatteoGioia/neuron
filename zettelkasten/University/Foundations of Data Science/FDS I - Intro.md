@@ -8,9 +8,6 @@ Assignments:
 - 18/11 to 20/12
 
 
-## Recall questions
-    - WIP
-
 ## Basic notions
 
 ### ML definition 
