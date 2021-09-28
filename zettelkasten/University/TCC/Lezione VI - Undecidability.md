@@ -35,7 +35,7 @@ La dimostrazione è semplice: se abbiamo la garanzia che la $TM$ si fermi per st
 - gli stati di accettazione nella $M$ originale vengono trasformati in stati di non accettazione
 - quelli di non accettazione invece ora possono proseguire in uno stato di accettazione con una nuova transizione
 
-![](./static/l_rec_complementary.png)
+![](./static/TCC/l_rec_complementary.png)
 
 ==Complemento di un linguaggio $RE$== (th):
 >Se $L \in RE$ e $\neg L \in RE$, allora $L \in R$ e $\neg L \in R$
@@ -56,7 +56,7 @@ Il secondo caso rende difficile, se non impossibile, definire l'indecidibilità 
 
 Di seguito mostriamo uno schema riassuntivo di come possono essere disposti i linguaggi:
 
-![](./static/problem_compl_class.png)
+![](./static/TCC/problem_compl_class.png)
 
 Presentiamo ora dei linguaggi (problemi) e mostriamo la classe a cui appartengono.
 
@@ -68,7 +68,7 @@ In seguito dovremo discutere di macchine di Turing e stringhe in modo più astra
 - se $w$ è una stringa binaria, allora le mappiamo $1w$ come intero (ossia la precediamo con un 1)
 - $w_i$ invece fa riferimento alla $i$-esima stringa.
 
-![](./static/string_TM_mapping.png)
+![](./static/TCC/string_TM_mapping.png)
 
 Adesso invece definiamo un ==codice binario== che possa ==descrivere macchine di Turing== con alfabeto {0,1} e che ci permetta di ==mappare la $TM i$-esima alla corrispondente stringa binaria==.
 
@@ -98,7 +98,7 @@ Il motivo per cui questo linguaggio è detto di diagonalizzazione è il seguente
 costruiamo una tabella dove $i$ riporta la $TM \space M_i$ e $j$ la stringa $w_j$ e inseriamo 1 se la stringa è accettata, 0 altrimenti. Ogni riga $i$ ci dirà il ==vettore caratteristico== di $M_i$, ossia quali stringhe sono nel suo linguaggio.
 È facile vedere che la diagonale, una volta fatto il ==complemento==, restituisce le stringhe per cui è valida la definizione di sopra.
 
-![](./static/diagonalization_lang.png)
+![](./static/TCC/diagonalization_lang.png)
 
 Notare che questo vettore caratteristico ==non può essere confuso con una $TM$== in quanto si trova in disaccordo con almeno una riga.
 
@@ -162,7 +162,7 @@ Ora $M_1$ accetta $w_i$ se e solo se $M_i$ non accetta $w_i$, ossia se $w_i \in 
 
 ### Visualizzazione dei linguaggi e la loro classe
 
-![](./static/first_lang_classificiation.png)
+![](./static/TCC/first_lang_classificiation.png)
 
 <small> Attenzione, nelle slide si usa un separatore diverso per la TM universale, ossia 01 - il risultato finale è uguale</small>
 

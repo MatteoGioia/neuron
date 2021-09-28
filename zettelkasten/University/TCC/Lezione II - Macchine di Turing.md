@@ -64,7 +64,7 @@ Formalmente, è definita come una ==settupla== $M = (Q,\Sigma,\Gamma, \delta, q_
 Inizialmente viene piazzata sul nastro una ==stringa== di lunghezza finita scelta dall'alfabeto di input.
 Tutte le altre celle contengono il simbolo $B$ e il puntatore è posizionato sulla cella più a SX che contiene l'input.
 
-![](./static/turing_mach.png)
+![](./static/TCC/turing_mach.png)
 
 Una ==mossa== è una funzione dello stato corrente e del simbolo in input scanditi. 
 La macchina poi, ==in una sola mossa==:

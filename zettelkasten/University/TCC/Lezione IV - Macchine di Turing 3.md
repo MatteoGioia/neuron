@@ -21,8 +21,8 @@ Funzione ==RETURN==: siccome non c'è metodo per identificare lo stato che chiam
 
 Ad esempio, questa macchina di Turing moltiplica due cifre fatte di 0: per ogni 0 della stringa a sx, viene chiamata una subroutine che copia gli 0 della stringa a dx alla fine, fino a quando ogni zero della prima stringa è esaurito.
 
-![](./static/mult_tur.png)
-![](./static/mult_tur2.png)
+![](./static/TCC/mult_tur.png)
+![](./static/TCC/mult_tur2.png)
 
 ### Estensioni della macchina di Turing
 
@@ -53,7 +53,7 @@ Supponiamo che un linguaggio $L$ sia accettato da una macchina di Turing $M$ a $
 - un componente del controllo finito memorizza lo stato di $M$
 - $k$ componenti del controllo finito memorizzanoil contenuto dei simboli letti
 
-![](./static/multitape_TM_eq.png)
+![](./static/TCC/multitape_TM_eq.png)
 
 Le mosse di $M$ sono implementate da $N$ nel seguente modo. $N$ visita tutti i $k$ marker che indicano la posizione delle testine di $M$ e salva il simbolo che stanno leggendo. $N$ conosce inoltre lo stato di $M$, quindi sa le mosse che verrebbero eseguite da quest'ultima.
 
@@ -83,7 +83,7 @@ Per processare la ID corrente sul primo nastro, la $TM$ $M_D$:
 
 All'effettivo questa macchina non fa altro che "enumerare" le scelte come fossero nodi di un albero e le esamina con ==una ricerca breadth first==.
 
-![](./static/ntm_emulated.png)
+![](./static/TCC/ntm_emulated.png)
 
 Dobbiamo ora mostrare che $M_D$ accetta sempre se lo fa $M_N$, questo perchè l'altro lato dell'implicazione $\leftarrow$ è provato per costruzione in quanto $M_D$ accetta solo se $M_N$ lo fa.
 

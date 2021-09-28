@@ -1,9 +1,5 @@
 # Introduzione a DS
 
-## Useful Info
-
-- 
-
 ## Recall questions
     - What is a distributed system (in a nutshell)?
     - What type of channel we assume to work with in DS? Why?
@@ -13,7 +9,11 @@
     - What is a system's run?
     - What is a cut? Why is it important for it to be consistent?
     - Why we can't use another process as a monitor? 
-    - What is a logical clock? Why it is not enough to monitor the other processes?
+    - What is a logical clock? What property does it guarantee? Why it is not enough to monitor the other processes? What does it lack? (hint: gap)
+    - How can we use the notion of stability to create a new delivery rule better than DR1? Why does it work for some gaps but it is still not good enough?
+    - What is causal delivery? And causal history? Why is it hard to track in the long run? Which useful property is true when we use causal histories as timestamp? (hint: strong)
+    - What is a vector clock? How can it be used to make a DR3 that takes gaps AND causal delivery into account?
+    - Why is it important to assume the system is closed (i.e. no hidden communication channels)?
 
 ## Basic notions
 
@@ -139,29 +139,82 @@ This type of clock is also called Lamport's clock
 
 We want to ensure for a ==clock condition==: $e \to e' \to LC(e) < LC(e')$
 - if the property it's true, it means that if $e$ comes before $e'$, there is no way $e'$ timestamp is bigger
-- but what happens if a message with a small timestamp than the current one gets delivered with a huge delay?
+- but ==what happens if a message with a small timestamp than the current one gets delivered with a huge delay ?==
 
-A message $m$ is stable if no future message with timestamp smaller than $TS(m)$ can be received.
-- a vector keeps track of the last event delivered for every process and its lamport clock
+### Monitors in DS pt.2
 
-(Immagine)
+The previous delivery rule lacks what's called a ==gap-detection==:
+- given 2 events $e$ and $e'$ along with their values $LC(e)$ and $LC(e')$, where $LC(e) < LC(e')$,  determine whether some other event $e''$ exists such that $LC(e) < LC(e'') < LC(e')$.
 
-DR2: We now put messages in a buffer and deliver all messages that are stable in timestamp order
-- this works but the issue about gaps remains
+A ==message $m$ is stable if no future message with timestamp smaller than $TS(m)$ can be received==.
+- if the message arriving has $LC$ smaller than the ones receveid from all other processes, it is stable
+- this works since the $LC$ is monotone increasing for each $p_i$ and FIFO preserves the order (for the process) in which messages arrrive
 
-To solve the issue we need a ==strong clock condition==: $TS(e) < TS(e') \iff e \to e'$
--  but how can we know when 2 events are actually related
+![](./static/DS/dr2.png)
 
-We can use the ==causal history== of an event $e_i$: $\Theta(e_i) = \{e : e \to e_i\} \cup \{e_i\}$
-- we now know that $e_$...
-- we can use the causal history as a timestamp
+==DR2==: We now put messages in a buffer and deliver all messages that are stable in timestamp order
+- we will have a vector that keeps tracks of $LC$ for each process
+- a message becomes stable whenever its $LC$ is smaller (or equal) than all the other ones in the vector or in other words all other processes have sent a message with a bigger or equal timestamp
+- this works but there is still an issue: ==this DR lacks the causality relation between events happening in different processes==! (i.e. messages)
 
-(Immagine)
+### Casual Delivery
 
-DR3: Deliver message $m$ from $p_j$ as soon as $D[j] = TS(m)[j]-1$ and $D[k] \geq TS(m)[k] \forall k \neq j$
-- the Lamport clock is now replaced with a causal vector D that is updated in the same way as DR2
-- the gap issue is also solved
+To fix the previous DR, we need to mantain the causality relation between events happening in different processes.  This property is called
+==casual delivery==:
+- $send_i(m) \to send_j(m') \implies deliver_k(m) \to deliver_k(m')$, for all messages $m,m'$, sending processes $p_i,p_j$ and destination process $p_k$
 
+In simpler terms, this property ensures that ==the monitor knows about a messsage only when the event corresponding to the delivery of that message happens==
+- so other processes that are influenced by that can't be delivered first!
+
+### Causal history
+
+<small> In the following $LC$ will be used interchangeably with $TS$ </small>
+
+To ensure the causal delivery in our next DR, we want to make sure that we can somehow ==infer the order of messages between different processes using their timestamps==. We need a ==strong clock condition==: $TS(e) < TS(e') \iff e \to e'$
+
+One approach would be using the ==causal histories== of the processes: $e_i$: $\Theta(e) = \{e' \in H : e' \to e_i\} \cup \{es\}$
+- a causal history can also be seen as ==the smallest consistent cut that includes $e$
+
+Each process mantains its causal history starting from an empty set:
+- if an event $e$ from the same process arrives the causal history becomes the union of the previous causal history with $e$ 
+- otherwise if $e_i$ is the receiving event in $p_i$ from $e_j$ in $p_j$, the causal history is the union of the causal history of $e_i$ and the causal history of $e_j$
+
+![](./static/DS/causalh.png)
+
+This ==definition satisfies the strong clock conditione because it's always true that $e \to e' \iff \theta(e) \subseteq \theta(e')$==
+
+So this works, but ==casual histories grow in size too rapidly== to be used efficiently
+- maybe just the frontier could be used?
+
+### Vector clocks
+
+One way to ==shrink the size of the causal histories is to use a vector of natural numbers== to represent it
+- this mechanism is called ==vector clock (VC)==
+- for the complete list of properties see pg.17-19 of Babaoglu-Marzullo
+
+The entire causal history of $n$ processes can be represented by a $n$-dimensional vector that starts from all zeroes, in which:
+- $VC(e)[i] = k \iff \theta_i(e) = h_{i}^{k}$  
+
+The values in the vector increase following these rules (similar to LC):
+
+![](./static/DS/vectorclock.png)
+
+Working example of vector clocks:
+
+![](./static/DS/vecex.png)
+
+### Monitors in DS pt.3
+
+Vector clock are the perfect fit to implement causal delivery.
+
+==DR3==: Deliver message $m$ from $p_j$ as soon as 
+- $D[j] = TS(m)[j]-1$ - ==no previous messages from the same process==
+- $D[k] \geq TS(m)[k] \forall k \neq j$ed ==causal delivery and gap detection==
+
+![](./static/DS/vectorp0.png)
+
+One important thing in the following is that ==we'll assume the system is closed==, which means that there are no external channels used to communicate
+- otherwise there could be anomalies
 
 
 
