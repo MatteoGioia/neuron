@@ -129,7 +129,7 @@ Real Global clock: ideal perfect clock used by all processes
 
 Network Time Protocol (NTP): protocol to keep clocks aligned in real impl.
 
-The monitor now is passive and only receives a message by the other processes for each event 
+DR1: The monitor now is passive and only receives a message by the other processes for each event 
 - with each event, the process also sends a timestamp $TS$ used to reconstruct a run (otherwise the event could be arranged in inconsistent runs/cuts)
 - each timestamp is a natural number 
 
@@ -139,4 +139,29 @@ This type of clock is also called Lamport's clock
 
 We want to ensure for a ==clock condition==: $e \to e' \to LC(e) < LC(e')$
 - if the property it's true, it means that if $e$ comes before $e'$, there is no way $e'$ timestamp is bigger
-- but what happens if a message with a small timestamp than the current one gets delivered with a huge delay? 
+- but what happens if a message with a small timestamp than the current one gets delivered with a huge delay?
+
+A message $m$ is stable if no future message with timestamp smaller than $TS(m)$ can be received.
+- a vector keeps track of the last event delivered for every process and its lamport clock
+
+(Immagine)
+
+DR2: We now put messages in a buffer and deliver all messages that are stable in timestamp order
+- this works but the issue about gaps remains
+
+To solve the issue we need a ==strong clock condition==: $TS(e) < TS(e') \iff e \to e'$
+-  but how can we know when 2 events are actually related
+
+We can use the ==causal history== of an event $e_i$: $\Theta(e_i) = \{e : e \to e_i\} \cup \{e_i\}$
+- we now know that $e_$...
+- we can use the causal history as a timestamp
+
+(Immagine)
+
+DR3: Deliver message $m$ from $p_j$ as soon as $D[j] = TS(m)[j]-1$ and $D[k] \geq TS(m)[k] \forall k \neq j$
+- the Lamport clock is now replaced with a causal vector D that is updated in the same way as DR2
+- the gap issue is also solved
+
+
+
+

@@ -5,7 +5,7 @@ dirtree:
 
 # Distributed Systems
 
-Sezione dedicata agli appunti di Machine Learning
+Sezione dedicata agli appunti di Distributed Systems
 
 Lecturer: Alessandro Mei
 
