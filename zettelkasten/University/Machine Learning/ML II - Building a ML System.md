@@ -7,7 +7,7 @@
 
 ### Design cycle of a ML system
 
-(Immagine)
+![](./static/ML/designML.png)
 
 ### Data preparation
 
@@ -30,14 +30,16 @@ Data is also commonly heterogenous and will probably need to be reorganized by
 ### Feature Engineering
 
 Feature engineering is about finding the best descriptors
-- sometimes the features are just too many
-- or they can be converted to "higher level" features
+- feature identification: sometimes the features are just too many so we need to identify the important ones
+- dimensionality reduction: or some of them can be converted to "higher level" semantic descriptors
 
 One way of doing this is by using dimensionality reduction
 
 ### Model Generation
 
-When choosing the right model we can decide the ...
+When choosing the right model we can decide:
+- the type of learning we want to adopt (i.e. supervised)
+- the type of prediction the system will output (e.g. continous function)
 
 The choice is among:
 - supervised learning: training data with correct examples
@@ -45,7 +47,7 @@ The choice is among:
 - semi-surpervised learning
 - reinforcement learning: rewards based on correctness of chosen strategy
 
-(Immagine learning)
+![](./static/ML/learningTypes.png)
 
 Another importance difference is the one among:
 - classifiers: discrete function to find boundaries
@@ -53,12 +55,11 @@ Another importance difference is the one among:
 
 Some examples:
 
-(Immagine tempo-umidità)
+![](./static/ML/classreg.png)
 
 In the classification the line is used to tell to which category the new object belong, in the regression
 is used to predict the next value given the input. The output line can also be non linear (e.g. the function is a polynomial)
 
-(Immagine caratteri)
 
 ### Hyper parameter tuning
 
@@ -68,7 +69,7 @@ is used to predict the next value given the input. The output line can also be n
 
 ### Supervised learning
 
-(Immagine workflow)
+![](./static/ML/supWF.png)
 
 Given examples ($x_i,y_i$) of an unknown function $y = f(x)$ learn $f(x)$ to predict its values (labels)
 for unseen examples of $x$.
@@ -78,10 +79,28 @@ If $f(x)$ is:
 - algebraic (continous): regression
 - probability: probability estimation (still similar to regression)
 
-In the course...
+In the course we'll see:
+- discrete classifiers: decision trees, decision forests, Supported Vector Machines
+- continuous classifiers: neural networks
+- probability esitmators: Naive Bayes
+- ensambles: combination of many predictors
 
 ### Unsupervised learning
 
-(Immagine workflow)
+![](./static/ML/unsupWF.png)
+
+In unsupervised learning, data is unlabeled and the algorithm learns a function used to group instances according to some kind of similarity
+- but similarity is an ambigous concept!
+
+In the course we'll see:
+- untrained deep networks: autoencoders
+- rule learning: Apriori, FPGrows
+- clustering: K-means an hieararchical clustering
+
 
 ### Reinforcement learning
+
+![](./static/ML/renWF.png)
+
+In reinforcement learning, the objective is to learn a policy to act in an environment. There are no examles,
+so the model (agent) learns by receiving rewards or penalties based on his behaviour.
