@@ -12,3 +12,5 @@ Lecturer: Alessandro Mei
 ### Appunti
 
 [[DS I - Intro]]
+
+[[DS II - Reaching Consensus]]

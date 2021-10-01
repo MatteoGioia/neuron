@@ -216,5 +216,21 @@ Vector clock are the perfect fit to implement causal delivery.
 One important thing in the following is that ==we'll assume the system is closed==, which means that there are no external channels used to communicate
 - otherwise there could be anomalies
 
+## Snapshots
 
+### Distributed Snapshot
+
+Sometimes is more useful to have a $p_0$ that can take a snapshot of the system rather than
+actively/passively monitoring it.
+
+Chendy-Lamport Distributed Snapshot:
+- FIFO channel
+- monitor sends a snapshot message to every process
+
+The first time a process receives a message it takes the snapshot and then sends that a message to all other processes that says to take a snapshot.
+- but how do we indentify the termination (1) ?
+- and how do we know if a snapshot is consistent (2) ?
+
+(see photo for proof of 2)
+the key is that since the channel is FIFO, the take snapshot message must have arrived before the event
 

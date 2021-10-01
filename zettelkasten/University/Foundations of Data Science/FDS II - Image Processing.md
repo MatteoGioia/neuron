@@ -74,7 +74,6 @@ A special case is a 1-D filter applied to a 2-D image: in this situation $f[m,n]
 ![](./static/FDS/1dfilter.png)
 
 
-
 ### Filters in 2D convolution
 
 Example of a filter that does nothing
@@ -129,3 +128,25 @@ The ==gaussian filter works better as it gives "more importance" to nearby pixel
 - this also makes sense from a probabilistic standpoint
 
 ![](./static/FDS/gaussianvsbox.png)
+
+## Other uses of convolution
+
+### Pattern matching
+
+Another use of convolution is pattern matching
+
+### Multiscale representationù
+
+Smooth before downsampling otherwise aliasing..
+
+Two questions of interest are:
+- which information is preserved over scales
+- which one is lost
+
+## Object recognition
+
+### Edge detection
+
+We can stylize real objects and simplify them to a set of lines
+
+### Derivatives for edge detection
