@@ -129,24 +129,95 @@ The ==gaussian filter works better as it gives "more importance" to nearby pixel
 
 ![](./static/FDS/gaussianvsbox.png)
 
+### Efficient implementation
+
+Both the gaussian and box filter can be implemented efficiently by convolving the rows first and then the columns: $(f_x \otimes f_y) \otimes I = f_x \otimes (f_y \otimes I)$.
+
+For example, a box filter can be efficiently implemented by doing:
+
+![](./static/FDS/boxeff.png)
+
+And a general $n$-dimensional gaussian can be seen as a 1-d gaussian applied $n$ times on the dimensions:
+- 2D gaussian = $g(x,y) = (\frac{1}{2\pi \sigma^2})^{(-\frac{x^2 * y^2}{2 \sigma^2})}$
+- 1D gaussian on $g(y) = (\frac{1}{\sqrt{2\pi} \sigma})^{(-\frac{y^2}{2 \sigma^2})}$
+
 ## Other uses of convolution
 
 ### Pattern matching
 
-Another use of convolution is pattern matching
+One way of doing pattern matching is to scale the filter to match according to the size of the searched item. However, another common use of convolution is pattern matching in images of different sizes, so with ==multi-scale representation==. The patter to match has always the same dimension, but the image is scaled each time. 
 
-### Multiscale representationù
+Before ==downsampling== though it is necessary to apply a Gaussian to avoid aliasing:scre\
 
-Smooth before downsampling otherwise aliasing..
+![](./static/FDS/multiscale.png)
 
 Two questions of interest are:
 - which information is preserved over scales
 - which one is lost
 
-## Object recognition
+In such cases, a gaussian works best because the information in the center of the image, which probabilistically is the most important one, is retained when blurring as a gaussian gives the "central" pixels more importance. 
 
-### Edge detection
+Another important consideration is that when smoothing with a gaussian, the high frequencies contained in the image signal get reduced, so we both reduce noise and can fit the image information in a smaller size:
 
-We can stylize real objects and simplify them to a set of lines
+![](./static/FDS/fourierwave.png)
 
-### Derivatives for edge detection
+### Edge detection with derivatives
+
+One common method of find edges:
+1. filter image to find brightness changes
+2. fit lines to the raw measurements
+3. project model into the image and "match" to lines
+ 
+Another common approach is to stylize the object to a set of lines that indicate the edges and then use them for detection
+- but how can we tell when what we are looking at is an actual edge 
+
+Ideally, we want to:
+- detected only edges and not noise
+- detected correctly where the edge is
+- give one single response per edge
+
+![](./static/FDS/edgedet1.png)
+
+### 1D edge detection
+
+One easy way of detecting edges is using derivatives. In the following image, a steep change in the function means that the we are passing across an edge:
+
+![](./static/FDS/edgedet2.png)
+
+So, what we can do is smooth the image with a gaussian to eliminate most of the noise and then apply a filter which is an approximation of the derivative:
+
+![](./static/FDS/edgedet3.png)
+
+To make it easier, since the filter and the gaussian are both linear we can apply the derivative first and then do the convolution $\frac{d}{dx}(g \otimes f) = (\frac{d}{dx}g) \otimes f$:
+
+![](./static/FDS/edgedet4.png)
+
+Another common tecnique is to set a treshold, either an hyper-parameter or a parameter that gets tuned during iteration, to distinguish noise from actual edges.
+
+### 2D edge detection
+
+Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
+- we first apply a 2D gaussian
+- then we do the derivative of the image
+
+On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
+
+### Using gradient to detect edges
+
+### Canny edge detector
+
+Canny edge detector:
+1. computed magnitude of gradient on the whole image
+2. consider only the edges above a certain treshold
+3. thinning (non maximum suppression) to reduce thick edges 
+
+During 3 we check if the pixel is a local maximum along gradient direction...
+
+Smaller gaussian to detect small edges, bigger to dected big edges
+
+### Laplacian for edge detection (scaling up)
+
+The canny edge detector is quite complex: using the 2nd derivative we can make our life easier
+- no treshold to check
+
+First smooth with a gaussian

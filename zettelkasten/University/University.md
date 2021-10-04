@@ -5,7 +5,9 @@ dirtree:
 
 # University
 
-Sezione dedicata ad appunti università
+Sezione dedicata ad appunti università.
+
+**IMPORTANT: all the credit for images/slides parts included goes to the various lecturers** 
 
 ## Terzo Anno 
 
