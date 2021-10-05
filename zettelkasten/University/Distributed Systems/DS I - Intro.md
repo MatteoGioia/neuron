@@ -14,6 +14,7 @@
     - What is causal delivery? And causal history? Why is it hard to track in the long run? Which useful property is true when we use causal histories as timestamp? (hint: strong)
     - What is a vector clock? How can it be used to make a DR3 that takes gaps AND causal delivery into account?
     - Why is it important to assume the system is closed (i.e. no hidden communication channels)?
+    - What are DS snapshots? How are they implemented? (hint: FIFO channels)
 
 ## Basic notions
 
@@ -220,17 +221,29 @@ One important thing in the following is that ==we'll assume the system is closed
 
 ### Distributed Snapshot
 
-Sometimes is more useful to have a $p_0$ that can take a snapshot of the system rather than
-actively/passively monitoring it.
+Sometimes is ==more useful to have a $p_0$ that can take a snapshot of the system rather than
+actively/passively monitoring it==.
 
-Chendy-Lamport Distributed Snapshot:
+==Chandy-Lamport Distributed Snapshot==:
 - FIFO channel
 - monitor sends a snapshot message to every process
 
-The first time a process receives a message it takes the snapshot and then sends that a message to all other processes that says to take a snapshot.
-- but how do we indentify the termination (1) ?
-- and how do we know if a snapshot is consistent (2) ?
+DS ==snapshot protocol==:
+- $p_0$ sends itself a take snapshot message
+- whenever a $p_f$ receives a take snapshot message, it takes a snapshot of its local state and relays the take snapshot message to other processes
 
-(see photo for proof of 2)
-the key is that since the channel is FIFO, the take snapshot message must have arrived before the event
+![](./static/DS/chandylamport.png)
+
+We also need to prove:
+- termination: the protocol endss
+- consistency: only consistent snapshots are taken
+
+Regarding ==termination==...
+For what regards ==consistency==, we can use this instance as an example:
+
+![](./static/DS/chandylamportproof.png)
+
+A case like the one depicted in the picture is ==impossible==: since the channels are FIFO, the take snapshot message must come before $e$'s message and $e$ has to wait until the channel is free to send his message. But since the snapshot has been taken before the channel becomes free, a similar situation is clearly impossible.
+
+
 

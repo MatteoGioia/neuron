@@ -14,3 +14,5 @@ Lecturer:
 [[ML I - Intro]]
 
 [[ML II - Building a ML System]]
+
+[[ML III - Supervised Learning]]
