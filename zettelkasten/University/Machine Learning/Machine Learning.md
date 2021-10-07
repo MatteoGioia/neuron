@@ -16,3 +16,7 @@ Lecturer:
 [[ML II - Building a ML System]]
 
 [[ML III - Supervised Learning]]
+
+[[ML IIIb - Perceptron]]
+
+[[ML IV - Neural Networks]]

@@ -198,7 +198,7 @@ Another common tecnique is to set a treshold, either an hyper-parameter or a par
 
 Hysteresis can also be used, so instead of one threshold 2 are used. Makes more sense in 2D.
 
-### 2D edge detection
+### 2D edge detection (WIP)
 
 Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
 - we first apply a 2D gaussian
@@ -216,7 +216,7 @@ On a 2D image, the x-axis derivative emphasizes the edges on the y (since it rem
 
 Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
 
-### Using gradient to detect edges
+### Using gradient to detect edges (WIP)
 
 Another useful technique used to detect edges is checking the gradient of the image. In an image, the gradient direction is perpendicular to edges and the magnitude measures the edge strength.
 
@@ -227,7 +227,7 @@ The process goes as follow:
 2. calculate the magnitude of the gradient
 3. calculate the direction of the gradient
 
-### Canny edge detector
+### Canny edge detector (WIP)
 
 Canny edge detector:
 1. computed magnitude of gradient on the whole image
@@ -236,11 +236,132 @@ Canny edge detector:
 
 During 3 we check if the pixel is a local maximum along gradient direction...
 
+
+Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
+- we first apply a 2D gaussian
+- then we do the derivative of the image
+
+The partial derivatives can be approximated to this filters:
+- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
+- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
+
+Where $D_x$, $D_y$ are approximated with these filters:
+
+![](./static/FDS/filters2d.png)
+
+On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
+
+Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
+
+### Using gradient to detect edges (WIP)
+
+Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
+- we first apply a 2D gaussian
+- then we do the derivative of the image
+
+The partial derivatives can be approximated to this filters:
+- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
+- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
+
+Where $D_x$, $D_y$ are approximated with these filters:
+
+![](./static/FDS/filters2d.png)
+
+On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
+
+Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
+
+### Using gradient to detect edges (WIP)
+
+Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
+- we first apply a 2D gaussian
+- then we do the derivative of the image
+
+The partial derivatives can be approximated to this filters:
+- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
+- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
+
+Where $D_x$, $D_y$ are approximated with these filters:
+
+![](./static/FDS/filters2d.png)
+
+On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
+
+Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
+
+### Using gradient to detect edges (WIP)
+
+Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
+- we first apply a 2D gaussian
+- then we do the derivative of the image
+
+The partial derivatives can be approximated to this filters:
+- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
+- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
+
+Where $D_x$, $D_y$ are approximated with these filters:
+
+![](./static/FDS/filters2d.png)
+
+On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
+
+Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
+
+### Using gradient to detect edges (WIP
+
+Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
+- we first apply a 2D gaussian
+- then we do the derivative of the image
+
+The partial derivatives can be approximated to this filters:
+- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
+- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
+
+Where $D_x$, $D_y$ are approximated with these filters:
+
+![](./static/FDS/filters2d.png)
+
+On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
+
+Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
+
 Smaller gaussian to detect small edges, bigger to dected big edges
 
-### Laplacian for edge detection (scaling up)
+### Laplacian for edge detection (scaling up) (WIP)
 
 The canny edge detector is quite complex: using the 2nd derivative we can make our life easier
 - no treshold to check
+- also we don't have to apply many gaussian and derivatives with different sigmas
 
-First smooth with a gaussian
+The laplacian (difference of 2 gaussians) approximates nicely the 2nd derivative
+- the way to do this efficiently is through the use of a gaussian pyramid
+
+$L_i = G_i - expand(G_{i+1})$
+
+### Detection of contours with Hough Transform
+
+## Object identification
+
+### Challenges in obj. id.
+
+Challenges when detecting objects:
+- viewpoint changes
+- illumination
+- clutter
+- occlusion
+- noise
+
+In the past, most paradigm made these basic assumptions:
+- objects can be represented by a collection of images or ==appearances==
+- we only need to compare 2D images
+- we don't need a 3D model
+
+### Global representation
+
+We represent each view of an object with a global descriptor and recognize object that match with the global descriptors.
+
+(Immagine qui)
+
+Some modes of variation are also easy to deal with
+
+### Color histograms

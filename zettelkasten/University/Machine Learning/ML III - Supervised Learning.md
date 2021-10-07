@@ -10,6 +10,12 @@
       - What is the information gain? How is it linked to the entropy?
       - What are support and confidence?
       - What are the main issues of DT?
+      - What are the main differences between DT and RT? What is the goal in RT?
+      - Describe the tecnique used to choose the best split at each iteration.
+      - What are the parameters we tune in DT and RT?
+      - What is overfitting? Why is it bad?
+      - What is pruning? What are the main tecniques and what are the main drawbacks?
+
 
 ## Classifiers and Regressors
 
@@ -170,26 +176,30 @@ For instance, we there is no data for a set of features, if the distribution of 
 
 ### Regression trees
 
-The main difference with DT is:
-- values can be continous, even the output
-- the splitting is binary
+The ==main difference== with DT is:
+- ==values can be continous, even the output== (so they are regressors)
+- the ==splitting is binary==
+ 
+![](./static/ML/RT1.png)
 
-The main goal in RT is to find boxes $R_1 \ldots R_j$ (regions) that minimize the 
-Residual Sum of Squares (RSS) = $\sum_{j=1}^{J} \sum_{i \in R_j} (y_i - \cap{y}_{R_i})^2$
-- roughly speaking ...
+The ==main goal in RT is to find boxes $R_1 \ldots R_j$ (regions) that minimize the 
+Residual Sum of Squares (RSS) = $\sum_{j=1}^{J} \sum_{i \in R_j} (y_i - \cap{y}_{R_i})^2$==
+- where $\cap{y}_{R_j}$ is the mean observed value of the training samples whitin the j-th box, and $y_i$ is the value of each single observation in the box
 
-(pic here)
-
-Again, finding the best split is an NP-hard problem, so a more efficient technique is necessary.
+Again, ==finding the best split is an NP-hard problem==, so a more efficient technique is necessary.
 
 ### Recursive Binary Splitting
 
-Recursive binary splitting is a top-down
+==Recursive binary splitting is a top-down greedy approach that aims to give the best split each time==.
 
-After calculating the $RSS$ of each square, the total $RSS$ is computed and the square that maximum $RSS_{tot} - RSS_i$ is chosen
+To create a box, ==we consider each value of a continous ordinal variable (feature) with $m$ distinct values, $x_1, \ldots, x_m$ in our learning set==. This way, we can create ==$m-1$ possible partitions== to evaluate the best one.
+
+After calculating the $RSS$ of each square, ==the total $RSS$ is computed and the square that maximizes $RSS_{tot} - RSS_{split}$ is chosen==
+- where $RSS_split$ is the sum of the RSS of the various boxes defined by each split
 - this is analogous to what was done with $IG$
 
-### ...
+So in ==RT the parameters we tune are not only the best feature to split on, but also the best split value==
+- while in ==DT we only tune the best feature to split on==
 
 ## Tuning the tree
 
@@ -198,26 +208,32 @@ After calculating the $RSS$ of each square, the total $RSS$ is computed and the 
 Since both DT and RT use a greedy alg. to create partitions, most of the times the outputted tree might be
 "too bushy". This means that the decisions are taken over very few but much detailed examples, so we are
 **overfitting**
-- this has a bad impact on generalization 
+- this has a ==bad impact on generalization==
 
-(immagine qui)
+![](./static/ML/overfitting1.png)
 
-An hypotesis $h$ is said to overfit the training data if there exists another hypothesis $h'$ such that h has less errors than $h'$ on training data 
-but a greater error on indpendent test data.
+An ==hypotesis $h$ is said to overfit the training data if there exists another hypothesis $h'$ such that h has less errors than $h'$ on training data 
+but a greater error on indpendent test data.==
+- but how we choose sets to evaluate overfitting is a whole other topic (feature engineering)
 
 ### Pruning
 
 Basic approaches to reduce overfitting (maybe too basic):
-- pre pruning 
-- post pruning
+- ==pre pruning==: stop a tree at some point, i.e. when the support is under a certain threshold $|D_v| < k$
+- ==post pruning==: grow the full tree and remove sub-trees where evidence is not enough
 
-Another common approach is a post-pruning + cross validation technique called Reduced Error Pruning.. 
-1. ..
+In both these processes, the resulting leaves are labelled with the majority class of the remaining data. Another common approach is a post-pruning + cross validation technique called ==Reduced Error Pruning==:
+1. partition training data D in 2 sets: learning L and validation V
+2. build a complete tree from L data
+3. until accuracy on V decreases, temporarily prune non leaf nodes and replace with a a new leaf labelled with the majority class; then test again and if accuracy on V is not decreasing actually prune the tree and replace the node with a decision for the 
+majority class.
 
-But reduced error pruning has an important side-effect: it wastes some of the training data, so depending on where we are on 
-the learning curve we could worsen the accuracy of the model.
+![](./static/ML/learningcurve.png)
+
+But reduced error pruning has an important side-effect: it ==wastes some of the training data, so depending on where we are on 
+the learning curve we could worsen the accuracy of the model==.
 
 Regarding RT, pruning can be done:
 - stopping when the gain in RSS is under a certain threshold
 - grow a very large tree an prune it
-- complexity pruning (not shown here)
+- ==complexity pruning== (not shown here)

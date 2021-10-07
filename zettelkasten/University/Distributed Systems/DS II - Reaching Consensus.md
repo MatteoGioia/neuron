@@ -99,7 +99,7 @@ So this protocol works if just one process can communicate with $p$ and is in ei
 - since the coordinator can also act as a responder this protocol works
 - otherwise if all processes (including the coordinator) where uncertain this could never work
 
-### Recovery protocol
+### Recovery protocol (To correct)
 
 The easiest case for recovery is a partecipant $p$ that:
 - failed before deciding YES, so can abort freely
@@ -108,8 +108,58 @@ The easiest case for recovery is a partecipant $p$ that:
 What happens when there is a fail during the uncertainty period
 - recall that we don't have indipendent recovery, so we need external help/info
 
-If you are a partecipant, you send the message and then log
-- this way there is no risk of sending a message twice because you crash before logging
-- this is a MUST if you are sending yes (because you can't abort after sending yes), if the answer is ABORT it is not necessary 
+Logging on DT (unless specified, the log can be written either after or before the action):
+1. When C sends VOTE-REQ write Start2PC in the DTlog (this log contains the identities of the partecipants)
+2. If a P votes YES, write YES in the DTlog **before** sending YES to the coordinator; if P votes NO, write NO in the log (before or after)
+3. If C decides commit, write Commit in the DTlog before sending the decision to the partecipants; if C decides abort, write ABORT in the DTlog (before or after)
+4. After receving the decision, the partecipants write it in the DTlog
 
-If you are the coordinator, you log and send the message
+## Paxos protocol
+
+### History of the protocol
+
+Paxos is a protocol created by Lamport for distributed consensus in a DS that is:
+- asyncrhonous
+- allows crash failure
+
+Since it allows for crash failures, we make a compromise on liveliness but not on safety.
+
+The paper describes the ==part time parliament==, a metaphor for the tecnique adopted to achieve distributed consensus.
+There is also another version called "Paxos made easy" and notes on the algorithm called "A simpler proof for Paxos and Fast Paxos" by Marzullo.
+
+### The protocol
+
+We have $n$ processes and we can tolerate $f$ failures, where $f = \lfloor \frac{n-1}{2} \rfloor$.
+
+Nodes have 3 roles, although in real system each node actually has all 3 roles:
+- proposers $\geq 1$
+- acceptors $n$ 
+- learners $\geq 1$
+
+In the following, the failures will be intended as failures in between the acceptors.
+
+The protocol works in round; each round is associated to a single proposer statically.
+- i.e. the rounds are assigned before the decision
+- also the rounds must be assigned so that each proposer has infinite rounds
+
+A proposer can send a $PREPARE(i)$ message to all the acceptors, where $i$ is a round.
+
+The acceptors see the message, and they prepare to reply to the proposer with a $PROMISE(i, lastround, lastvote)$, where they
+promise to be part of the $i$-th round. The PROMISE also specifies that the acceptors wont partecipate in rounds smaller than $i$.
+
+The proposer sends an $ACCEPT(i, v)$, where $i$ is the round and $v$ is the value associated with the largest round in the promises.
+$v$ is calculated as the value **associated** with the maximum of the $lastround$.
+
+A message $LEARN(i,v)$ is sent by the acceptors to the learners. When the learners get the majority of the votes in the same round they can decide.
+
+
+
+
+
+
+
+
+
+
+<small> Virgin apple ceo: my outfit must be minimal / the CHAD lamport: literally discusses his paper in an indiana jones costume </small>
+
