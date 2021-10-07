@@ -180,6 +180,8 @@ Ideally, we want to:
 
 ### 1D edge detection
 
+In the following, the focus is edge detection on 1D images, altough is possible to convert 2D images to a signal and then make the edge detection on the 1D 
+
 One easy way of detecting edges is using derivatives. In the following image, a steep change in the function means that the we are passing across an edge:
 
 ![](./static/FDS/edgedet2.png)
@@ -194,15 +196,36 @@ To make it easier, since the filter and the gaussian are both linear we can appl
 
 Another common tecnique is to set a treshold, either an hyper-parameter or a parameter that gets tuned during iteration, to distinguish noise from actual edges.
 
+Hysteresis can also be used, so instead of one threshold 2 are used. Makes more sense in 2D.
+
 ### 2D edge detection
 
 Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
 - we first apply a 2D gaussian
 - then we do the derivative of the image
 
+The partial derivatives can be approximated to this filters:
+- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
+- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
+
+Where $D_x$, $D_y$ are approximated with these filters:
+
+![](./static/FDS/filters2d.png)
+
 On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
 
+Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
+
 ### Using gradient to detect edges
+
+Another useful technique used to detect edges is checking the gradient of the image. In an image, the gradient direction is perpendicular to edges and the magnitude measures the edge strength.
+
+![](./static/FDS/gradient1.png)
+
+The process goes as follow:
+1. calculate the gradient
+2. calculate the magnitude of the gradient
+3. calculate the direction of the gradient
 
 ### Canny edge detector
 

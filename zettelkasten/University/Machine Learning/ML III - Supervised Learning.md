@@ -169,3 +169,55 @@ For instance, we there is no data for a set of features, if the distribution of 
 ## Regression
 
 ### Regression trees
+
+The main difference with DT is:
+- values can be continous, even the output
+- the splitting is binary
+
+The main goal in RT is to find boxes $R_1 \ldots R_j$ (regions) that minimize the 
+Residual Sum of Squares (RSS) = $\sum_{j=1}^{J} \sum_{i \in R_j} (y_i - \cap{y}_{R_i})^2$
+- roughly speaking ...
+
+(pic here)
+
+Again, finding the best split is an NP-hard problem, so a more efficient technique is necessary.
+
+### Recursive Binary Splitting
+
+Recursive binary splitting is a top-down
+
+After calculating the $RSS$ of each square, the total $RSS$ is computed and the square that maximum $RSS_{tot} - RSS_i$ is chosen
+- this is analogous to what was done with $IG$
+
+### ...
+
+## Tuning the tree
+
+### Overfitting
+
+Since both DT and RT use a greedy alg. to create partitions, most of the times the outputted tree might be
+"too bushy". This means that the decisions are taken over very few but much detailed examples, so we are
+**overfitting**
+- this has a bad impact on generalization 
+
+(immagine qui)
+
+An hypotesis $h$ is said to overfit the training data if there exists another hypothesis $h'$ such that h has less errors than $h'$ on training data 
+but a greater error on indpendent test data.
+
+### Pruning
+
+Basic approaches to reduce overfitting (maybe too basic):
+- pre pruning 
+- post pruning
+
+Another common approach is a post-pruning + cross validation technique called Reduced Error Pruning.. 
+1. ..
+
+But reduced error pruning has an important side-effect: it wastes some of the training data, so depending on where we are on 
+the learning curve we could worsen the accuracy of the model.
+
+Regarding RT, pruning can be done:
+- stopping when the gain in RSS is under a certain threshold
+- grow a very large tree an prune it
+- complexity pruning (not shown here)
