@@ -12,3 +12,5 @@ Lecturer: Gaia Maselli
 ### Appunti
 
 [[AN I - RFID]]
+
+[[AN II - WSN]]
