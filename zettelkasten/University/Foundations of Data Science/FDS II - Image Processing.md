@@ -362,6 +362,88 @@ We represent each view of an object with a global descriptor and recognize objec
 
 (Immagine qui)
 
-Some modes of variation are also easy to deal with
+Some modes of variation are also easy to deal with by supplying the ML model with enough data. 
 
 ### Color histograms
+
+In 3d RGB histograms, even removing or rotating the object yields almost no significant difference 
+in the resulting graph. This means we could use the histogram as a robust global descriptor that is invariant
+to occlusion and rotation.
+
+(Immagine qui)
+
+### Color tone
+
+Color tone is another way of recognizing object. This can be done by normalizing each color by the intensity,
+so even if a line is shone on an object the descriptor is not influenced. This could be, again, a good descriptor invariant to 
+illumination.
+
+(Immagine)
+
+### EXTRA: Using only 2 colors to represent an object
+
+### Comparison measures
+
+There are multiple ways of measuring the distance of 2 histograms:
+- intersection $\cup (Q,V) = \sum_i min(q_i, v_i)$
+- euclidean distance
+- chi square
+
+Normalising is also useful to "separate" the image from the size of the representation
+- the same histogram for 2 images of different size
+
+### Basic recognition algorithm
+
+...
+
+This algorithm has the following advantages...
+
+## Performance evaluation
+
+### Choosing the adequate metric
+
+### Score based evaluation
+
+The recognition algorithm identifies (classifies) the query object as matching the 
+training image if their similarity is above a treshold t.
+
+(Immagine)
+
+In this image, a good score is linked to:
+- high true positives (TP) and true negatives (TN)
+- low false positives (FP) and false negatives (FN) a.k.a. Type 1 and 2 errors
+
+Overall accuracy: $\frac{TP+TN}{N}$ where $N$ is the total.
+
+Precision: $\frac{TP}{TP + FP}$
+
+Positive recall: $\frac{TP}{TP + FN}$
+- a.k.a sensitivity or true positive rate
+
+Negative recall: $\frac{TN}{TN + FP}$
+- a.k.a specifity or true negative rate
+
+$F_1$-score: ...
+
+Confusion metrics
+
+### ROC and AUROC
+
+(Immagine qui)
+
+The best model is the one that fits the application
+- high false positives could be very expensive 
+- or they could not really matter
+
+One way of selecting a good threshold is using Receiver Operator Characteristic Curve (ROC)
+
+The overall accuracy of the model can also be computed by looking at...
+
+### Precision-Recall curve
+
+...
+
+This type of curve works best for Object identification as True Negatives are not really defined
+- i.e. infinite true negatives could be defined on a image 
+
+### Log loss and brier score

@@ -153,12 +153,42 @@ $v$ is calculated as the value **associated** with the maximum of the $lastround
 A message $LEARN(i,v)$ is sent by the acceptors to the learners. When the learners get the majority of the votes in the same round they can decide.
 
 
+### I forgor to commit
 
+### Paxos Safety
 
+### Making Paxos Live
 
+To make Paxos live, we rely on a ==coordinator== that must be only one at each time
+- but choosing a coordinator (leader election) is also a consensus problem!
 
+Still, we don't need to safely choose a coordinator
+- even if there are 2 coordinators, the protocol is still safe
 
+An unsafe leader election protocol is the following: each node sends a heartbeat signal during each time interval, then a node that is alive
+is picked to be the coordinator.
 
+After choosing a coordinator, a node chooses a value, sends it to the coordinator that starts Paxos with that value.
+Even if the coordinator fails, another one can be selected again.
+
+### Fast Paxos
+
+In real DS the number of Paxos instances that are being run are many more than just 1.
+- and they all happen concurrently
+
+For example, we have a tree of paxos instances $Pax_1, \ldots, Pax_n$
+- each promise now also holds the paxos instance number since the instances could be completed in a different order than $1, \ldots, n$
+- since instances are numbered, there is no risk of shuffling them
+
+We can make some efficiency tweaks:
+1. Multiple promises for the same value can be started by the coordinator with only one message, i.e. $PREPARE(1-1000,v)$
+2. Acceptors can also make promises for $PROMISE(1-1000,v,-1,-1)$ for the same value $v$
+
+Now let's assume the coordinator is able to send $ACCEPT-ANY(1-1000, v)$. During this type of round, any value can be learned.
+- this speeds thing up because any proposer can send a $ACCEPT$ to quickly get his value accepted
+- but now we have to deal with possible conflicts.
+
+(immagine)
 
 
 <small> Virgin apple ceo: my outfit must be minimal / the CHAD lamport: literally discusses his paper in an indiana jones costume </small>
