@@ -1,25 +1,30 @@
 # Perceptron
 
 ## Recall questions
-      - 
-
+      - What is the category of NN?
+      - What was the basic idea behind NN?
+      - Describe the model of a perceptron. What is the step function? What are the parameters to tune?
+      - What is the learned function in a perceptron? Is it different from the step function? 
+      - How can we visualize a linear decision boundary? Is it different, say, from DT boxes?
+      - Describe the perceptron training algorithm. What is an epoch?
+      - Why do we need a more powerful model than perceptrons?
 
 ## Introduction to neural networks
 
 ### Neural network
 
-Neural network is a class of ML algorithm that belongs to the category of supervised and semi supervised learning.
+Neural network is a class of ML algorithm that belongs to the category of ==supervised and semi supervised learning==.
 
-The learned function is continuous and linear for the perceptrons, while other advanced algorithm learn non linear functions
+The l==earned function is continuous and linear for the perceptrons, while other advanced algorithm learn non linear functions==
 - both classifiers and regressors can be trained.
 
 ### History of NN
 
-Neural networks were born as a way to mimic the biological neural systems like the one in humans.
-In these systems, intelligent behaviour is due to an "emergent" property of a large number of simple units rather than from explicitely encoded symbolic rules and algorithms. 
+Neural networks were ==born as a way to mimic the biological neural systems like the one in humans.==
+In these systems, ==intelligent behaviour is due to an "emergent" property== of a large number of simple units rather than from explicitely encoded symbolic rules and algorithms. 
 - but this emergent behaviour has not be explained yet
 
-The idea is also to emulate the massive parallelism of human brain
+The ==idea is also to emulate the massive parallelism of human brain==
 - the human brain is infinetely less "powerful" compared to a pc, but can compute some tasks much faster, like for image recognition
 
 The following aspects of the human brain were replicated:
@@ -36,20 +41,20 @@ History of NN:
 
 ### The model
 
-The network model of a single neuron is a graph with cells as nodes and synaptic connections as weighted edges from node $x_i$ to neuron node.
+The ==network model of a single neuron is a graph with cells as nodes and synaptic connections as weighted edges from node $x_i$ to neuron node.==
 - $x_i$ are the feature values of instances $x$
 
 ![](./static/ML/perceptron.png)
 
-The output is computed as a linear combination of the features of the instance $net = \sum_i w_i \cdot x_i$
+The ==output is computed as a linear combination of the features of the instance $net = \sum_i w_i \cdot x_i$==
 - if $net(x) \geq \theta$, output = 1
 - else $net(x) < \theta$, output = 0
 
-The step function $\phi$, which is binary, emulates the activation function.
+The ==step function $\phi$, which is binary, emulates the activation function.==
 
-In this case, the parameters we need to tune is the weight of the edges and the right threshold.
+In this case, the ==parameters we need to tune is the weight of the edges and the right threshold.==
 
-This threshold can be easily incoporated in the convolution or the step function
+This ==threshold can be easily incoporated in the convolution or the step function==
 - by subtracting it to $(\sum_i w_i \cdot x_i) - \theta$, modeling it as a dummy node with weight $w_{n+1} = - \theta$
 - by moving further the threshold in the function $\phi$
 
@@ -57,16 +62,16 @@ This threshold can be easily incoporated in the convolution or the step function
 
 ### Linear Decision Boundary
 
-The function $f(x) = \sum_i w_i \cdot x_i - \theta$  is an hyperplane in a $n$-dimensional space
+The ==function $f(x) = \sum_i w_i \cdot x_i - \theta$  is an hyperplane in a $n$-dimensional space==
 - $n$ is the number of features
 
-The classification function $\phi(x)$ classifies an instance as positive if $f(x) = \sum_i w_i \cdot x_i \geq \theta$
+The ==classification function $\phi(x)$ classifies an instance as positive if $f(x) = \sum_i w_i \cdot x_i \geq \theta$==
 
-Note that $f(x)$ is the learned model, while $\phi(x)$ is just the classification function.
+Note ==that $f(x)$ is the learned model, while $\phi(x)$ is just the classification function.==
 
 ### Alternative representation
 
-The hyperplane is also called a linear decision boundary. Indeed, we see the convolution as a function $y = mx + q$
+The ==hyperplane is also called a linear decision boundary. Indeed, we see the convolution as a function $y = mx + q$==
 - for instance, $w_1 x_1 + w_2 x_2 - \theta = 0 \to x_1 = \frac{w_1}{w_2}x_2 + \frac{\theta}{w_1}$
 
 Similarly, we can obtain a geometric representation of objects $x$ in the dataset as vectors.
@@ -79,8 +84,8 @@ Similarly, we can obtain a geometric representation of objects $x$ in the datase
 
 $\eta$ is a constant called the learning rate 
 
-The until condition is instead called convergence condition
-- each iteration is called an epoch
+The ==until condition is instead called convergence condition==
+- each ==iteration is called an epoch==
 
 ### More on the learning rules
 
@@ -93,10 +98,10 @@ The aumont of increase is "controlled" by $\eta$.
 
 ### Gradient descent (almost)
 
-In the case of perceptrons the objective is minimize the classification error, so to find the minimum of the training error function:
+In the case of perceptrons the ==objective is minimize the classification error==, so to ==find the minimum of the training error function==:
 
 ![](./static/ML/trainingerr1.png)
 
 ### Shortcoming of perceptrons
 
-Perceptrons are incapable of computing non linearly-separable functions. Sometihng more complex is needed.
+==Perceptrons are incapable of computing non linearly-separable functions==. Something more complex is needed.
