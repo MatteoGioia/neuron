@@ -198,7 +198,7 @@ Another common tecnique is to set a treshold, either an hyper-parameter or a par
 
 Hysteresis can also be used, so instead of one threshold 2 are used. Makes more sense in 2D.
 
-### 2D edge detection (WIP)
+### 2D edge detection 
 
 Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
 - we first apply a 2D gaussian
@@ -216,7 +216,7 @@ On a 2D image, the x-axis derivative emphasizes the edges on the y (since it rem
 
 Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
 
-### Using gradient to detect edges (WIP)
+### Using gradient to detect edges 
 
 Another useful technique used to detect edges is checking the gradient of the image. In an image, the gradient direction is perpendicular to edges and the magnitude measures the edge strength.
 
@@ -236,6 +236,9 @@ Canny edge detector:
 
 During 3 we check if the pixel is a local maximum along gradient direction...
 
+![](./static/FDS/cannyedge.png)
+
+### Using gradient to detect edges 2
 
 Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
 - we first apply a 2D gaussian
@@ -252,82 +255,9 @@ Where $D_x$, $D_y$ are approximated with these filters:
 On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
 
 Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
+an: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
 
-### Using gradient to detect edges (WIP)
-
-Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
-- we first apply a 2D gaussian
-- then we do the derivative of the image
-
-The partial derivatives can be approximated to this filters:
-- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
-- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
-
-Where $D_x$, $D_y$ are approximated with these filters:
-
-![](./static/FDS/filters2d.png)
-
-On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
-
-Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
-
-### Using gradient to detect edges (WIP)
-
-Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
-- we first apply a 2D gaussian
-- then we do the derivative of the image
-
-The partial derivatives can be approximated to this filters:
-- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
-- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
-
-Where $D_x$, $D_y$ are approximated with these filters:
-
-![](./static/FDS/filters2d.png)
-
-On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
-
-Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
-
-### Using gradient to detect edges (WIP)
-
-Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
-- we first apply a 2D gaussian
-- then we do the derivative of the image
-
-The partial derivatives can be approximated to this filters:
-- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
-- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
-
-Where $D_x$, $D_y$ are approximated with these filters:
-
-![](./static/FDS/filters2d.png)
-
-On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
-
-Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
-
-### Using gradient to detect edges (WIP
-
-Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
-- we first apply a 2D gaussian
-- then we do the derivative of the image
-
-The partial derivatives can be approximated to this filters:
-- x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
-- y direction: $\frac{d}{dy} I(x,y) = I_y \approx I \otimes D_y$
-
-Where $D_x$, $D_y$ are approximated with these filters:
-
-![](./static/FDS/filters2d.png)
-
-On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
-
-Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
-
-Smaller gaussian to detect small edges, bigger to dected big edges
-
-### Laplacian for edge detection (scaling up) (WIP)
+### Laplacian for edge detection (scaling up) 
 
 The canny edge detector is quite complex: using the 2nd derivative we can make our life easier
 - no treshold to check
@@ -336,13 +266,18 @@ The canny edge detector is quite complex: using the 2nd derivative we can make o
 The laplacian (difference of 2 gaussians) approximates nicely the 2nd derivative
 - the way to do this efficiently is through the use of a gaussian pyramid
 
-$L_i = G_i - expand(G_{i+1})$
+![](./static/FDS/piramidl.png)
 
-### Detection of contours with Hough Transform
+As stated before, a smaller $\sigma$ will help with detection of finer edges, while a bigger one will help with bigger edges.
+
+### Detection of contours with Hough Transform (WIP)
 
 ## Object identification
 
 ### Challenges in obj. id.
+
+In the following, we will go through the basic of object identification
+- classification requires identification first!
 
 Challenges when detecting objects:
 - viewpoint changes
@@ -360,9 +295,10 @@ In the past, most paradigm made these basic assumptions:
 
 We represent each view of an object with a global descriptor and recognize object that match with the global descriptors.
 
-(Immagine qui)
+![](./static/FDS/objid.png)
 
-Some modes of variation are also easy to deal with by supplying the ML model with enough data. 
+Some modes of variation are also easy to deal with by supplying the ML model with enough data.
+Others can be built into the descriptors, i.e. we can build descriptors invariant to them through normalisation (see later examples for clarification). 
 
 ### Color histograms
 
@@ -370,7 +306,9 @@ In 3d RGB histograms, even removing or rotating the object yields almost no sign
 in the resulting graph. This means we could use the histogram as a robust global descriptor that is invariant
 to occlusion and rotation.
 
-(Immagine qui)
+![](./static/FDS/colorhist.png)
+
+We can also flatten RGB histograms in joint color histograms and use them (refer to assigment 1).
 
 ### Color tone
 
@@ -378,25 +316,47 @@ Color tone is another way of recognizing object. This can be done by normalizing
 so even if a line is shone on an object the descriptor is not influenced. This could be, again, a good descriptor invariant to 
 illumination.
 
-(Immagine)
+![](./static/FDS/normint.png)
 
-### EXTRA: Using only 2 colors to represent an object
+### EXTRA: Using only 2 colors to represent an object (WIP)
 
-### Comparison measures
+If we normalise an histogram by its intensity, we can also represent an image only using 2 colors.
+In fact, $r + g + b = 1$
 
-There are multiple ways of measuring the distance of 2 histograms:
-- intersection $\cup (Q,V) = \sum_i min(q_i, v_i)$
-- euclidean distance
-- chi square
+### Comparison measures (WIP)
+
+There are multiple ways of measuring the distance of 2 histograms.
+
+Intersection $\cup (Q,V) = \sum_i min(q_i, v_i)$:
+- range [0,1] after normalisation
+
+Euclidean distance $d(Q,V) = \sum_i (q_i - v_i)^2$
+- range $[0, \infty]$ 
+- does wheigh cells equally
+- not very discriminant
+
+Chi Square $\chi^2 (Q,V) = \sum_i \frac{(q_i - v_i)^2}{q_i + v_i}$
+- range $[0, \infty]$ 
+- does not wheigh cells equally
+- is more discriminant
 
 Normalising is also useful to "separate" the image from the size of the representation
 - the same histogram for 2 images of different size
 
 ### Basic recognition algorithm
 
-...
+1. Build a set of histogram $H 0 {M_1, \ldots, M_n}$ for each know view of an object
+2. Build an histogram $T$ for the test image
+3. Compare the test image $T$ to each $M_k \in H$
+4. Select the best match 
 
-This algorithm has the following advantages...
+This algorithm, that uses a nearest neighbour strategy, has the following advantages:
+- invariant to object translations, rotations, etc.. (given the dataset to train it is enough)
+- no perfect segmentation needed
+
+But has drawbacks too:
+- can't identify some objects
+- pixel colors change with the illumination, so the same object could have different color depending on the lightning
 
 ## Performance evaluation
 
@@ -405,9 +365,11 @@ This algorithm has the following advantages...
 ### Score based evaluation
 
 The recognition algorithm identifies (classifies) the query object as matching the 
-training image if their similarity is above a treshold t.
+training image if their similarity is above a treshold $t$.
 
-(Immagine)
+A confusion matrix is a suitable way of showing the choices of our model:
+
+![](./static/FDS/confusion.png)
 
 In this image, a good score is linked to:
 - high true positives (TP) and true negatives (TN)
@@ -423,9 +385,7 @@ Positive recall: $\frac{TP}{TP + FN}$
 Negative recall: $\frac{TN}{TN + FP}$
 - a.k.a specifity or true negative rate
 
-$F_1$-score: ...
-
-Confusion metrics
+$F_1$-score: $(\frac{2}{recall^{-1} + precision^{-1}}) = 2 \frac {precision \cdot recall}{precision + recall}$
 
 ### ROC and AUROC
 

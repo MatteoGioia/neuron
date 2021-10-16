@@ -1,6 +1,0 @@
-# 
-
-## Recall questions
-    - wip
-
-## 
