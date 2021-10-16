@@ -8,6 +8,9 @@
     - Describe the 2PC protocol. What are the voting and decision phase? Does it respect the properties of ACP?
     - What is the Cooperative Termination Protocol? Explain how an uncertain process p can decide if the transaction has concluded. Why this protocol can "always" work?
     - How does the recovery protocol work? Describe how the DTlog is used to safely recover from a node failing and restarting.
+    - What's Paxos? What does it guarantee? Describe the protocol and prove its safety. Why can't we make Paxos live, but we can still guarantee progress?
+    - How can we "optimise Paxos"? How can we make it faster?
+    - What's the idea behind fast Paxos? Why do we need a bigger quorum? Describe the protocol and show its safety.
 
 ## Consensus on transaction
 
@@ -122,11 +125,11 @@ What happens ==when there is a fail during the uncertainty period==
 
 ### History of the protocol
 
-Paxos is a protocol created by Lamport for distributed consensus in a DS that is:
-- asyncrhonous
-- allows crash failure
+Paxos is a protocol ==created by Lamport for distributed consensus== in a DS that is:
+- ==asyncrhonous==
+- ==allows crash failure==
 
-Since it allows for crash failures, we make a compromise on liveliness but not on safety.
+Since it allows for crash failures, we make a ==compromise on liveness but not on safety.==
 
 The paper describes the ==part time parliament==, a metaphor for the tecnique adopted to achieve distributed consensus.
 There is also another version called "Paxos made easy" and notes on the algorithm called "A simpler proof for Paxos and Fast Paxos" by Marzullo.
@@ -139,59 +142,97 @@ There is also another version called "Paxos made easy" and notes on the algorith
 
 We have $n$ processes and we can tolerate $f$ failures, where $f = \lfloor \frac{n-1}{2} \rfloor$.
 
-Nodes have 3 roles, although in real system each node actually has all 3 roles:
-- proposers $\geq 1$: can propose a value for consensus
-- acceptors $n$: can accept a value among the proposed ones
-- learners $\geq 1$: learn the chosen value
+==Nodes have 3 roles==, although in real system each node actually has all 3 roles:
+- ==proposers $\geq 1$: can propose a value for consensus==
+- ==acceptors $n$: can accept a value among the proposed ones==
+- ==learners $\geq 1$: learn the chosen value==
 
 In the following, the failures will be intended as failures in between the acceptors.
 
-The protocol works in round; each round is associated to a single proposer statically.
-- i.e. the rounds are assigned before the decision
-- also the rounds must be assigned so that each proposer has infinite rounds
+The ==protocol works in round==; ==each round is associated to a single proposer statically==.
+- i.e. ==the rounds are assigned before the decision==
+- also ==the rounds must be assigned so that each proposer has infinite rounds==
 
 The protocol goes as follows:
-1. A proposer can send a $PREPARE(i)$ message to all the acceptors, where $i$ is a round.
-2. The acceptors see the message, and they prepare to reply to the proposer with a $PROMISE(i, lastround, lastvoted)$, where they promise to be part of the $i$-th round. The PROMISE also specifies that the acceptors wont partecipate in rounds smaller than $i$. The values of lastround and lastvoted are respectively the last round in which the acceptor has voted and the value that has been voted
-3. If enough PROMISES has been received (quorum), the proposer sends an $ACCEPT(i, v)$, where $i$ is the round and $v$ is the value proposed by the proposer itself, if no acceptor **in the quorum** has ever voted, otherwise it's the value in the promise associated with the highest round
-4. If the acceptors receive the ACCEPT message and they have not promised otherwise, the send vote for the value and then send a message $LEARN(i,v)$ to the learners. Acceptors vote once for each round.
-5. If learners receive the quorum of votes for the **same round and same value** they learn (choose) the value.
+1. A ==proposer can send a $PREPARE(i)$ message to all the acceptors, where $i$ is a round.==
+2. The ==acceptors see the message, and they prepare to reply to the proposer with a $PROMISE(i, lastround, lastvoted)$, where they promise to be part of the $i$-th round==. The PROMISE also specifies that the acceptors wont partecipate in rounds smaller than $i$. The values of lastround and lastvoted are respectively the last round in which the acceptor has voted and the value that has been voted
+3. If ==enough PROMISES has been received (quorum), the proposer sends an $ACCEPT(i, v)$, where $i$ is the round and $v$ is the value proposed by the proposer itself, if no acceptor **in the quorum** has ever voted, otherwise it's the value in the promise associated with the highest round==
+4. ==If the acceptors receive the ACCEPT message and they have not promised otherwise, the send vote for the value and then send a message $LEARN(i,v)$ to the learners==. Acceptors vote once for each round.
+5. If ==learners receive the quorum of votes for the **same round and same value** they learn (choose) the value.==
+
+![](./static/DS/paxos1.png)
+
+![](./static/DS/paxos2.png)
 
 ### Paxos Safety
 
-Add proof on notes
+To prove ==Paxos is safe, we are going to prove that==:
+- ==CS1: Only a proposed value may be chosen==
+- ==CS2: Only a single value is chosen==
+- ==CS3: Only a chosen value may be learned by the correct learner==
 
-### Making Paxos Live
+CS1 and CS3 are trivially true: only proposers can propose values, and only the quorum that voted for a value can also accept that value.
+So ==we only need to prove CS2==, but we'll prove this stronger property that also holds:
 
-To make Paxos live, we rely on a ==coordinator== that must be only one at each time
-- but choosing a coordinator (leader election) is also a consensus problem!
+>If acceptor $\alpha$ voted value $v$ in round $i$, then no value $v \neq v'$ could get the majority in any of the previous rounds
 
-Still, we don't need to safely choose a coordinator
-- even if there are 2 coordinators, the protocol is still safe
+[$i$ = round 1] : This is trivially true, as no previous round exists
+
+[round $i$]: Since $\alpha$ received enoguh promises from the quorum, this quorum $Q$ promised not to partake in any previous round. 
+This means no acceptor in $Q$ voted before the max last round indicated in the promise:
+
+![](./static/DS/safetyproof1.png)
+
+It is also possible that there would have been a majority in round $lastround$, but the value would have had to be $v$.
+Using again the hypotesis, no acceptro could have voted in rounds before, up till round 1.
+
+![](./static/DS/safetyproof2.png)
+
+Note that this safety is not dependent on the number of failures. If there are more failures that the expected number, Paxos simply won't decide.
+
+### Making Paxos (as) Live (as we can)
+
+As stated before, we make a compromise on safety in Paxos. This happens because ==even though safety is guaranteed, progress is not==. Take for instance the following sequence of events: PROPOSE, PROMISE, ACCEPT, PROPOSE. If the round of the second propose is bigger than the round in the first one, the loop could potentially go on forever. There is no fix to liveness: otherwise we would prove FLP theorem to be wrong!
+
+==What we can do, is to make Paxos progress, relying on a ==coordinator== that must be only one at each time and can be the only one that starts the rounds==. But choosing a coordinator (leader election) is also a consensus problem!
+
+Still, ==we don't need to safely choose a coordinator.==
+- ==even if there are 2 coordinators, the protocol is still safe although it does not progress==
 
 An unsafe leader election protocol is the following: each node sends a heartbeat signal during each time interval, then a node that is alive
 is picked to be the coordinator.
 
+### Making Paxos faster
 
-### Fast Paxos
+==In real DS the number of Paxos instances that are being run are many more than just 1==, and they all happen concurrently.
 
-In real DS the number of Paxos instances that are being run are many more than just 1.
-- and they all happen concurrently
+We can make some efficiency tweaks then:
+1. ==one $PREPARE$ message can start multiple instances, like $PREPARE(1-1000,v)$==
+2. ==one message can also be used for the PROMISE, like $PROMISE(1-1000,v,-1,-1)$==
 
-For example, we have a tree of paxos instances $Pax_1, \ldots, Pax_n$
-- each promise now also holds the paxos instance number since the instances could be completed in a different order than $1, \ldots, n$
-- since instances are numbered, there is no risk of shuffling them
+==To complete each of these instances (that we can number so they don't get shuffled), a proposer $p$ sends the value he wants to propose to the coordinator $c$. The coordinator then completes the instance by sending the proper $ACCEPT$ message to the learners. ==
 
-We can make some efficiency tweaks:
-1. Multiple promises for the same value can be started by the coordinator with only one message, i.e. $PREPARE(1-1000,v)$
-2. Acceptors can also make promises for $PROMISE(1-1000,v,-1,-1)$ for the same value $v$
+![](./static/DS/fastpaxos1.png)
 
-Now let's assume the coordinator is able to send $ACCEPT-ANY(1-1000, v)$. During this type of round, any value can be learned.
-- this speeds thing up because any proposer can send a $ACCEPT$ to quickly get his value accepted
-- but now we have to deal with possible conflicts.
+==The idea behind fast paxos is that we can reduce the delay by 1 message by allowing the proposer to send its value directly to the acceptors.==
+To do so, the ==coordinator starts a fast round where any value can be accepted==, so he does not have to approve each of them manually. The result is that ==all proposers send the proposed value to the acceptors that send the learn message to the learners.==
 
-(immagine)
+![](./static/DS/fastpaxos2.png)
 
+### Fast Paxos protocol
 
-<small> Virgin apple ceo: my outfit must be minimal / the CHAD lamport: literally discusses his paper in an indiana jones costume </small>
+Before explaining how fast paxos works, ==we show that at least $\frac{2}{3}$ of the acceptors must be the quorum==
+- ==this means we can tolerate $\lfloor \frac{n-1}{3} \rfloor$ failures==
+
+An easy example, if $n=7$ and $f=3$ (if $f = \lfloor \frac{n-1}{2} \rfloor$):
+- in round $i$, a proposer is able to form a quorum of 4
+- in this quorum, there are 2 different types of promises: $PROMISE(i,j,1)$, PROMISE(i,j,2), both for $j-th$ round (possible in fast paxos since there are fast-rounds)
+- the coordinator does not yet know the value voted by the last 3 acceptors: depending on what they do, the quorum could either be for 1 or 2
+- the proposer $i$ can't do anything as he can't make any safe choice!
+
+Now that this requirement was explained, let's explain how fast paxos works.
+
+---
+
+<small> Virgin apple ceo: my outfit must be minimal / the CHAD lamport: literally discusses his paper in an indiana jones <a href="https://lamport.azurewebsites.net/pubs/pubs.html"> costume <a> </small>
 

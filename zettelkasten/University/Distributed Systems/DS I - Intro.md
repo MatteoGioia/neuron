@@ -173,8 +173,8 @@ In simpler terms, this property ensures that ==the monitor knows about a messsag
 
 To ensure the causal delivery in our next DR, we want to make sure that we can somehow ==infer the order of messages between different processes using their timestamps==. We need a ==strong clock condition==: $TS(e) < TS(e') \iff e \to e'$
 
-One approach would be using the ==causal histories== of the processes: $e_i$: $\Theta(e) = \{e' \in H : e' \to e_i\} \cup \{es\}$
-- a causal history can also be seen as ==the smallest consistent cut that includes $e$
+One approach would be using the ==causal histories== of the processes: $e_i$: $\Theta(e) = \{e' \in H : e' \to e_i\} \cup \{e\}$
+- a causal history can also be seen as ==the smallest consistent cut that includes $e$==
 
 Each process mantains its causal history starting from an empty set:
 - if an event $e$ from the same process arrives the causal history becomes the union of the previous causal history with $e$ 
