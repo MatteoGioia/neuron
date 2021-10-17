@@ -8,6 +8,19 @@
     - What are the properties of convolution?
     - What components make up an image? Why do we assume that an image is usually homogenous? Why it is important that noise averages to 0? Which are the 2 main methods used to reduce noise in a picture?
     - Why is the gaussian more "precise"?
+    - How can we use a gaussian for patter matching? What are the useful side effects?
+    - How can we use the derivatives for 1D edge detection? Why is it a good idea to combine them with a gaussian? What other tweaks can we use to reduce noise/ increase accuracy? (Hint: thr, hist)
+    - Does the tecnique mentioned above work for 2D images? How?
+    - How does the canny edge detector use gradient to detect edges?
+    - How can we use 2nd derivatives to detect edges more easily? What can we do to make the process efficient? 
+    - What happens when we increase/reduce the sigma of a gaussian? (Hint: thick & thin)
+    - How can we use Hough transform to detect edges? What is the intuition about straight lines?
+    - What are image descriptors? How can we use them for object recognition?
+    - Why are histograms a good image descriptor? How can we compare them (measures)?
+    - What is the basic algorithm for detection? What are the main advantages/drawbacks?
+    - List the main performance metrics.
+    - What are the ROC and AUROC? And the Precision-Recall curve?
+    - What are log loss and brier loss?
 
 ## Basics of Image Processing
 
@@ -145,9 +158,9 @@ And a general $n$-dimensional gaussian can be seen as a 1-d gaussian applied $n$
 
 ### Pattern matching
 
-One way of doing pattern matching is to scale the filter to match according to the size of the searched item. However, another common use of convolution is pattern matching in images of different sizes, so with ==multi-scale representation==. The patter to match has always the same dimension, but the image is scaled each time. 
+One way of doing ==pattern matching== is to ==scale the filter to match according to the size of the searched item==. However, another common use of convolution is pattern matching in images of different sizes, so with ==multi-scale representation==. The ==patter to match has always the same dimension, but the image is scaled each time==. 
 
-Before ==downsampling== though it is necessary to apply a Gaussian to avoid aliasing:scre\
+Before ==downsampling== though it is ==necessary to apply a Gaussian to avoid aliasing==
 
 ![](./static/FDS/multiscale.png)
 
@@ -155,9 +168,9 @@ Two questions of interest are:
 - which information is preserved over scales
 - which one is lost
 
-In such cases, a gaussian works best because the information in the center of the image, which probabilistically is the most important one, is retained when blurring as a gaussian gives the "central" pixels more importance. 
+In such cases, a ==gaussian works best because the information in the center of the image, which probabilistically is the most important one, is retained when blurring as a gaussian gives the "central" pixels more importance==. 
 
-Another important consideration is that when smoothing with a gaussian, the high frequencies contained in the image signal get reduced, so we both reduce noise and can fit the image information in a smaller size:
+Another important consideration is that ==when smoothing with a gaussian, the high frequencies contained in the image signal get reduced, so we both reduce noise and can fit the image information in a smaller size==:
 
 ![](./static/FDS/fourierwave.png)
 
@@ -180,27 +193,27 @@ Ideally, we want to:
 
 ### 1D edge detection
 
-In the following, the focus is edge detection on 1D images, altough is possible to convert 2D images to a signal and then make the edge detection on the 1D 
+In the following, the ==focus is edge detection on 1D images==, altough is possible to convert 2D images to a signal and then make the edge detection on the 1D 
 
-One easy way of detecting edges is using derivatives. In the following image, a steep change in the function means that the we are passing across an edge:
+One easy way of ==detecting edges is using derivatives==. In the following image, a steep change in the function means that the we are passing across an edge:
 
 ![](./static/FDS/edgedet2.png)
 
-So, what we can do is smooth the image with a gaussian to eliminate most of the noise and then apply a filter which is an approximation of the derivative:
+So, what we can do is ==smooth the image with a gaussian to eliminate most of the noise and then apply a filter which is an approximation of the derivative==:
 
 ![](./static/FDS/edgedet3.png)
 
-To make it easier, since the filter and the gaussian are both linear we can apply the derivative first and then do the convolution $\frac{d}{dx}(g \otimes f) = (\frac{d}{dx}g) \otimes f$:
+To make it easier, ==since the filter and the gaussian are both linear we can apply the derivative first and then do the convolution $\frac{d}{dx}(g \otimes f) = (\frac{d}{dx}g) \otimes f$==:
 
 ![](./static/FDS/edgedet4.png)
 
-Another common tecnique is to set a treshold, either an hyper-parameter or a parameter that gets tuned during iteration, to distinguish noise from actual edges.
+Another common tecnique is to ==set a treshold, either an hyper-parameter or a parameter that gets tuned during iteration, to distinguish noise from actual edges==.
 
-Hysteresis can also be used, so instead of one threshold 2 are used. Makes more sense in 2D.
+==Hysteresis can also be used, so instead of one threshold 2 are used==. Makes more sense in 2D.
 
 ### 2D edge detection 
 
-Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
+Using ==partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:==
 - we first apply a 2D gaussian
 - then we do the derivative of the image
 
@@ -212,37 +225,35 @@ Where $D_x$, $D_y$ are approximated with these filters:
 
 ![](./static/FDS/filters2d.png)
 
-On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
+==On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.==
 
 Following the same reasoning as before, since Gaussian filters are linear, the derivative can again be combined with the gaussian: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
 
 ### Using gradient to detect edges 
 
-Another useful technique used to detect edges is checking the gradient of the image. In an image, the gradient direction is perpendicular to edges and the magnitude measures the edge strength.
+Another ==useful technique used to detect edges is checking the gradient of the image. In an image, the gradient direction is perpendicular to edges and the magnitude measures the edge strength==.
 
 ![](./static/FDS/gradient1.png)
 
 The process goes as follow:
-1. calculate the gradient
-2. calculate the magnitude of the gradient
-3. calculate the direction of the gradient
+1. ==calculate the gradient==
+2. ==calculate the magnitude of the gradient==
+3. ==calculate the direction of the gradient==
 
-### Canny edge detector (WIP)
+### Canny edge detector 
 
 Canny edge detector:
-1. computed magnitude of gradient on the whole image
-2. consider only the edges above a certain treshold
-3. thinning (non maximum suppression) to reduce thick edges 
-
-During 3 we check if the pixel is a local maximum along gradient direction...
+1. ==computed magnitude of gradient on the whole image==
+2. ==consider only the edges above a certain treshold==
+3. ==thinning (non maximum suppression, a computer vision method that selects a single entity out of many overlapping entities) to reduce thick edges==
 
 ![](./static/FDS/cannyedge.png)
 
-### Using gradient to detect edges 2
+### Using gradient to detect edges pt.2
 
-Using partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:
-- we first apply a 2D gaussian
-- then we do the derivative of the image
+Using ==partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image==:
+- we first apply a ==2D gaussian==
+- then we do the ==derivative of the image==
 
 The partial derivatives can be approximated to this filters:
 - x direction: $\frac{d}{dx} I(x,y) = I_x \approx I \otimes D_x$
@@ -259,18 +270,32 @@ an: $D_x \otimes (G \otimes I) = (D_x \otimes G) \otimes I$
 
 ### Laplacian for edge detection (scaling up) 
 
-The canny edge detector is quite complex: using the 2nd derivative we can make our life easier
-- no treshold to check
+The canny edge detector is quite complex: ==using the 2nd derivative we can make our life easier==
+- ==no treshold to check== (we look at 0 crossings instead)
 - also we don't have to apply many gaussian and derivatives with different sigmas
 
-The laplacian (difference of 2 gaussians) approximates nicely the 2nd derivative
-- the way to do this efficiently is through the use of a gaussian pyramid
+![](./static/FDS/dog.png)
+
+The ==laplacian (difference of 2 gaussians) approximates nicely the 2nd derivative mixed with a gaussian==
+- the way to ==do this efficiently is through the use of a gaussian pyramid==
 
 ![](./static/FDS/piramidl.png)
 
-As stated before, a smaller $\sigma$ will help with detection of finer edges, while a bigger one will help with bigger edges.
+As stated before, a ==smaller $\sigma$ will help with detection of finer edges, while a bigger one will help with bigger edges.==
 
-### Detection of contours with Hough Transform (WIP)
+### Detection of contours with Hough Transform 
+
+==Detecting objects becomes much easier when we know what to detect==. Using the Hough Transform, we can extrapolate the contours
+of images and make edge detection easier.
+
+We can ==use the intuition that edges are made up of points, which are probably on the same straight line==
+- ==this means all these points will have an increasing gradient magnitude.==
+
+==Using the transform, we can look at the parameter space and search points where many straight lines intersect. The points associated with such straight lines will correspond to an edge==
+
+![](./static/FDS/hough.png)
+
+Basically, when multiple points in the parameter space intersect, they "vote" for a line. Many votes will indicate an edge. 
 
 ## Object identification
 
@@ -293,12 +318,12 @@ In the past, most paradigm made these basic assumptions:
 
 ### Global representation
 
-We represent each view of an object with a global descriptor and recognize object that match with the global descriptors.
+We ==represent each view of an object with a global descriptor and recognize object that match with the global descriptors==.
 
-![](./static/FDS/objid.png)
+![](./static/FDS/objid1.png)
 
-Some modes of variation are also easy to deal with by supplying the ML model with enough data.
-Others can be built into the descriptors, i.e. we can build descriptors invariant to them through normalisation (see later examples for clarification). 
+Some ==modes of variation are also easy to deal with by supplying the ML model with enough data==.
+==Others can be built into the descriptors==, i.e. we can build descriptors invariant to them through normalisation (see later examples for clarification). 
 
 ### Color histograms
 
@@ -323,44 +348,43 @@ illumination.
 If we normalise an histogram by its intensity, we can also represent an image only using 2 colors.
 In fact, $r + g + b = 1$
 
-### Comparison measures (WIP)
+### Comparison measures 
 
-There are multiple ways of measuring the distance of 2 histograms.
+There are ==multiple ways of measuring the distance of 2 histograms.==
 
-Intersection $\cup (Q,V) = \sum_i min(q_i, v_i)$:
+==Intersection $\cup (Q,V) = \sum_i min(q_i, v_i)$:==
 - range [0,1] after normalisation
 
-Euclidean distance $d(Q,V) = \sum_i (q_i - v_i)^2$
+==Euclidean distance $d(Q,V) = \sum_i (q_i - v_i)^2$==
 - range $[0, \infty]$ 
 - does wheigh cells equally
-- not very discriminant
+- ==not very discriminant==
 
-Chi Square $\chi^2 (Q,V) = \sum_i \frac{(q_i - v_i)^2}{q_i + v_i}$
+==Chi Square $\chi^2 (Q,V) = \sum_i \frac{(q_i - v_i)^2}{q_i + v_i}$==
 - range $[0, \infty]$ 
 - does not wheigh cells equally
-- is more discriminant
+- is ==more discriminant==
 
 Normalising is also useful to "separate" the image from the size of the representation
 - the same histogram for 2 images of different size
 
 ### Basic recognition algorithm
 
-1. Build a set of histogram $H 0 {M_1, \ldots, M_n}$ for each know view of an object
+==Algorithm steps==:
+1. Build a set of histogram $H = {M_1, \ldots, M_n}$ for each know view of an object
 2. Build an histogram $T$ for the test image
 3. Compare the test image $T$ to each $M_k \in H$
 4. Select the best match 
 
 This algorithm, that uses a nearest neighbour strategy, has the following advantages:
-- invariant to object translations, rotations, etc.. (given the dataset to train it is enough)
-- no perfect segmentation needed
+- ==invariant to object translations, rotations==, etc.. (given the dataset to train it is enough)
+- ==no perfect segmentation needed==
 
 But has drawbacks too:
-- can't identify some objects
-- pixel colors change with the illumination, so the same object could have different color depending on the lightning
+- ==can't identify some objects==
+- ==pixel colors change with the illumination, so the same object could have different color depending on the lightning==
 
 ## Performance evaluation
-
-### Choosing the adequate metric
 
 ### Score based evaluation
 
@@ -372,38 +396,53 @@ A confusion matrix is a suitable way of showing the choices of our model:
 ![](./static/FDS/confusion.png)
 
 In this image, a good score is linked to:
-- high true positives (TP) and true negatives (TN)
-- low false positives (FP) and false negatives (FN) a.k.a. Type 1 and 2 errors
+- ==high true positives (TP) and true negatives (TN)==
+- ==low false positives (FP) and false negatives (FN) a.k.a. Type 1 and 2 errors==
 
-Overall accuracy: $\frac{TP+TN}{N}$ where $N$ is the total.
+==Overall accuracy: $\frac{TP+TN}{N}$ where $N$ is the total.==
 
-Precision: $\frac{TP}{TP + FP}$
+==Precision: $\frac{TP}{TP + FP}$==
 
-Positive recall: $\frac{TP}{TP + FN}$
+==Positive recall: $\frac{TP}{TP + FN}$==
 - a.k.a sensitivity or true positive rate
 
-Negative recall: $\frac{TN}{TN + FP}$
+==Negative recall: $\frac{TN}{TN + FP}$==
 - a.k.a specifity or true negative rate
 
-$F_1$-score: $(\frac{2}{recall^{-1} + precision^{-1}}) = 2 \frac {precision \cdot recall}{precision + recall}$
+==$F_1$-score: $(\frac{2}{recall^{-1} + precision^{-1}}) = 2 \frac {precision \cdot recall}{precision + recall}$==
+
+A quick recap:
+
+![](./static/FDS/recap.png)
 
 ### ROC and AUROC
 
-(Immagine qui)
+The ==receiver operator curve (ROC) is a good way to visualise the performance of our model:==
 
-The best model is the one that fits the application
-- high false positives could be very expensive 
-- or they could not really matter
+![](./static/FDS/roc.png)
 
-One way of selecting a good threshold is using Receiver Operator Characteristic Curve (ROC)
+The ==best model is the one that fits the application==
+- high false positives could be very expensive so we might want a low FPR
+- or they could not really matter, and we maybe care about a high TPR
 
-The overall accuracy of the model can also be computed by looking at...
+We ==can also consider the area under this curve (AUROC), to see, roughly speaking, the proportion of correct guesses 
+if we take a random positive and a random negative==
+
+If we have an ==AUROC of:==
+- ==1, we are guessing perfectly==
+- ==0.5, we are guessing randomly==
 
 ### Precision-Recall curve
 
-...
-
-This type of curve works best for Object identification as True Negatives are not really defined
+When ==doing Object identification True Negatives are not really defined, so the Precision-recall curve is preferred==
 - i.e. infinite true negatives could be defined on a image 
 
+![](./static/FDS/prc.png)
+
 ### Log loss and brier score
+
+Two other useful measures:
+- ==log loss $\frac{1}{N} \sum_{i=1}^{N} -y_i log \hat{y}_i - (1 - y_i) log (1 - \hat{y}_i)$==
+- ==brier score $\frac{1}{N} \sum_{i=1}^{N} (\hat{y}_i - y_i)^2$==
+
+Log loss heavily penalizes confident wrong answers and rewards confident correct answers.

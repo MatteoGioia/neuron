@@ -9,12 +9,20 @@
 
 Linear regression is a supervised learning problem. The output is a continous function so it's a regressor.
 
-Multivariate...
+Hypotesis (one var):
 
-### Cost function
+![](./static/FDS/hyp.png)
 
-Uses MSE with factor 2
+==Multivariate:==
+
+![](./static/FDS/hyp2.png)
+
+### ==Notation==
+
+![](./static/FDS/regnotation.png)
 
 ### Gradient descent
 
-be careful to do simultaneous update
+To minimise the cost function we can use gradient descent.
+
+![](./static/FDS/gd.png)

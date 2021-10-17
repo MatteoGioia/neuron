@@ -5,7 +5,7 @@
 
 ## The workflow
 
-(Immagine qui)
+![](./static/ML/workfloweng.png)
 
 ## Data and Features identification
 
