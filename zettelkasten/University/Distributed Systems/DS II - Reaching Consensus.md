@@ -230,7 +230,9 @@ An easy example, if $n=7$ and $f=3$ (if $f = \lfloor \frac{n-1}{2} \rfloor$):
 - the coordinator does not yet know the value voted by the last 3 acceptors: depending on what they do, the quorum could either be for 1 or 2
 - the proposer $i$ can't do anything as he can't make any safe choice!
 
-Now that this requirement was explained, let's explain how fast paxos works.
+Now that this requirement was explained, let's explain how fast paxos works.7
+
+
 
 ---
 

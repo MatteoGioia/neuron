@@ -26,3 +26,19 @@ Hypotesis (one var):
 To minimise the cost function we can use gradient descent.
 
 ![](./static/FDS/gd.png)
+
+It's important to choose $\alpha$ so that it is:
+- not too small, because descent will be low
+- not too large, because there is the risk of not converging or diverging
+
+Remember that gradient descent follows an orthogonal direction compared to the ellipses..
+
+### Batch gradient descent (and mini batch)
+
+### Normalisation
+
+### Mean normalisation
+
+### More on the learning rate
+
+### Polynomial regression
