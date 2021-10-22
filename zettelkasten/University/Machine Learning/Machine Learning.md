@@ -23,6 +23,7 @@ Lecturer:
 
 [[ML V - Data PreProcessing and Feature Engineering]]
 
+[[ML VI - Performance Evaluation]]
 
 ---
 

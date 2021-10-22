@@ -91,6 +91,43 @@ One way of reducing such skewness is log transformation.
 - ==one hot encoding: default for small datasets (introduces bias in bigger datasets)==
 - ==label binarization==
 
-### Feature selection
+### Handling missing data
 
-## Preprocessing data
+Two main choices:
+- removal
+- replacing the missing value
+
+The missing value can be replaced with:
+- 
+- regression imputation 
+- imputation with K Nearest Neighbours
+
+### Data augmentation
+
+Enrichment of instances adding new features, that can be inferred from the other features.
+
+For instance, in the case of images this means adding rotations of the images. In othere datasets, i.e. one about football matches, the time between current match and the last victorious match. Calling circles, used by telco industries, are also a good example.
+
+### Imbalanced categories
+
+This particolar issue applies to classifiers and is due both to the distribution of the data and how we choose it.
+
+Undersampling and oversampling
+
+SMOTE 
+
+Anomaly detection
+
+Cost sensitive learning
+
+## Feature selection
+
+In this step, we decide which features are necessary for training our model. However, it is not easy to decide if we have to add more or remove some, so we use automatic tools for feature selection.
+
+### Filter methods
+
+Select features based on a perfomance measure 
+
+### Wrapper methods
+
+### Embedded and hybtrid methods

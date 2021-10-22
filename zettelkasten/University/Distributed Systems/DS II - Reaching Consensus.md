@@ -10,7 +10,7 @@
     - How does the recovery protocol work? Describe how the DTlog is used to safely recover from a node failing and restarting.
     - What's Paxos? What does it guarantee? Describe the protocol and prove its safety. Why can't we make Paxos live, but we can still guarantee progress?
     - How can we "optimise Paxos"? How can we make it faster?
-    - What's the idea behind fast Paxos? Why do we need a bigger quorum? Describe the protocol and show its safety.
+    - What's the idea behind fast Paxos? Why do we need a bigger quorum? Describe the protocol and show its safety. What is the new rule for acceptance?
 
 ## Consensus on transaction
 
@@ -136,8 +136,9 @@ There is also another version called "Paxos made easy" and notes on the algorith
 
 ### The protocol
 
-<small><b>Given the high difficulty of this protocol, it's highly suggested to read the following papers (in the order shown) instead of referring to these notes. They literally had to dumb it down TWICE because of how hard it is, so I would not trust a random internet stranger (me) to explain it correctly:
+<small><b>Given the high difficulty of this protocol, it's highly suggested to read the following papers (in the order shown) below instead of referring to these notes. They literally had to dumb it down TWICE because of how hard it is, so I would not trust a random internet stranger (me) to explain it correctly:
 <ol><li> The part time parliament</li><li> Paxos made simple</li><li> A simpler proof for paxos and fast paxos</li></ol>
+I also probably butchered the proofs so..
 </b></small>
 
 We have $n$ processes and we can tolerate $f$ failures, where $f = \lfloor \frac{n-1}{2} \rfloor$.
@@ -178,17 +179,19 @@ So ==we only need to prove CS2==, but we'll prove this stronger property that al
 
 [$i$ = round 1] : This is trivially true, as no previous round exists
 
-[round $i$]: Since $\alpha$ received enoguh promises from the quorum, this quorum $Q$ promised not to partake in any previous round. 
+[round $i$]: Since $\alpha$ received enough promises from the quorum, this quorum $Q$ promised not to partake in any previous round. 
 This means no acceptor in $Q$ voted before the max last round indicated in the promise:
 
 ![](./static/DS/safetyproof1.png)
 
 It is also possible that there would have been a majority in round $lastround$, but the value would have had to be $v$.
-Using again the hypotesis, no acceptro could have voted in rounds before, up till round 1.
+Using again the hypotesis, no acceptor could have voted in rounds before, up till round 1.
 
 ![](./static/DS/safetyproof2.png)
 
 Note that this safety is not dependent on the number of failures. If there are more failures that the expected number, Paxos simply won't decide.
+
+<small> Please refer to Paxos for Dummies for the formal proof </small>
 
 ### Making Paxos (as) Live (as we can)
 
@@ -230,9 +233,20 @@ An easy example, if $n=7$ and $f=3$ (if $f = \lfloor \frac{n-1}{2} \rfloor$):
 - the coordinator does not yet know the value voted by the last 3 acceptors: depending on what they do, the quorum could either be for 1 or 2
 - the proposer $i$ can't do anything as he can't make any safe choice!
 
-Now that this requirement was explained, let's explain how fast paxos works.7
+Now that this requirement was explained, let's explain how fast paxos works. We need to change the rule for acceptance as we have shown that it is not true that all the acceptors in the round have "last voted" for the same value.
 
+==New Rule==:
+1. if $j = -1$ start a fast round;
+2. if $j \geq 0$ and there exists $v$ such that $|Q_j [v'] \geq n - 2f'$ then select $v$, since there can only be such a value;
+3. if $j \geq 0$ and for all $v$ the condition in 2 is not true, then select any value that has been last voted in round $j$.
 
+### Fast Paxos safety
+
+The proof is similar to the one for Paxos. We need to prove that:
+
+>If acceptor $\alpha$ voted value $v$ in round $i$, then no value $v \neq v'$ could get the majority in any of the previous rounds
+
+<small> Refer to paper for the full proof </small>
 
 ---
 
