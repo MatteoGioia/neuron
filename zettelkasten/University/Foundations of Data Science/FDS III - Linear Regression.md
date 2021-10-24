@@ -44,19 +44,33 @@ The issue with this type of descent is that the descent pattern might no be so s
 
 ### Gradient descent with multiple features
 
+![](./static/FDS/gdmulti2.png)
+
 ### Normalisation
 
 Having features on the same scale ensures that the gradient descent is smooth and doesn't "zig-zag" his way to the center:
 
-..
+![](./static/FDS/zigzag.png)
 
-To normalise, we can apply mean normalization
-
-
-### More on the learning rate
+The goal of normalization is to get features into approximately a $-1 \leq x_i \leq 1$ range. To do so, we can apply mean normalization: $x_i = \frac{x_i - \mu_i}{s_j}$
+- where $\mu_i$ is the mean value of the $i-th$ feature
+- and $s_j$ is the range or standard deviation of the feature (calculated as max - min feature value)
 
 ## Polynomial regression
 
-When dealing with more complex predictions, a linear combination of the feature values is often not enough. To deal with this, we can use more complex functions:
+When dealing with more complex predictions, a linear combination of the feature values is often not enough. To deal with this, we can use more complex functions.
+- e.g. $h_{\theta} = \theta_0 + \theta_1 x_1 + \theta_2 x_{2}^{2} + \theta_3 \sqrt{x_{3}}$
 
 ### Normal equation
+
+The normal equation comes from the idea of trying to minimise the cost function expressed as a bidimensional matrix.
+
+>Normal equation $X^T X \theta = X^T \overline{y} \to \theta^{*} = (X^T X)^{-1} X^T \overline{y}$
+
+But when to use the normal equation and when to use gradient descent?
+
+![](./static/FDS/gdvsne.png)
+
+If $X^T X$ it's not invertible we can:
+- remove redunant features, that are often linearly dependent (e.g. one is the linear combination of another)
+- delete some of them, or use regularization

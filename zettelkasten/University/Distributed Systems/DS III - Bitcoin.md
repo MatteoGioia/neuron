@@ -21,7 +21,7 @@ Hash function $h : A \to B$
 - $h^{-1}$ is hard to compute
 - given $x$ and $h(x)$, a $y$ such that $h(x) = h(y)$ is hard to find
 
-Hash functions are mainly used for fingerprinting. Famous ones are for example MD5, SHA-1, $\ldots$
+Hash functions are mainly used for fingerprinting. Famous ones are for example MD5, SHA-1, etc $\ldots$
 
 Private and public key mechanism. Usually utilised in conjuction with hashes to produce signatures for messages.
 
@@ -29,27 +29,16 @@ Private and public key mechanism. Usually utilised in conjuction with hashes to 
 
 Structure of a bitcoin (simplified - don't read it as a table)
 
-|Transaction| |          
-|---|---|                   
-|Owner| Public key|     
-|New Owner| B|
-|Signature| A |
+![](./static/DS/btcblock.png)
 
 This type of transaction is subject to double spending, i.e. sending the same bitcoin to 2 different new oweners.
 
 To avoid this, there must be a common knowledge of all the transactions and all of the ones that have been approved. To do so, bitcoin makes use of a blockchain.
 - protocols like Paxos or PBTF do not work 
 
-(Immagine)
-
 Every node has a copy of the blockchain, and new blocks containing new transactions can be approved. To approve a block to add to the blockchain, there must be distributed consesuns on the transactions inside it.
 
-||
-|---|
-|Previous hash|
-|Transactions|
-|Nonce|
-|Hash(nonce)|
+![](./static/DS/bchain.png)
 
 Only the block with the last $k$ bits set to 0 is approved, so the miners have to try many nonces before the hash results in what they want.
 
@@ -61,7 +50,7 @@ A new block is usually generated every 10 minutes.
 
 What happens if 2 miners solve a block at the same time? This process is called forking: now the blockchain is split over 2 branches, with nodes working on either one.
 
-(Immagine)
+![](./static/DS/fork.png)
 
 When one of successive blocks is solved, the branch left behind gets scrapped. To avoid transactions being scrapped because they belong in forked blocks, there's a waiting time for approval, namely 6 blocks, before the transaction is actually approved.  
 
