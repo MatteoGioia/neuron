@@ -94,31 +94,39 @@ One way of reducing such skewness is log transformation.
 ### Handling missing data
 
 Two main choices:
-- removal
-- replacing the missing value
+- removal: depending on the amount of missing data, the instance or the entire feature can be removed, although this method is not preferred as it creates a loss of data
+- replacing missing values
 
-The missing value can be replaced with:
-- 
-- regression imputation 
-- imputation with K Nearest Neighbours
+The missing value can be replaced with basic methods, like mean for numerical values, most probable class for categorical ones. This approaches are risky as they alter the real distribution of the data, so there are better methods.
+
+Regression imputation: the missing data is estimated with a linear combination of the other features. Correlation matrices can be used to design this regression model.
+
+Imputation with K-Nearest Neighbours: we consider the $K$ instances where the j-th feature is not missing, and then we impute the missing value with the most frequent value (mode) amongs the j-th features of these K instances.
 
 ### Data augmentation
 
-Enrichment of instances adding new features, that can be inferred from the other features.
+Enrichment of instances adding new features, that can be inferred from the other features or created manipulating the existing ones.
 
 For instance, in the case of images this means adding rotations of the images. In othere datasets, i.e. one about football matches, the time between current match and the last victorious match. Calling circles, used by telco industries, are also a good example.
 
 ### Imbalanced categories
 
-This particolar issue applies to classifiers and is due both to the distribution of the data and how we choose it.
+This particolar issue applies to classifiers and is due both to the distribution of the data and how we choose it. In some cases we are in fact interested in predicting the minority class (e.g. risk of heart disease).
 
-Undersampling and oversampling
+One basic fix is either oversampling the minority class or undersampling the majority one, although this means altering the original distribution.
 
-SMOTE 
+A tecnique like Synthetic Minority Oversampling Tecnique a.k.a. SMOTE works better since it creates new instances using a convex combination of the minority class instances. 
 
-Anomaly detection
+![](./static/ML/SMOTE.png)
 
-Cost sensitive learning
+Another tecnique that does not revolve around compensating with new instances is 
+Anomaly Detection: istances that deviate too much from our sample data is treated as an outlier. This outlier can be either removed or we can reframe the classification problem into an anomaly detection problem (so the goal is to detect anomalies from the rest of the instances).
+
+The last tecnique is Cost Sensitive Learning: instead of treating each misclassification as the same. A function $C(p,t)$ now expresses the cost of misclassifying an instance of $t$ as an instance of $p$. 
+
+![](./static/ML/costsensitive.png)
+
+The ML attempt will thus try to minimize the erorr and pay more attention to the minority class.
 
 ## Feature selection
 

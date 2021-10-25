@@ -15,4 +15,4 @@ Lecturer: Galasso Fabio
 
 [[FDS II - Image Processing]]
 
-[[FDS III - Linear Regression]]
+[[FDS III - Regression]]

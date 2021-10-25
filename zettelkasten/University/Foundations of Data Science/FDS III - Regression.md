@@ -1,4 +1,4 @@
-# Linear regression
+# Regression
 
 ## Recall questions
     - wip
@@ -67,10 +67,33 @@ The normal equation comes from the idea of trying to minimise the cost function 
 
 >Normal equation $X^T X \theta = X^T \overline{y} \to \theta^{*} = (X^T X)^{-1} X^T \overline{y}$
 
-But when to use the normal equation and when to use gradient descent?
+But when to use the normal equation $\Theta(n^3)$ and when to use gradient descent?
 
 ![](./static/FDS/gdvsne.png)
 
 If $X^T X$ it's not invertible we can:
 - remove redunant features, that are often linearly dependent (e.g. one is the linear combination of another)
 - delete some of them, or use regularization
+
+## MSE and Correlation
+
+Correlation
+
+Causation
+
+### Measuring correlation
+
+Using Pearson's Product Moment 
+
+## Locally weighted regression
+
+This type of regression is a non parametric learning algorithm, meaning that
+the parameters grow with the data.
+
+It is also called Loess or Lowess.
+
+### Fitting best local curve
+
+## Probabilistic interpretation of least squares
+
+                
