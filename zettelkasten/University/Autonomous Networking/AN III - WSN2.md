@@ -66,7 +66,7 @@ In this case of the exposed terminal problem (C exposed to B), C can transmit be
 
 ### Network allocation vector
 
-On top of the tecniques mentioned earlier, more optimisations can be done to achieve higher energy efficiency.
+On top of the techniques mentioned earlier, more optimisations can be done to achieve higher energy efficiency.
 
 ==For instance, all other nodes could stop listening to the channel if they know it's being used(overhearing). This is achieved through Virtual Carrier Sensing and the use of a Network Allocation vector.==
 

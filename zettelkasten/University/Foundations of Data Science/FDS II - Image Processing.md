@@ -10,7 +10,7 @@
     - Why is the gaussian more "precise"?
     - How can we use a gaussian for patter matching? What are the useful side effects?
     - How can we use the derivatives for 1D edge detection? Why is it a good idea to combine them with a gaussian? What other tweaks can we use to reduce noise/ increase accuracy? (Hint: thr, hist)
-    - Does the tecnique mentioned above work for 2D images? How?
+    - Does the technique mentioned above work for 2D images? How?
     - How does the canny edge detector use gradient to detect edges?
     - How can we use 2nd derivatives to detect edges more easily? What can we do to make the process efficient? 
     - What happens when we increase/reduce the sigma of a gaussian? (Hint: thick & thin)
@@ -207,13 +207,13 @@ To make it easier, ==since the filter and the gaussian are both linear we can ap
 
 ![](./static/FDS/edgedet4.png)
 
-Another common tecnique is to ==set a treshold, either an hyper-parameter or a parameter that gets tuned during iteration, to distinguish noise from actual edges==.
+Another common technique is to ==set a treshold, either an hyper-parameter or a parameter that gets tuned during iteration, to distinguish noise from actual edges==.
 
 ==Hysteresis can also be used, so instead of one threshold 2 are used==. Makes more sense in 2D.
 
 ### 2D edge detection 
 
-Using ==partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image:==
+Using ==partial derivatives on the x and y axis the same edge detection technique can be applied to a 2D image:==
 - we first apply a 2D gaussian
 - then we do the derivative of the image
 
@@ -251,7 +251,7 @@ Canny edge detector:
 
 ### Using gradient to detect edges pt.2
 
-Using ==partial derivatives on the x and y axis the same edge detection tecnique can be applied to a 2D image==:
+Using ==partial derivatives on the x and y axis the same edge detection technique can be applied to a 2D image==:
 - we first apply a ==2D gaussian==
 - then we do the ==derivative of the image==
 

@@ -131,7 +131,7 @@ Paxos is a protocol ==created by Lamport for distributed consensus== in a DS tha
 
 Since it allows for crash failures, we make a ==compromise on liveness but not on safety.==
 
-The paper describes the ==part time parliament==, a metaphor for the tecnique adopted to achieve distributed consensus.
+The paper describes the ==part time parliament==, a metaphor for the technique adopted to achieve distributed consensus.
 There is also another version called "Paxos made easy" and notes on the algorithm called "A simpler proof for Paxos and Fast Paxos" by Marzullo.
 
 ### The protocol

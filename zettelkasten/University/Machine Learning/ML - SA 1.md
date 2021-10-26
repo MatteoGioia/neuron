@@ -1,10 +1,12 @@
-1. The main differences bewteen supervised, unsupervised and reinforcement learning lie in the resulting model, the way we train it and the data we feed it.
+![](./static/ML/a1.png)
 
-    In supervised learning, the model is trained on labelled data from which it can learn some sort of function, used for classifying new instances or predicting a feature value of an instance never seen before. 
+1. The main differences bewteen supervised, unsupervised and reinforcement learning lie in the way we train the model and the data that we feed to it.
 
-    In unsupervised learning, the model is trained on unlabelled data for which it tries to find some sort of classification.
+    In supervised learning, the model is trained on labelled data from which it can learn a function called hypotesis, used for predicting a feature value of an instance never seen before. This value can be either continous, so the model is a classifier, or discrete, so the model is a regressor.
 
-    In reinforcement learning, the model is trained directly in the environment it has to operate in. The model then learns by taking decisions and receiving a reward or a punishment for each of them.
+    In unsupervised learning, the model is trained on unlabelled data for which it tries to find some sort of classification. No ground truth is given, only costraints and the environment in which the model is trained are specified.
+
+    In reinforcement learning, the model is trained in the environment it has to operate in, in ordine to learn the best course of action for each new situation. The model learns by taking decisions and receiving a reward or a punishment for each of them.
 
 --- 
 
@@ -16,7 +18,7 @@ a dataset on **cars** could be the following:
     |Ferrari | 300000.00 | Red | 3 | 1 (Yes)|
     |Ford fiesta| 25000 | Blue | 5| 0 (No) |  
 
-    As we can see, each instance (row) has multiple features (columns) each one describing a different aspect. Each feature can either be a discrete value (e.g. number of doors), a real value (e.g. price) or a binary value (e.g. 4x4) used for classification.
+    As we can see, each instance (row) has multiple features (columns) describing a different aspect. Each feature can either be a discrete value (e.g. number of doors), a real value (e.g. price) or a binary value (e.g. 4x4) used for classification.
 
     A supervised learning model can be trained on such datasets so that one feature of a new instance can be predicted based on the past instances examined. 
 
@@ -29,26 +31,26 @@ a dataset on **cars** could be the following:
 4. Three common uses for supervised learning:
     - prediction of house prices 
     - prediction of risk of heart diseases in patient
-    - prediction of best price for uber rides 
+    - predicition of uber prices
 
     In the first case, we can use the features of a house/apartment, such as sqr ft, the floor number and price, to create a model that predicts the best price for a house based on the sqr ft and the floor number. This is a good example of a regression problem, if we assume price is a real value.
 
-    In the second case, the health statistics of patient who had an history of hearth diseases (age, weight, risks_stroke) can help to predict if new patient are at risk, for example, for a heart attack. In this case, since the variable we are predicting is a discrete value (risks_stroke) and is either 0 or 1, the trained model is a classifier.
+    In the second case, the health statistics of patient who had an history of hearth diseases (age, weight, risks_stroke) can help to predict if a new patient is at risk, for example, for a heart attack. In this case, since the variable we are predicting is a discrete value (risks_stroke) and is either 0 or 1, the trained model is a classifier.
 
-    Finally ...
-
----
-
-5. CL, RG, CL, CL, RG, CL
+    The third case is actually utilised by Uber to calculate the optimal pricing for each ride, based on previous data, such as earlier rides' fares, and real time data, like weather or temperature.
 
 ---
 
-6. Yes, classifiers can predict multiple values as long as they are discrete.
+5. CL, RG, RG (?), CL, RG, CL
+
+---
+
+6. Yes, classifiers can predict multiple values as long as they are discrete (e.g. the real function is not a continous function).
 
 ---
 
 7. The hyperparameters of a ML model are characteristics of the model decided previously to its training. 
-For instance, in the case of a NN, an hyperparameter could be the architecture of the network or the learning rate. Parameters are instead something that is tuned during training and is part of the optimisation problem, so for example in a NN the parameters we need to tune are the weight of the edges in order to minimise the error.
+For instance, in the case of a NN, an hyperparameter could be the architecture of the network or the learning rate. Parameters are instead something that is tuned during training and are part of the optimisation problem, so for example in a NN the parameters we need to tune are the weight of the edges in order to minimise the error.
 
 ---
 

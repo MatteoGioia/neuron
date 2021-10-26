@@ -20,3 +20,7 @@ Lecturer: Gaia Maselli
 [[AN IV - Routing]]
 
 [[AN V - IoT]]
+
+[[AN VI - Dronets]]
+
+[[AN VII - Performance Evaluation]]

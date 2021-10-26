@@ -11,7 +11,7 @@
         - What is the standard protocol? Why it takes into account the Time System Efficiency?
         - What are the 2 key points of the standard protocol? (idle is better, node number)
         - How does TSA work? What is its SE?
-        - What is the tecnique used in BSTSA to evaluate the number of tags? What is its TSE when the number of tags is accurate?
+        - What is the technique used in BSTSA to evaluate the number of tags? What is its TSE when the number of tags is accurate?
 
 ## Radio Frequency Identification
 

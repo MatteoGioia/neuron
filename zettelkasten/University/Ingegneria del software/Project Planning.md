@@ -69,7 +69,7 @@ Path critici - punti di sviluppo cruciali
 - se fatti in ritardo, posticipano l'intero progetto
 - dare priorità a fronte invece di quelli a cui si può levare tempo, indicati da un TF (total float)
 
-Carta di Pert - Program evaluation and Review tecnique  (DOMANDA ???)
+Carta di Pert - Program evaluation and Review technique  (DOMANDA ???)
 - usata per trovare dipendenze e tempo minimo per lo scheduling
 - ideale per ogni taglia di progetto 
    

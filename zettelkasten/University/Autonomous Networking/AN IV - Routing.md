@@ -66,7 +66,7 @@ The following reactive protocols will be examined:
 
 ### Flooding
 
-This ==tecnique does not need routes but generates an enormous amount of superfluous traffic==
+This ==technique does not need routes but generates an enormous amount of superfluous traffic==
 - which in WSN with low power and small battery is bad news!
 
 ==Properties==:

@@ -11,10 +11,10 @@
       - What are support and confidence?
       - What are the main issues of DT?
       - What are the main differences between DT and RT? What is the goal in RT?
-      - Describe the tecnique used to choose the best split at each iteration.
+      - Describe the technique used to choose the best split at each iteration.
       - What are the parameters we tune in DT and RT?
       - What is overfitting? Why is it bad?
-      - What is pruning? What are the main tecniques and what are the main drawbacks?
+      - What is pruning? What are the main techniques and what are the main drawbacks?
 
 
 ## Classifiers and Regressors
