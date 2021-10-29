@@ -70,11 +70,11 @@ Our goal is the ==finding a good balance in minimising both Bias and Variance, s
 
 >$Bias^2=(E[h(x)] - f(x))^2$ where $E[h(x)]$ is the expected value (mean) of the hypotesis $h(x)$
 
-For instance, bias could be due to the assumption that the real function is linear.
+For instance, ==bias in the model== could be due to the assumption that the real function is linear.
 
 ![](./static/ML/bias1.png)
 
-The ==main causes for bias are==:
+The ==main causes for bias in the data are==:
 - ==sample bias==: collected data is not representative, e.g. face recognition algorithm trained with white people faces only
 - ==exclusion bias==: relevant features are excluded 
 - ==prejudice bias==: the data represented in the model is influenced by prejudice
@@ -84,4 +84,12 @@ The ==main causes for bias are==:
 
 Variance is defined as the mean of squared differences between values of $N$ individual outcomes $x_i$ and the mean (x), i.e. the dispersion around the mean.
 
-....
+...
+
+Variance can't be reduced if it is inherent in our dataset, but there are ways to deal with it:
+- train...
+- validation...
+
+### Estimators and errors
+
+See [[An excursus about statistics]]#

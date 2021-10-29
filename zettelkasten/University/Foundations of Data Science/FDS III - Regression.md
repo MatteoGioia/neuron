@@ -96,4 +96,3 @@ It is also called Loess or Lowess.
 
 ## Probabilistic interpretation of least squares
 
-                
