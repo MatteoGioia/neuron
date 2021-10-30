@@ -24,3 +24,5 @@ Lecturer: Gaia Maselli
 [[AN VI - Dronets]]
 
 [[AN VII - Performance Evaluation]]
+
+[[AN VIII - Reinforcement Learning]]

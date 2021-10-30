@@ -77,13 +77,15 @@ If $X^T X$ it's not invertible we can:
 
 ## MSE and Correlation
 
-Correlation
+Correlation: values track each other
+- positively, so they both "go up"
+- negatively, if one "goes up" and the other "goes down"
 
-Causation
+Causation: one value directly influences another one
 
-### Measuring correlation
-
-Using Pearson's Product Moment 
+Two methods of measuring correlation:
+- pearson's product moment correlation: 1 max. positive, 0 no corr., -1 max negative
+- coefficient of determination aka $r^2$: between 0 and 1, measures fit of any line curve to set of points, for simple linear regression is equal to Pearson$^2$
 
 ## Locally weighted regression
 
@@ -94,5 +96,8 @@ It is also called Loess or Lowess.
 
 ### Fitting best local curve
 
+![](./static/FDS/lowess.png)
+
 ## Probabilistic interpretation of least squares
 
+See slides. Also see probability theory review

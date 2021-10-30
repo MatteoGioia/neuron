@@ -5,6 +5,10 @@
         - What are the measures for classifiers? Explain what are the ROC, AUROC and PR-curve and why they are useful.
         - Why it is important to understand where errors come from before actually trying to see if our estimates are accurate?
         - What is bias? Descrive the most common tpyes.
+        - What is variance? Can we always deal with it?
+        - How can estimate how precise is our estimate of the error of a model? Answer reviewing the Excursus.
+        - How can we compare 2 different hyp? What are the 2-tailed and 1-tailed tests?
+        - What is KFV?
 
 ## Choosing the right performance measure
 
@@ -82,14 +86,86 @@ The ==main causes for bias in the data are==:
 
 ### Variance
 
-Variance is defined as the mean of squared differences between values of $N$ individual outcomes $x_i$ and the mean (x), i.e. the dispersion around the mean.
+==Variance is defined as the mean of squared differences between values of $N$ individual outcomes $x_i$ and the mean (x), i.e. the dispersion around the mean.==
 
-...
+>$\sigma^2 = var(x) = \frac{\Sigma_{i=1}^{N}(x_i - \overline{x})^2}{N}$
 
-Variance can't be reduced if it is inherent in our dataset, but there are ways to deal with it:
-- train...
-- validation...
+Variance ==can't be reduced if it is inherent in our dataset==, but there are ways to ==deal with it:==
+- ==train different models, like in ensambles==
+- ==use validation techniques that reduce the possibility of being unlucky==
 
-### Estimators and errors
+==K-Fold Cross-Validation== or KFV in short is an example of the latter strategy:
 
-See [[An excursus about statistics]]#
+![](./static/ML/kfv.png) 
+
+### ==Estimators and errors==
+
+==See [[An excursus about statistics]]#==
+
+<small> Note: the following notes <b>require</b> reading the excursus or at least having a decent knowledge of probability and statistics. </small> 
+
+### Comparing two learned hypotesis
+
+>**Q2**: Given that one hypothesis $h_1$ outperforms another hypotesis $h_2$over some sample data $S$, how probable is it that this hypothesis is more accurate in general?
+
+To ==decide wheter or not an alternative hypotesis is better than the one we have, we need to list the alternatives==.
+One of the alternatives is called Null Hypotesis $h_0$ and it's usually used to disconfirm our findings.
+
+Suppose we find that the error rate of $h_1$ and $h_2$ is different and the difference $d = error_{S_1} (h_1) - error_{S_2} (h_2) \neq 0$. We can perform 3 tests:
+- 2-tailed test
+- one tailed right test
+- one tailed left test
+
+### Two tailed test
+
+We ==formulate and test 2 alternatives:==
+1. ==$h_0$ : data does not support that $h_1 \neq h_2$== 
+2. ==$h_1$ : data supports that $h_1 \neq h_2$==
+
+We wish to estimate the real difference $d_D$ between the unknown true errors of the 2 hypotesis. Again, the true errors are unknow, so we need some kind of estimator! We use $d_S$ as an unbiased estimator for $d_D$.
+
+>$d_S = error_{S_1} (h_1) - error_{S_2} (h_2)$
+
+To obtain a conf. interval, we need again to compute the std. deviation. We can exploit the fact that the difference of gaussians still follows a gaussian distribution!
+
+>$\sigma_{d_S} = \sqrt{VAR(d_S)} \approx \sqrt{\frac{error_{S_1} (h_1) \cdot (1 - error_{S_1} (h_1))}{n_1} + \frac{error_{S_2} (h_2) \cdot (1 - error_{S_2} (h_2))}{n_2}}$
+
+If the null hyp. holds true, we must have that:
+
+> $error_D (h_1) = error_D(h_2) \implies d_D = 0$
+
+So we need to test the likelihood of $h_0$: 
+
+![](./static/ML/comparison1.png)
+
+==If in our calculations the area lies in the non critical region, usually $N \leq 95\%$ ($-2\sigma, +2\sigma)$, the Null Hyp. is accepted and the real difference is negligible.==
+
+In simpler terms, ==we can conclude that there is no difference only when the probability of having observed value $d_S$ if $d_D = 0$ is high enough. Otherwise, we must reject $h_0$.==
+
+In practice, ==if the $p$-value, which is the probability of observing our estimate if $h_0$ holds, is $p < 0.05$ then we reject $h_0$.==
+
+### One tailed test
+
+==Right test ($d > 0$):==
+- $h_0$ data does not support that $h_2 > h_1$
+- $h_1$ data support $h_2 > h_1$, so $h_1$ has significantly lower error
+
+==Left test ($d < 0$):==
+- $h_0$ data does not support that $h_2 < h_1$
+- $h_1$ data support $h_1 > h_2$, so $h_1$ has significantly higher error
+
+![](./static/ML/onetail1.png)
+
+Example:
+
+![](./static/ML/onetail2.png)
+
+### Comparing 2 learning algorithms
+
+We want to measure $E_{S \subset D} (error_D (L_A(S)) - error_D (L_B(S)))$, where $L_x(S)$ represents the hyp. learnt by algorithm $L_x$ from training data $S$.
+
+To do so, ==we have to average over multiple, indipendent training and test sets. One possible technique is K-Fold Cross Validation==:
+
+![](./static/ML/kfv2.png)
+
+KFV improves confidence in our estimate of $\delta$ since it is computed as an average of $\delta_i$.
