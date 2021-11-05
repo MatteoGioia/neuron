@@ -183,8 +183,8 @@ The ==main difference== with DT is:
 ![](./static/ML/RT1.png)
 
 The ==main goal in RT is to find boxes $R_1 \ldots R_j$ (regions) that minimize the 
-Residual Sum of Squares (RSS) = $\sum_{j=1}^{J} \sum_{i \in R_j} (y_i - \cap{y}_{R_i})^2$==
-- where $\cap{y}_{R_j}$ is the mean observed value of the training samples whitin the j-th box, and $y_i$ is the value of each single observation in the box
+Residual Sum of Squares (RSS) = $\sum_{j=1}^{J} \sum_{i \in R_j} (y_i - \cap{y}_{R_j})^2$==
+- where $\hat{y}_{R_j}$ is the mean observed value of the training samples whitin the j-th box, and $y_i$ is the value of each single observation in the box
 
 Again, ==finding the best split is an NP-hard problem==, so a more efficient technique is necessary.
 

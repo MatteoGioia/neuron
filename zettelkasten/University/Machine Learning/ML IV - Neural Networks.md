@@ -96,7 +96,7 @@ For instance, ==loss on single output is computed as==:
 
 We ==need to tune the weights to minimise the error but as of now, the derivative formula does not contain them==!
 
-To fix this, ==we can use gradient descent to adjust weights at each iteration: $w_{ij} = w_{ij} + \Delta w_{ij} = w_{ij} - \eta \frac{\delta Loss(w_ij)}{\delta w_{ij}}==
+To fix this, ==we can use gradient descent to adjust weights at each iteration: $w_{ij} = w_{ij} + \Delta w_{ij} = w_{ij} - \eta \frac{\delta Loss(w_ij)}{\delta w_{ij}}$==
 - basically ==each weight is updated proportionally to the partial derivative==
 - in simpler terms, is updated using only the fraction of the gradient that can be imputed to that particular weight.
 
