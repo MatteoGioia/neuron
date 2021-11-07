@@ -100,4 +100,4 @@ It is also called Loess or Lowess.
 
 ## Probabilistic interpretation of least squares
 
-See slides. Also see probability theory review
+See slides. Also see probability theory review!!!

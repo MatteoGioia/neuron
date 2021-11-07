@@ -25,6 +25,8 @@ Lecturer:
 
 [[ML VI - Performance Evaluation]]
 
+[[ML VII - SVM]]
+
 ---
 
 [[ML - SA 1]]
