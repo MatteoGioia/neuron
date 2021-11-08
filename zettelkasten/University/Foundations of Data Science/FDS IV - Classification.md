@@ -37,4 +37,17 @@ There is an alternative method to compute the best value for $\theta$ that, alth
 
 ## Exponential Models
 
+We can prove that the distributions we analyzed till now are all part of the family of exponential distribution:
+
+>exp...
+
+### Properties of exponential models
+
+All the models of the exponential family of distributions have some property in common
+
 ## Generalized linear models
+
+We can create a general algorithm to tackle data assumed to be from a distribution from the exponential family...
+
+## Multiclass classification
+

@@ -94,16 +94,108 @@ The "issue" is that we do not know the weights $w_i$ or $b$. We'd like to find a
 It must also be said that only data points on the margin, so the SV themselves, will have a non-zero $\alpha$, since they are the only ones for which $y_i(w^T x_i + b) - 1 = 0$. 
 - for non support vectors $y_i(w^T x_i + b) \geq 1$ so, for 3, $\alpha_i$ must be 0
 
-<small> for the detailed steps, refer to the paper notes or the original slides </small> 
+Given what we have said so far, the dual problem (lagrangian becomes):
 
-### Working example
+>find $\alpha_1, \ldots, \alpha_i$ s.t. $Q(\alpha) = \sum_i \alpha_i - \frac{1}{2} \sum_{i,j = 1}^n \alpha_i \alpha_j y_i y_j x_{i}^T x_j$ is maximised and
+>1. $\sum_i \alpha_i y_i = 0$
+>2. $\alpha_i \geq 0 \space \forall \alpha_i$, but the equality with 0 is true only for support vectors 
+
+Both the original formulation and the dual are system of inequalities and can be solved with quadratic programming. 
+
+Once we solve the lagrangian, the solution to the primal is:
+
+>$w = \sum_i \alpha_i y_i x_i$ and $b = y_k - \sum_i \alpha_i y_i x_{i}^T x_k$ for any $\alpha_k > 0$
+
+We don't need to compute $w$ explicitely though. Once we solve the problem, the classification function is the sign of:
+
+>$\Phi(x) = \sum_i \alpha_i y_i x{i}^T x+ b$ where $x_i$ are the support vectors
+
+So we only need to do the dot product of the 2 vectors to know to which class the instance belong. The bad news is that, in order to solve the optimisation problem, we need to compute the dot product $x_{i}^T x_k$ between all training points.
+
+<small> for the detailed steps, refer to the paper notes </small> 
+
+It is also relevant that inner dot products are part of the kernel functions, in particular they are a linear kernel. In fact, the dot product is a similarity function of 2 vectors!
+
+>$sim(x_i, x_k) = \frac{x_{i}^T \cdot x_k}{|x_i||x_k|} = \cos \theta$
+
+![](./static/ML/svm4.png)
 
 
 ### Overfitting and Soft margins
 
-Sacrificing accuracy on the training data to allow for better generalization
+As said before, data in real life is rarely perfectly linearly separable. This means that even in cases where a linear (?) hyperplane is enough to predict the value of new instances, sometimes allowing for some slack in the optimisation function leads to better results:
 
+>$\frac{1}{2} \| w \|^2 + C$ where $C =$ # of mistakes (HYPERPARAMETER!!)
+
+To do so, we introduce a slack variable $\xi$, that is the distance of $x_i$ from the corresponding's class margin if $x_i$ is on the wrong side, otherwise 0. Points that are far away from the right margin get a bigger penalty:
+
+>$y_i(w^T x_i + b) \geq 1 - \xi_i$ where $\xi_i = max(0, y_i(w^T \cdot x_i + b))$
+
+![](./static/ML/svm5.png)
+
+In the image, for example, if $1 - \xi_i$ in the left side is bigger or equal to 1 then the classification is correct, otherwise if it negative the classification is wrong and we add a penalty. 
+
+The new optimisation problem becomes:
+
+>minimize $\frac{1}{2} \|w\|^2 + C \sum_{i=1}^n \xi_i$ s.t. $y_i(w^T x_i + b) \geq 1 - \xi_i$ where $\xi_i \geq 0$
+
+This means that the slack variable allows an example in the margin $0 \leq \xi_i \leq 1$ to be misclassified, otherwise if $\xi_i > 1$ it treats it as an error.
+
+Incorporating the costraints (lagrangian):
+
+>minimize $\frac{1}{2} \|w\|^2 + C \sum_{i=1}^n \xi_i + \sum_i \alpha_i(y_i(w^T x + b) - 1 + \xi_i)$
+
+![](./static/ML/svm6.png)
 
 ## Non linear SVM
 
+Sometimes data is not linearly separable in the original space. However, using a mapping function we can move it to a different space where it becomes linearly separable. 
+
+![](./static/ML/svm7.png)
+
+We can do this using non linear kernels.
+
 ### Non linear kernels
+
+When using a mapping function $\phi$, our formulas become respectively:
+
+>$f(x) = w^T \phi(x) + b$
+
+>$\sum_{i \in SV} \alpha_i y_i \phi(x_i)^T \phi(x) + b$
+
+Again, $\phi(x_i)^T \phi(x_j)$ is a kernel $K(x_i,x_j)$, and there are plenty to choose from:
+- linear kernel: this is the case of the previous examples
+- polynomial kernel
+- gaussian kernel
+- sigmoid 
+- etc...
+
+### "Definitive" algorithm for SVM
+
+        1. Choose a kernel function
+        2. Choose a value for C
+        3. Solve the quadratic programming problem
+        4. Construct the discriminant function from the support vectors
+
+> find $\alpha_i, \ldots, \alpha_n$ such that
+> $Q(a) = \sum_{i=1}^n \alpha_i - \frac{1}{2} \sum_{i,j =1}^n \alpha_i \alpha_j y_i y_j K(x_i,x_j)$ is maximised
+>1. s.t. $0 \leq \alpha_i \leq C$
+>2. s.t. $\sum_{i=1}^n \alpha_i y_i = 0$
+
+### Issues, properites and weaknesses of SVM
+
+Issues:
+- choosing kernel function: gaussian or polynomial are default
+- choiche of kernel parameters
+- optimisation criterion, e.g. soft or hard margin
+- sensitivity to class imbalances and non-scaled data
+
+Properties:
+- flexibility when choosing the kernel
+- deal with large data sets and many features
+- overfitting can be controlled
+
+Weaknesses:
+- noise sensitivity
+- only considers 2 classes: to discriminate $m$ classes, one must train $m$ SVM models
+- data in real life is rarely in vectorial form, so pre-processing is almost always needed 
