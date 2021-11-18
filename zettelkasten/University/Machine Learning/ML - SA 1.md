@@ -6,7 +6,7 @@
 
     In unsupervised learning, the model is trained on unlabelled data for which it tries to find some sort of classification. No ground truth is given, only costraints and the environment in which the model is trained are specified.
 
-    In reinforcement learning, the model is trained in the environment it has to operate in, in ordine to learn the best course of action for each new situation. The model learns by taking decisions and receiving a reward or a punishment for each of them.
+    In reinforcement learning, the model is trained in the environment it has to operate in, in order to learn the best course of action for each new situation. The model learns by taking decisions and receiving a reward or a punishment for each of them.
 
 --- 
 
@@ -20,7 +20,7 @@ a dataset on **cars** could be the following:
 
     As we can see, each instance (row) has multiple features (columns) describing a different aspect. Each feature can either be a discrete value (e.g. number of doors), a real value (e.g. price) or a binary value (e.g. 4x4) used for classification.
 
-    A supervised learning model can be trained on such datasets so that one feature of a new instance can be predicted based on the past instances examined. 
+    A supervised learning model can be trained on such datasets so that one feature of a new instance can be predicted based on the instances previously examined. 
 
 --- 
 
@@ -41,7 +41,13 @@ a dataset on **cars** could be the following:
 
 ---
 
-5. CL, RG, RG (?), CL, RG, CL
+5. The model is a :
+- CL
+- CL (assuming classes are something like RISES, NOT RISES, STAYS STABLE)
+- RG
+- CL
+- RG
+- CL
 
 ---
 
@@ -49,9 +55,14 @@ a dataset on **cars** could be the following:
 
 ---
 
-7. The hyperparameters of a ML model are characteristics of the model decided previously to its training. 
-For instance, in the case of a NN, an hyperparameter could be the architecture of the network or the learning rate. Parameters are instead something that is tuned during training and are part of the optimisation problem, so for example in a NN the parameters we need to tune are the weight of the edges in order to minimise the error.
+7. The hyperparameters of a ML model are parameters or characteristics of the model decided previously to its training. 
+For instance, in the case of a NN, an hyperparameter could be the architecture of the network or the learning rate. 
+Parameters are instead something that is tuned during training and are part of the optimisation problem, so for example in a NN the parameters we need to tune are the weight of the edges in order to minimise the error.
 
 ---
 
-9. During the training phase, the model is trained to recognize new instances based on the labelled data in the dataset. To be more precise, the model learns a function $c(x)$ that outputs a discrete value used for classification. This classification is achieved, in the case of Decision Trees, through a greedy algorithm called recursive partitioning which aims at classying the instances in D. During testing, the accuracy of the outputted model is tested to see if, for example, it's overfitting or underfitting. When the model is accurate enough it can be used and go into the operational phase. 
+8. The training set and the test set are portions of the dataset respectively used in the training and testing phase. The way the training set and test set are chosen is an important aspect of the entire ML pipeline, and there are multiple techiniques that ensure we choose training data and testing data so that bias is reduced when picking data (e.g. sampling, oversampling minorities and undersampling majorities) or that variance is addressed on training data (e.g. using models that have built in cross validation, like ensemble methods)
+
+---
+
+9. During the training phase, the model is trained to recognize new instances based on the labelled data in the dataset. To be more precise, the model learns a function $c(x)$ that outputs a discrete value used for classification. This classification is achieved, in the case of Decision Trees, through a greedy algorithm called recursive partitioning which aims at classying the instances in D. During testing, the accuracy of the outputted model is tested to see if, for example, it's overfitting or underfitting. When the model is accurate enough it can be used and go into the operational phase and be deployed and tested to predict new values for real data.

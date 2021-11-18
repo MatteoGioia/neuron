@@ -1,66 +1,77 @@
 # Ensemble methods 
 
 ## Recall questions
-    - WIP
+   
+### Ensembles
 
-## Ensemble methods
+- What is an ensemble? What are the main reasons to use them?
 
-Ensemble methods are ..
+![](./static/ML/ens1.png)
 
-### Main reasons to use EM
+- What can be said about variance and error rate of ensemble methods? What is a necessary requirement for the latter?
 
-Statistical reason: 
-- also see #[Performance Evaluation]
+![](./static/ML/ens2.png)
 
-Too much or not enough data:
+- What are 4 common ways of training ensembles?
 
-### Constructing ensembles
+- What are homogeneous ensembles? List 3 techniques for data division.is 
 
-...
+### Bagging
 
-We'll focus first on homogenous ensembles, that use the same learning algorithm for each model but manipulates training data.
+- What does bagging stand for? What does it reduce?
 
-Depending on the type of manipulation the method is called:
-- bagging
-- boosting
-- random forests
+![](./static/ML/ens3.png)
 
-## Bagging
+- What is bootstrapping? How is the data that is not extracted in the boostrapping rounds used?
 
-Bagging stands for bootstrapping and aggregation
+![](./static/ML/ens4.png)
 
-### Bootstrapping
+- What is a 0.632 boostrap? Why is it called this way?
 
-...
+- How do we determine the final prediction of an ensemble method?
 
-The samples that have not been extracted will be used for testing.
+- Describe the 2 common voting techniques: why is soft voting way more complex than hard voting?
 
-### 0.632 bootstrap
+- How does averaging work instead?
 
->$$ means that approximately 63.2% of the samples are picked
+![](./static/ML/ens5.png)
 
-### Aggregation
+- What are the benefits and downsides of bagging? What happens when there are instances difficult to classify?
 
-Majority voting
+![](./static/ML/ens6.png)
 
-Voting classifiers
+### Boosting
 
-### Benefits of bagging
+- How does boosting work and what is the main goal?
 
-## Boosting
+- How does boosting use weighted bootstrapping?
 
-The idea of boosting is to add models to the overall ensemble sequentially.
+![](./static/ML/ens7.png)
 
-### Boosting algorithm and workflow
+- How is the final vote decided?
 
-### Adaboosting
- 
-## Random forests
+- What is ADAboost? How does it work?
 
-### Random vector 
+- How many classifiers are trained? What is the importance (or authority) of a classifier?
 
-### Algorithm and visualization
+![](./static/ML/ens8.png)
 
-### Advantages
+- How is the final vote decided?
 
-## Gradient boosting
+![](./static/ML/ens9.png)
+
+<small> Ask for clarification !! </small>
+
+### Random forests
+
+- How do random forests work? Are they used for a specific ML model?
+
+![](./static/ML/ens10.png)
+
+- Why do we say that random forests have "2 sources of randomness"?
+
+- How do random vectors work? Why do they avoid correlation in trees?
+
+- What are the main advantages of random forest?
+
+- How do RF compare to ADAboost or Deep methods?

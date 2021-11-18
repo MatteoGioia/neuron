@@ -9,6 +9,10 @@ Sezione dedicata agli appunti di Autonomous Networking
 
 Lecturer: Gaia Maselli
 
+Note method:
+- slides highlights
+- recall questions
+
 ### Appunti
 
 [[AN I - RFID]]
@@ -28,3 +32,9 @@ Lecturer: Gaia Maselli
 [[AN VIII - Reinforcement Learning]]
 
 [[AN IX - Exploration vs Exploitation]]
+
+[[AN X - Kband PE]]
+
+[[AN XI - MDP]]
+
+[[AN XII - Softmax]]

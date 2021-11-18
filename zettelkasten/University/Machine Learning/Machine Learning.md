@@ -7,7 +7,11 @@ dirtree:
 
 Sezione dedicata agli appunti di Machine Learning
 
-Lecturer: 
+Lecturer: Paola Velardi
+
+Note method:
+- slides highlights + additional notes (if slides are not clear enough)
+- recall questions
 
 ### Appunti
 
@@ -26,6 +30,8 @@ Lecturer:
 [[ML VI - Performance Evaluation]]
 
 [[ML VII - SVM]]
+
+[[ML VIII - Ensemble methods]]
 
 ---
 
