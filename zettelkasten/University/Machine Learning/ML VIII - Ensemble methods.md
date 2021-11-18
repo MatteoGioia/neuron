@@ -75,3 +75,17 @@
 - What are the main advantages of random forest?
 
 - How do RF compare to ADAboost or Deep methods?
+
+### Gradient boosting machines
+
+- What is the idea behind gradient boosting machines?
+
+- Why do residuals express the gradient?
+
+- What do we do with the hypotesis at each step?
+
+- What is another popular variant of GBM? What are the differences with normal trees?
+
+### To recap
+
+![](./static/ML/ens11.png)
