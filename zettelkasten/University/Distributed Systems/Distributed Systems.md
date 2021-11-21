@@ -22,3 +22,5 @@ Lecturer: Alessandro Mei
 [[DS V - FLP]]
 
 [[DS VI - P2P]]
+
+[[DS VII - Failure Detector]]
