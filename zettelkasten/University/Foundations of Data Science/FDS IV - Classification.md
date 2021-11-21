@@ -1,53 +1,42 @@
 # Classification and more
 
 ## Recall questions
-        - WIP
 
-## Logistic Regression 
+### Logistic Regression 
 
-In logistic regression, we use the same model as normal regression but with a twist. Since we are interested in classification, we output a value between 0 and 1. If such value is over a threshold, we then output a positive classification.
+What is logistic regression? What is the function used to transform the hypotesis and why do we do so?
 
-To achieve this result, our new hyp. is:
+![](./static/FDS/glm1.png)
 
->$h_\theta (x) = g (\theta^T x)$
+What is the likelihood in the case of a binary classification logistic regression? Why do we want to maximize it?
+
+![](./static/FDS/glm2.png)
+
+What is the update rule? You can also report the general update rules for generalised linear models.
+
+What is Newtown's method for optmisation? Why do we use gradient ascent/descent instead? You can refer to the notes for this one...
+
+![](./static/FDS/glm3.png)
+
+### Generalised linear models
+
+What is the exponential family of distributions? Make a few examples using known distributions.
+
+![](./static/FDS/glm4.png)
+
+What desirable properties are true for distributions of this family?
+
+![](./static/FDS/glm5.png)
+
+Which assumptions do we make when modeling a problem with a generalised linear model?
+
+![](./static/FDS/glm6.png)
+
+What is the general workflow? Make examples with known distributions (e.g. gaussian, bernoulli).
+
+![](./static/FDS/glm7.png)
  
-where the $g(z)$ fuction is the sigmoid function (or logistic function)
+Why do we have 3 types of parametrizations? What are the link and response function?
+Why is the link function useful?
 
->$g(z) = \frac{1}{1 - e^{-z}}$
-
-In the following, we will see how to ouput models able to:
-- create linear decision boundaries 
-- create non linearly separable decision boundaries 
-
-### Gradient ascent in Logistic Regression
-
-One way to calculate $\theta$ is to use gradient ascent. The logic is similar to the one of gradient descent, although now we need to maximise the log likelihood function.
-
-Keep also in mind that, in this case, we assume our RV is a bernoulli (classification is either correct or not).
-
-![](./static/FDS/lr1.png)
-
-Gradient update equation (see notebook for full derivation):
-
-![](./static/FDS/lr2.png)
-
-### Newton's method for Logistic Regression
-
-There is an alternative method to compute the best value for $\theta$ that, although more complex, is also faster at convergence. This method is Newton's method.
-
-## Exponential Models
-
-We can prove that the distributions we analyzed till now are all part of the family of exponential distribution:
-
->exp...
-
-### Properties of exponential models
-
-All the models of the exponential family of distributions have some property in common
-
-## Generalized linear models
-
-We can create a general algorithm to tackle data assumed to be from a distribution from the exponential family...
-
-## Multiclass classification
-
+![](./static/FDS/glm8.png)
