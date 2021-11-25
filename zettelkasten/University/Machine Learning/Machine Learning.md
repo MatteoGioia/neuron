@@ -33,6 +33,8 @@ Note method:
 
 [[ML VIII - Ensemble methods]]
 
+[[ML IX - PML]]
+
 ---
 
 [[ML - SA 1]]

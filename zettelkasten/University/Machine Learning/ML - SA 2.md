@@ -16,9 +16,9 @@
 
 ---
 
-3. Decision trees can handle continuous features through discretization of the features.
+1. Decision trees can handle continuous features through discretization. For example, if a feature ranges from values < 0 and > 1, we can create two classes "smaller than 0" and "bigger than 1".
 
-4. Decision trees can't handle continous features as they are classifiers by definition, so the hypotesis has the form of a discrete function $c(x)$.
+2. Decision trees can't handle continous features as they are classifiers by definition, so the hypotesis has the form of a discrete function $c(x)$.
 
 ---
 
@@ -31,7 +31,7 @@
     In the case of DT, the technique used is a greedy recursive partitioning of the space, that aims at choosing the best feature to split on at each iteration of the algorithm that builds the tree. The locally optimal partition is decided through the used of a metric called Information Gain (IG), that quantifies the reduction of uncertainty on the decision when splitting on a certain feature. This translates, roughly speaking, in sets where it's easier to classify the instances based on such feature ("more pure sets").
     The IG of a feature is calculated as $IG = E(D) - \sum_{v \in V(f)} \frac{|D_v|}{|D|}E(D_v)$, where $E(D)$ is the entropy of the dataset and $E(D_v)$ is the entropy of a set where feature $f$ has value $v$.
 
-    For the RT the technique used instead is called Recursive Binary Splitting and works through the aid of a metric called the Residual Sum of Squares (RSS)  ==FINIRE==
+    For the RT the technique used instead is called Recursive Binary Splitting and it works through the aid of a metric called the Residual Sum of Squares (RSS)  ==FINIRE==
 
 ---
 
