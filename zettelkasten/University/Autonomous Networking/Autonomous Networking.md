@@ -38,3 +38,5 @@ Note method:
 [[AN XI - MDP]]
 
 [[AN XII - Softmax]]
+
+[[AN XIII - QLearning]]

@@ -18,3 +18,5 @@ Lecturer: Galasso Fabio
 [[FDS III - Regression]]
 
 [[FDS IV - Classification]]
+
+[[FDS V - Generative Models]]

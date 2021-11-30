@@ -18,16 +18,20 @@
 
 - How do we find an optimal policy? 
 
-- How do we find the optimal q values?
+![](./static/AN/ql3.png)
+
+- How do we find the optimal q values? Why is it important to find them? (Hint: bellman)
 
 ### Q Learning
 
 - What are the characteristics of Q learning?
 
+![](./static/AN/ql4.png)
+
 - What is temporal difference learning? What are the characteristics?
 
 - What is the difference between on and off-policy learning?
 
-.....
+- What is the assumption and the advantage of using an off-policy? 
 
 - How does the q-learning control algorithm work?
