@@ -42,7 +42,17 @@ This section can be integrated with FDS V - PLM
 
 - What is MAP? What is the main difference with MLE?
 
---- recuperare questa parte! (issues of MAP)
+![](./static/ML/pml9.png)
+
+- What is the probabilistic model in MAP? How is it different from MLE?
+
+- How is the bayes theorem used in MAP?
+  
+![](./static/ML/pml10.png)
+
+- What happens when we calculate the joint probability of the parameters? Why is it an issue?
+
+![](./static/ML/pml11.png)
 
 ### Naive bayes model 
 
@@ -54,11 +64,13 @@ This section can be integrated with FDS V - PLM
 
 - How do we about estimating the parameters? What does the estimation depend upon?
 
+- What is the final formulation for the prediction?
+
+![](./static/ML/pml12.png)
+
 - Make an example with the urn dataset and apply the naive bayes method for a prediction.
 
 ![](./static/ML/pml7.png)
-
-- RECAP
 
 - How can we deal with dataset that are too small? Why there could be issues in the calculation? Explain the new formulation.
 
