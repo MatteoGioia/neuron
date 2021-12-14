@@ -24,3 +24,11 @@ Lecturer: Alessandro Mei
 [[DS VI - P2P]]
 
 [[DS VII - Failure Detector]]
+
+[[DS VIII - Wifi and Privacy]]
+
+[[DS IX - A brief overview of consistent hashing]]
+
+[[DS X - A brief overview of CDN_Akamai]]
+
+[[DS XI - Algorand]]

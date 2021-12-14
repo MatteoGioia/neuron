@@ -34,3 +34,15 @@
 - What are the parameters for the naïve bayes model (spam filter)?
 
 ![](./static/FDS/gm9.png)
+
+- What is laplacian smoothing? Why is it necessary?
+
+![](./static/FDS/gm10.png)
+
+- What is the multinomial bayes model? What advantage does it have over the normal multivariate one?
+
+![](./static/FDS/gm11.png)
+
+- What are 2 things to look out for when dealing with naive bayes?
+
+![](./static/FDS/gm12.png)
