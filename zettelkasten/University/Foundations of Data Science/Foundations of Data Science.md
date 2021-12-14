@@ -20,3 +20,5 @@ Lecturer: Galasso Fabio
 [[FDS IV - Classification]]
 
 [[FDS V - Generative Models]]
+
+[[FDS VI - Bias and Variance]]

@@ -30,3 +30,5 @@ Lecturer: Alessandro Mei
 [[DS IX - A brief overview of consistent hashing]]
 
 [[DS X - A brief overview of CDN_Akamai]]
+
+[[DS XI - Algorand]]
