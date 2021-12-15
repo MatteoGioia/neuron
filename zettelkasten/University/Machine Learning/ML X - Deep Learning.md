@@ -46,11 +46,11 @@
 
 ![](./static/ML/dnn8.png)
 
-- What is pooling and how is it applieds ? What are the advantages and the caveats? Describe 2 common pooling techniques.
+- What is pooling and how is it applied ? What are the advantages and the caveats? Describe 2 common pooling techniques.
 
 ![](./static/ML/dnn9.png)
 
-- How is the last layer of a CNN different from a normal NN? What is the activation function and how is the error computed?s
+- How is the last layer of a CNN different from a normal NN? What is the activation function and how is the error computed? How is the fully connected layer connected to the softmax?
 
 ### Stacked denoising auto encoders (anomaly detection)
 
