@@ -79,7 +79,7 @@ Given what was previously said about classification, it is then true that:
 
 > (1) an instance is positive if $y = w^T x + b \geq 1$
 
-> (2) an instance is negative if $y = w^T x + b \leq 1$
+> (2) an instance is negative if $y = w^T x + b \leq -1$
 
 This is true, by construction, only for SV. We can also note that
 

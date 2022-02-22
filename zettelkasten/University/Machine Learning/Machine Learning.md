@@ -37,4 +37,6 @@ Note method:
 
 [[ML X - Deep Learning]]
 
-[[ML XI - RNN]]
+[[ML XI - RNN]] (Note that these notes are not complete, pun intended)
+
+[[ML XII - Clustering]]
