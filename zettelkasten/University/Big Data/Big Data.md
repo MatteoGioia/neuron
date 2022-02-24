@@ -7,8 +7,10 @@ dirtree:
 
 Sezione dedicata agli appunti di Big Data
 
-Lecturer: Tolomei
+Lecturer: Gabriele Tolomei
 
 ### Appunti
 
 [[BD I - Big Data Pheonomenon]]
+
+[[BD II - MapReduce]]

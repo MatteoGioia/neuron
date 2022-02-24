@@ -34,3 +34,8 @@ Sezione dedicata ad appunti università.
 [[Autonomous Networking]]
 
 [[Big Data]]
+
+[[Economics of Tech and Mgmt]]
+
+[[Deep Learning and AI]]
+

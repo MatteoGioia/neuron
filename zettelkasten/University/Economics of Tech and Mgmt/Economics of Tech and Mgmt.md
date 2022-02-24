@@ -1,0 +1,16 @@
+---
+dirtree:
+  display: False
+---
+
+# Economics of Technology and Management
+
+Sezione dedicata agli appunti di Economics of Technology and Management
+
+Lecturer: Idiano D'Adamo
+
+### Appunti
+
+[[ETM I - Intro to business]]
+
+
