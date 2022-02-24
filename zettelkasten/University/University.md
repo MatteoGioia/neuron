@@ -5,9 +5,11 @@ dirtree:
 
 # University
 
-Sezione dedicata ad appunti università.
+Uni notes :)
 
 **IMPORTANT: all the credit for images/slides parts included goes to the various lecturers** 
+
+Why does the note style change all of a sudden? Read the [[index]] index!
 
 ## Terzo Anno 
 
@@ -25,6 +27,8 @@ Sezione dedicata ad appunti università.
 
 ## Primo anno LM
 
+### Primo semestre
+
 [[Machine Learning]]
 
 [[Distributed Systems]]
@@ -32,6 +36,8 @@ Sezione dedicata ad appunti università.
 [[Foundations of Data Science]]
 
 [[Autonomous Networking]]
+
+### Secondo semestre
 
 [[Big Data]]
 

@@ -2,12 +2,14 @@
 
 ### Recall questions
 
-1. <details>
-    <summary> What is a business?</summary>
+1. <details markdown=1><summary markdown="span"> What is a business?</summary>
+
+    \
     A business is an organization that uses resources to meet the needs of customers by providing products.
+
 </details>
 
-2. <details>
+1. <details>
     <summary> What is an alternative way to see a business? </summary>
     A business can be seen as process, which uses resources (input) to produce a product/service (output).
     <br> Also see https://www.blueoceanstrategy.com/tools/red-ocean-vs-blue-ocean-strategy/
