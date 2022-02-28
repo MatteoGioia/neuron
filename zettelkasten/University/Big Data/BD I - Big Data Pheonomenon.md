@@ -2,27 +2,42 @@
 
 ### Recall questions
 
-1. <details>
-    <summary> Define big data (4V)</summary>
-    Volume, Variety, Velocity (rate of creation), Veracity (reliability of data)
+1. <details markdown=1><summary markdown="span"> Define big data (4V)</summary>
+    
+    \
+    4V:
+    - ==Volume==
+    - ==Variety==
+    - ==Velocity== (rate of creation)
+    - ==Veracity== (reliability of data)
+
 </details>
 
-2. <details>
-    <summary> What are the 2 ways of dealing with a huge index? What are the pros/cons of each solution?</summary>
-    Scaling up (vertical), Scaling out (horizontal / parallel)
+2. <details markdown=1>
+    <summary markdown="span"> What are the 2 ways of dealing with a huge index? What are the pros/cons of each solution?</summary>
+
+    \
+    Scaling
+    - ==up== (vertical) : really costly
+    - ==out== (horizontal / parallel) : requires complex software
+
 </details>
 
-3. <details>
-    <summary> What is the architecture of a cluster? Define the main elements.</summary>
+3. <details markdown=1>
+    <summary markdown="span"> What is the architecture of a cluster? Define the main elements.</summary>
+
+    \
     Nodes -> Rack -> Cluster & Network Switches
+
 </details>
 
-4. <details>
-    <summary> What are 3 major challenges of cluster architectures?</summary>
-    Reliability (node failure), minimize network communication (bottleneck), ease distributed programming model (abstraction)
-</details>
+4. <details markdown=1>
+    <summary markdown="span"> What are 3 major challenges of cluster architectures?</summary>
 
-5. <details> 
-    <summary>Describe the issue of node failure with the help of probability. </summary>
-    ...
+    \
+    Challenges:
+    - ==Reliability== (node failure)
+    - minimize network communication (==bottleneck==)
+    - ==ease distributed programming model== (abstraction)
+  
 </details>
