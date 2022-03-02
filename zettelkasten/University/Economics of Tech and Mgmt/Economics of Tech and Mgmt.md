@@ -13,4 +13,6 @@ Lecturer: Idiano D'Adamo
 
 [[ETM I - Intro to business]]
 
+[[ETM II -Managerial Accounting and Cost Concepts]]
+
 
