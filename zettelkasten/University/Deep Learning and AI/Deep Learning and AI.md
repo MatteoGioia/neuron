@@ -12,3 +12,5 @@ Lecturer: Emanuele Rodolà
 ### Appunti
 
 [[DLAI I - Data]]
+
+[[DLAI II - Linear Algebra Review]]
