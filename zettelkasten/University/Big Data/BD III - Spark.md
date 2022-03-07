@@ -23,11 +23,11 @@
 
     \
     ![](./static/BIG/sp1.png) \
-    Note that spark does not provide a storage solution, but APIs for the most common solutions.
+    Note that spark ==does not provide a storage solution==, but APIs for the most common solutions.
 
 </details>
 
-4. <details markdown=1><summary markdown="span">  What are Spark's main features?</summary>
+4. <details markdown=1><summary markdown="span">  What are Spark's main features? What is the one that makes it so fast?</summary>
 
     \
     Features:
