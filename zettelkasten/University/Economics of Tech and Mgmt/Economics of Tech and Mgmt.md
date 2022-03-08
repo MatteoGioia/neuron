@@ -17,3 +17,4 @@ Lecturer: Idiano D'Adamo
 
 [[ETM III - Cost Volume Profit Analysis]]
 
+[[ETM IV - Job Oder Costing]]

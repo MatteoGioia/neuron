@@ -12,3 +12,5 @@ Lecturer: Emiliano Casalicchio
 ### Appunti
 
 [[CLD I - Cloud computing]]
+
+[[CLD II - Distributed Computing]]

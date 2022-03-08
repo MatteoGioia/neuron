@@ -70,3 +70,27 @@
     The margin of safety is equal to $TOT. SALES - BREAK. EVEN SALES$. It is useful to know by which amount the sales can drop before incurring in a loss.
 
 </details>
+
+10. <details markdown=1><summary markdown="span"> What is the advantage of industries with a higher proportion of fixed costs? </summary>
+
+    \
+    Since the cost is fixed, the ==total gain is going to be higher when the sales are higher (w.r.t. to other industries with a lower fixed costs proportion), but also lower when sales are not as high==.
+   
+
+</details>
+
+11. <details markdown=1><summary markdown="span"> What is the degree of operating leverage? What is it useful for? </summary>
+
+    \
+    Is the ==measure of how sensitive net operating income is to percentage changes in sales==. It is computed as $\frac{CM}{Net operating income}$. \
+    For instance, a 10% increase in sales with a 5% deg. means a 50% increase in sales!
+
+</details>
+
+12. <details markdown=1><summary markdown="span"> What is the most effective way to structure commissions? </summary>
+
+    \
+    Instead of calculating the commissions on the sales price, it is a good idea to compute it w.r.t. to the contribution margin. \
+    E.g. one item might have a higher price but a lower CM than another product, but the seller would focus on the first as a way to maximise his salary.
+
+</details>
