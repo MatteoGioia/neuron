@@ -7,9 +7,9 @@
     
     \
     Techs:
-    - Virtualization: hardware (VMs) or software/application (containers)
-    - Web 2.0: platform for web applications like Google Docs
-    - Service orientation: 
+    - ==Virtualization==: hardware (VMs) or software/application (containers)
+    - ==Web 2.0==: platform for web applications like Google Docs
+    - ==Service orientation==: design paradigm for computer software in the form of services
 
 </details>
 
@@ -46,7 +46,7 @@
 5. <details markdown=1><summary markdown="span"> What is resource pooling? </summary>
     
     \
-    Computing resources are pooled to serve customers in a multi-tenant model. This model is possible through virtualization.
+    ==Computing resources are pooled to serve customers in a multi-tenant model==. This model is possible through virtualization.
 
 </details>
 
@@ -61,7 +61,7 @@
 7. <details markdown=1><summary markdown="span"> What is rapid elasticity? </summary>
     
     \
-    It is another way of naming ==scalability==, the degree to which a system is able to adapt to workload changes in an automatic manner,
+    It is another way of naming ==scalability==, the ==degree to which a system is able to adapt to workload changes in an automatic manner==,
     such that the available resources match the current demand.
 
 </details>
@@ -69,7 +69,7 @@
 8. <details markdown=1><summary markdown="span"> What is the meaning of measured services? </summary>
     
     \
-    Ability for both the customer and the cloud provider to measure various aspects of services offered.
+    ==Ability for both the customer and the cloud provider to measure various aspects of services offered==.
 
 </details>
 
@@ -77,9 +77,9 @@
     
     \
     Service models:
-    - IaaS: only the infrastructure is provided
-    - PaaS: the infrastructure and platforms to deploy apps are provided;
-    - SaaS: everything is already configured: infrastructure, platforms and the app themselves.
+    - ==IaaS==: only the infrastructure is provided
+    - ==PaaS==: the infrastructure and platforms to deploy apps are provided;
+    - ==SaaS==: everything is already configured: infrastructure, platforms and the app themselves.
 
 </details>
 
@@ -87,10 +87,10 @@
     
     \
     Deployment models:
-    - public
-    - private: e.g. google VPC
-    - hybrid
-    - community: the cloud service is provided to a specific community
+    - ==public==
+    - ==private==: e.g. google VPC
+    - ==hybrid==
+    - ==community==: the cloud service is provided to a specific community
 
 </details>
 
@@ -99,15 +99,15 @@
     \
     ![](./static/CLD/cld2.png) \
     Important roles:
-    - auditor: verifies the authenticity/quality of the services provided;
-    - broker: intermediate between provider and consumer, turns high level requests into specific services required to a provider;
-    - carrier: provides connectivity and transport between customer and provider.
+    - ==auditor==: verifies the authenticity/quality of the services provided;
+    - ==broker==: intermediate between provider and consumer, turns high level requests into specific services required to a provider;
+    - ==carrier==: provides connectivity and transport between customer and provider.
 
 </details>
 
 12. <details markdown=1><summary markdown="span"> What is the cloud service owner? Is it the same as the administrator? </summary>
     
     \
-    Legal owner of the cloud platform. Not necessarily the admin. The legal owner is also a "user" himself of the cloud service, in a sense.
+    ==Legal owner of the cloud platform. Not necessarily the admin==. The legal owner is also a "user" himself of the cloud service, in a sense.
 
 </details>
