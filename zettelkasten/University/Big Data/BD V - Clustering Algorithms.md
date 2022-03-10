@@ -1,6 +1,6 @@
 # Clustering algorithms
 
-We focus on partitioning based clustering.
+We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 
 ### Recall questions
 
@@ -10,11 +10,11 @@ We focus on partitioning based clustering.
     **Input**: set of $N$ data points, a number $K$ s.t. $K < N$\
     **Output**: partition of the $N$ data points into $K$ clusters \
     **Goal**: find the partition that optimizes a certain criterion \
-    ==Finding the optimum is NP-Hard== as there are $O(N^k)$ apprx. partition to examine (Stirling partition number).
+    ==Finding the optimum is NP-Hard== as there are $O(N^k)$ apprx. partition to examine (==Stirling partition number==).
 
 </details>
 
-2. <details markdown=1><summary markdown="span"> Describe the flat hard clustering framework? </summary>
+1. <details markdown=1><summary markdown="span"> Describe the flat hard clustering framework. </summary>
 
     \
     ![](./static/BIG/cl1.png)
@@ -34,12 +34,14 @@ We focus on partitioning based clustering.
     \
     Steps:
     1. Assignment step
-    2. Update step
+    2. Update step 
+
+
     Note that ==this function does might get stuck on a local minima==.
 
 </details>
 
-5. <details markdown=1><summary markdown="span"> How does the sassignment step work? </summary>
+5. <details markdown=1><summary markdown="span"> How does the assignment step work? </summary>
 
     \
     ![](./static/BIG/cl3.png)
@@ -57,11 +59,11 @@ We focus on partitioning based clustering.
 7. <details markdown=1><summary markdown="span"> What is the cluster representative in k-means? What is the goal of k-means? </summary>
 
     \
-    Centroids, i.e. center of mass. The goal is constructing clusters s.t. the total within cluster $SDD$ or **Sum of Squared Distances** is minimized.
+    ==Centroids==, i.e. ==center of mass==. The goal is ==constructing clusters s.t. the total within cluster $SDD$ or **Sum of Squared Distances** is minimized==.
 
 </details>
 
-8. <details markdown=1><summary markdown="span"> What is the setup of k-means? And the objective function? </summary>
+8. <details markdown=1><summary markdown="span"> What is the setup of k-means? And the objective function? What is the SDD? </summary>
 
     \
     ![](./static/BIG/cl5.png)
@@ -72,7 +74,7 @@ We focus on partitioning based clustering.
 9. <details markdown=1><summary markdown="span"> Describe the assignment and update steps in k-means (formally)? Can you describe intuitively what is going to be the output of the update?</summary>
 
     \
-    See slides 45-57. As expected, the new output (that minimizes the distances w.r.t. to nodes in the cluster) is nothing more than a new centroid, so the mean!
+    See slides 45-57. ==As expected, the new output (that minimizes the distances w.r.t. to nodes in the cluster) is nothing more than the new centroid for all the points in the cluster==.
    
 </details>
 

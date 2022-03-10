@@ -19,4 +19,4 @@ Lecturer: Gabriele Tolomei
 
 [[BD IV - Clustering]]
 
-[[BD V - Clustering Algorithm]]
+[[BD V - Clustering Algorithms]]

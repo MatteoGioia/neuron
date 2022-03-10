@@ -75,7 +75,8 @@ Structure of the lecture:
     \
     Advantages: besides the ones mentioned before, the are:
     - ==fault isolation==
-    - possibility for ==continous delivery and deployment==
+    - possibility for ==continous delivery and deployment==  
+
     Drawbacks:
     - deciding ==which microservices to use is not simple==;
     - a micro-services based cloud is as ==hard to manage as a distributed systems==, so all the problems of DS apply.
