@@ -67,7 +67,8 @@
 9. <details markdown=1><summary markdown="span"> What is the margin of safety? </summary>
 
     \
-    The margin of safety is equal to ==$TOT. SALES - BREAK. EVEN SALES$==. It is useful to know by which amount the sales can drop before incurring in a loss.
+    The margin of safety is equal to ==$TOT. SALES - BREAK. EVEN SALES$==. It is useful to know by which amount the sales can drop before incurring in a loss. \
+    Note that ==it must be computed w.r.t. to the units to sell to break even.==
 
 </details>
 
@@ -90,7 +91,7 @@
 12. <details markdown=1><summary markdown="span"> What is the most effective way to structure commissions? </summary>
 
     \
-    Instead of calculating the commissions on the sales price, it is a good idea to compute it w.r.t. to the contribution margin. \
+    Instead of calculating the commissions on the sales price, it is a good idea to ==compute it w.r.t. to the contribution margin==. \
     E.g. one item might have a higher price but a lower CM than another product, but the seller would focus on the first as a way to maximise his salary.
 
 </details>
