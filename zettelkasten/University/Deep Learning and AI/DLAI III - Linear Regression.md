@@ -3,8 +3,9 @@
 ### Recall questions
 
 Also see:
-- jensen's inequality and convex functions
+- jensen's inequality and convex functions (slide 8)
 - computing the gradient of matrices
+- euclidean distance (L-p norm)
 
 
 1. <details markdown=1><summary markdown="span"> What is the model for linear regression? </summary>
@@ -18,12 +19,14 @@ Also see:
 </details>
 
 
-2. <details markdown=1><summary markdown="span"> What is the formal definition of linear regression? What is this problem called if $f_{\Theta}$ is linear? </summary>
+2. <details markdown=1><summary markdown="span"> What is the formal definition of linear regression? What is this problem called if $f_{\Theta}$ is linear?  </summary>
     
     \
-    ![](./static/DEEP/lr1.png)
+    ![](./static/DEEP/lr1.png) 
+
 
 </details>
+
 
 3. <details markdown=1><summary markdown="span"> What is the chosen loss function? Is it the same without the $\frac{1}{n}$ factor? What we are minimizing w.r.t. to? </summary>
     
@@ -35,12 +38,12 @@ Also see:
 4. <details markdown=1><summary markdown="span"> What general optimization problem are we solving? What will be the type of problems we deal with?</summary>
     
     \
-    We need to solve the general minimization problem $\varepsilon = min_{\Theta} l(\Theta)$. So, we need to find the minimizer $\Theta$. \
-    We will mostly deal with uncostrained problems.
+    We need to solve the ==general minimization problem $\varepsilon = min_{\Theta} l(\Theta)$==. So, we need to find the minimizer $\Theta$. \
+    We will mostly deal with ==uncostrained problems==.
 
 </details>
 
-5. <details markdown=1><summary markdown="span"> What can we say about the global minimizer of a convex function? </summary>
+5. <details markdown=1><summary markdown="span"> What can we say about the global minimizer of a differentiable convex function? </summary>
     
     \
     The global minimizer $x$ is where $\frac{df(x)}{dx} = 0$ 
@@ -55,7 +58,7 @@ Also see:
 
 </details>
 
-7. <details markdown=1><summary markdown="span"> What can be said about the gradient and vector fields? </summary>
+7. <details markdown=1><summary markdown="span"> What can be said about the gradient (vector fields)? </summary>
     
     \
     The gradient is a vector field on the domain of the functions.
@@ -95,6 +98,7 @@ Also see:
 12. <details markdown=1><summary markdown="span"> How does linear regression work in higher dimensions? </summary>
     
     \
-    ...
+    In the more general case, the data points $(x_i, y_i)$ are vectors in $R^d$. \
+    The close form solution becomes $\Theta = (XX^T)^{-1}XY^T$
 
 </details>

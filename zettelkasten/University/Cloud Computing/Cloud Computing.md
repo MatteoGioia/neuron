@@ -14,3 +14,5 @@ Lecturer: Emiliano Casalicchio
 [[CLD I - Cloud computing]]
 
 [[CLD II - Distributed Computing]]
+
+[[CLD III - Virtualization]]
