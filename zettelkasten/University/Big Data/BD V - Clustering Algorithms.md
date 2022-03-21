@@ -14,7 +14,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 
 </details>
 
-1. <details markdown=1><summary markdown="span"> Describe the flat hard clustering framework. </summary>
+2. <details markdown=1><summary markdown="span"> Describe the flat hard clustering framework. </summary>
 
     \
     ![](./static/BIG/cl1.png)
@@ -81,7 +81,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 10. <details markdown=1><summary markdown="span"> Describe the steps of k-means. What are possible stopping criteria? </summary>
 
     \
-    ![](./static/BIG/cl7.png) \ 
+    ![](./static/BIG/cl7.png) 
     Possible stopping criterions are:
     - ==fixed number of iterations==
     - ==cluster assignment stops changing==
@@ -100,7 +100,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 12. <details markdown=1><summary markdown="span"> What is k-means computational complexity? Why?</summary>
 
     \
-    The complexity is $O(RKNd)$ if we have $R$ steps:
+    The complexity is ==$O(RKNd)$== if we have $R$ steps:
     - computing distance between 2 d-dimensional points take $O(d)$
     - reassigning cluster takes $O(KN) \time $O(d)$ operation
     - computing centroids $O(Nd)$ in the worst case 
@@ -123,7 +123,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 
     \
     Idea: ==spread the centroids== to avoid sub-optimal clusters.
-    ![](./static/BIG)
+    ![](./static/BIG/cl8.png)
 
 </details>
 
@@ -160,7 +160,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 
     \
     We want to get the cluster for which the ==Value $V = B - P$== is maximised. \
-    Note that $B$ increases with larger values of $K$, but $P$ allows to stop that.
+    Note that ==$B$ could increase with larger values of $K$, but the presence of $P$ does not allow it==.
     
 </details>
 
@@ -171,7 +171,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
     
 </details>
 
-21. <details markdown=1><summary markdown="span"> Does the chosen minimizer work with all types of distances? </summary>
+21. <details markdown=1><summary markdown="span"> Does the chosen minimizer work with all types of distances? If not, can you make an example? </summary>
 
     \
     It ==works with cosine and correlation== (can be transformed into euclidean distance with a linear transformation), but ==does not work with manhattan== distance where ==median== is the minimizer.
@@ -199,8 +199,8 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 
     \
     Clustering quality:
-    - interal evaluation
-    - external evaluation
+    - ==interal== evaluation
+    - ==external== evaluation
 
     Note that ==these measures depend on data representation and similarity measure== adopted.
     
@@ -216,10 +216,11 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
     
 </details>
 
-26. <details markdown=1><summary markdown="span"> How does external evaluation work? </summary>
+26. <details markdown=1><summary markdown="span"> How does external evaluation work? What is the main issue with this type of metric?  </summary>
 
     \
-    External evaluation is ==based on gold standard data, which has been pre-classified==. It measures the ability to discover all the hidden patterns in our data.
+    External evaluation is ==based on gold standard data, which has been pre-classified==. It measures the ability to discover all the hidden patterns in our data. \
+    ==The main issue with this type of data is that most often clustering algorithms are applied on data that is not labelled==.
     
 </details>
 

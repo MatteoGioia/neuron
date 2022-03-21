@@ -15,6 +15,6 @@ Lecturer: Emanuele Rodolà
 
 [[DLAI II - Linear Algebra Review]]
 
-[[DLAI II - Linear Regression]]
+[[DLAI III - Linear Regression]]
 
 [[DLAI IV - Non Linear]]

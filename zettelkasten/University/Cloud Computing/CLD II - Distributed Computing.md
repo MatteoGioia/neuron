@@ -3,7 +3,9 @@
 ### Recall questions
 
 Structure of the lecture:
-![](./static/CLD/cds2.png)
+![](./static/CLD/cds2.png) 
+ 
+Read this for more info on SOA vs Microservices: https://www.ibm.com/cloud/blog/soa-vs-microservices
 
 
 1. <details markdown=1><summary markdown="span"> Why is cloud computing a specialized form of distributed systems? </summary>
@@ -140,7 +142,7 @@ Structure of the lecture:
 
 </details>
 
-15. <details markdown=1><summary markdown="span"> How is service oriented architecture implemented? (FIX)</summary>
+15. <details markdown=1><summary markdown="span"> How is service oriented architecture implemented? </summary>
     
     \
     A ==software component== with the following characteristics is ==incapsulated in a service==:
@@ -176,6 +178,7 @@ Structure of the lecture:
 18. <details markdown=1><summary markdown="span">  What are enterprise features of SOA?</summary>
     
     \
+    Features:
     - ==Standardized service contract==: to facilitate interoperability
     - ==Loose coupling== 
     - ==Abstraction==: to hide technical implementation details
@@ -231,7 +234,7 @@ Structure of the lecture:
     - size: ==few large services==
 
     Microservices:
-    - communication: ==REST + message broker ==
+    - communication: ==REST + message broker==
     - data: ==each microservice has its own server==
     - size: ==many small services==
 
