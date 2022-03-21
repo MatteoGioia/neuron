@@ -2,29 +2,28 @@
 
 ### Recall questions
 
-To ask:
-- lots of concentrated data
-
+Proof that CELOSS is convex: (https://math.stackexchange.com/questions/1582452/logistic-regression-prove-that-the-cost-function-is-convex)
 
 1. <details markdown=1><summary markdown="span"> Why is polynomial regression still linear? </summary>
     
     \
-    Because it is linear w.r.t. to the parameter, but polynomial w.r.t. to the data.
+    Because it ==is linear w.r.t. to the parameter, but polynomial w.r.t. to the data==.
 
 </details>
 
-2. <details markdown=1><summary markdown="span"> Express the polynomial model with matrices to prove it is still linear w.r.t. to the parameters. How many data points do we need?</summary>
+2. <details markdown=1><summary markdown="span"> Express the polynomial model with matrices to prove it is still linear w.r.t. to the parameters. How many data points do we need (and why)?</summary>
     
     \
     ![](./static/DEEP/poly1.png) \
-    We can still solve this with MSE, but it is necessary that $k < n$. Alternatively, we can say we need $k+1$ data points, e.g. infinite lines pass through one data point.
+    We can still solve this with MSE, but it is ==necessary that $k < n$==. Alternatively, we can say we need $k+1$ data points, e.g. infinite lines pass through one data point.
 
 </details>
 
 3. <details markdown=1><summary markdown="span"> What is polynomial fitting? How is it linked to poly regression (explain the consequences)? </summary>
     
     \
-    >Stone Weierstrass theorem: if $f$ is continuous on the interval $\[a,b\]$, then for every $\varepsilon$ there exists a polynomial $p$ s.t. $|f(x) - p(x)| < \varepsilon$ for all $x$.
+    Theorem:
+    >Stone Weierstrass theorem: if $f$ is continuous on the interval $[a,b]$, then for every $\varepsilon$ there exists a polynomial $p$ s.t. $|f(x) - p(x)| < \varepsilon$ for all $x$.
 
     A consequence of this is that we can ==always fit a polynomial== to our data...but is it the right thing to do?
 
@@ -42,7 +41,7 @@ To ask:
     
     \
     It is a ==form of weight decay used to counter large parameters==. It allows to do what's called ==shrinkage==. \
-    The general form is $min l_{\Theta} + \lambda ||\Theta||_p$. Note that the function is ==still convex==.
+    The general form is $min \ l_{\Theta} + \lambda ||\Theta||_p$. Note that the function is ==still convex==.
 
 </details>
 
@@ -72,7 +71,7 @@ To ask:
 9. <details markdown=1><summary markdown="span"> What is the issue when trying to solve for 0 in the optimization? </summary>
     
     \
-    The parameters enter the gradient in a non linear way. So the $\nabla l_{\Theta} = 0$ is not a linear system but a trascendental equation, for which we have no close form solution.
+    The ==parameters enter the gradient in a non linear way==. So the $\nabla l_{\Theta} = 0$ is not a linear system but a ==trascendental equation==, for which we have no close form solution.
     ![](./static/DEEP/poly6.png) 
 
 </details>

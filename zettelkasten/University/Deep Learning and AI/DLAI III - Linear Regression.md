@@ -11,7 +11,7 @@ Also see:
 1. <details markdown=1><summary markdown="span"> What is the model for linear regression? </summary>
     
     \
-    Model: linear + bias \ 
+    Model: linear + bias \
     Parameters: $\Theta = \{a,b\}$ \
     Data: $n$ pairs $x_i,y_i$, $x_i$ are called regressors \
     Given $a$ and $b$, we have a mapping that gives new output from new input.
