@@ -2,6 +2,8 @@
 
 ### Recall questions
 
+For the details on how Namespaces, Cgroups and UnionFS work see:
+- ..
 
 1. <details markdown=1><summary markdown="span"> What are 3 main characteristics of virtualization environments? </summary>
     
@@ -152,3 +154,18 @@
     ![](./static/CLD/virt5.png) 
    
 </details>
+
+17. <details markdown=1><summary markdown="span"> What is the difference between a system container and application container? </summary>
+    
+    \
+    ![](./static/CLD/virt6.png)
+
+</details>
+
+18. <details markdown=1><summary markdown="span"> What is the architecture of the docker app? </summary>
+    
+    \
+    It's a C/S application: the CLI can interact through a REST API with the docker daemon, which is responsible for managing containers.
+    
+</details>
+
