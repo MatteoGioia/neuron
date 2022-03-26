@@ -67,3 +67,10 @@ Also see:
     Yes, but ==w.r.t. to the constrained resource==!
 
 </details>
+
+8. <details markdown=1><summary markdown="span"> What is a sell or process further decision? What is the split off point? </summary>
+    
+    \
+    If ==2 or more products are produced from a single raw material input==, they are know as a ==joint product==. The point where they can be recognized as 2 separate products is called ==split off point==. The decision to process the product further or sell it before the split off point is know as sell or process further decision.
+
+</details>
