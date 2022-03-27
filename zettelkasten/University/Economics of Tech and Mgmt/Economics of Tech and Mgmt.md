@@ -20,3 +20,5 @@ Lecturer: Idiano D'Adamo
 [[ETM IV - Job Order Costing]]
 
 [[ETM V - Differential Analysis]]
+
+[[ETM VI - Pricing Decisions]]
