@@ -44,7 +44,7 @@ Also see:
 5. <details markdown=1><summary markdown="span"> What are possible strategies to choose the learning rate? </summary>
     
     \
-    The learning rate can be ==adaptive or follow a schedule==. For instance, it can decrease according to a decay parameter $\ro$. 
+    The learning rate can be ==adaptive or follow a schedule==. For instance, it can decrease according to a decay parameter $\rho$. 
     ![](./static/DEEP/sgd3.png) \
     (Not sure about the graphs)
   
@@ -55,6 +55,7 @@ Also see:
     \
     The idea of momentum is to accumulate past gradients "energy". It is expressed as:
     ![](./static/DEEP/sgd4.png)
+
     Step lenght $\alpha$ how aligned is the sequence of gradients and it is $\frac{1}{1 - \lambda} \alpha ||\nabla f||$
     
 </details>
@@ -62,7 +63,8 @@ Also see:
 7. <details markdown=1><summary markdown="span"> What is the generalised form of gradient descent? </summary>
     
     \
-    ![](./static/DEEP/sgd5.png) \ 
+    ![](./static/DEEP/sgd5.png) 
+    
     We can also have $\Gamma$ be a diagonal matrix.
     
 </details>
