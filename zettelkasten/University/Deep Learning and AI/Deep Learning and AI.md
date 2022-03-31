@@ -18,3 +18,5 @@ Lecturer: Emanuele Rodolà
 [[DLAI III - Linear Regression]]
 
 [[DLAI IV - Non Linear]]
+
+[[DLAI V - Sgd]]

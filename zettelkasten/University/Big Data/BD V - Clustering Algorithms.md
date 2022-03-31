@@ -102,7 +102,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
     \
     The complexity is ==$O(RKNd)$== if we have $R$ steps:
     - computing distance between 2 d-dimensional points take $O(d)$
-    - reassigning cluster takes $O(KN) \time $O(d)$ operation
+    - reassigning cluster takes $O(KN) \times O(d)$ operation
     - computing centroids $O(Nd)$ in the worst case 
    
 </details>
