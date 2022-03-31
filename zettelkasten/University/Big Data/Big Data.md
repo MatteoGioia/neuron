@@ -20,3 +20,7 @@ Lecturer: Gabriele Tolomei
 [[BD IV - Clustering]]
 
 [[BD V - Clustering Algorithms]]
+
+[[BD VI - Dimensionality Reduction]]
+
+[[BD VII - Supervised Learning]]
