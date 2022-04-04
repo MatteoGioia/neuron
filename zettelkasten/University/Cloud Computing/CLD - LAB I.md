@@ -1,3 +1,7 @@
+Students: 
+- Gioia Matteo 1995989
+- Andrea Lucchesi 1659599
+
 1. We run the docker container in detached mode to ensure it works in the background, without being tied to the console (e.g. STDIN/STDOUT are not redirected on the shell promtp). This could be useful for many reasons, such as invoking other commands in the terminal.
 
 2. A container is a sandboxed process. This is achieved through the use of namespaces (showing the container only certain "parts" of the system) and c-groups (only allowing for certain capabilities). A container does have everything needed to run and it includes an isolated filesystem. Each container is based on a container image, which basically contains all it's needed for the container to run, including the filesystem itself and configuration settings. An image can be also seen as a snapshot of the container itself, as one can create images of running container to "export" them later on.
@@ -18,13 +22,13 @@
 
 4. We tag image to make identyfing containers simpler. Normally a container can be identified by the name, chosen with the tag or randomly assigned, or the ID.
 
-5. Port mapping is necessary to use our application, as it exposes a webpage on the port nr.3000 internal to the container. We just tell the container to map its 3000th port to the host 3000th port.
+5. Port mapping is necessary to use our application or any application that uses its port in some ways (e.g. to expose a webserver, rest API and so on), as it exposes a webpage on the port nr.3000 internal to the container.
 
-6. No, only 1 process can listen to a specific port. For instance, if we have 2 processes that expose a webpage on the 8080 port, one will have to switch to a different port.
+6. No, only 1 process can listen to a specific port. For instance, if we have 2 processes that expose a webpage on the 8080 port, we can map only one to our 8080 port, while the other will have to switch to a different one.
 
 7. One might need to remove a container to push a big code update to a deployed app, or simply to free up space used by old containers. One solution can also be to use ephemeral containers, which auto delete when stopped, using the --rm flag.
 
-8. (Ideally) A container must be stopped before we are able to remove it. Not stopping could lead to error, as graceful stop allows the docker daemon to send a SIG_HUP signal to the container which has time to clean up the running taks.
+8. Yes, using -f to forcefully stop it. (Ideally) A container should be stopped before we are able to remove it. Not stopping could lead to error, as graceful stop allows the docker daemon to send a SIG_HUP signal to the container which has time to clean up the running taks.
 
 9. It depends. Most of the images will run on any docker host without issues assuming no port is already occupied (or any similar simple issue is present), however, depending on the architecture the image was built for, there might be compatibility problems. For instance, old jupyter-notebook container images don't run nicely (and in some cases they do not run at all) on M1 macs (arm64), as they expect the underlying arch to be x86 intel/amd.
 
@@ -38,13 +42,13 @@
 
 14. My volume is located at "/var/lib/docker/volumes/todo-db/_data" (being on linux). 
 
-15. A dev mode container is a container configured in such a way that it supports a developement workflow (e.g. it does not need to be restarted everytime a change to the source code is made). This is possible because the command used to run it can include the needed dependencies and services like nodemon can look for changes on the source code and automatically rebuild the app as they are applied. Furthermore, we are able to edit the source code live since the docker container is now bound to a folder in the filesystem chosen by us through mount-binding.
+15. A dev mode container is a container configured in such a way that it supports a developement workflow (e.g. it does not need to be restarted everytime a change to the source code is made). This is possible because the command used to run it can include the needed dependencies. On top of that, services like nodemon can look for changes on the source code and automatically rebuild the app as they are applied. We are also able to edit the source code live since the docker container is now bound to a folder in the filesystem chosen by us through mount-binding.
 
-16. Yes, but we might eventually need to rebuild the container image if we want to be able to use it without having to reapply all the changes. 
+16. Yes, but we might eventually need to rebuild the container image if we want to be able to use it later, without having to reapply all the changes. 
 
 17. A docker service is an entry defined in the docker compose file, together with all the necessary requirements to make it run, like port mapping or restart policies/allowed resource usage etc. Many services put together constitute what's called a "stack". Services are also defined in the context of docker swarm as tasks to be executed by the master or worker nodes, as it's a special mode that the docker host can use to be able to manage clusters of docker engines.
 
-18. NEED CLARIFICATION
+18. Yes, but a single container (rather than a stack of services) could be also created using the command line. Dockerfiles are generally used for more complex stacks (see q.22).
 
 19. Yes, we can, provided that we declare such volume in the volume section if we are using docker-compose.
 
@@ -52,4 +56,4 @@
 
 21. No, a default one will be used when creating the stack. However, it might still be a good idea to define a network if our application is complex or we want to test a real world scenario.
 
-22. Theorically yes, we can obtain kind of the same result with the command line. However, docker-compose makes it much easier by only having to invoke one command, creating a network for us, making the syntax more readable and so on. Furthermore, it makes the removal of the network and volumes (if --volumes tag is used) automatic, whereas we would have to add specific tags in the docker run command to ensure that happens. Finally, the docker compose makes it easier to abstract and write more complex configurations, are the yml language is easier to read than one gigantic command line.
+22. Yes, we can obtain the same result with the command line but only if our configuration is not too complex. If we want to manage networks/volumes/dependencies (and much more) efficiently, we'll need a dockerfile. Advantages of using a dockerfile include the automatic removal of networks and volumes (if --volumes tag is used), better readability and ease of use when writing complex configurations.

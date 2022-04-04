@@ -22,3 +22,5 @@ Lecturer: Idiano D'Adamo
 [[ETM V - Differential Analysis]]
 
 [[ETM VI - Pricing Decisions]]
+
+[[ETM VII - Current Price and Indicators]]

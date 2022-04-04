@@ -20,3 +20,5 @@ Lecturer: Emanuele Rodolà
 [[DLAI IV - Non Linear]]
 
 [[DLAI V - Sgd]]
+
+[[DLAI VI - Multi Layer Perceptron]]

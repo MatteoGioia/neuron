@@ -5,7 +5,7 @@
 1. <details markdown=1><summary markdown="span"> What is autonomic computing? </summary>
     
     \
-    ==Systems capable of managing themselves given high level obkectives from the administrators.==
+    ==Systems capable of managing themselves given high level objectives from the administrators.==
 
 </details>
 
@@ -103,8 +103,8 @@
 12. <details markdown=1><summary markdown="span"> What are possible scaling policies/adjustements? Make a few examples.</summary>
     
     \
-    ==Change in capacity==: add vms
-    ==Exact capacity==: specify exact number of vms for each scaling action
+    ==Change in capacity==: add vms \
+    ==Exact capacity==: specify exact number of vms for each scaling action \
     ==Percent capacity==: performs scaling based on a percentage of the current nr. of vms
 
 </details>
