@@ -65,8 +65,8 @@
 </details>
 
 9. <details markdown=1><summary markdown="span"> What is a computational graph? What is the shape of the computational graph for the loss? </summary>
-    
-    \ 
+
+    \
     It's a ==directed acyclic graph that represents the computation of $f(x)$ with intermediate variables==. \
     ![](./static/DEEP/mlp5.png) \
     Shape: Input #params, Output: scalar
