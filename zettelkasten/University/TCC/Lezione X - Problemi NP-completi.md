@@ -4,7 +4,7 @@
 
 ### Albero delle riduzioni
 
-![](./static/TCC/NP-reds.png)
+![](../../..//TCC/NP-reds.png)
 
 ### Problema dell'Indipendent Set ($IS$)
 
@@ -66,17 +66,17 @@ La dimostrazione che $DHC \in NP$ è semplice: avendo un grafo $G$ dobbiamo calc
 Per quanto riguarda la riduzione, invece, partiremo da un'istanza $E$ di $3-SAT$ e arriveremo ad un'istanza $G$ di $DHC$.
 Sia $x_1, x_2, \ldots, x_n$ le variabili in $E$. Per ogni clausola e ogni variabile, costruiamo un ==gadget==, ossia un sottografo $H_i$ particolare:
 
-![](./static/TCC/DHC_red1.png)
+![](../../..//TCC/DHC_red1.png)
 
 Possiamo notare che ogni grafo contiene più nodi connessi tra di loro e gli indici (eccetto quelli del primo e dell'ultimo) variano da $i0$ fino a $im_i$, dove $m_i$ è il maggior numero di occorrenze tra $x, \lnot x$. Ogni nodo è $b$ è connesso con quello $c$ sull'altra colonna e viceversa, inoltre sono connessi rispettivamente al nodo $c$ (risp. $b$) successivo. Notiamo anche che su questo grafo i possibili cammini hamiltoniani sono solo 2: se si sceglie uno dei due lati si è poi costretti a scendere su uno solo tra i due percorsi per evitare di saltare i nodi. Queste discese corrispondono ad assegnare rispettivamente i valori falso e vero alla variabile in questione, infatti di seguito se si andrà da $a_i \to b_{i0}$ la variabile $x_i$ sarà considerata come assegnata al vero, se si andrà da $a_i \to c_{i0}$ falsa.
 
 Una volta fatto ciò, concateniamo tutti questi sottografi $H_i$ e creiamo un arco dal primo all'ultimo. Notiamo che, dato che possiamo fare $2^n$ scelte di assegnazione dei valori di verità per ogni sottografo $H$, il grafo risultante avrà $2^n$ cammini hamiltoniani.
 
-![](./static/TCC/DHC_red2.png)
+![](../../..//TCC/DHC_red2.png)
 
 Creiamo ora degli altri sottografi $I_j$, questa volta però associati a ogni clausola $e_j$ e costruiti nel seguente modo:
 
-![](./static/TCC/DHC_red3.png)
+![](../../..//TCC/DHC_red3.png)
 
 Questi sottografi hanno la particolarità che bisogna uscire dalla colonna in cui si entrati se si vogliono toccare tutti i nodi. **DA INCLUDERE??** Infatti (la dimostrazione è simmetrica per ogni primo nodo nel ciclo di tale grafo) mostriamo come sia vero per $r_j$:
 - se i due vertici successivi nel ciclo sono $s_j$ e $t_j$, se il ciclo andasse a $w_j$ e poi $v_j$ e uscisse allora non potrebbe tocccare $u_j$
@@ -104,7 +104,7 @@ In tempo polinomiale infatti, per ogni nodo $v$ di $G_d$, poniamo in $G_u$ tre n
 - creiamo due archi ($v^0,v^1$) e ($v^1,v^2$)
 - inoltre creiamo un arco $(v^2,w^0)$ per ogni arco $(v,w)$ in $G_d$
 
-![](./static/TCC/HC_red1.png)
+![](../../..//TCC/HC_red1.png)
 
 Dimostriamo che $G_u$ ha un circuito hamiltoniano $\iff$ $G_d$ ha un $DHC$:
 

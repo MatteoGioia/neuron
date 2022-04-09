@@ -54,7 +54,7 @@ Sync: assumption about time elapsed for each message to travel
 
 ### DS representation
 
-![](./static/DS/discomp.png)
+![](../../..//DS/discomp.png)
 
 ==Event $(e_{p}^{i})$: the i-th meaningful instruction for the process p==
 - i.e. something that changes the state of the process
@@ -96,7 +96,7 @@ The ==globabl state is a tuple of local states $\Sigma = (\sigma_1, \ldots, \sig
 
 ### Run Cuts
 
-![](./static/DS/dscut.png)
+![](../../..//DS/dscut.png)
 
 A cut $C$ is a portion of a system run $R$
 - formally a cut is specified trough a set of n. number $C = (c_1, \ldots, c_n)$ where each number indicates the last event included for each process
@@ -121,7 +121,7 @@ In DS, there is a process monitor that checks for deadlocks
 - a state $\Sigma_{i-1}$ leads to $\Sigma_{i}$ if the latter is obtained by the first when the process executes a certain event $e_i$
 - a state $\Sigma^{'}$ is reachable from another state $\Sigma$ in a run $R$ $\iff$ $\Sigma \rightsquigarrow_{R} \Sigma^{'}$ (transitive closure)
 
-![](./static/DS/dsmanystates.png)
+![](../../..//DS/dsmanystates.png)
 
 ### Monitors in DS
 
@@ -134,7 +134,7 @@ DR1: The monitor now is passive and only receives a message by the other process
 - with each event, the process also sends a timestamp $TS$ used to reconstruct a run (otherwise the event could be arranged in inconsistent runs/cuts)
 - each timestamp is a natural number 
 
-![](./static/DS/dslogicalclock.png)
+![](../../..//DS/dslogicalclock.png)
 
 This type of clock is also called Lamport's clock
 
@@ -151,7 +151,7 @@ A ==message $m$ is stable if no future message with timestamp smaller than $TS(m
 - if the message arriving has $LC$ smaller than the ones receveid from all other processes, it is stable
 - this works since the $LC$ is monotone increasing for each $p_i$ and FIFO preserves the order (for the process) in which messages arrrive
 
-![](./static/DS/dr2.png)
+![](../../..//DS/dr2.png)
 
 ==DR2==: We now put messages in a buffer and deliver all messages that are stable in timestamp order
 - we will have a vector that keeps tracks of $LC$ for each process
@@ -180,7 +180,7 @@ Each process mantains its causal history starting from an empty set:
 - if an event $e$ from the same process arrives the causal history becomes the union of the previous causal history with $e$ 
 - otherwise if $e_i$ is the receiving event in $p_i$ from $e_j$ in $p_j$, the causal history is the union of the causal history of $e_i$ and the causal history of $e_j$
 
-![](./static/DS/causalh.png)
+![](../../..//DS/causalh.png)
 
 This ==definition satisfies the strong clock conditione because it's always true that $e \to e' \iff \theta(e) \subseteq \theta(e')$==
 
@@ -198,11 +198,11 @@ The entire causal history of $n$ processes can be represented by a $n$-dimension
 
 The values in the vector increase following these rules (similar to LC):
 
-![](./static/DS/vectorclock.png)
+![](../../..//DS/vectorclock.png)
 
 Working example of vector clocks:
 
-![](./static/DS/vecex.png)
+![](../../..//DS/vecex.png)
 
 ### Monitors in DS pt.3
 
@@ -212,7 +212,7 @@ Vector clock are the perfect fit to implement causal delivery.
 - $D[j] = TS(m)[j]-1$ - ==no previous messages from the same process==
 - $D[k] \geq TS(m)[k] \forall k \neq j$ed ==causal delivery and gap detection==
 
-![](./static/DS/vectorp0.png)
+![](../../..//DS/vectorp0.png)
 
 One important thing in the following is that ==we'll assume the system is closed==, which means that there are no external channels used to communicate
 - otherwise there could be anomalies
@@ -232,7 +232,7 @@ DS ==snapshot protocol==:
 - $p_0$ sends itself a take snapshot message
 - whenever a $p_f$ receives a take snapshot message, it takes a snapshot of its local state and relays the take snapshot message to other processes
 
-![](./static/DS/chandylamport.png)
+![](../../..//DS/chandylamport.png)
 
 We also need to prove:
 - termination: the protocol endss
@@ -241,7 +241,7 @@ We also need to prove:
 Regarding ==termination==...
 For what regards ==consistency==, we can use this instance as an example:
 
-![](./static/DS/chandylamportproof.png)
+![](../../..//DS/chandylamportproof.png)
 
 A case like the one depicted in the picture is ==impossible==: since the channels are FIFO, the take snapshot message must come before $e$'s message and $e$ has to wait until the channel is free to send his message. But since the snapshot has been taken before the channel becomes free, a similar situation is clearly impossible.
 

@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "91f47ea097c7c76f",
+    "type": "split",
+    "children": [
+      {
+        "id": "66ba7f6553d20be3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Economics of Tech and Mgmt/ETM VI - Pricing Decisions.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ddd8e596cc4359fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "15d400ec794529c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4b6d2b77223058f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4649004b263c7c3b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82359cd56f88628b",
+    "type": "split",
+    "children": [
+      {
+        "id": "40345a8d5f186192",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6ff2fa89a3d362b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Economics of Tech and Mgmt/ETM VI - Pricing Decisions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "66ba7f6553d20be3",
+  "lastOpenFiles": [
+    "Economics of Tech and Mgmt/ETM VI - Pricing Decisions.md",
+    "Economics of Tech and Mgmt/ETM IV - Job Order Costing.md",
+    "Web Engineering/Lezione I - Intro al Web Engineering.md",
+    "Web Engineering/Lezione III - HTML.md",
+    "index.md",
+    "University.md",
+    "Web Engineering/Web Engineering.md",
+    "Ingegneria del software/Ingegneria del software.md"
+  ]
+}

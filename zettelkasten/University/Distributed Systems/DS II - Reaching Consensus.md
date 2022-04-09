@@ -161,9 +161,9 @@ The protocol goes as follows:
 4. ==If the acceptors receive the ACCEPT message and they have not promised otherwise, the send vote for the value and then send a message $LEARN(i,v)$ to the learners==. Acceptors vote once for each round.
 5. If ==learners receive the quorum of votes for the **same round and same value** they learn (choose) the value.==
 
-![](./static/DS/paxos1.png)
+![](../../..//DS/paxos1.png)
 
-![](./static/DS/paxos2.png)
+![](../../..//DS/paxos2.png)
 
 ### Paxos Safety
 
@@ -182,12 +182,12 @@ So ==we only need to prove CS2==, but we'll prove this stronger property that al
 [round $i$]: Since $\alpha$ received enough promises from the quorum, this quorum $Q$ promised not to partake in any previous round. 
 This means no acceptor in $Q$ voted before the max last round indicated in the promise:
 
-![](./static/DS/safetyproof1.png)
+![](../../..//DS/safetyproof1.png)
 
 It is also possible that there would have been a majority in round $lastround$, but the value would have had to be $v$.
 Using again the hypotesis, no acceptor could have voted in rounds before, up till round 1.
 
-![](./static/DS/safetyproof2.png)
+![](../../..//DS/safetyproof2.png)
 
 Note that this safety is not dependent on the number of failures. If there are more failures that the expected number, Paxos simply won't decide.
 
@@ -215,12 +215,12 @@ We can make some efficiency tweaks then:
 
 ==To complete each of these instances (that we can number so they don't get shuffled), a proposer $p$ sends the value he wants to propose to the coordinator $c$. The coordinator then completes the instance by sending the proper $ACCEPT$ message to the learners. ==
 
-![](./static/DS/fastpaxos1.png)
+![](../../..//DS/fastpaxos1.png)
 
 ==The idea behind fast paxos is that we can reduce the delay by 1 message by allowing the proposer to send its value directly to the acceptors.==
 To do so, the ==coordinator starts a fast round where any value can be accepted==, so he does not have to approve each of them manually. The result is that ==all proposers send the proposed value to the acceptors that send the learn message to the learners.==
 
-![](./static/DS/fastpaxos2.png)
+![](../../..//DS/fastpaxos2.png)
 
 ### Fast Paxos protocol
 

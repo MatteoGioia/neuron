@@ -53,7 +53,7 @@
 6. <details markdown=1><summary markdown="span"> What is the difference between multi-tenance and virtualisation? Why are the terms sometimes used interchangeably? </summary>
     
     \
-    ![](./static/CLD/cld1.png) \
+    ![](../../..//CLD/cld1.png) \
     Sometimes multitenancy can be also be used to refer to users using their own virtualised environment running on the same bare metal.
     
 </details>
@@ -97,7 +97,7 @@
 11. <details markdown=1><summary markdown="span"> What are the roles in the cloud architecture? What is the role of the auditor, broker and carrier? </summary>
     
     \
-    ![](./static/CLD/cld2.png) \
+    ![](../../..//CLD/cld2.png) \
     Important roles:
     - ==auditor==: verifies the authenticity/quality of the services provided;
     - ==broker==: intermediate between provider and consumer, turns high level requests into specific services required to a provider;

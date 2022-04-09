@@ -10,7 +10,7 @@
 
 Systems where there is ==no central authority meant to be deployed on a global scale.==
 
-![](./static/DS/bittorrent1.png)
+![](../../..//DS/bittorrent1.png)
 
 <small> the following notes refer mostly to the protocol utilised by BitTorrent </small>
 

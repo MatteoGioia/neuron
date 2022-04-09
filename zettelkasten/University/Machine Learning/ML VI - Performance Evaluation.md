@@ -31,7 +31,7 @@ $\delta$ is a Kronecker function:
 
 Another easy way to visualize results (ADD ALL THE MEASURES):
 
-![](./static/ML/contingency.png)
+![](../../..//ML/contingency.png)
 
 Also useful:
 - F score = $2 \frac{Precision \cdot Recall}{Precision + Recall}$
@@ -41,13 +41,13 @@ Also useful:
 
 ==Receiver Operator Curve: plot of Positive Recall and False Positive Rate, at various system settings.==
 
-![](./static/ML/roc.png)
+![](../../..//ML/roc.png)
 
 The ==Area Under the ROC can also be used too see the performance of our model. The closer it is to 1, the better our model is.==
 
 The AUROC is also ==useful for measuring the uncertainty area, which tells us when our prediction is reliable and when, instead, the prediction could be inaccurate.==
 
-![](./static/ML/uncertainty.png)
+![](../../..//ML/uncertainty.png)
 
 ==PR-curve: graph of Recall and Precision at various system settings. It is generally better for imbalanced problems, since Precision is highly sensitive to FP but it is not impacted by a total TN denominator.==
 
@@ -76,7 +76,7 @@ Our goal is the ==finding a good balance in minimising both Bias and Variance, s
 
 For instance, ==bias in the model== could be due to the assumption that the real function is linear.
 
-![](./static/ML/bias1.png)
+![](../../..//ML/bias1.png)
 
 The ==main causes for bias in the data are==:
 - ==sample bias==: collected data is not representative, e.g. face recognition algorithm trained with white people faces only
@@ -96,7 +96,7 @@ Variance ==can't be reduced if it is inherent in our dataset==, but there are wa
 
 ==K-Fold Cross-Validation== or KFV in short is an example of the latter strategy:
 
-![](./static/ML/kfv.png) 
+![](../../..//ML/kfv.png) 
 
 ### ==Estimators and errors==
 
@@ -136,7 +136,7 @@ If the null hyp. holds true, we must have that:
 
 So we need to test the likelihood of $h_0$: 
 
-![](./static/ML/comparison1.png)
+![](../../..//ML/comparison1.png)
 
 ==If in our calculations the area lies in the non critical region, usually $N \leq 95\%$ ($-2\sigma, +2\sigma)$, the Null Hyp. is accepted and the real difference is negligible.==
 
@@ -154,11 +154,11 @@ In practice, ==if the $p$-value, which is the probability of observing our estim
 - $h_0$ data does not support that $h_2 < h_1$
 - $h_1$ data support $h_1 > h_2$, so $h_1$ has significantly higher error
 
-![](./static/ML/onetail1.png)
+![](../../..//ML/onetail1.png)
 
 Example:
 
-![](./static/ML/onetail2.png)
+![](../../..//ML/onetail2.png)
 
 ### Comparing 2 learning algorithms
 
@@ -166,6 +166,6 @@ We want to measure $E_{S \subset D} (error_D (L_A(S)) - error_D (L_B(S)))$, wher
 
 To do so, ==we have to average over multiple, indipendent training and test sets. One possible technique is K-Fold Cross Validation==:
 
-![](./static/ML/kfv2.png)
+![](../../..//ML/kfv2.png)
 
 KFV improves confidence in our estimate of $\delta$ since it is computed as an average of $\delta_i$.

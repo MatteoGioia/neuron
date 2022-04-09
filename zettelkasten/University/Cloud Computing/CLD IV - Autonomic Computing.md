@@ -22,7 +22,7 @@
 3. <details markdown=1><summary markdown="span"> What does  MAPE-k stand for? </summary>
     
     \
-    ![](./static/CLD/aco1.png)
+    ![](../../..//CLD/aco1.png)
 
 </details>
 
@@ -41,7 +41,7 @@
     
     \
     ==It measures the trend of performance with increasing load==. In other words, a system is scalable if it's ==capable of mantaining performance under increased load by adding more resources==.
-    ![](./static/CLD/aco2.png)
+    ![](../../..//CLD/aco2.png)
 
 </details>
 
@@ -68,7 +68,7 @@
     
     \
     It's the ==core component of the Dynamic Scaling Architecture==, and it decides how to perform scaling based on requests from outside.
-    ![](./static/CLD/aco3.png)
+    ![](../../..//CLD/aco3.png)
 
 </details>
 
@@ -120,6 +120,142 @@
     
     \
     Period in which ==the machine is still not a full capacity==. While ==in warm up, the VM is not included by the scaling listener==.
+
+</details>
+
+15. <details markdown=1><summary markdown="span"> Why are alarms needed?</summary>
+    
+    \
+    To avoid calling for new scaling actions while other are already starting. The idea is that if ==a certain threshold is reached for an $x$ amount of time, then an alarm goes off== and a scaling action is requested.
+
+</details>
+
+16. <details markdown=1><summary markdown="span"> What is cloud orchestration? Make a simple example of a situtation where it's needed.</summary>
+    
+    \
+    It is ==the process of automating the tasks needed to manage connections and operations of workloads==. In simpler terms, we might want to automatically configure remote servers (and all the parameters needed for them in order to work correctly) with minimal or no intervention.
+
+</details>
+
+17. <details markdown=1><summary markdown="span"> What is ANSIBLE and what is it used for?</summary>
+    
+    \
+    ANSIBLE is ==an open source IT configuration management, orchestration and deployment tool==.
+
+</details>
+
+18. <details markdown=1><summary markdown="span"> What are ANSIBLE characteristics?</summary>
+    
+    \
+    Characteristics:
+    - ==agentless==: ANSIBLE does not have to be installed on the target machines
+    - ==push model==: the remote management is achieved ==through pushing instructions with SSH== or ==WinRM==.
+
+</details>
+
+19. <details markdown=1><summary markdown="span"> What is a playbook? What language are they written in?</summary>
+    
+    \
+    ==Prescriptive and responsive description on deployment==. Commonly ==written in YAML, they are a list of tasks which consists of ANSIBLE module calls.==
+
+</details>
+
+20. <details markdown=1><summary markdown="span"> What is k8s? Make a few examples of its capabilities.</summary>
+    
+    \
+    A ==platform for managing containerised services==. With k8s is possible to:
+    - do ==service discovery and load balancing==
+    - ==orchestration==
+    - ==automatic rollouts/rollbacks==
+    - ==self healing==
+    - ==automatic bin packing (clustering)==
+
+</details>
+
+
+21. <details markdown=1><summary markdown="span"> What are k8s components?</summary>
+    
+    \
+    ![](../../..//CLD/aco4.png)
+
+</details>
+
+
+22. <details markdown=1><summary markdown="span"> What are k8s objects? What can they describe? Why do we say they are a "record of intent"?</summary>
+    
+    \
+    Persistent entities in the k8s system. They can describe:
+    - ==running containerised apps==
+    - ==resources available==
+    - ==policies==
+
+    Furthermore, we say they are a ==record of intent as k8s will try to keep the cluster in the state described by the objects==.
+
+
+</details>
+
+
+23. <details markdown=1><summary markdown="span"> What is a pod? Is it the same as a container?</summary>
+    
+    \
+    Pods are the ==smallest deploayble units of computing, and consist of 1 or more containers==.
+
+</details>
+
+
+24. <details markdown=1><summary markdown="span"> What is a k8s node? How can they become members of a cluster</summary>
+    
+    \
+    It is a ==virtual of physical machine and represents a member of a cluster==. To become members of a cluster, they must ==self register with the control plane API== or ==be manually added==.
+
+</details>
+
+
+25. <details markdown=1><summary markdown="span"> What are the possible states for a k8s node?</summary>
+    
+    \
+    A few possible conditions:
+    - ready
+    - diskpressure
+    - memory pressure
+    - etc...
+
+</details>
+
+
+26. <details markdown=1><summary markdown="span"> Describe the control plane components and the node components in detail.?</summary>
+    
+    \
+    See kubernets resorces.
+
+</details>
+
+
+27. <details markdown=1><summary markdown="span"> What is a k8s controller?</summary>
+    
+    \
+    They are ==control loops that watch the state of a k8s cluster==, and specifically monitor at least one resource type.
+
+</details>
+
+28. <details markdown=1><summary markdown="span"> How does scheduling work in k8s?</summary>
+    
+    \
+    In k8s ==scheduling refers to making sure that pods are matched to nodes, so that kubelets can run them==.
+
+
+</details>
+
+29. <details markdown=1><summary markdown="span"> ?</summary>
+    
+    \
+
+
+</details>
+
+30. <details markdown=1><summary markdown="span"> ?</summary>
+    
+    \
 
 
 </details>

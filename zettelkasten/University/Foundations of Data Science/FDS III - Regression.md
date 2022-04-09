@@ -16,21 +16,21 @@ Linear regression is a supervised learning problem. The output is a continous fu
 
 Hypotesis (one var):
 
-![](./static/FDS/hyp.png)
+![](../../..//FDS/hyp.png)
 
 ==Multivariate:==
 
-![](./static/FDS/hyp2.png)
+![](../../..//FDS/hyp2.png)
 
 ### ==Notation==
 
-![](./static/FDS/regnotation.png)
+![](../../..//FDS/regnotation.png)
 
 ### Gradient descent
 
 To minimise the cost function we can use gradient descent.
 
-![](./static/FDS/gd.png)
+![](../../..//FDS/gd.png)
 
 It's important to ==choose $\alpha$ so that it is:==
 - ==not too small==, because descent will be low
@@ -44,20 +44,20 @@ Remember that gradient descent follows an ==orthogonal direction compared to the
 
 At each step of gradient descent, only ==one instance of the dataset is used to calculate the next step (markvov/stochastic):==
 
-![](./static/FDS/batchpseudo.png)
+![](../../..//FDS/batchpseudo.png)
 
 The issue with this type of descent is that the ==descent pattern might no be so smooth==. Because of this, ==mini-batch gradient descent is actually used and a certain number of instances are used for each step.==
 - it also is usually faster thanks to vectorization libraries
 
 ### Gradient descent with multiple features
 
-![](./static/FDS/gdmulti2.png)
+![](../../..//FDS/gdmulti2.png)
 
 ### Normalisation
 
 ==Having features on the same scale ensures that the gradient descent is smooth and doesn't "zig-zag" his way to the center:==
 
-![](./static/FDS/zigzag.png)
+![](../../..//FDS/zigzag.png)
 
 The ==goal of normalization is to get features into approximately a $-1 \leq x_i \leq 1$ range==. To do so, we can apply mean normalization: $x_i = \frac{x_i - \mu_i}{s_j}$
 - where $\mu_i$ is the mean value of the $i-th$ feature
@@ -76,7 +76,7 @@ The ==normal equation comes from the idea of trying to minimise the cost functio
 
 But ==when to use the normal equation $\Theta(n^3)$ and when to use gradient descent?==
 
-![](./static/FDS/gdvsne.png)
+![](../../..//FDS/gdvsne.png)
 
 If $X^T X$ it's not invertible we can:
 - remove redunant features, that are often linearly dependent (e.g. one is the linear combination of another)
@@ -103,7 +103,7 @@ It is also called Loess or Lowess.
 
 ### Fitting best local curve
 
-![](./static/FDS/lowess.png)
+![](../../..//FDS/lowess.png)
 
 ## Probabilistic interpretation of least squares
 

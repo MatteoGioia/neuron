@@ -33,7 +33,7 @@ Questa regola è detta ==closed window rule==.
 
 Durante e prima di ogni sprint si segue il seguente schema per organizzare i meetings.
 
-![](./static/Agile/meetings_agile.png)
+![](../../..//Agile/meetings_agile.png)
 
 ### Iteration Planning
 

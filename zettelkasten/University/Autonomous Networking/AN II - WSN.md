@@ -41,7 +41,7 @@ In a wireless sensor wireless network
 - ==devices can sense the environment==
 - ==devices can be many more than in other networks==
 
-![](./static/AN/WSN.png)
+![](../../..//AN/WSN.png)
 
 ==Applications of WSN==:
 - industrial control
@@ -96,11 +96,11 @@ Mechanism typically adopted in a WSN:
 
 ### Manets vs WSN
 
-![](./static/AN/manetvswsn.png)
+![](../../..//AN/manetvswsn.png)
 
 ### Components of a sensor
 
-![](./static/AN/sensoranatomy.png)
+![](../../..//AN/sensoranatomy.png)
 
 The sensor then converts the signal from analog to digital (ADC).
 
@@ -113,7 +113,7 @@ A WSN is commonly subject to the following ==issues==:
 
 There is also the common issue of the ==exposed terminal==, when a node is prevented from sending packets to other nodes because of co-channel interference with a neighboring transmitter 
 
-![](./static/AN/expterminal.png)
+![](../../..//AN/expterminal.png)
 
 ### MAC strategies for WSN
 

@@ -93,7 +93,7 @@
     Map = generation of the pairs + tables.\
     Shuffle = aggregation of values with same key.\
     Reduce step = sum all values of pairs with the same keys.\
-    ![](./static/BIG/mr1.png)
+    ![](../../..//BIG/mr1.png)
 
 </details>
 
@@ -154,7 +154,7 @@
     
     \
     ==We have to send several values with the same key not aggregated==. We can use ==combiners to pre-aggregate== the values at the mapper's end.\
-    ![](./static/BIG/mr2.png)
+    ![](../../..//BIG/mr2.png)
 
 </details>
 

@@ -13,7 +13,7 @@
 
 ### Design cycle of a ML system
 
-![](./static/ML/designML.png)
+![](../../..//ML/designML.png)
 
 ### Data preparation
 
@@ -53,7 +53,7 @@ The choice is among:
 - ==semi-surpervised learning==
 - ==reinforcement learning==: rewards based on correctness of chosen strategy
 
-![](./static/ML/learningTypes.png)
+![](../../..//ML/learningTypes.png)
 
 Another importance difference is the one among:
 - classifiers: discrete function to find boundaries
@@ -61,7 +61,7 @@ Another importance difference is the one among:
 
 Some examples:
 
-![](./static/ML/classreg.png)
+![](../../..//ML/classreg.png)
 
 In the classification the line is used to tell to which category the new object belong, in the regression
 is used to predict the next value given the input. The output line can also be non linear (e.g. the function is a polynomial)
@@ -82,7 +82,7 @@ Generally the ==hyperparameters== are set before the training phase, when the pa
 
 ### Supervised learning
 
-![](./static/ML/supWF.png)
+![](../../..//ML/supWF.png)
 
 Given examples ($x_i,y_i$) of an unknown function $y = f(x)$ learn $f(x)$ to predict its values (labels)
 for unseen examples of $x$.
@@ -100,7 +100,7 @@ In the course we'll see:
 
 ### Unsupervised learning
 
-![](./static/ML/unsupWF.png)
+![](../../..//ML/unsupWF.png)
 
 In unsupervised learning, data is unlabeled and the algorithm learns a function used to group instances according to some kind of similarity
 - but similarity is an ambigous concept!
@@ -113,7 +113,7 @@ In the course we'll see:
 
 ### Reinforcement learning
 
-![](./static/ML/renfWL.png)
+![](../../..//ML/renfWL.png)
 
 In reinforcement learning, the objective is to learn a policy to act in an environment. There are no examles,
 so the model (agent) learns by receiving rewards or penalties based on his behaviour.

@@ -28,7 +28,7 @@ Ogni linea di prodotto è poi comunque sviluppata in modo specifico adattando i 
 
 Sul lungo periodo è una strategia molto efficace in quanto permette di riusare pesantemente features già proposte nella famiglia, ma sul breve periodo non è abbastanza veloce.
 
-![](./static/Agile/spl_speed.png)
+![](../../..//Agile/spl_speed.png)
  
 ### Agile methods with architecture runway
 

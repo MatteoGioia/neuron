@@ -6,7 +6,7 @@
 
 Data una sequenza $A = \langle a_1, a_2, \ldots, a_n \rangle$ dove $a_i \in N_{0}^{+}$ ritornare il numero di sottosequenze ==contigue== $B$ non vuote di $A$ dove la somma degli elementi è un numero pari.
 
-![](./static/p_sum.png)
+![](../../..//p_sum.png)
 
 ### Soluzione naive
 
@@ -32,14 +32,14 @@ Notare che essendo calcolata per induzione la formula per la somma parte da un i
 
 $P_0 = 0$ e $P_k = P_{k-1} + a_k$
 
-![](./static/partial_sum.png)
+![](../../..//partial_sum.png)
 
 Notiamo anche che è possibile computare la sommatoria degli elementi tra due posizioni nel vettore A come $S(i,j) = \Sigma_{k=i}^{j} \space a_k = P_j - P_{i-1}$ , un'operazione che può essere eseguita in tempo costante:
 - i.e. ad esempio nell'immagine $S(3,4) = P(4) - P(2) = 18 - 7 = 11$ 
 
 Questo accade perchè semplicemente escludiamo dalla somma la parte del vettore già incontrata, come mostrato nell'immagine:
 
-![](./static/psum_trick.png)
+![](../../..//psum_trick.png)
 
 Sfruttando questa soluzione, è possibile progettare un algoritmo che impiega $O(n^2)$: viene mantenuto lo stesso ciclo `for` di prima, ma ora basta controllare che $S(i,j)$ sia pari per ogni coppia dove $i \leq j$.
 

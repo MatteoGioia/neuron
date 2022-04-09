@@ -44,7 +44,7 @@ History of NN:
 The ==network model of a single neuron is a graph with cells as nodes and synaptic connections as weighted edges from node $x_i$ to neuron node.==
 - $x_i$ are the feature values of instances $x$
 
-![](./static/ML/perceptron.png)
+![](../../..//ML/perceptron.png)
 
 The ==output is computed as a linear combination of the features of the instance $net = \sum_i w_i \cdot x_i$==
 - if $net(x) \geq \theta$, output = 1
@@ -58,7 +58,7 @@ This ==threshold can be easily incoporated in the convolution or the step functi
 - by subtracting it to $(\sum_i w_i \cdot x_i) - \theta$, modeling it as a dummy node with weight $w_{n+1} = - \theta$
 - by moving further the threshold in the function $\phi$
 
-![](./static/ML/thetaf.png)
+![](../../..//ML/thetaf.png)
 
 ### Linear Decision Boundary
 
@@ -76,11 +76,11 @@ The ==hyperplane is also called a linear decision boundary. Indeed, we see the c
 
 Similarly, we can obtain a geometric representation of objects $x$ in the dataset as vectors.
 
-![](./static/ML/lineardec.png)
+![](../../..//ML/lineardec.png)
 
 ### Perceptron training algorithm
 
-![](./static/ML/algoperc.png)
+![](../../..//ML/algoperc.png)
 
 $\eta$ is a constant called the learning rate 
 
@@ -100,7 +100,7 @@ The aumont of increase is "controlled" by $\eta$.
 
 In the case of perceptrons the ==objective is minimize the classification error==, so to ==find the minimum of the training error function==:
 
-![](./static/ML/trainingerr1.png)
+![](../../..//ML/trainingerr1.png)
 
 ### Shortcoming of perceptrons
 

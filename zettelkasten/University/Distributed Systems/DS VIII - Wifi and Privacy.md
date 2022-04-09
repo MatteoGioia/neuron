@@ -1,3 +1,3 @@
 # Wifi and Privacy
 
-![](./static/DS/pw.jpg)
+![](../../..//DS/pw.jpg)

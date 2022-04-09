@@ -1,1 +1,1 @@
-![](./static/DS/cdn.jpg)
+![](../../..//DS/cdn.jpg)

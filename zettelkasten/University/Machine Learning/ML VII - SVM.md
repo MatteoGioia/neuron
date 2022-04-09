@@ -41,7 +41,7 @@ The ==classification function is:==
 >- $sign() < 0$ negative classification
 >- $sign() = 0$ no classification
 
-![](./static/ML/svm1.png)
+![](../../..//ML/svm1.png)
 
 The issue with a simple linear function is that ==we have infinitely possible solutions==. To choose the best one, we focus on a line that is exactly in between the ==uncertainty area==.
 
@@ -51,7 +51,7 @@ The optimization problem then becomes ==classifying the instances and choosing t
 
 We define a ==margin as the width that the boundary could be increased by before hitting a data point in the learning set==.
 
-![](./static/ML/svm2.png)
+![](../../..//ML/svm2.png)
 
 One margin we can consider is the so called ==functional margin, defined, for a training example vector $x_i$ in the training set $D$ as:==
 
@@ -73,7 +73,7 @@ In order to maximise the margins, ==we are going to use special vectors called s
 
 >$H_2 = w^T x^+ + b = - 1$
 
-![](./static/ML/svm3.png)
+![](../../..//ML/svm3.png)
 
 Given what was previously said about classification, it is then true that:
 
@@ -139,7 +139,7 @@ It is also relevant that ==inner dot products are part of the kernel functions, 
 
 >$sim(x_i, x_k) = \frac{x_{i}^T \cdot x_k}{|x_i||x_k|} = \cos \theta$
 
-![](./static/ML/svm4.png)
+![](../../..//ML/svm4.png)
 
 
 ### Overfitting and Soft margins
@@ -152,7 +152,7 @@ To do so, ==we introduce a slack variable $\xi$, that is the distance of $x_i$ f
 
 >$y_i(w^T x_i + b) \geq 1 - \xi_i$ where $\xi_i = max(0, y_i(w^T \cdot x_i + b))$
 
-![](./static/ML/svm5.png)
+![](../../..//ML/svm5.png)
 
 In the image, for example, if $1 - \xi_i$ in the left side is bigger or equal to 1 then the classification is correct, otherwise if it negative the classification is wrong and we add a penalty. 
 
@@ -166,13 +166,13 @@ Incorporating the costraints (lagrangian):
 
 >minimize $\frac{1}{2} \|w\|^2 + C \sum_{i=1}^n \xi_i + \sum_i \alpha_i(y_i(w^T x + b) - 1 + \xi_i)$
 
-![](./static/ML/svm6.png)
+![](../../..//ML/svm6.png)
 
 ## Non linear SVM
 
 Sometimes data is not linearly separable in the original space. However, ==using a mapping function we can move it to a different space where it becomes linearly separable.==
 
-![](./static/ML/svm7.png)
+![](../../..//ML/svm7.png)
 
 We can do this ==using non linear kernels.==
 

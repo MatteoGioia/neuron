@@ -16,7 +16,7 @@
 
 ## The workflow
 
-![](./static/ML/workfloweng.png)
+![](../../..//ML/workfloweng.png)
 
 ## Data and Features identification
 
@@ -27,7 +27,7 @@ Where to find data:
 
 But most of this data is not ready to use. The harsh reality:
 
-![](./static/ML/harsh.png)
+![](../../..//ML/harsh.png)
 
 ## Feature extraction
 
@@ -41,15 +41,15 @@ This step consists in the transformation of raw data into features suitable for 
 3. ==text encoding==, i.e. with ==bag of words or hot encoding, or embeddings== (modern approach)
 
 <!-- This actually is one hot encoding -->
-![](./static/ML/bagofwords.png)
+![](../../..//ML/bagofwords.png)
 
 ==In embeddings, each word is represented as a value (real or binary) in a sparse document vector with $|V|$ dimensions. Each dimension is linked to some attribute that is used to group together similar words==, however we don't know how this dimnesions work internally.
 
-![](./static/ML/wordemb.png)
+![](../../..//ML/wordemb.png)
 
 The following is an intuitive representation of how words are grouped. ==This approach is not only used for text data but to any vectorial representation of data==, since it captures the "latent" similarities in data.
 
-![](./static/ML/wordemb2.png)
+![](../../..//ML/wordemb2.png)
 
 ### Processing images
 
@@ -70,7 +70,7 @@ Geospatial data ==also usually contains typos, has bad accuracy/noise, conflicti
 
 Processing ==time series, like stock market data: elimination of trends, average over selected time spans, normalize==
 
-![](./static/ML/timedata.png)
+![](../../..//ML/timedata.png)
 
 Processing ==date and time==, that can be linked to other relevant info:
 - can ==be easily represented with hot-encoding or binary features== (i.e. is_weekend)
@@ -92,7 +92,7 @@ Normalisation can be used to put data all on the same "level":
 Normalisation for ==skewed data: sometimes there is an asimmetry in the distribution, compared for example to a standard gaussian. If data is skewed, the tail could act as an outlier and influence the results.==
 One way of reducing such skewness is log transformation.
 
-![](./static/ML/skeweddata.png)
+![](../../..//ML/skeweddata.png)
 
 ==Normalisation into categorical values==: sometimes is necessary to turn data, that is not necessarily associated to a numerical value, into categorical numbers.
 - ==one hot encoding: default for small datasets (introduces bias in bigger datasets)==
@@ -124,14 +124,14 @@ One basic fix is either ==oversampling the minority class or undersampling the m
 
 A technique like ==Synthetic Minority Oversampling technique a.k.a. SMOTE works better since it creates new instances using a convex combination of the minority class instances.==
 
-![](./static/ML/SMOTE.png)
+![](../../..//ML/SMOTE.png)
 
 Another technique that does not revolve around compensating with new instances is 
 ==Anomaly Detection: istances that deviate too much from our sample data is treated as an outlier==. This outlier can be either removed or we can ==reframe the classification problem into an anomaly detection problem== (so the goal is to detect anomalies from the rest of the instances).
 
 The last technique is ==Cost Sensitive Learning: instead of treating each misclassification as the same. A function $C(p,t)$ now expresses the cost of misclassifying an instance of $t$ as an instance of $p$.==
 
-![](./static/ML/costsensitive.png)
+![](../../..//ML/costsensitive.png)
 
 The ML attempt will thus try to minimize the erorr and pay more attention to the minority class.
 
@@ -139,7 +139,7 @@ The ML attempt will thus try to minimize the erorr and pay more attention to the
 
 In this step, ==we decide which features are necessary for training our model==. However, it is not easy to decide if we have to add more or remove some, so we use automatic tools for feature selection.
 
-![](./static/ML/whichfeatures.png)
+![](../../..//ML/whichfeatures.png)
 
 ### Filter methods
 
@@ -149,7 +149,7 @@ There are multiple categories of filters, that can be divided mainly in:
 - ==univariate filters==
 - ==multivariate filters==
 
-![](./static/ML/featurefilters.png)
+![](../../..//ML/featurefilters.png)
 
 An interesting one is ==Relief(F), a univariate distance filter==. It considers all features as independent ones and estimates the relevance of a feature based on its ability to distinguish instances located **near** each other.
 The algorithm randomly selects an instance $x$ and then searches for the 2 nearest neighbors: the nearest hit (same class) and the nearest miss (different class). The Relief of a feature is then computed as:
@@ -171,7 +171,7 @@ A few popular wrappers:
 
 This ==methods are slower than filters and use heuristics to avoid considering all the possible combinanations of the features.==
 
-![](./static/ML/greedyseq.png)
+![](../../..//ML/greedyseq.png)
 
 ### Embedded and hybrid methods
 
