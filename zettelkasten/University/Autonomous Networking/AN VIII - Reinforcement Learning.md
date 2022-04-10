@@ -53,7 +53,7 @@ Furthermore, ==a good sequence of actions could become bad as the environment ch
 
 ## ==A general RL framework==
 
-![](../../..//AN/model1.png)
+![](../../../AN/model1.png)
 
 At each step $t$ an agent==:
 - executes action $A_i$

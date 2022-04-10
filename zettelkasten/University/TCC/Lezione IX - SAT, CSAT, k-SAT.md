@@ -48,7 +48,7 @@ La parte difficile è provare che ==ogni problema $NP$ è riducibile a $SAT$==. 
   - $S, N, F$ sono vere se $M$ inizia, si muove e finisce a destra,
   - $U$ è vera solo se esiste un simbolo unico in ogni cella di $M$.
 
-![](../../..//TCC/sat_reductions.png)
+![](../../../TCC/sat_reductions.png)
 
 <small> La dimostrazione è presente sul libro, wikipedia o youtube.... ed è parecchio lunga :) </small>
 

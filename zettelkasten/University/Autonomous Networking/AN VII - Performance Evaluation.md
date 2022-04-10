@@ -29,14 +29,14 @@ We'll now see how to choose the evaluation technique, among:
 - analytical modelling
 - measurement
 
-![](../../..//AN/criteria.png)
+![](../../../AN/criteria.png)
 
 ==Using at least 2 of the techniques is desirable==. If the outcome of 2 different techniques
 is similar the evaluation is more precise.
 
 ## Selecting the performance metric
 
-![](../../..//AN/pmetrics.png)
+![](../../../AN/pmetrics.png)
 
 ### Analyzing responses
 

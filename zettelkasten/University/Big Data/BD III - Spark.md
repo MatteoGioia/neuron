@@ -22,7 +22,7 @@
 3. <details markdown=1><summary markdown="span"> What is the structure of Spark? </summary>
 
     \
-    ![](../../..//BIG/sp1.png) \
+    ![](../../../BIG/sp1.png) \
     Note that spark ==does not provide a storage solution==, but APIs for the most common solutions.
 
 </details>

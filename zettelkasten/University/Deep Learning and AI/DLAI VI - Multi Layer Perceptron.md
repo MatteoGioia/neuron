@@ -6,14 +6,14 @@
 1. <details markdown=1><summary markdown="span"> How can we express a non linear parametric model through composition? </summary>
     
     \
-    ![](../../..//DEEP/mlp1.png)
+    ![](../../../DEEP/mlp1.png)
     
 </details>
 
 2. <details markdown=1><summary markdown="span"> What is a deep feed forward neural network? (hint: leverage previous definition) </summary>
     
     \
-    ![](../../..//DEEP/mlp2.png) \
+    ![](../../../DEEP/mlp2.png) \
     Note that ==$f$ is linear, $\sigma$ is not==!
     
 </details>
@@ -44,7 +44,7 @@
     
     \
     The $y$ is expressed as a ==combination of ridge function==. This means that the final function will be ==piece-wise linear==. \
-    ![](../../..//DEEP/mlp3.png)
+    ![](../../../DEEP/mlp3.png)
     
 </details>
 
@@ -58,7 +58,7 @@
 8. <details markdown=1><summary markdown="span"> What is the universal approximation theorem? What type of network that the theorem refer to? Is this theorem unique? </summary>
     
     \
-    ![](../../..//DEEP/mlp4.png) \
+    ![](../../../DEEP/mlp4.png) \
     Note that ==$\sigma$ must be sigmoidal and that the network in question has just 1 layer==. Furthermore, ==for large enough $q$, we can make the tranining error arbitrarily small== (i.e. get better approx).
 
     
@@ -68,7 +68,7 @@
 
     \
     It's a ==directed acyclic graph that represents the computation of $f(x)$ with intermediate variables==. \
-    ![](../../..//DEEP/mlp5.png) \
+    ![](../../../DEEP/mlp5.png) \
     Shape: Input #params, Output: scalar
     
 </details>
@@ -84,14 +84,14 @@
 11. <details markdown=1><summary markdown="span"> What is reverse mode and the backward pass? Why is it necessary to compute the forward pass first? </summary>
     
     \
-    ![](../../..//DEEP/mlp6.png)
+    ![](../../../DEEP/mlp6.png)
     
 </details>
 
 12. <details markdown=1><summary markdown="span"> Why is reverse mode inherently more efficient than forward mode? (Hint: huge jacobians) </summary>
     
     \
-    ![](../../..//DEEP/mlp7.png)
+    ![](../../../DEEP/mlp7.png)
     
 </details>
 

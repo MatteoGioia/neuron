@@ -3,7 +3,7 @@
 ### Recall questions
 
 Structure of the lecture:
-![](../../..//CLD/cds2.png) 
+![](../../../CLD/cds2.png) 
  
 Read this for more info on SOA vs Microservices: https://www.ibm.com/cloud/blog/soa-vs-microservices
 
@@ -67,7 +67,7 @@ Read this for more info on SOA vs Microservices: https://www.ibm.com/cloud/blog/
 7. <details markdown=1><summary markdown="span"> What are the 3 possible scaling techniques? What is the new dimension introduced when considering microservices? </summary>
     
     \
-    ![](../../..//CLD/cds1.png) \
+    ![](../../../CLD/cds1.png) \
     Microservices allow for ==functional scaling==, i.e. scaling only those services that are creating a bottlebeck (impossible with duplication or data partitioning.)
 
 </details>
@@ -192,7 +192,7 @@ Read this for more info on SOA vs Microservices: https://www.ibm.com/cloud/blog/
 19. <details markdown=1><summary markdown="span"> How do web services leverage SOA? </summary>
     
     \
-    ![](../../..//CLD/cds3.png)
+    ![](../../../CLD/cds3.png)
 
 </details>
 

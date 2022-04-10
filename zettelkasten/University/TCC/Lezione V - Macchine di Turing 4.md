@@ -18,7 +18,7 @@ Assumiamo che i nastri della $TM$ in questione ==non abbiano celle a sx dell'inp
 - è presente un simbolo speciale che evita che la testina strabordi a SX
 - $M_1$ non scrive mai blanks, ovvero il nastro, in ogni istante, è un prefisso di simboli non vuoti (non blank) seguiti da una sequenza infinita di blank e questa sequenza di simboli non vuoti inizia sempre all'inizio della posizione iniziale del nastro.
 
-![](../../..//TCC/semi_infiniteTM.png)
+![](../../../TCC/semi_infiniteTM.png)
 
 Vogliamo ora provare che (==teorema==):
 > Ogni linguaggio accettato da una $TM$ $M$ è anche accettato da una $TM$ $M_1$ cone le seguenti restrizioni: 
@@ -31,7 +31,7 @@ Per soddisfare la ==seconda condizione==, possiamo costruire una $M_2$ dalla $M$
 
 Per soddisfare invece la condizione 1, si costruisce $M_1$ a partire da $M_2$. 
 
-![](../../..//TCC/restricted_TM_costr.png)
+![](../../../TCC/restricted_TM_costr.png)
 
 Le ultime due transizioni servono a gestire il caso particolare in cui si trova a inizio input e quindi bisogna scavallare per evitare che la $TM$ si muova appunto a sinistra.
 
@@ -98,7 +98,7 @@ Supponiamo che ci siano $r-1$ simboli di nastro usati dalla stack machine $SC$, 
 
 Avremo quindi ==2 contatori con all'interno il contenuto dei 2 stack==, uno a testa, mentre il ==terzo sarà usato come supporto== agli altri nelle operazioni di moltiplicazione e divisione per $r$.
 
-![](../../..//TCC/3_stack_2_equiv.png)
+![](../../../TCC/3_stack_2_equiv.png)
 
 Per effettuare una ==operazione di pop== sostituiremo $i$ con $i / r$ senza considerare il resto. Iniziando con il terzo contatore a 0, riduciamo ripetutamente $i$ di $r$ e incrementiamo il terzo contatore di 1. Quando il contatore che aveva $i$ al suo interno diventa 0 ci fermiamo e poi lo reicrementiamo fino a quando il suo valore diventa quello ora memorizzato nel contatore di supporto, che nel contempo riportiamo a 0.
 

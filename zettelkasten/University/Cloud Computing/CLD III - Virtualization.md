@@ -38,7 +38,7 @@ For the details on how Namespaces, Cgroups and UnionFS work see:
 4. <details markdown=1><summary markdown="span"> Explain the machine reference model used to discuss virtualization. </summary>
     
     \
-    ![](../../..//CLD/virt1.png) \
+    ![](../../../CLD/virt1.png) \
     Note: it is also possible for applications to invoke system calls directly without using APIs.
 
 </details>
@@ -57,7 +57,7 @@ For the details on how Namespaces, Cgroups and UnionFS work see:
     
     \
     It is a ==process that (theorically) runs on top of the supervisor==, while in practice it effectively ==runs in supervisor mode==.
-    ![](../../..//CLD/virt2.png) \
+    ![](../../../CLD/virt2.png) \
     Note that most modern systems work with only ring 0 and ring 3.
 
 </details>
@@ -75,7 +75,7 @@ For the details on how Namespaces, Cgroups and UnionFS work see:
 8. <details markdown=1><summary markdown="span"> What are 2 possible types of hypervisors? </summary>
     
     \
-    ![](../../..//CLD/virt3.png) \
+    ![](../../../CLD/virt3.png) \
     ==Type 1 hypervisors can work using the native virtualization capabilites of the OS==, ==Type 2 are applications that manage the VMs not using the OS capabilites==.
    
 </details>
@@ -83,7 +83,7 @@ For the details on how Namespaces, Cgroups and UnionFS work see:
 9. <details markdown=1><summary markdown="span"> What is the structure of a hypervisor? What the 3 main components? </summary>
     
     \
-    ![](../../..//CLD/virt4.png) \
+    ![](../../../CLD/virt4.png) \
     Components:
     - ==dispatcher: entry point==
     - ==allocator: for resources==
@@ -151,14 +151,14 @@ For the details on how Namespaces, Cgroups and UnionFS work see:
     3. the original VM is stopped and the last portion of the data/cpu registers is copied 
     4. execution resumes on the new machine
 
-    ![](../../..//CLD/virt5.png) 
+    ![](../../../CLD/virt5.png) 
    
 </details>
 
 17. <details markdown=1><summary markdown="span"> What is the difference between a system container and application container? </summary>
     
     \
-    ![](../../..//CLD/virt6.png)
+    ![](../../../CLD/virt6.png)
 
 </details>
 

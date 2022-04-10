@@ -15,7 +15,7 @@
 
     \
     Contribution margin is the ==amount remaining after the variable expenses are deducted==. Note that it can also be expressed for each unit. \
-    ![](../../..//ETM/cvp1.png)
+    ![](../../../ETM/cvp1.png)
    
 </details>
 
@@ -36,7 +36,7 @@
 5. <details markdown=1><summary markdown="span"> Explain the components of the following CVP graph.</summary>
 
     \
-    ![](../../..//ETM/cvp2.png)
+    ![](../../../ETM/cvp2.png)
 
 </details>
 

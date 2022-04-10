@@ -16,12 +16,12 @@ Set of methodologies to find regularities in data
 - i.e. predict future sales of a new product
 - labelled data can also be discrete/continous
 
-![](../../..//ML/pred.png)
+![](../../../ML/pred.png)
 
 ==Prescriptive==: ==given unlabelled data, or given an environment/some stimuli, prescribe the best course of action==
 - i.e. model learning to play a game or customer segmentation
 
-![](../../..//ML/presc.png)
+![](../../../ML/presc.png)
 
 ### General Workflow
 
@@ -29,14 +29,14 @@ Set of methodologies to find regularities in data
 1. historical data $\to$ algorithm $\to$ predictive model
 2. new unlabelled data $\to$ predictive model $\to$ prediction (opt. confidency)
 
-![](../../..//ML/wopred.png)
+![](../../../ML/wopred.png)
 
 Instead of updating the model, it is commonly preferred to just train a new model on the new (bigger) set of data
 - there is still the possibility of creating an adaptive model
 
 ==Unsupervised workflow==:
 
-![](../../..//ML/wopresc.png)
+![](../../../ML/wopresc.png)
 
 ### Importance of data
 

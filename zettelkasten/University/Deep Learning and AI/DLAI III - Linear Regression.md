@@ -22,7 +22,7 @@ Also see:
 2. <details markdown=1><summary markdown="span"> What is the formal definition of linear regression? What is this problem called if $f_{\Theta}$ is linear?  </summary>
     
     \
-    ![](../../..//DEEP/lr1.png) 
+    ![](../../../DEEP/lr1.png) 
 
 
 </details>
@@ -31,7 +31,7 @@ Also see:
 3. <details markdown=1><summary markdown="span"> What is the chosen loss function? Is it the same without the $\frac{1}{n}$ factor? What we are minimizing w.r.t. to? </summary>
     
     \
-    ![](../../..//DEEP/lr2.png)
+    ![](../../../DEEP/lr2.png)
 
 </details>
 
@@ -53,7 +53,7 @@ Also see:
 6. <details markdown=1><summary markdown="span"> What can be said about the convex functions in more than 1 space? </summary>
     
     \
-    ![](../../..//DEEP/lr3.png) \
+    ![](../../../DEEP/lr3.png) \
     Note that 0 is a vector, known as additive identity!
 
 </details>
@@ -68,7 +68,7 @@ Also see:
 8. <details markdown=1><summary markdown="span"> Show the steps for minimizing the loss. Is this function linear? </summary>
     
     \
-    ![](../../..//DEEP/lr4.png) \
+    ![](../../../DEEP/lr4.png) \
     Yes, w.r.t. to the parameters.
 
 </details>
@@ -76,7 +76,7 @@ Also see:
 9. <details markdown=1><summary markdown="span"> What is the matrix formulation for the linear regression? What is this? </summary>
     
     \
-    ![](../../..//DEEP/lr5.png) \
+    ![](../../../DEEP/lr5.png) \
     Linear map as function of parameters.
 
 </details>
@@ -91,7 +91,7 @@ Also see:
 11. <details markdown=1><summary markdown="span"> Show the steps for minimizing the loss expressed in matricial form. </summary>
     
     \
-    ![](../../..//DEEP/lr6.png)
+    ![](../../../DEEP/lr6.png)
 
 </details>
 

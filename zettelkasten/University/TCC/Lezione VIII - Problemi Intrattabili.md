@@ -33,7 +33,7 @@ ossia i ==linguaggi ricorsivi==.
 
 Un esempio di problema risolvibile in tempo polinomiale è quello di calcolare il ==minimum spanning tree==. Per farlo, useremo ==l'algoritmo di Kruskal==.
 
-![](../../..//TCC/TM_Kruskal_P.png)
+![](../../../TCC/TM_Kruskal_P.png)
 
 L'algoritmo è il seguente:
 ```
@@ -48,7 +48,7 @@ L'algoritmo è il seguente:
 
 ```
 
-![](../../..//TCC/Kruskal_Solve.png)
+![](../../../TCC/Kruskal_Solve.png)
 
 La complessità dell'implementazione ottima di questo algoritmo è $O(m + e \log e)$. Un implementazione più semplice, invece, impiega tempo $O(e(e + m))$. Questa implementazione trova l'arco di peso minore in $O(e)$ scorrendo la lista degli archi e le componenti connesse scorrendo la lista di nodi in $O(m)$, il tutto $O(e)$ volte. Possiamo informalmente dire che ==la complessità dell'algoritmo è polinomiale nell'input $e + m$.       
 
@@ -69,7 +69,7 @@ Codifichiamo ora l'algoritmo in modo da essere compatibile con una macchina di T
 
 La codifica del nostro esempio è la seguente:
 
-![](../../..//TCC/TM_Kruskal_Code.png)
+![](../../../TCC/TM_Kruskal_Code.png)
 
 Studiamo ora la ==complessità dell'algoritmo== in termini di macchina di Turing. Se l'input è lungo $n$, allora esso può rappresentare al massimo $O(\frac{n}{log n})$ lati.
 Se i lati fossero pochi, il numero di nodi $m$ potrebbe essere esponenziale in $n$, tuttavia se $e < n - 1$ non esiste MWST e quindi il problema viene direttamente risolto con una risposta negativa.
@@ -110,7 +110,7 @@ Si tratta della tecnica principale con cui mostriamo che
 
 Idealmente anche qui sfrutteremo un algoritmo del tipo:
 
-![](../../..//TCC/poli_red.png) 
+![](../../../TCC/poli_red.png) 
 
 Vediamo che questo algoritmo, a differenza di quando lo usavamo per le TM, non basta a dimostrare l'enunciato, perchè ci possono essere dei casi in cui $P_1 \notin P$ ma $P_2 \in P$. Intuitivamente questo avviene perchè in quel caso non ci stavamo occupando di complessità ma più di accettazione/halting.
 

@@ -9,7 +9,7 @@
 All'interno del corso viene usato il seguente modello:
 - il reference monitor si occupa di verificare l'identità
 - si occupa anche di controllare le autorizzazioni definite in base alle policies presenti
-![acl_simplified](../../..//CYS/acl_simplified.png)
+![acl_simplified](../../../CYS/acl_simplified.png)
 
 È importante notare come l'access control sia una pratica ==adottata a vari livelli==
 - i.e. a livello di network 
@@ -46,7 +46,7 @@ Queste polizze non sono mutualmente esclusive e possono essere combinate.
 
 Una matrice di accesso fornisce un ==framework== per descrivere gli stati di protezioni in un access control system. 
 
-![ac_matrix](../../..//CYS/ac_matrix.png)
+![ac_matrix](../../../CYS/ac_matrix.png)
 
 ### Capabilities
 

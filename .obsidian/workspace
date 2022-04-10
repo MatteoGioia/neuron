@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "63f3c3d3dd28a4ca",
+        "id": "281b71f3c4d265f4",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -75,7 +75,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "63f3c3d3dd28a4ca",
+  "active": "281b71f3c4d265f4",
   "lastOpenFiles": [
     "zettelkasten/University/Big Data/BD VII - Supervised Learning.md",
-    "zettelkasten/University/Machine Learning/ML VI - Performance Evaluation.md",
     "zettelkasten/University/Big Data/BD VI - Dimensionality Reduction.md",
     "zettelkasten/University/Big Data/Big Data.md",
-    "zettelkasten/University/University.md",
-    "zettelkasten/index.md",
-    "README.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI V - Sgd.md",
+    "zettelkasten/University/Machine Learning/ML VI - Performance Evaluation.md",
+    "zettelkasten/University/Foundations of Data Science/FDS VI - Bias and Variance.md",
     "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI I - Data.md"
+    "zettelkasten/University/Cloud Computing/CLD III - Virtualization.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
+    "zettelkasten/University/Deep Learning and AI/Deep Learning and AI.md",
+    "zettelkasten/University/Cloud Computing/CLD IV - Autonomic Computing.md"
   ]
 }

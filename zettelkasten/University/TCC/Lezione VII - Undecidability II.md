@@ -60,7 +60,7 @@ Costruiamo un algoritmo di riduzione $RED$ che converte un input $(M,w)$ nel cod
 
 Avremo in output una $TM$ che accetta sempre (qualunque sia l'input) se la coppia $(M,w)$ è accettata da $U$, altrimenti rifiuterà sempre. Avendo compiuto una riduzione,conlcudiamo quindi che $L_{ne}$ è difficile almeno quanto $L_u$ e quindi non si può trovare in $R$.
 
-![](../../..//TCC/reduction_from_universal_to_nonempty.png)
+![](../../../TCC/reduction_from_universal_to_nonempty.png)
 
 ### Linguaggio $L_e$
 
@@ -73,7 +73,7 @@ Ovviamente, date le conclusioni precedenti (==theorem==):
 
 Per ricapitolare:
 
-![](../../..//TCC/second_lang_classificiation.png)
+![](../../../TCC/second_lang_classificiation.png)
 
 ## Th. Rice e proprietà linguaggi in $RE$
 
@@ -97,7 +97,7 @@ Di seguito faremo riferimento non tanto ai linguaggi con certe proprietà quanto
 
 Dimostriamo ora il teorema: sia $P$ una proprietà non banale e supponiamo che il linguaggio vuoto non sia in $P$ - ovvero che ci sia almeno una macchina che riconosce un linguggio con tale proprietà. Sia $L$ tale linguaggio e $L = L(M_L)$. Se riduciamo $L_u$ a $L_p$ proviamo che questo è indecidibile.
 
-![](../../..//TCC/rice_theorem_proof1.png)
+![](../../../TCC/rice_theorem_proof1.png)
 
 La riduzione prende in input una coppia $(M,w)$ e produce il codice per $M_1$:
 - se $M$ accetta $w$, allora $L(M_1) = L$

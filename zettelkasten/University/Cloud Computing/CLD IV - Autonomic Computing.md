@@ -22,7 +22,7 @@
 3. <details markdown=1><summary markdown="span"> What does  MAPE-k stand for? </summary>
     
     \
-    ![](../../..//CLD/aco1.png)
+    ![](../../../CLD/aco1.png)
 
 </details>
 
@@ -30,7 +30,7 @@
     
     \
     Properties:
-    - self ==configuration==: ??
+    - self ==configuration==: see ansible
     - self ==healing==: e.g. guarantee a certain number of VMs are always running;
     - self ==protection==: e.g. keep intruders out and mitigate successful attacks;
     - self ==optimization==: e.g. determine optimal amount of VMs to guarantee SLA and minimize cost.
@@ -41,7 +41,7 @@
     
     \
     ==It measures the trend of performance with increasing load==. In other words, a system is scalable if it's ==capable of mantaining performance under increased load by adding more resources==.
-    ![](../../..//CLD/aco2.png)
+    ![](../../../CLD/aco2.png)
 
 </details>
 
@@ -68,7 +68,7 @@
     
     \
     It's the ==core component of the Dynamic Scaling Architecture==, and it decides how to perform scaling based on requests from outside.
-    ![](../../..//CLD/aco3.png)
+    ![](../../../CLD/aco3.png)
 
 </details>
 
@@ -176,7 +176,7 @@
 21. <details markdown=1><summary markdown="span"> What are k8s components?</summary>
     
     \
-    ![](../../..//CLD/aco4.png)
+    ![](../../../CLD/aco4.png)
 
 </details>
 

@@ -39,7 +39,7 @@ DRONETs:
 
 As expected, ==conventional routing protocols do not work optimally in the context of routing==.
 
-![](../../..//AN/dronets1.png)
+![](../../../AN/dronets1.png)
 
 ==Because of this, the routing protocols of choiche for DRONETs are geographic protocol==, although reactive routing protocols could work if mobility is not too high.
 

@@ -23,7 +23,7 @@ In the following, we'll focus on 2 main questions:
 
 To answer the first question, we are going to comput the ==confidence interval==. In  fact, the true error rate of our hypotesis $h(x)$ can't be computed, but we can get an idea of the interval in which it lies. 
 
-![](../../..//ML/confint.png)
+![](../../../ML/confint.png)
 
 ### Using sample error as a building block for the estimator for true error
 
@@ -53,7 +53,7 @@ In the following we are going to explain why the sample error can be actually a 
 
 This is important because the mean of the sample errors, which are binomial rv and are statistically indipendent, will tend to be the same as the real population mean errror! This means the distribution will be something like:
 
-![](../../..//ML/gaussPE.png)
+![](../../../ML/gaussPE.png)
 
 For a gaussian rv $f(x | \mu, \sigma^2) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{(x - \mu)^2}{2 \sigma^2}}$, we know the following properties:
 - 99.7% of the probability mass lies in the area below the mean value $\mu \pm 3 \sigma$
@@ -82,4 +82,4 @@ The ME is computed as the product of critical value times the std. deviation, wh
 
 We can exploit the fact that the gaussian is symmetric to compute the probability that the error of our ML system is at most a given value.
 
-![](../../..//ML/onetaild.png)
+![](../../../ML/onetaild.png)

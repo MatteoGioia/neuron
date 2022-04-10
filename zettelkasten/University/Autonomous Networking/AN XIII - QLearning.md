@@ -8,17 +8,17 @@
 
 - How is the optimal policy defined? Define the optimal state value function and the optimal action value function.
 
-![](../../..//AN/ql1.png)
+![](../../../AN/ql1.png)
 
 - How do we order the policies to define which ones are better than the others?
 
 - What important theorem is true for optimal policies?
 
-![](../../..//AN/ql2.png)
+![](../../../AN/ql2.png)
 
 - How do we find an optimal policy? 
 
-![](../../..//AN/ql3.png)
+![](../../../AN/ql3.png)
 
 - How do we find the optimal q values? Why is it important to find them? (Hint: bellman)
 
@@ -26,7 +26,7 @@
 
 - What are the characteristics of Q learning?
 
-![](../../..//AN/ql4.png)
+![](../../../AN/ql4.png)
 
 - What is temporal difference learning? What are the characteristics?
 

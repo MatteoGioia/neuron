@@ -33,7 +33,7 @@ Private and public key mechanism. Usually utilised in conjuction with hashes to 
 
 ==Structure of a transaction: each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin.==
 
-![](../../..//DS/btcblock.png)
+![](../../../DS/btcblock.png)
 
 This type of transaction is subject to ==double spending, i.e. sending the same bitcoin to 2 different new oweners.==
 
@@ -42,7 +42,7 @@ To avoid this, ==there must be a common knowledge of all the transactions and al
 
 ==Every node has a copy of the blockchain, and new blocks containing new transactions can be approved.== To approve a block to add to the blockchain, there must be distributed consesuns on the transactions inside it.
 
-![](../../..//DS/bchain.png)
+![](../../../DS/bchain.png)
 
 ==Only the block with the last $k$ bits set to 0 is approved, so the miners have to try many nonces before the hash results in what they want.==
 - the average "work" required is exponential in the number of zero bits required
@@ -56,7 +56,7 @@ A new block is usually generated every 10 minutes.
 
 What happens if 2 miners solve a block at the same time? This process is called ==forking: now the blockchain is split over 2 branches, with nodes working on either one.==
 
-![](../../..//DS/fork.png)
+![](../../../DS/fork.png)
 
 When ==one of successive blocks is solved, the branch left behind gets scrapped==. To avoid transactions being scrapped because they belong in forked blocks, there's a waiting time for approval, namely 6 blocks, before the transaction is actually approved.  
 

@@ -14,7 +14,7 @@
 
 ### Diagramma delle classi di complessità
 
-![](../../..//TCC/additional-complexity-classes2.png)
+![](../../../TCC/additional-complexity-classes2.png)
 
 Come è possibile vedere nel disegno, esistono molte classi di complessità oltre quelle già mostrate. Nel dettaglio, andremo a vedere:
 - ==$co-NP$==, la classe dei ==complementi dei linguaggi in $NP$==;
@@ -32,7 +32,7 @@ Possiamo pensare una $TM$ che risolve proprio questo algoritmo:
 - sul secondo nastro abbiamo una serie di bits, scelti ognuno con probabilità $\frac{1}{2}$ tra $0,1$ in una sequenza infinita
 - sul terzo abbiamo un nastro di appoggio
 
-![](../../..//TCC/quicksort_TM1.png)
+![](../../../TCC/quicksort_TM1.png)
 
 Questo modello, che chiamiamo ==macchina di Turing randomizzata==, è però effettivamente irrealizzabile: difficilmente una $TM$ può pre-compilare un nastro con una sequenza infinita di bit. Facciamo dunque una semplificazione, e assumiamo che ==ogni volta che sul secondo nastro è letto un blank, avviene un lancio di moneta e generato un bit==. In questo modo, potremo scegliere un numero per il pivot calcolato sui bit scritti fino ad ora. 
 
@@ -50,7 +50,7 @@ Questa probabilità sarebbe $0$ in quanto il nastro casuale è infinito, ==tutta
 
 Mostriamo un altro caso di $TM$ randomica e calcoliamo la probabilità che stringhe del linguaggio siano accettate.
 
-![](../../..//TCC/randomTM_table.png)
+![](../../../TCC/randomTM_table.png)
 
 La macchina seguente può fare due scelte:
 - se il primo random bit letto è uno 0, allora verifica che la stringa di input sia composta tutta dallo stesso simbolo (es. $111111$)
@@ -87,7 +87,7 @@ In questo modo ==creiamo $TM$ che siano sempre in $RP$, ma con un numero di fals
 
 >Se $L$ è in $RP$, allora per ogni costante $c > 0$, non importa quanto piccola, esiste un algoritmo randomizzato in tempo polinomiale che decide se $w \in L$, non da falsi positivi e risponde con falsi negativi con probabilità $\leq c$.
 
-![](../../..//TCC/RP_location.png)
+![](../../../TCC/RP_location.png)
 
 ### $RP$ e la classe $NP$
 

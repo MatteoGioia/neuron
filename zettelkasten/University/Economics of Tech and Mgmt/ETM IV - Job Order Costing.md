@@ -15,7 +15,7 @@
 2. <details markdown=1><summary markdown="span"> What is the job cost sheet? </summary>
 
     \
-    ![](../../..//ETM/jco1.png)
+    ![](../../../ETM/jco1.png)
 
 </details>
 

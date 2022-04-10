@@ -31,7 +31,7 @@ Convergecast: used by nodes to answer to the queries
 
 In this protocol, the channel is contented by all the nodes. So we have to avoid collisions, since in WSN collision detection is impossible.
 
-![](../../..//AN/wsnca.png)
+![](../../../AN/wsnca.png)
 
 The ==protocol works as described by the image==:
 1. if the channel is idle, the sensor waits for the IFS and then sees if the channel it's idle again and goes to step 2; if the channel wasn't idle in the first place the sensor just waits and then goes back to step 1 instead;
@@ -51,11 +51,11 @@ The ==backoff time is randomly chosen between 0 and a Contention Window CW value
 
 In both cases, ==we can use the RTS/CTS mechanism, to communicate when the channel is free==.
 
-![](../../..//AN/hiddensolve.png)
+![](../../../AN/hiddensolve.png)
 
 In this case of the hidden terminal (C hid from A), the collision is prevented because C overhears the CTS and inhibits its own transmitter.
 
-![](../../..//AN/exposedsolve.png)
+![](../../../AN/exposedsolve.png)
 
 In this case of the exposed terminal problem (C exposed to B), C can transmit because although it has overheard the RTS from B, it didn't hear any CTS, so it assumes the node that B tries to communicate with is out of range (or down).
 
@@ -86,7 +86,7 @@ To achieve synchronization, each node has a ==table with the schedule of the nei
 
 Sync packets are exchanged periodically to share the schedule of each node.
 
-![](../../..//AN/sleepWSN.png)
+![](../../../AN/sleepWSN.png)
 
 The ==node that proposes the schedule is called a Synchronized, the others that adopt the schedule are called Follower==.
 
@@ -106,4 +106,4 @@ even if the traffic load is ligther==. ==When the traffic is higher, S-MAC witho
 
 Average energy consumption:
 
-![](../../..//AN/averageenergy.png)
+![](../../../AN/averageenergy.png)
