@@ -69,7 +69,7 @@
     \
     It's a ==directed acyclic graph that represents the computation of $f(x)$ with intermediate variables==. \
     ![](../../../DEEP/mlp5.png) \
-    Shape: Input #params, Output: scalar
+    Shape: Input [[params]], Output: scalar
     
 </details>
 

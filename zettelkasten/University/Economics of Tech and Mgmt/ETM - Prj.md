@@ -1,13 +1,10 @@
-# Project draft 
-
-1. Buying components: used vs new vs renting
-2. Sustainability aspect: powering with solar, etc..
-3. Service model: SAAS vs one time etc + support, money vs bitcoin etc
-
-Platforms: ebay et sim. / amazon / resellers ??
-
-
+# Project 
 ## Phase 1
+
+I want to setup a certain number of machines for my own startup. I must go through each alternative to see which one has the best price/benefit for me.  \
+Setup price is common for each alternative, as I chose the bare metal option for each one. Furthermore, in the case of used/new, no economy of scale applies since the nr. of machine is really small.
+
+Per calcolare la tariffa oraria: https://www.fattureincloud.it/guida-freelance/tariffe-freelance-quanto-farsi-pagare/
 
 ### Route 1: brand new 
 
@@ -21,6 +18,7 @@ Brand new
     - ILIAD 15.99 mo with fiber?
    - mantainance price (variable labour):
       - technician pay (hourly)
+      - setup
 
 
 ### Route 2: used
@@ -33,7 +31,7 @@ Used pc:
 
 ### Route 3: hosted
 
-OVH cloud: 
+OVH cloud (final choice): 
   - name: advance-1
   - type: bare metal
   - specs:

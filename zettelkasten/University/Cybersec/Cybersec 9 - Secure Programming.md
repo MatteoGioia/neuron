@@ -27,7 +27,7 @@ La causa principale di tutte queste vulnerabilità è una ==inadeguata conoscenz
 
 Secure programming è la pratica di ==scrivere codice protetto da tutti i tipi di vulnerabilità==. 
 
-Software sicuro è sottoinsieme di software di qualità e reliable. (Cfr. #[[Non functional requirements]])
+Software sicuro è sottoinsieme di software di qualità e reliable. (Cfr. [[Non functional requirements]])
 
 Questa pratica è difficile in quanto è soggetta ad un ==Defender dilemma==:
 - il difensore deve testare il sw sotto ogni punto di vista, ma l'attacante può sfruttare uno qualsiasi dei punti deboli

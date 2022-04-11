@@ -11,7 +11,7 @@
 2. <details markdown=1><summary markdown="span"> What does the distributed file system ensure? What is the common usage pattern?</summary>
     
     \
-    ==Global file namespace and availability across nodes in a cluster==. Used for large files, #reads >> #updates.
+    ==Global file namespace and availability across nodes in a cluster==. Used for large files, [[reads]] >> [[updates]].
 
 </details>
 
