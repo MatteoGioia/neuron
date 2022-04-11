@@ -20,4 +20,4 @@ Starting from now, notes will consist of recall questions (mostly) and useful re
 
 ## Transitioning to obsidian
 
-As of 09/04/2022, I am switching to https://obsian.md for compatibility reasons with ARM. The note format is still similar, so the syntax will be mostly identical. The only thing that needs to be changed in order to make obsian/neuron work is the path of the images (abs. in obsidian, relative in neuron). There is probably a better fix that I don't know of though.
+As of 09/04/2022, I am switching to https://obsidian.md for compatibility reasons with ARM. The note format is still similar, so the syntax will be mostly identical. The only thing that needs to be changed in order to make obsian/neuron work is the path of the images (abs. in obsidian, relative in neuron). There is probably a better fix that I don't know of though.
