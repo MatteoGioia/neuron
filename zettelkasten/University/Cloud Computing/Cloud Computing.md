@@ -18,3 +18,5 @@ Lecturer: Emiliano Casalicchio
 [[CLD III - Virtualization]]
 
 [[CLD IV - Autonomic Computing]]
+
+[[CLD V - Cloud Storage]]

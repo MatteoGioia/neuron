@@ -1,10 +1,15 @@
 # Project 
+
 ## Phase 1
 
 I want to setup a certain number of machines for my own startup. I must go through each alternative to see which one has the best price/benefit for me.  \
 Setup price is common for each alternative, as I chose the bare metal option for each one. Furthermore, in the case of used/new, no economy of scale applies since the nr. of machine is really small.
 
-Per calcolare la tariffa oraria: https://www.fattureincloud.it/guida-freelance/tariffe-freelance-quanto-farsi-pagare/
+To compute hrly pay: https://www.fattureincloud.it/guida-freelance/tariffe-freelance-quanto-farsi-pagare/
+
+The hosted route is more convenient, as when we add the price for maintenance and connection the brand new option and used option quickly become less profitable. The main issue of these 2 choices would be salvage value of the hardware and the possibility of it malfunctioning.
+
+Aggiungere inflazione?
 
 ### Route 1: brand new 
 

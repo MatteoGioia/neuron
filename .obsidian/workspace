@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md",
-            "mode": "source",
+            "file": "zettelkasten/University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md",
+                "file": "zettelkasten/University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,19 +84,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 246.5
   },
   "active": "281b71f3c4d265f4",
   "lastOpenFiles": [
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM VIII - Decision Making.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM VII - Current Price and Indicators.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI V - Sgd.md",
-    "zettelkasten/University/Big Data/BD V - Clustering Algorithms.md",
-    "zettelkasten/University/Big Data/BD IV - Clustering.md",
-    "zettelkasten/University/Big Data/BD VII - Supervised Learning.md",
-    "zettelkasten/University/Big Data/BD VI - Dimensionality Reduction.md",
-    "zettelkasten/University/Machine Learning/ML VI - Performance Evaluation.md",
-    "zettelkasten/University/Cloud Computing/CLD IV - Autonomic Computing.md"
+    "zettelkasten/University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
+    "zettelkasten/University/Economics of Tech and Mgmt/ETM IX - m.md",
+    "zettelkasten/University/Ingegneria del software/Project Planning.md",
+    "zettelkasten/University/Ingegneria del software/Ingegneria del software.md",
+    "zettelkasten/University/Ingegneria del software/Macchine a stati.md",
+    "zettelkasten/University/Ingegneria del software/Sequence Diagram.md",
+    "zettelkasten/University/Ingegneria del software/Requirements engineering.md",
+    "zettelkasten/University/Ingegneria del software/Rational Unified Process.md",
+    "zettelkasten/University/Ingegneria del software/Non functional requirements.md",
+    "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md"
   ]
 }

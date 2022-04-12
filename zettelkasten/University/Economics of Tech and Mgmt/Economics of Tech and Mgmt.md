@@ -24,3 +24,12 @@ Lecturer: Idiano D'Adamo
 [[ETM VI - Pricing Decisions]]
 
 [[ETM VII - Current Price and Indicators]]
+
+[[ETM VIII - Decision Making]]
+
+[[ETM IX - Project Planning]]
+
+[[ETM X - Understanding Strategy]]
+
+
+[[ETM - Prj]]
