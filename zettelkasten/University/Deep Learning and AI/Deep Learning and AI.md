@@ -22,3 +22,5 @@ Lecturer: Emanuele Rodolà
 [[DLAI V - Sgd]]
 
 [[DLAI VI - Multi Layer Perceptron]]
+
+[[DLAI VII - Cnn]]

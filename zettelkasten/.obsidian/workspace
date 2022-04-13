@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "dc4e6a95bb3d3135",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6f03d62c6a364dd",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e7101afaabf29f4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "78ffa06334c89f0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52c3d3a9eccd50ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1074dad19b88370c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ea27dea70de39b82",
+    "type": "split",
+    "children": [
+      {
+        "id": "1715c7f93e105d1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7c25e79c2e9b5ff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "a6f03d62c6a364dd",
+  "lastOpenFiles": [
+    "University/Sviluppo Agile/Lezione VI - Agile Practices.md",
+    "University/Sviluppo Agile/Lezione II - Quality.md",
+    "University/Deep Learning and AI/Deep Learning and AI.md",
+    "University/Big Data/BD II - MapReduce.md",
+    "University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
+    "params.md",
+    "University/Cybersec/Cybersec.md",
+    "University/Cybersec/Natas Solutions.md",
+    "University/Cybersec/Nebula Solutions.md",
+    "University/Cybersec/Resources.md"
+  ]
+}

@@ -20,3 +20,6 @@ Lecturer: Emiliano Casalicchio
 [[CLD IV - Autonomic Computing]]
 
 [[CLD V - Cloud Storage]]
+
+
+[[CLD - Docker]]

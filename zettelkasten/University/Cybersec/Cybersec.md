@@ -26,11 +26,3 @@ Sezione dedicata agli appunti per il seminario di (introduzione alla) Cybersecur
 [[Cybersec 10 - Safety Operazioni Input e Output]]
 
 [[Resources]]
-
-## Diaro Esercizi
-
-[[CyS 20_03]]
-
-[[CyS 27_03]]
-
-[[CyS 2_03]]

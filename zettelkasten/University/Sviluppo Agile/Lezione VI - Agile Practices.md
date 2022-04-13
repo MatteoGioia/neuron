@@ -31,9 +31,7 @@ Questa regola è detta ==closed window rule==.
 
 ### Schema dei meeting
 
-Durante e prima di ogni sprint si segue il seguente schema per organizzare i meetings.
-
-![](../../../Agile/meetings_agile.png)
+Durante e prima di ogni sprint si segue il seguente schema per organizzare i meetings. (Missing, see slides)
 
 ### Iteration Planning
 
