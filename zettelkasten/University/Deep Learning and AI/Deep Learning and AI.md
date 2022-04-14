@@ -24,3 +24,5 @@ Lecturer: Emanuele Rodolà
 [[DLAI VI - Multi Layer Perceptron]]
 
 [[DLAI VII - Cnn]]
+
+[[DLAI VIII - Regularization]]
