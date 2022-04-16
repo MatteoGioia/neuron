@@ -7,8 +7,11 @@
         "id": "a6f03d62c6a364dd",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "University/Big Data/BD VIII - Linear Regression.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "University/Big Data/BD VIII - Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,15 +87,15 @@
   },
   "active": "a6f03d62c6a364dd",
   "lastOpenFiles": [
+    "University/Big Data/BD VIII - Linear Regression.md",
+    "University/Big Data/BD VI - Dimensionality Reduction.md",
+    "University/Big Data/BD VII - Supervised Learning.md",
+    "University/Big Data/BD V - Clustering Algorithms.md",
+    "University/Big Data/BD IV - Clustering.md",
+    "University/Big Data/BD III - Spark.md",
     "University/Sviluppo Agile/Lezione VI - Agile Practices.md",
     "University/Sviluppo Agile/Lezione II - Quality.md",
     "University/Deep Learning and AI/Deep Learning and AI.md",
-    "University/Big Data/BD II - MapReduce.md",
-    "University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
-    "params.md",
-    "University/Cybersec/Cybersec.md",
-    "University/Cybersec/Natas Solutions.md",
-    "University/Cybersec/Nebula Solutions.md",
-    "University/Cybersec/Resources.md"
+    "University/Big Data/BD II - MapReduce.md"
   ]
 }

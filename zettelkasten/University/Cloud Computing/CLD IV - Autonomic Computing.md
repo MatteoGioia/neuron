@@ -238,24 +238,11 @@
 
 </details>
 
-28. <details markdown=1><summary markdown="span"> How does scheduling work in k8s?</summary>
+28. <details markdown=1><summary markdown="span"> How does scheduling work in k8s? What's this process called? </summary>
     
     \
-    In k8s ==scheduling refers to making sure that pods are matched to nodes, so that kubelets can run them==.
+    In k8s ==scheduling refers to making sure that pods are matched to nodes, so that kubelets can run them==. The process is called ==Filtering and Scoring==, and terminates with ==the API communicating the decision== to the ctl plane through ==binding==.
 
 
 </details>
 
-29. <details markdown=1><summary markdown="span"> ?</summary>
-    
-    \
-
-
-</details>
-
-30. <details markdown=1><summary markdown="span"> ?</summary>
-    
-    \
-
-
-</details>
