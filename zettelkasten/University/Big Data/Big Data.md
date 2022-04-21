@@ -24,3 +24,5 @@ Lecturer: Gabriele Tolomei
 [[BD VI - Dimensionality Reduction]]
 
 [[BD VII - Supervised Learning]]
+
+[[BD VIII - Linear Regression]]

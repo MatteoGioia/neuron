@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "281b71f3c4d265f4",
+        "id": "883d1a52308915e7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zettelkasten/University/Deep Learning and AI/DLAI VIII - Regularization.md",
+            "file": "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Deep Learning and AI/DLAI VIII - Regularization.md",
+                "file": "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "direction": "horizontal",
     "width": 246.5
   },
-  "active": "281b71f3c4d265f4",
+  "active": "883d1a52308915e7",
   "lastOpenFiles": [
+    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
     "zettelkasten/University/Deep Learning and AI/DLAI VIII - Regularization.md",
     "zettelkasten/University/Big Data/BD VIII - Linear Regression.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
-    "zettelkasten/University/Deep Learning and AI/Deep Learning and AI.md",
+    "zettelkasten/University/Big Data/Big Data.md",
     "zettelkasten/University/University.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM IX - m.md",
-    "zettelkasten/University/Ingegneria del software/Project Planning.md",
-    "zettelkasten/University/Ingegneria del software/Ingegneria del software.md",
-    "zettelkasten/University/Ingegneria del software/Macchine a stati.md"
+    "zettelkasten/University/Big Data/BD VII - Supervised Learning.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI V - Sgd.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI IV - Non Linear.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI III - Linear Regression.md"
   ]
 }

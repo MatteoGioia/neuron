@@ -55,7 +55,7 @@ Also see #[[FDS III - Regression]]
 6. <details markdown=1><summary markdown="span"> What is R²?</summary>
     
     \
-    The other presented measure. In short, it measures ==the proportion of variability in $Y$ that can be explained with $X$.
+    The other presented measure. In short, it measures ==the proportion of variability in $Y$ that can be explained with $X$==.
     ![](../../../static/BIG/linreg3.png)
 
 </details>
