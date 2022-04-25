@@ -26,3 +26,5 @@ Lecturer: Gabriele Tolomei
 [[BD VII - Supervised Learning]]
 
 [[BD VIII - Linear Regression]]
+
+[[BD IX - Logistic Regression]]

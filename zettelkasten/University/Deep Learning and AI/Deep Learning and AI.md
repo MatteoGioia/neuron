@@ -26,3 +26,5 @@ Lecturer: Emanuele Rodolà
 [[DLAI VII - Cnn]]
 
 [[DLAI VIII - Regularization]]
+
+[[DLAI IX - Generative]]

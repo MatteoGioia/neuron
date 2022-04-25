@@ -1,19 +1,21 @@
 # Project 
 
+The context of this project is the creation of an artificial startup in order to sell a certain program to customers. The project will be broken down in 3 phases:
+1. infrastructure setup and publicity
+2. selling model 
+3. indicators
+
 ## Phase 1
 
-I want to setup a certain number of machines for my own startup. I must go through each alternative to see which one has the best price/benefit for me.  \
-Setup price is common for each alternative, as I chose the bare metal option for each one. Furthermore, in the case of used/new, no economy of scale applies since the nr. of machine is really small.
+ In this phase, it is necessary to set up a certain number of machines in order to run the software. There are 3 possibile alternatives identified:
+ - brand new: all the components and infrastructure are bought brand new
+ - used: the components are bought on a second hand market (e.g. ebay, subito, etc)
+ - rented on the cloud: the bare metal is rented from a cloud provider 
+ 
+Setup (of the software) price is the same for each alternative. Furthermore, in the case of used/new, no economy of scale applies since the nr. of machine is really small. \
+To compute hrly pay for the assistance: https://www.fattureincloud.it/guida-freelance/tariffe-freelance-quanto-farsi-pagare/
 
-To compute hrly pay: https://www.fattureincloud.it/guida-freelance/tariffe-freelance-quanto-farsi-pagare/
-
-The hosted route is more convenient, as when we add the price for maintenance and connection the brand new option and used option quickly become less profitable. The main issue of these 2 choices would be salvage value of the hardware and the possibility of it malfunctioning.
-
-Aggiungere inflazione?
-
-### Route 1: brand new 
-
-Brand new
+Price breakdown for **brand new**
    - price: 1725 euro
    - specs:
      - xeon e 2176g
@@ -25,18 +27,13 @@ Brand new
       - technician pay (hourly)
       - setup
 
-
-### Route 2: used
-
-Used pc:
+Price breakdown for **used **:
   - price 920 + 230 shipping + 200 hdd
   - specs: see screenshot
   - connection price: same as brand new
   - manteinance: 30 days included 
 
-### Route 3: hosted
-
-OVH cloud (final choice): 
+Price breakdown for **OVH cloud (final choice)**: 
   - name: advance-1
   - type: bare metal
   - specs:
@@ -51,7 +48,7 @@ OVH cloud (final choice):
     - 12 mesi: 85.49 mo
     - 24 mesi: 80.99 mo
 
-Scaleway:
+**Discarded option 3.1**Scaleway:
   - name: EM-B111X-SATA
   - type: bare metal
   - specs:
@@ -62,7 +59,7 @@ Scaleway:
   - final price in euro:
     - 0.25 hr/ 89.99 mo
 
-Hetzener:
+**Discarded option 3.2**Hetzener:
   - name: PX62
   - type: bare metal
   - specs:
@@ -73,6 +70,11 @@ Hetzener:
   - final price in euro:
     - 88.06 mo. + 94 setup
 
-## Phase ?? (payment)
+### Conclusions of phase 1
 
-## Phase ?? (indicators)
+The hosted route is the most convenient. When we consider the price for maintenance and connection of option 1 and 2, they quickly become less profitable as shown in the following graph. The options become even less profitable if we consider a situation in which we have to pay for storage and electricity. \
+The main advantage of opt. 1 and 2 over 3 is the potential salvage value. When the project is over, the hardware could be sold again in order to re-gain part of the money invested. 
+
+## Phase 2 
+
+## Phase 3 (indicators)

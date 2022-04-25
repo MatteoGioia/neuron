@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Big Data/BD VIII - Linear Regression.md",
+            "file": "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Big Data/BD VIII - Linear Regression.md",
+                "file": "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "a6f03d62c6a364dd",
   "lastOpenFiles": [
-    "University/Big Data/BD VIII - Linear Regression.md",
-    "University/Big Data/BD VI - Dimensionality Reduction.md",
-    "University/Big Data/BD VII - Supervised Learning.md",
-    "University/Big Data/BD V - Clustering Algorithms.md",
-    "University/Big Data/BD IV - Clustering.md",
-    "University/Big Data/BD III - Spark.md",
-    "University/Sviluppo Agile/Lezione VI - Agile Practices.md",
-    "University/Sviluppo Agile/Lezione II - Quality.md",
-    "University/Deep Learning and AI/Deep Learning and AI.md",
-    "University/Big Data/BD II - MapReduce.md"
+    "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
+    "University/Economics of Tech and Mgmt/ETM X - Understanding Strategy.md",
+    "University/Economics of Tech and Mgmt/ETM VIII - Decision Making.md",
+    "University/Economics of Tech and Mgmt/ETM XII - Defining the project.md",
+    "University/Economics of Tech and Mgmt/ETM II - Managerial Accounting and Cost Concepts.md",
+    "University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
+    "University/Economics of Tech and Mgmt/Economics of Tech and Mgmt.md",
+    "University/Economics of Tech and Mgmt/ETM - Prj.md",
+    "University/Deep Learning and AI/DLAI VIII - Regularization.md",
+    "University/Deep Learning and AI/DLAI IX - Generative.md"
   ]
 }

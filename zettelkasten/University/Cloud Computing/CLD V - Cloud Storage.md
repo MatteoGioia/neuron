@@ -44,7 +44,7 @@
 
 </details>
 
-5. <details markdown=1><summary markdown="span"> What are possible types of file system? </summary>
+5. <details markdown=1><summary markdown="span"> What are possible types of file system for cloud storage? </summary>
     
     \
     Possible types are:
@@ -111,24 +111,25 @@
 
 </details>
 
-12.  <details markdown=1><summary markdown="span"> How does file access and creation work in the GFS? </summary>
+12. <details markdown=1><summary markdown="span"> How does file access and creation work in the GFS? </summary>
     
-    \
-    In case of an access, the ==master guarantees a lease on a certain chunk==. In case of creation, ==the master is directly responsible==. (?)
+	\
+	In case of an access, the ==master guarantees a lease on a certain chunk==. In case of creation, ==the master is directly responsible==. (?)
     
 
 </details>
 
-13.  <details markdown=1><summary markdown="span"> And file write ? </summary>
+13. <details markdown=1><summary markdown="span"> And file write (hint: primary and secondary)? </summary>
     
-    \
-    ![](../../../static/CLD/clds3.png)
+	\
+	![](../../../static/CLD/clds3.png)
 
 </details>
 
-1.   <details markdown=1><summary markdown="span"> ? </summary>
+14. <details markdown=1><summary markdown="span"> ? </summary>
     
     \
+	...
     
 
 </details>

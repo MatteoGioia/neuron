@@ -18,7 +18,7 @@
     
     \
     Business drivers:
-    - ==capacity planning==: provide the right capacity when needed, the strategy can be ==lag=, ==lead== or ==match==;
+    - ==capacity planning==: provide the right capacity when needed, the strategy can be ==lag==, ==lead== or ==match==;
     - ==cost reduction==: mostly the cost for personnel mantaining the infrastructure;
     - ==organizational agility==
 
