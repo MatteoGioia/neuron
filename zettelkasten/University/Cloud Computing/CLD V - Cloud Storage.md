@@ -126,10 +126,102 @@
 
 </details>
 
-14. <details markdown=1><summary markdown="span"> ? </summary>
+14. <details markdown=1><summary markdown="span"> What is the HFS? </summary>
+    
+    \
+	Distributed filesystem that implements all the operations necessary to handle big data.
+
+</details>
+
+15. <details markdown=1><summary markdown="span"> What is the architecture of the HFS? </summary>
+    
+    \
+	The model is a classic master/slave model, as also seen in [[BD II - MapReduce]] and [[BD III - Spark]]
+    
+</details>
+
+16. <details markdown=1><summary markdown="span"> ? </summary>
+    
+    \
+	Write protocol (?)
+    
+
+</details>
+
+Part on databases starts here
+
+17. <details markdown=1><summary markdown="span"> What are the key aspects of online transaction processing? </summary>
+    
+    \
+	Necessary characteristics:
+	- low response time
+	- scalability (horizontally)
+	- built in support for consensus protocols
+	- fault tolerance (no single point of failure)
+    
+</details>
+
+18. <details markdown=1><summary markdown="span"> What is the main difference between relational and noSQL dbs? </summary>
+    
+    \
+	NoSQL dbs guarantee that data will eventually be consistent at some point in time.
+    
+</details>
+
+19. <details markdown=1><summary markdown="span"> ? </summary>
     
     \
 	...
     
 
 </details>
+
+20. <details markdown=1><summary markdown="span"> Describe the structure of the bigtable model. </summary>
+    
+    \
+	...
+    
+
+</details>
+
+21. <details markdown=1><summary markdown="span"> ? </summary>
+    
+    \
+	Rows
+    
+
+</details>
+
+22. <details markdown=1><summary markdown="span"> ? </summary>
+    
+    \
+	Columns
+
+</details>
+
+23. <details markdown=1><summary markdown="span"> Why does BigTable use timestamps? </summary>
+    
+    \
+	BigTable uses timestamps in order to keep multiple versions of the same data. Depending on the garbage collection, either the $n$ last versions or the versions of the $i$ previous days can are kept.
+
+</details>
+
+24. <details markdown=1><summary markdown="span"> What are the main technologies used in BT? </summary>
+    
+    \
+	Main technologies:
+	- gfs
+	- SSTable file format
+	- Chubby
+    
+</details>
+
+25. <details markdown=1><summary markdown="span"> ? </summary>
+    
+    \
+	...
+    
+
+</details>
+
+til key design principles

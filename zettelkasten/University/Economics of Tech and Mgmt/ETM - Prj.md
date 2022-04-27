@@ -2,10 +2,10 @@
 
 The context of this project is the creation of an artificial startup in order to sell a certain program to customers. The project will be broken down in 3 phases:
 1. infrastructure setup and publicity
-2. selling model 
+2. selling model for the app
 3. indicators
 
-## Phase 1
+## Phase 1 (infrastructure setup)
 
  In this phase, it is necessary to set up a certain number of machines in order to run the software. There are 3 possibile alternatives identified:
  - brand new: all the components and infrastructure are bought brand new
@@ -15,7 +15,7 @@ The context of this project is the creation of an artificial startup in order to
 Setup (of the software) price is the same for each alternative. Furthermore, in the case of used/new, no economy of scale applies since the nr. of machine is really small. \
 To compute hrly pay for the assistance: https://www.fattureincloud.it/guida-freelance/tariffe-freelance-quanto-farsi-pagare/
 
-Price breakdown for **brand new**
+- Price breakdown for **brand new**
    - price: 1725 euro
    - specs:
      - xeon e 2176g
@@ -27,13 +27,13 @@ Price breakdown for **brand new**
       - technician pay (hourly)
       - setup
 
-Price breakdown for **used **:
+- Price breakdown for **used **:
   - price 920 + 230 shipping + 200 hdd
   - specs: see screenshot
   - connection price: same as brand new
   - manteinance: 30 days included 
 
-Price breakdown for **OVH cloud (final choice)**: 
+- Price breakdown for **OVH cloud (final choice)**: 
   - name: advance-1
   - type: bare metal
   - specs:
@@ -48,7 +48,7 @@ Price breakdown for **OVH cloud (final choice)**:
     - 12 mesi: 85.49 mo
     - 24 mesi: 80.99 mo
 
-**Discarded option 3.1**Scaleway:
+- **Discarded option 3.1** Scaleway:
   - name: EM-B111X-SATA
   - type: bare metal
   - specs:
@@ -59,7 +59,7 @@ Price breakdown for **OVH cloud (final choice)**:
   - final price in euro:
     - 0.25 hr/ 89.99 mo
 
-**Discarded option 3.2**Hetzener:
+- **Discarded option 3.2** Hetzener:
   - name: PX62
   - type: bare metal
   - specs:
@@ -72,9 +72,13 @@ Price breakdown for **OVH cloud (final choice)**:
 
 ### Conclusions of phase 1
 
-The hosted route is the most convenient. When we consider the price for maintenance and connection of option 1 and 2, they quickly become less profitable as shown in the following graph. The options become even less profitable if we consider a situation in which we have to pay for storage and electricity. \
+The hosted route is the most convenient. When we consider the price for maintenance and connection of option 1 and 2, they quickly become less profitable as shown in the following graph. The options become even less profitable if we consider a situation in which we have to pay for electricity (for what regards storage, a spare room in an existing apartment can be used, otherwise the price levitates even more). \
 The main advantage of opt. 1 and 2 over 3 is the potential salvage value. When the project is over, the hardware could be sold again in order to re-gain part of the money invested. 
 
-## Phase 2 
+![](../../../static/ETM/phase1_table_img.png)
 
-## Phase 3 (indicators)
+## Phase 2 (payment)
+
+The goal of this phase is determining the right price for the product and the most profitable solution.
+
+## Phase 3 (indicators - cash flow simulation?)

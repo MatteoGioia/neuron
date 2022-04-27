@@ -5,6 +5,8 @@ Also see:
 
 Note that in the steps about going from MLE to Cross entropy it is assumed that the random distribution has samples with values (-1, +1), so the final formulation is different from the one shown in FDS ==although equivalent==.
 
+Suggested read: extensive explanation of gradient descent (slides)
+
 ### Recall questions
 
 1. <details markdown=1><summary markdown="span"> What is the main issue when trying to do classification with linear regression?</summary>
@@ -55,12 +57,17 @@ Note that in the steps about going from MLE to Cross entropy it is assumed that 
 
 </details>
 
-7. <details markdown=1><summary markdown="span"> ?</summary>
+7. <details markdown=1><summary markdown="span"> What are the 2 formulations for cross entropy loss? Are they equivalent? </summary>
 
 	\
-	..
+	![](../../../static/BIG/log6.png) \
+	Yes, they are ==indeed equivalent== and this can proven through simple mathematical.
 
 </details>
 
+8. <details markdown=1><summary markdown="span"> ? </summary>
 
-Fino a 125
+	\
+	
+
+</details>

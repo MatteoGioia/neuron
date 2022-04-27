@@ -31,5 +31,12 @@ Lecturer: Idiano D'Adamo
 
 [[ETM X - Understanding Strategy]]
 
+[[ETM XI - Structure and Culture]]
+
+[[ETM XII - Defining the project]]
+
+[[ETM XIII - Estimating time and costs]]
+
+[[ETM XIV - Project plan]]
 
 [[ETM - Prj]]

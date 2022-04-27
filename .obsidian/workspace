@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "883d1a52308915e7",
+        "id": "e9a779040ec914f9",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -84,19 +84,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 250.5,
+    "collapsed": true
   },
-  "active": "883d1a52308915e7",
+  "active": "e9a779040ec914f9",
   "lastOpenFiles": [
     "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
     "zettelkasten/University/Deep Learning and AI/DLAI VIII - Regularization.md",
-    "zettelkasten/University/Big Data/BD VIII - Linear Regression.md",
-    "zettelkasten/University/Big Data/Big Data.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI IX - Generative.md",
+    "zettelkasten/University/Deep Learning and AI/Deep Learning and AI.md",
     "zettelkasten/University/University.md",
-    "zettelkasten/University/Big Data/BD VII - Supervised Learning.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI V - Sgd.md",
+    "zettelkasten/University/Big Data/BD IX - Logistic Regression.md",
+    "zettelkasten/University/Big Data/Big Data.md",
     "zettelkasten/University/Deep Learning and AI/DLAI IV - Non Linear.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI III - Linear Regression.md"
+    "zettelkasten/University/Big Data/BD VIII - Linear Regression.md",
+    "zettelkasten/University/Economics of Tech and Mgmt/ETM XIV - Project plan.md"
   ]
 }
