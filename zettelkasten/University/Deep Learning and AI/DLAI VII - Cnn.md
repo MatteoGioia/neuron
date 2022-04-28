@@ -121,3 +121,4 @@
     In simpler terms, given the fact that we know that images have a hierarchical structure, we can progressively "abstract" the local details in favour of the global ones.
 
 </details>
+
