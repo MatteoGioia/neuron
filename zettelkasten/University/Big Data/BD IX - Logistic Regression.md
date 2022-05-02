@@ -61,13 +61,7 @@ Suggested read: extensive explanation of gradient descent (slides)
 
 	\
 	![](../../../static/BIG/log6.png) \
-	Yes, they are ==indeed equivalent== and this can proven through simple mathematical.
+	Yes, they are ==indeed equivalent== and this can proven through simple algebra.
 
 </details>
 
-8. <details markdown=1><summary markdown="span"> ? </summary>
-
-	\
-	
-
-</details>

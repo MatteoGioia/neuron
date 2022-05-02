@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "a6f03d62c6a364dd",
+        "id": "18c5ad16dbc6c676",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
-            "mode": "preview"
+            "file": "University/Economics of Tech and Mgmt/ETM III - Cost Volume Profit Analysis.md",
+            "mode": "preview",
+            "backlinks": false
           }
         }
       }
@@ -68,13 +69,25 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
+                "file": "University/Economics of Tech and Mgmt/ETM III - Cost Volume Profit Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "32f7b2be816c70e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "University/Economics of Tech and Mgmt/ETM III - Cost Volume Profit Analysis.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -85,17 +98,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a6f03d62c6a364dd",
+  "active": "18c5ad16dbc6c676",
   "lastOpenFiles": [
+    "University/Economics of Tech and Mgmt/ETM III - Cost Volume Profit Analysis.md",
+    "University/Economics of Tech and Mgmt/ETM II - Managerial Accounting and Cost Concepts.md",
+    "University/Economics of Tech and Mgmt/ETM XII - Defining the project.md",
     "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
     "University/Economics of Tech and Mgmt/ETM X - Understanding Strategy.md",
-    "University/Economics of Tech and Mgmt/ETM VIII - Decision Making.md",
-    "University/Economics of Tech and Mgmt/ETM XII - Defining the project.md",
-    "University/Economics of Tech and Mgmt/ETM II - Managerial Accounting and Cost Concepts.md",
+    "University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
     "University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
-    "University/Economics of Tech and Mgmt/Economics of Tech and Mgmt.md",
-    "University/Economics of Tech and Mgmt/ETM - Prj.md",
-    "University/Deep Learning and AI/DLAI VIII - Regularization.md",
-    "University/Deep Learning and AI/DLAI IX - Generative.md"
+    "University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md",
+    "University/Economics of Tech and Mgmt/ETM XV - Risk Management.md",
+    "University/Economics of Tech and Mgmt/ETM XIV - Project plan.md"
   ]
 }

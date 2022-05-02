@@ -129,49 +129,52 @@
 14. <details markdown=1><summary markdown="span"> What is the HFS? </summary>
     
     \
-	Distributed filesystem that implements all the operations necessary to handle big data.
+	==Distributed filesystem that implements all the operations necessary to handle big data==.
 
 </details>
 
 15. <details markdown=1><summary markdown="span"> What is the architecture of the HFS? </summary>
     
     \
-	The model is a classic master/slave model, as also seen in [[BD II - MapReduce]] and [[BD III - Spark]]
+	The model is a ==classic master/slave model==, as also seen in [[BD II - MapReduce]] and [[BD III - Spark]]
     
 </details>
 
-16. <details markdown=1><summary markdown="span"> ? </summary>
+16. <details markdown=1><summary markdown="span"> What are the stages of HDFS write protocol? </summary>
     
     \
-	Write protocol (?)
+	Three stages:
+	- ==set up pipeline==
+	- ==data streaming and replication== (req.)
+	- ==shutdown of pipeline== (ack.)
     
 
 </details>
 
-Part on databases starts here
+Part on ==databases starts here==
 
 17. <details markdown=1><summary markdown="span"> What are the key aspects of online transaction processing? </summary>
     
     \
 	Necessary characteristics:
-	- low response time
-	- scalability (horizontally)
-	- built in support for consensus protocols
-	- fault tolerance (no single point of failure)
+	- ==low latency==
+	- ==scalability (horizontally)==
+	- built in ==support for consensus== protocols
+	- ==fault tolerance== (no single point of failure)
     
 </details>
 
 18. <details markdown=1><summary markdown="span"> What is the main difference between relational and noSQL dbs? </summary>
     
     \
-	NoSQL dbs guarantee that data will eventually be consistent at some point in time.
+	==NoSQL dbs guarantee that data will eventually be consistent== at some point in time.
     
 </details>
 
-19. <details markdown=1><summary markdown="span"> ? </summary>
+19. <details markdown=1><summary markdown="span"> What is the particular aspect of google Big Table model? </summary>
     
     \
-	...
+	In BigTable ==data is treated as uninterpreted strings==.
     
 
 </details>
@@ -179,30 +182,42 @@ Part on databases starts here
 20. <details markdown=1><summary markdown="span"> Describe the structure of the bigtable model. </summary>
     
     \
-	...
+	A BigTable is a ==sorted map==, described by:
+	- ==row==
+	- ==column==
+	- ==timestamp==
+
+	![](../../../static/CLD/clds4.png)
     
 
 </details>
 
-21. <details markdown=1><summary markdown="span"> ? </summary>
+21. <details markdown=1><summary markdown="span"> What is a row? What property does it have? </summary>
     
     \
-	Rows
+	Rows:
+	- are arbitrary ==strings==
+	- ==guarantee atomic read/write==
+	- are divided in ==tablets for load balancing purposes==
     
 
 </details>
 
-22. <details markdown=1><summary markdown="span"> ? </summary>
+22. <details markdown=1><summary markdown="span"> What about columns? </summary>
     
     \
-	Columns
+	Columns:
+	- are grouped into ==families==
+	- have ==keys==
+
+	For instance, a column might be `Language: ID`, another `Language: region` and so on. 
 
 </details>
 
 23. <details markdown=1><summary markdown="span"> Why does BigTable use timestamps? </summary>
     
     \
-	BigTable uses timestamps in order to keep multiple versions of the same data. Depending on the garbage collection, either the $n$ last versions or the versions of the $i$ previous days can are kept.
+	BigTable uses ==timestamps in order to keep multiple versions of the same data==. Depending on the garbage collection, ==either the $n$ last versions or the versions of the $i$ previous days can are kept.==
 
 </details>
 
@@ -210,18 +225,57 @@ Part on databases starts here
     
     \
 	Main technologies:
-	- gfs
-	- SSTable file format
-	- Chubby
+	- ==Google File System==
+	- ==SSTable file format== 
+	- ==Chubby==: distributed lock system
     
 </details>
 
-25. <details markdown=1><summary markdown="span"> ? </summary>
+25. <details markdown=1><summary markdown="span"> What is google BT's architecture? </summary>
+    
+    \
+	Again, we have a ==master/slave== arch. In particular:
+	- ==master server==: assign tablets to servers
+	- ==tablet server== (slaves) can be dinamically reassigned 
+    
+	![](../../../static/CLD/clds5.png)
+
+</details>
+
+26. <details markdown=1><summary markdown="span"> What is the main characteristic of Amazon Dynamo?  Why is it used? </summary>
+    
+    \
+	It is based on ==optimistic replication techniques==: ==replicas can diverge, but eventually are updated to the same value==.
+    This is used to increase ==availability in an environment prone to failure==.
+
+</details>
+
+27. <details markdown=1><summary markdown="span"> What are the requirements satisfied by Dynamo? </summary>
+    
+    \
+	![](../../../static/CLD/clds6.png) \
+	Note that this efficiency is achieved through ==weak consistency==.
+    
+
+</details>
+
+28. <details markdown=1><summary markdown="span"> What are the key design principles of dynamo? </summary>
+    
+    \
+	Key principles:
+	- ==scalability==
+	- ==symmetry: equal responsibility among nodes==
+	- ==decentralized==
+	- ==heterogeneous infrastructur==
+	
+    
+
+</details>
+
+29. <details markdown=1><summary markdown="span"> to be continued </summary>
     
     \
 	...
     
 
 </details>
-
-til key design principles
