@@ -45,7 +45,7 @@
 	
 </details>
 
-5. <details markdown=1><summary markdown="span"> What is a contingency plan? What are contingency funds and time buffers?<summary>
+5. <details markdown=1><summary markdown="span">What is a contingency plan? What are contingency funds and time buffers?</summary>
 
     \
 	A contingency plan is ==a plan for what do in case an unforeseen event happens==. \

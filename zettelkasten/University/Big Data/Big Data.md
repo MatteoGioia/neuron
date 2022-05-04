@@ -28,3 +28,6 @@ Lecturer: Gabriele Tolomei
 [[BD VIII - Linear Regression]]
 
 [[BD IX - Logistic Regression]]
+
+[[BD X - Tree methods]]
+

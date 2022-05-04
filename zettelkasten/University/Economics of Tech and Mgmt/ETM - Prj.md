@@ -79,6 +79,22 @@ The main advantage of opt. 1 and 2 over 3 is the potential salvage value. When t
 
 ## Phase 2 (payment)
 
-The goal of this phase is determining the right price for the product and the most profitable solution.
+The goal of this phase is determining the right price for the product and the most profitable solution. In general, software can be either sold as a service (SaaS) or as a one time purchase. Both solutions offer advantages and disadvanatages, that will be examined in detail later.
 
-## Phase 3 (indicators - cash flow simulation?)
+In the first case, the product is sold as a service that is paid monthly. Differently from a one time purchase though, SaaS ensures that:
+- the customer receives always the latest version of the software
+- receives some kind of assistance
+
+In the second case, the customer only receives the current software version and limited assistance (potentially none). This lowers the overall cost for both customer and software seller.
+
+The following graphs show the CVP analysis for both solutions. It is assumed that the wanted ROI for the project is 200%, so the target profit would be around 4000 euros. 
+
+For instance, for the SaaS solution we would need to sell exactly 50 units of product fixing the price at 10 euros to get to the desired ROI (remember that this is weekly profit). Conversely, setting the number of units sold at 100, we could sell (hypotetically) each of the licenses at 5 euros each. 
+
+![](../../../static/ETM/selling1.png)
+(ADD SECOND GRAPH)
+
+While it is hard to determine the right price for our product given its elasticity (we would need to find the right price w.r.t to our competitors), what we can do is study the difference of cash flow overtime. In the case of SaaS we are in fact hoping that the customer purchases the product for all the 12 months. In the case of one time purchase, it is necessary that at least a fixed number of customers purchases the licenses before the end of each month (or we incur in a debt). This is shown in the following graph
+
+
+## Phase 3 (multi criteria analysis and indicators)
