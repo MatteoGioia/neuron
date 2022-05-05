@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zettelkasten/University/Big Data/BD X - Tree methods.md",
-            "mode": "preview",
+            "file": "zettelkasten/University/Deep Learning and AI/DLAI IX - Geometric.md",
+            "mode": "source",
             "backlinks": false
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "47488bb368c630d4",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Big Data/BD X - Tree methods.md",
+                "file": "zettelkasten/University/Deep Learning and AI/DLAI IX - Geometric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Big Data/BD X - Tree methods.md",
+                "file": "zettelkasten/University/Deep Learning and AI/DLAI IX - Geometric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,15 +101,15 @@
   },
   "active": "e9a779040ec914f9",
   "lastOpenFiles": [
+    "zettelkasten/University/Deep Learning and AI/DLAI IX - Geometric.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI IX - Generative.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI V - Sgd.md",
     "zettelkasten/University/Big Data/BD X - Tree methods.md",
     "zettelkasten/University/Big Data/Big Data.md",
     "zettelkasten/University/Big Data/BD V - Clustering Algorithms.md",
     "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md",
     "zettelkasten/University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
     "zettelkasten/University/Economics of Tech and Mgmt/ETM XV - Risk Management.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM XIV - Project plan.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM XII - Defining the project.md",
-    "zettelkasten/University/Machine Learning/ML V - Data PreProcessing and Feature Engineering.md"
+    "zettelkasten/University/Economics of Tech and Mgmt/ETM XIV - Project plan.md"
   ]
 }
