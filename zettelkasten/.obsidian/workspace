@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Economics of Tech and Mgmt/ETM III - Cost Volume Profit Analysis.md",
-            "mode": "preview",
+            "file": "University/Economics of Tech and Mgmt/ETM XVIII - Being an Effective Project Manager.md",
+            "mode": "source",
             "backlinks": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Economics of Tech and Mgmt/ETM III - Cost Volume Profit Analysis.md",
+                "file": "University/Economics of Tech and Mgmt/ETM XVIII - Being an Effective Project Manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Economics of Tech and Mgmt/ETM III - Cost Volume Profit Analysis.md",
+                "file": "University/Economics of Tech and Mgmt/ETM XVIII - Being an Effective Project Manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,15 +100,15 @@
   },
   "active": "18c5ad16dbc6c676",
   "lastOpenFiles": [
+    "University/Economics of Tech and Mgmt/ETM XVIII - Being an Effective Project Manager.md",
+    "University/Economics of Tech and Mgmt/ETM XVII - Reducing project duration.md",
+    "University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
     "University/Economics of Tech and Mgmt/ETM III - Cost Volume Profit Analysis.md",
     "University/Economics of Tech and Mgmt/ETM II - Managerial Accounting and Cost Concepts.md",
     "University/Economics of Tech and Mgmt/ETM XII - Defining the project.md",
     "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
     "University/Economics of Tech and Mgmt/ETM X - Understanding Strategy.md",
-    "University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
     "University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
-    "University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md",
-    "University/Economics of Tech and Mgmt/ETM XV - Risk Management.md",
-    "University/Economics of Tech and Mgmt/ETM XIV - Project plan.md"
+    "University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md"
   ]
 }
