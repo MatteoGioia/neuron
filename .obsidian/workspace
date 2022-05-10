@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md",
+            "file": "zettelkasten/University/Cloud Computing/CLD V - Cloud Storage.md",
             "mode": "source",
             "backlinks": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md",
+                "file": "zettelkasten/University/Cloud Computing/CLD V - Cloud Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md",
+                "file": "zettelkasten/University/Cloud Computing/CLD V - Cloud Storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,6 +102,7 @@
   },
   "active": "e9a779040ec914f9",
   "lastOpenFiles": [
+    "zettelkasten/University/Cloud Computing/CLD V - Cloud Storage.md",
     "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md",
     "zettelkasten/University/Economics of Tech and Mgmt/ETM I - Intro to business.md",
     "zettelkasten/University/Big Data/BD X - Tree methods.md",
@@ -110,7 +111,6 @@
     "zettelkasten/University/Deep Learning and AI/DLAI V - Sgd.md",
     "zettelkasten/University/Big Data/Big Data.md",
     "zettelkasten/University/Big Data/BD V - Clustering Algorithms.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM XV - Risk Management.md"
+    "zettelkasten/University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md"
   ]
 }
