@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "University/Economics of Tech and Mgmt/ETM XVIII - Being an Effective Project Manager.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -103,12 +103,12 @@
     "University/Economics of Tech and Mgmt/ETM XVIII - Being an Effective Project Manager.md",
     "University/Economics of Tech and Mgmt/ETM XVII - Reducing project duration.md",
     "University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
-    "University/Economics of Tech and Mgmt/ETM III - Cost Volume Profit Analysis.md",
-    "University/Economics of Tech and Mgmt/ETM II - Managerial Accounting and Cost Concepts.md",
-    "University/Economics of Tech and Mgmt/ETM XII - Defining the project.md",
-    "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
-    "University/Economics of Tech and Mgmt/ETM X - Understanding Strategy.md",
-    "University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
-    "University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md"
+    "University/Economics of Tech and Mgmt/ETM XV - Risk Management.md",
+    "University/Economics of Tech and Mgmt/ETM XIV - Project plan.md",
+    "University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md",
+    "University/Big Data/BD X - Tree methods.md",
+    "University/Big Data/BD VIII - Linear Regression.md",
+    "University/Big Data/BD II - MapReduce.md",
+    "University/Cloud Computing/CLD V - Cloud Storage.md"
   ]
 }

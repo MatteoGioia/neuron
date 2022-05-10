@@ -39,7 +39,7 @@
 	
 </details>
 
-5. <details markdown=1><summary markdown="span">What is the scheduling technique used for time constrained projects? And for resoruce constrained projects?</summary>
+5. <details markdown=1><summary markdown="span">What is the scheduling technique used for time constrained projects? And for resource constrained projects?</summary>
 
     \
 	In the case of ==time constrained==, the ==leveling== approach is preferred. In case of ==resource constrained==, the use of ==heuristics like minimum slack or smallest duration== are used.
@@ -50,7 +50,7 @@
 6. <details markdown=1><summary markdown="span"> What is the parallel method and why is it not ideal? What can be used instead?</summary>
 
     \
-	The parallel methods ==consists in iteratively applying the three rules to decide which heuristics to apply.== The issue is that ==it often changes the structure of project schedule==,== up to the point that sometimes even the critical path may change. \
+	The parallel methods ==consists in iteratively applying the three rules to decide which heuristics to apply.== The issue is that ==it often changes the structure of project schedule==, up to the point that sometimes even the critical path may change. \
 	If ==startup and shutdown costs are low, splitting activities is preferred.==
 	
 	![](../../../static/ETM/sr1.png)
