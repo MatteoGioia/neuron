@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "66ba7f6553d20be3",
+        "id": "00cc590a4d22a137",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Economics of Tech and Mgmt/ETM VI - Pricing Decisions.md",
-            "mode": "preview",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -53,7 +49,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "82359cd56f88628b",
@@ -69,13 +66,23 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Economics of Tech and Mgmt/ETM VI - Pricing Decisions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5542dd4a67686c8e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -87,8 +94,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "66ba7f6553d20be3",
+  "active": "00cc590a4d22a137",
   "lastOpenFiles": [
+    "Big Data/BD XII - Recommender Systems.md",
     "Economics of Tech and Mgmt/ETM VI - Pricing Decisions.md",
     "Economics of Tech and Mgmt/ETM IV - Job Order Costing.md",
     "Web Engineering/Lezione I - Intro al Web Engineering.md",

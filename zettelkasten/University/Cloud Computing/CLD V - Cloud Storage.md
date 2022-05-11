@@ -272,10 +272,10 @@ Part on ==databases starts here==
 
 </details>
 
-29. <details markdown=1><summary markdown="span"> to be continued </summary>
+29. <details markdown=1><summary markdown="span"> How does the partitioning system work </summary>
     
     \
-	...
+	See [[DS IX - A brief overview of consistent hashing]]
     
 
 </details>

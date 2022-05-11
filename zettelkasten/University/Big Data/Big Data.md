@@ -31,3 +31,6 @@ Lecturer: Gabriele Tolomei
 
 [[BD X - Tree methods]]
 
+[[BD XI - Evaluation Metrics]]
+
+[[BD XII - Recommender Systems]]

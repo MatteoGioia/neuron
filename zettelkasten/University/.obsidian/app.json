@@ -1,4 +1,7 @@
 {
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": false,
+  "showLineNumber": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": false
 }

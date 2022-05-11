@@ -100,6 +100,6 @@ Things change if we instead examine the SaaS solution. In this case we consider 
  
  ![](../../../static/ETM/cvp_fixed.png)
  
- We can see that as the price decreases, the nr. of units sold rapidly approaches our maximum number of customers (200). The reason why the variable price is expressed as a whole (and not as a function of the number of units) is that we pay the full price for the entire 5 servers, even if we don't use them. In this regard, there are different solutions (like AWS) that could be used, as they use a "pay-as-you-use" model (you pay what you use).
+ We can see that as the price decreases, the nr. of units sold rapidly approaches our maximum number of customers (200). The reason why the variable price is expressed as a whole (and not as a function of the number of units) is that we pay the full price for the entire 5 servers, even if we don't use them. In this regard, there are different solutions (like AWS) that could be used, as they use a "pay-as-you-use" model (you pay what you use). We can visualize this situation by studying how the price increases as the number of customers increases (e.g. 40 customers per machine).
 
 ## Phase 3 (multi criteria analysis and indicators)
