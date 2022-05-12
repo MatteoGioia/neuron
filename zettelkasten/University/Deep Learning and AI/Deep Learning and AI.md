@@ -28,3 +28,5 @@ Lecturer: Emanuele Rodolà
 [[DLAI VIII - Regularization]]
 
 [[DLAI IX - Generative]]
+
+[[DLAI XI - Adversarial]]

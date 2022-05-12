@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Deep Learning and AI/DLAI X - Transformers.md",
+            "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
             "mode": "source",
             "backlinks": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Deep Learning and AI/DLAI X - Transformers.md",
+                "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Deep Learning and AI/DLAI X - Transformers.md",
+                "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,15 +102,15 @@
   },
   "active": "18c5ad16dbc6c676",
   "lastOpenFiles": [
+    "University/Deep Learning and AI/DLAI XI - Adversarial.md",
     "University/Deep Learning and AI/DLAI X - Transformers.md",
+    "University/Deep Learning and AI/Deep Learning and AI.md",
     "University/Deep Learning and AI/DLAI VIII - Regularization.md",
     "University/Big Data/BD XII - Recommender Systems.md",
     "University/Economics of Tech and Mgmt/ETM XVIII - Being an Effective Project Manager.md",
     "University/Economics of Tech and Mgmt/ETM XVII - Reducing project duration.md",
     "University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
     "University/Economics of Tech and Mgmt/ETM XV - Risk Management.md",
-    "University/Economics of Tech and Mgmt/ETM XIV - Project plan.md",
-    "University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md",
-    "University/Big Data/BD X - Tree methods.md"
+    "University/Economics of Tech and Mgmt/ETM XIV - Project plan.md"
   ]
 }
