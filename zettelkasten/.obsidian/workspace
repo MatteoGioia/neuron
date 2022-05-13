@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
-            "mode": "source",
+            "file": "University/Economics of Tech and Mgmt/ETM XVII - Reducing project duration.md",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
+                "file": "University/Economics of Tech and Mgmt/ETM XVII - Reducing project duration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
+                "file": "University/Economics of Tech and Mgmt/ETM XVII - Reducing project duration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,15 +101,15 @@
   },
   "active": "18c5ad16dbc6c676",
   "lastOpenFiles": [
+    "University/Economics of Tech and Mgmt/ETM XVII - Reducing project duration.md",
+    "University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
+    "University/Economics of Tech and Mgmt/ETM XV - Risk Management.md",
+    "University/Economics of Tech and Mgmt/ETM XIV - Project plan.md",
+    "University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md",
     "University/Deep Learning and AI/DLAI XI - Adversarial.md",
     "University/Deep Learning and AI/DLAI X - Transformers.md",
     "University/Deep Learning and AI/Deep Learning and AI.md",
     "University/Deep Learning and AI/DLAI VIII - Regularization.md",
-    "University/Big Data/BD XII - Recommender Systems.md",
-    "University/Economics of Tech and Mgmt/ETM XVIII - Being an Effective Project Manager.md",
-    "University/Economics of Tech and Mgmt/ETM XVII - Reducing project duration.md",
-    "University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
-    "University/Economics of Tech and Mgmt/ETM XV - Risk Management.md",
-    "University/Economics of Tech and Mgmt/ETM XIV - Project plan.md"
+    "University/Big Data/BD XII - Recommender Systems.md"
   ]
 }
