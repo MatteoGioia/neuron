@@ -21,5 +21,6 @@ Lecturer: Emiliano Casalicchio
 
 [[CLD V - Cloud Storage]]
 
+[[CLD VI - Fog and Edge computing]]
 
 [[CLD - Docker]]
