@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Economics of Tech and Mgmt/ETM - Prj.md",
+            "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -69,7 +70,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "University/Economics of Tech and Mgmt/ETM - Prj.md",
+=======
+                "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
+>>>>>>> 9a1c7b8d62a31742a617f537d2018fac72f4b19f
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +91,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "University/Economics of Tech and Mgmt/ETM - Prj.md",
+=======
+                "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
+>>>>>>> 9a1c7b8d62a31742a617f537d2018fac72f4b19f
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,6 +110,7 @@
   },
   "active": "482e240f02c557a8",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "University/Economics of Tech and Mgmt/ETM - Prj.md",
     "University/Cloud Computing/Cloud Computing.md",
     "University/Cloud Computing/CLD VI - Fog and Edge computing.md",
@@ -111,5 +121,17 @@
     "University/Economics of Tech and Mgmt/ETM XIV - Project plan.md",
     "University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md",
     "University/Deep Learning and AI/DLAI XI - Adversarial.md"
+=======
+    "University/Deep Learning and AI/DLAI XI - Adversarial.md",
+    "University/Deep Learning and AI/DLAI X - Transformers.md",
+    "University/Deep Learning and AI/DLAI IX - Generative.md",
+    "University/Economics of Tech and Mgmt/ETM - Prj.md",
+    "University/Economics of Tech and Mgmt/Economics of Tech and Mgmt.md",
+    "University/Economics of Tech and Mgmt/ETM XII - Defining the project.md",
+    "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
+    "University/Economics of Tech and Mgmt/ETM X - Understanding Strategy.md",
+    "University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
+    "University/Economics of Tech and Mgmt/ETM VIII - Decision Making.md"
+>>>>>>> 9a1c7b8d62a31742a617f537d2018fac72f4b19f
   ]
 }

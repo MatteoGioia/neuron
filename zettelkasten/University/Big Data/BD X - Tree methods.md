@@ -36,7 +36,7 @@ Also see [[ML III - Supervised Learning]]  and [[ML VIII - Ensemble methods]]
 	- entropy
     
 	The gini index and entropy are preferred, ==as using classification error can lead to situation where the tree does not split further== even if it is the right thing to do.
-	![](../../../static/BIG/tree.png)
+	![](../../../static/BIG/tree1.png)
 	
 </details>
 

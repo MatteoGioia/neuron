@@ -6,6 +6,7 @@ Also see:
 - variance and covariance (slide 55-60)
 - mean of centered variable
 - notes on eigenvectors and variance
+- a really nice explanation (informal): https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues
 
 1. <details markdown=1><summary markdown="span"> What are 3 possible strategies to deal with high dimensional data ? </summary>
 

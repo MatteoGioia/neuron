@@ -266,9 +266,7 @@ Part on ==databases starts here==
 	- ==scalability==
 	- ==symmetry: equal responsibility among nodes==
 	- ==decentralized==
-	- ==heterogeneous infrastructur==
-	
-    
+	- ==heterogeneous infrastructure==
 
 </details>
 

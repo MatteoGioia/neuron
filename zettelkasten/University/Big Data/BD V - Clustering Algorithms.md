@@ -63,7 +63,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 
 </details>
 
-8. <details markdown=1><summary markdown="span"> What is the setup of k-means? And the objective function? What is the SDD? </summary>
+8. <details markdown=1><summary markdown="span"> What is the setup of k-means? And the objective function? What is the SSD? </summary>
 
     \
     ![](../../../BIG/cl5.png)

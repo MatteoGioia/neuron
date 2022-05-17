@@ -74,6 +74,7 @@ To compute hrly pay for the assistance: https://www.fattureincloud.it/guida-free
 
 The hosted route is the most convenient. When we consider the price for maintenance and connection of option 1 and 2, they quickly become less profitable as shown in the following graph. The options become even less profitable if we consider a situation in which we have to pay for electricity (for what regards storage, a spare room in an existing apartment can be used, otherwise the price levitates even more). \
 The main advantage of opt. 1 and 2 over 3 is the potential salvage value. When the project is over, the hardware could be sold again in order to re-gain part of the money invested. 
+Note that **in order to simplify calculations, we are going to consider the price of 1 machine instead of 5**. This does not change the final price as economy of scale **does not apply**, as the price will be fixed even if we rent 5 machines instead of 1.
 
 ![](../../../static/ETM/phase1_table_img.png)
 
@@ -94,12 +95,66 @@ Things change if we instead examine the SaaS solution. In this case we consider 
 
 ![](../../../static/ETM/variable_price.png)
 
- However, it's hard to determine the right price for our product given its elasticity (we would need to find the right price w.r.t to our competitors). Furthermore, it is even harder to predict the fluctuations in the monthly subscriptions (e.g. a customer could decide to not purchase a license every month). This is both the "strength" and "weakness" of the SaaS solution, and that is why most companies try to build customer loyalty. 
+ However, it's hard to determine the right price for our product given its elasticity (we would need to find the right price w.r.t to our competitors). Furthermore, it is even harder to predict the fluctuations in the monthly subscriptions (e.g. a customer could decide to not purchase a license every month). This is both the "strength" and "weakness" of the SaaS solution, and it is also why most companies try to build customer loyalty. \
+ One positive aspect of the SaaS solution that must be considered is also the possibility to lower price for loyal customers. In fact, as new customers decide to subscribe to the service, we can compensate the lower price for loyal customer by sligthly raising the fee for newer customers. Note that this strategy cannot go on indefinitely, since we have to keep in mind that price for such services is very elastic. 
   
-  We'll then consider a simpler case of CVP where the price is fixed at 50/25/10 euros and we use the one time pay solution, assuming we have a certain number of customers willing to pay at the end of a certain period (e.g. 3/6 months)
+  We'll finally consider a simpler case of CVP where the price is fixed at 50/25/10 euros and we use the one time pay solution, assuming we have a certain number of customers willing to pay at the end of a certain period (e.g. 3/6 months)
  
  ![](../../../static/ETM/cvp_fixed.png)
  
  We can see that as the price decreases, the nr. of units sold rapidly approaches our maximum number of customers (200). The reason why the variable price is expressed as a whole (and not as a function of the number of units) is that we pay the full price for the entire 5 servers, even if we don't use them. In this regard, there are different solutions (like AWS) that could be used, as they use a "pay-as-you-use" model (you pay what you use). We can visualize this situation by studying how the price increases as the number of customers increases (e.g. 40 customers per machine).
 
 ## Phase 3 (multi criteria analysis and indicators)
+
+In this phase, we complete the project with a multi criteria analysis and a cash flow simulation.
+
+First, we start with 2 multi criteria analysis, in a scale from 1 to 5 where 1 is the worst and 5 is the best. We examine 2 aspects:
+- monetary cost: it includes not only the price we pay for each solution, but also the potential resale value that each solution has, the recycling cost and importantly how "easy" is to pay for each solution (e.g. in hosted we can pay monthly, in brand new we have to pay everything in advance!);
+- technical complexity: it includes the cost of setting up the infrastructure, as well as constantly managing it (and potentially updating it) and scaling it to multiple customers.
+
+**Monetary**:
+
+| Criterion | Hosted | Brand new | Used | 
+|---|---|---|---|
+|Final Cost| 4 | 2 | 3|
+|Resale value | 1 | 3| 1| 
+|Recycling costs* | 5| 3| 1| 
+|"Ease of payment" |5 | 2 | 2| 
+
+<small>\*recycling cost in the case of hosting is low, since we don't have to pay anything!</small>
+
+From this first evaluation, we get the following rankings:
+- hosted 15/20
+- brand new 10/20
+- used 7/10
+
+**Technical**
+
+| Criterion | Hosted | Brand new | Used | 
+|---|---|---|---|
+|Ease of configuration| 4 | 2 | 2|
+|Ease of maintenance| 5 | 2 | 2 | 
+|Ease and cost of upgradability| 4| 2| 1| 
+
+From this first evaluation, we get the following rankings:
+- hosted 13/15
+- brand new 6/15
+- used 5/15
+
+This evaluation shows, in both cases, what was already demonstrated in the previous steps. In particular, the ease of payment and ease of maintenance of the hosted solution greatly outweighs any resale value that both the brand new solution and the used one might have.
+
+To finish off, we consider a simulation of cash flow over 2 years in the hosted case, and we look at both the ==$NPV$== and the ==Profitability index==.
+
+In the case of NPV, we assume the initial investment to cover the cost of machines (~2000eu), a opportunity cost of capital of 10%  and 2 net cash flows for the first and second year of 4000 and 8000 euros (i.e. we assume our project is gonna go well and be well received).
+
+In this case, we see that the $NPV$ is:
+$-2000 + \frac{4000}{1+0.1} + \frac{8000}{1+0.1}^2  = 8248$
+
+Since the $NPV > 0$, we consider this first evaluation positive (i.e. we accept the project.) This positive evaluation is further confirmed by the $PI$, which is equal to $\frac{8248}{2000} = 4.12$. 
+
+## Conclusions 
+
+Although the final evaluations show that the project is profitable, it lacks few fundamental details of a real world implementation. In fact, it assumes that 1 person could tackle the entire job, while in reality many successful startups show that a bigger team is necessary as the business expands. 
+It also does not consider pay as you go solutions (AWS), or the fact that we could potentially outsource our entire infrastructure setup. We should also keep in mind that constantly updating and managing successful software requires as much money as keeping the entire infrastructure alive and working.
+
+However, it is still a good showcase of the inherent complexity  behind the creation of a startup, an idea often simplified by the public, not aware of the all the challenges and small implementation details.
