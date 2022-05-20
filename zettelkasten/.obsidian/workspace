@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "dc4e6a95bb3d3135",
+    "id": "af8a400da5c563b3",
     "type": "split",
     "children": [
       {
-        "id": "482e240f02c557a8",
+        "id": "95681e6a534cc2de",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
+            "file": "University/Economics of Tech and Mgmt/ETM - Prj.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e7101afaabf29f4d",
+    "id": "ddadf61fcebb580b",
     "type": "split",
     "children": [
       {
-        "id": "78ffa06334c89f0a",
+        "id": "ac754d0a327afdcf",
         "type": "tabs",
         "children": [
           {
-            "id": "52c3d3a9eccd50ec",
+            "id": "a70044943be12ed2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "1074dad19b88370c",
+            "id": "0618f2f0a3748b29",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,28 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "ea27dea70de39b82",
+    "id": "89e77022569bef71",
     "type": "split",
     "children": [
       {
-        "id": "1715c7f93e105d1f",
+        "id": "24c8c184be27b54d",
         "type": "tabs",
         "children": [
           {
-            "id": "f7c25e79c2e9b5ff",
+            "id": "deecd4fd2cde8caf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
                 "file": "University/Economics of Tech and Mgmt/ETM - Prj.md",
-=======
-                "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
->>>>>>> 9a1c7b8d62a31742a617f537d2018fac72f4b19f
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,16 +81,12 @@
             }
           },
           {
-            "id": "32f7b2be816c70e2",
+            "id": "d77ffa2d2add845f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
                 "file": "University/Economics of Tech and Mgmt/ETM - Prj.md",
-=======
-                "file": "University/Deep Learning and AI/DLAI XI - Adversarial.md",
->>>>>>> 9a1c7b8d62a31742a617f537d2018fac72f4b19f
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,30 +99,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "482e240f02c557a8",
+  "active": "95681e6a534cc2de",
   "lastOpenFiles": [
-<<<<<<< HEAD
     "University/Economics of Tech and Mgmt/ETM - Prj.md",
-    "University/Cloud Computing/Cloud Computing.md",
-    "University/Cloud Computing/CLD VI - Fog and Edge computing.md",
-    "University/Cloud Computing/CLD V - Cloud Storage.md",
-    "University/Economics of Tech and Mgmt/ETM XVII - Reducing project duration.md",
-    "University/Economics of Tech and Mgmt/ETM XVI - Scheduling Resources.md",
-    "University/Economics of Tech and Mgmt/ETM XV - Risk Management.md",
-    "University/Economics of Tech and Mgmt/ETM XIV - Project plan.md",
-    "University/Economics of Tech and Mgmt/ETM XIII - Estimating time and costs.md",
-    "University/Deep Learning and AI/DLAI XI - Adversarial.md"
-=======
-    "University/Deep Learning and AI/DLAI XI - Adversarial.md",
-    "University/Deep Learning and AI/DLAI X - Transformers.md",
-    "University/Deep Learning and AI/DLAI IX - Generative.md",
-    "University/Economics of Tech and Mgmt/ETM - Prj.md",
-    "University/Economics of Tech and Mgmt/Economics of Tech and Mgmt.md",
-    "University/Economics of Tech and Mgmt/ETM XII - Defining the project.md",
-    "University/Economics of Tech and Mgmt/ETM XI - Structure and Culture.md",
-    "University/Economics of Tech and Mgmt/ETM X - Understanding Strategy.md",
-    "University/Economics of Tech and Mgmt/ETM IX - Project Planning.md",
-    "University/Economics of Tech and Mgmt/ETM VIII - Decision Making.md"
->>>>>>> 9a1c7b8d62a31742a617f537d2018fac72f4b19f
+    "University/Big Data/BD XII - Recommender Systems.md",
+    "University/Economics of Tech and Mgmt/ETM XVIII - Being an Effective Project Manager.md"
   ]
 }

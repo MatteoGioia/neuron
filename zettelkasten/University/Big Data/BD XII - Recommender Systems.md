@@ -58,7 +58,7 @@
 
 </details>
 
-==Content based filtering==
+#### ==Content based filtering==
 
 7. <details markdown=1><summary markdown="span"> Describe the core idea behind content based filtering and the steps of such process. </summary>
 
@@ -112,7 +112,7 @@
 
 </details>
 
-==Collaborative filtering==
+#### ==Collaborative filtering NB==
 
 12. <details markdown=1><summary markdown="span"> What is the core idea of collaborative filtering? How is it different from content filtering? </summary>
 
@@ -171,5 +171,105 @@
 	- ==sparsity==: system does not work well with ==many items but few ratings== 
 	- ==efficiency==: need to compute Pearsonn correlation many times
 	- ==aging==: need to ==recompute user profiles constantly==
+
+</details>
+
+16. <details markdown=1><summary markdown="span">  What is the main difference between user and item based cf?  </summary>
+
+    \
+	The main idea is to use ==items' ratings, which are more stable over time==. Furthermore, the number of items is often  bigger than the number of users. 
+
+</details>
+
+17. <details markdown=1><summary markdown="span"> What is the main idea behind item based CF? Why is the same matrix as before involved? </summary>
+
+    \
+	This time, instead of looking for similar users we look for ==similar items==. However, we express the similarity ==in terms of the ratings expressed by the users==.
+	![](../../../static/BIG/sr6.png)
+
+</details>
+
+18. <details markdown=1><summary markdown="span">  How do we compute the rating for an item ? </summary>
+
+    \
+	Given $k$ neighboring items (similar), we can either compute ==a plain average or a weighted average==.
+
+</details>
+
+19. <details markdown=1><summary markdown="span">  What was noticed (empirically) about item based cf? </summary>
+
+    \
+	That in general, ==item based CF works better than user based CF==.
+
+</details>
+
+#### ==Collaborative filtering MB==
+
+20. <details markdown=1><summary markdown="span">  What is model based CF? What is the issue that it tries to fix? </summary>
+
+    \
+	The main idea of model based is to ==express items and users in the form of latent vectors==. This is useful in countering the ==curse of dimensionality==, especially when we deal with computing the most similar users. 
+
+</details>
+
+21. <details markdown=1><summary markdown="span">  Explain the idea behind latent based and how matrix factorization works. </summary>
+
+    \
+	As said before, the idea is to ==map both users and items to a **joint** latent factor d-dimensional space==.  This works because ==user rankings can be expressed as the correlation between the factors that characterize users and items==,  so computed as a dot product in the latent space. \
+	==Note that this vectors are learned a posteriori, through Matrix Factorization=.
+	
+	![](../../../static/BIG/sr7.png)
+	![](../../../static/BIG/sr8.png)
+	
+</details>
+
+22. <details markdown=1><summary markdown="span">  What is the chosen loss function? What are the 2 possible ways of minimizing it? </summary>
+
+    \
+	![](../../../static/BIG/sr9.png) \
+	To optimize it, we can either use ==SGD== or ==Alternative Least Squares==. 
+
+</details>
+
+23. <details markdown=1><summary markdown="span">  Explain how the first method works. What is its "main drawback"? </summary>
+
+    \
+	We are simply applying ==SGD==, considering one of the variables as fixed each time. (For detailed steps see slides)
+	The issue with it is that ==we have $d(m+n)$ parameters to optimize, a number that becomes big really quickly in high dimensions==.
+
+</details>
+
+24. <details markdown=1><summary markdown="span">  Explain the idea behind ALS. What is the effective result of this procedure? </summary>
+
+    \
+	The main idea is ==to fix one of the matrices each time, in order to make the problem quadratic==. This allows to solve it as if we were dealing with standard "regression", i.e. by effectively computing a ==closed form solution like the normal equation==.
+
+</details>
+
+25. <details markdown=1><summary markdown="span"> Why do we have to take bias into account in collaborative filtering? How can we measure it?</summary>
+
+    \
+	Many of the ==observed ratings may be influenced by a bias==. This bias is quantifiable as:
+	![](../../../static/BIG/sr10.png)
+
+</details>
+
+26. <details markdown=1><summary markdown="span">  What are the 3 main drawbacks of CF? </summary>
+
+    \
+	Even with model based, CF still suffers from 3 main issues:
+	- ==cold start== for ==both items and users==
+	- ==scalability==, as seen before a lot of computational power may be required
+	- ==sparsity==, because many items are not rated by users
+
+</details>
+
+#### ==Evaluation metrics==
+
+26. <details markdown=1><summary markdown="span"> What is personalization? Why is it useful?  </summary>
+
+    \
+	Ideally, we ==want our system to not recommend the same items to the users==. We can compute the ==grade of personalization as dissimilarity between users' lists of recommendations==.
+	![](../../../static/BIG/sr11.png)
 
 </details>
