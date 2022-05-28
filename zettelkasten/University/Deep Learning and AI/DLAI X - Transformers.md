@@ -64,7 +64,7 @@
 
 </details>
 
-8. <details markdown=1><summary markdown="span"> How do we fix the problem mentioned in 6? How is this technique called?</summary>
+8. <details markdown=1><summary markdown="span"> How do we ensure that the layers of a transformer are causal? How is this technique called?</summary>
 
     \
 	We can use ==masking==, i.e. ==summing over only the previous tokens in the sequence==.
