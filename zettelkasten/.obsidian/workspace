@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Big Data/BD XII - Recommender Systems.md",
+            "file": "University/Deep Learning and AI/Past exams.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Big Data/BD XII - Recommender Systems.md",
+                "file": "University/Deep Learning and AI/Past exams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Big Data/BD XII - Recommender Systems.md",
+                "file": "University/Deep Learning and AI/Past exams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,6 +102,8 @@
   },
   "active": "13626037d55ba169",
   "lastOpenFiles": [
+    "University/Deep Learning and AI/Past exams.md",
+    "University/Big Data/BD XIII - Graph Link Analysis.md",
     "University/Big Data/BD XII - Recommender Systems.md",
     "University/Deep Learning and AI/DLAI VII - Cnn.md",
     "University/Deep Learning and AI/DLAI VIII - Regularization.md",
@@ -108,8 +111,6 @@
     "University/Deep Learning and AI/DLAI V - Sgd.md",
     "University/Deep Learning and AI/DLAI IV - Non Linear.md",
     "University/Deep Learning and AI/DLAI III - Linear Regression.md",
-    "University/Big Data/BD XIII - Graph Link Analysis.md",
-    "University/Economics of Tech and Mgmt/ETM VII - Current Price and Indicators.md",
-    "University/Economics of Tech and Mgmt/ETM VIII - Decision Making.md"
+    "University/Economics of Tech and Mgmt/ETM VII - Current Price and Indicators.md"
   ]
 }

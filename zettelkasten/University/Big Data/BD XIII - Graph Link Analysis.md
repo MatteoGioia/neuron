@@ -107,14 +107,47 @@
     \
 	We are asking for both ==existence and uniqueness== of the solutions. Luckily, the ==Perron Frobenius theorem says==:
 	![](../../../static/BIG/gla12.png)
+	
+	However, we cannot grant that the matrix has some values different from 0...so what do we do?
 
 </details>
 
 ##### ==GOOGLE's PAGE RANK==
 
-12. <details markdown=1><summary markdown="span">?</summary>
+12. <details markdown=1><summary markdown="span"> What are the 2 main issue that Google's Page Rank solves? </summary>
 
     \
+	Two main issues:
+	- dangling node: causes ==page rank vector to vanish==
+	- spider trap: causes ==page rank vector to not converge==
+
+	![](../../../static/BIG/gla13.png)
+
+</details>
+
+13. <details markdown=1><summary markdown="span">Which technique is used to fix dangling nodes? What is the reason behind it?</summary>
+
+    \
+	We ==add outgoing links to every other node.==
+	![](../../../static/BIG/gla14.png)
 	
+	==The idea is based on the behaviour of a random web surfer, which is going to choose a random page (uniformly) if no outgoing link is provided==.
+
+</details>
+
+14. <details markdown=1><summary markdown="span"> What about spider traps?</summary>
+
+    \
+	The solution applied is the same, and we call it ==probabilistic teleporting==.
+	![](../../../static/BIG/gla15.png)
+
+	==At each time, the crawler will either follow a link with probability $d$, or teleport with probability $1-d$.  This constant is called the damping factor==.
+
+</details>
+
+16. <details markdown=1><summary markdown="span">What is the final formulation for page Rank?</summary>
+
+    \
+	![](../../../static/BIG/gla16.png)
 
 </details>

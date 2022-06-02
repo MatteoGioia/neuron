@@ -2,5 +2,13 @@
   "defaultViewMode": "preview",
   "promptDelete": false,
   "showLineNumber": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "spellcheckDictionary": [
+    "parallelize",
+    "backpropagation",
+    "VAEs",
+    "dimensionality",
+    "diffeomorphism",
+    "embeddings"
+  ]
 }
