@@ -158,3 +158,4 @@ Although the final evaluations show that the project is profitable, it lacks few
 It also does not consider pay as you go solutions (AWS), or the fact that we could potentially outsource our entire infrastructure setup. We should also keep in mind that constantly updating and managing successful software requires as much money as keeping the entire infrastructure alive and working.
 
 However, it is still a good showcase of the inherent complexity  behind the creation of a startup, an idea often simplified by the public, not aware of the all the challenges and small implementation details.
+

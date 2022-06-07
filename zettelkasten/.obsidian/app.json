@@ -9,6 +9,20 @@
     "VAEs",
     "dimensionality",
     "diffeomorphism",
-    "embeddings"
-  ]
+    "embeddings",
+    "regularizer",
+    "untargeted",
+    "reparametrization",
+    "backpropagate",
+    "invertible",
+    "spectrograms",
+    "spectrogram",
+    "invariance"
+  ],
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
