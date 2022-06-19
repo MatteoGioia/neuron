@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Deep Learning and AI/Past exams.md",
-            "mode": "source",
+            "file": "University/Cloud Computing/CLD IV - Autonomic Computing.md",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Deep Learning and AI/Past exams.md",
+                "file": "University/Cloud Computing/CLD IV - Autonomic Computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Deep Learning and AI/Past exams.md",
+                "file": "University/Cloud Computing/CLD IV - Autonomic Computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,15 +101,15 @@
   },
   "active": "13626037d55ba169",
   "lastOpenFiles": [
+    "University/Cloud Computing/CLD IV - Autonomic Computing.md",
+    "University/Cloud Computing/CLD V - Cloud Storage.md",
+    "University/Cloud Computing/CLD III - Virtualization.md",
+    "University/Cloud Computing/CLD II - Distributed Computing.md",
+    "University/Cloud Computing/CLD I - Cloud computing.md",
     "University/Deep Learning and AI/Past exams.md",
     "University/Big Data/BD XIII - Graph Link Analysis.md",
     "University/Big Data/BD XII - Recommender Systems.md",
     "University/Deep Learning and AI/DLAI VII - Cnn.md",
-    "University/Deep Learning and AI/DLAI VIII - Regularization.md",
-    "University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
-    "University/Deep Learning and AI/DLAI V - Sgd.md",
-    "University/Deep Learning and AI/DLAI IV - Non Linear.md",
-    "University/Deep Learning and AI/DLAI III - Linear Regression.md",
-    "University/Economics of Tech and Mgmt/ETM VII - Current Price and Indicators.md"
+    "University/Deep Learning and AI/DLAI VIII - Regularization.md"
   ]
 }

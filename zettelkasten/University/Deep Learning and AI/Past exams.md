@@ -4,6 +4,9 @@
 
 I would try to "break down" the loss into smaller terms. Being a function $f \ : \ n \to m$ with $m >> n$. The slow training time for the loss is probably caused by the slow backpropagation through the computational graph, which now has to be done for each of the $m$ final components. Now, there is the possibility that each component of the vector contributes to more than one element of the loss. Depending on if this is the case (i.e. the components are independent or not), I would either try to parallelize the loss computation, otherwise I would use a technique similar to alternating least squares (i.e. optimize one piece of the loss at the time). \
 
+
+Better solution: use forward mode!
+
 #### Question 2
 
 The explanation for the first part of this is in [[DLAI XI - Adversarial]] . It mostly depends on whether the attack is targeted or not. \
@@ -28,14 +31,15 @@ To detect bronterocs, maybe something like a discriminator could be used. In par
 
 #### Question 6
 
-
+Identity + batch norm?
 
 #### Question 7 (R)
 
 Let's first think of which operations might be causing the result to be 0. The mean cannot return a 0 except if the denominator is 0, so this means that the outputs are already 0 before mean pooling. For what regards dropout, the chance that we observed a sequence of events for which always the same weights dropped out and thus lead to 0s in the input of the pooling are quite low. A batchnorm will return 0 only if we subtract to each output its exact same value, so it's also quite unlikely. \
 This only leaves the RELUs as potential culprits, and the reason we see 0s is because RELUs will compute $max(0,input)$ as their activation function.  This means that the inputs progressively become negative the more we go into the network. We could maybe counter this by adding residual layers, e.g. (assuming the original input is positive) by summing the input of the layer to its output (the output of the convolution) before computing the RELU. 
 
-
+Other answer: dropout
+ 
 ### 22 Jan 2022
 
 #### Question 1
@@ -119,7 +123,7 @@ I would also probably try to plot an attention map, to see whether or not the mo
 
 #### QUESTION 1
 
-??
+General formula: $K^2*in_ch*out_ch + out_ch$. See notebook to understand why!
 
 #### QUESTION 2
 
@@ -150,3 +154,53 @@ I would phrase the reconstruction loss in two pieces. The first would ensure we 
 
 Considering the above image, we see multiple "layers" necessary to really understand the image. First of all, we need to understand the object in the image, a.k.a. what is called semantic segmentation. This is possible with modern AI techniques, like CNNs or transformers. Secondly, we need to understand which elements are relevant to the context of the image (e.g. the reflection gives us no useful information), and how each object of the image interacts with each other. So, assuming our image segmentation model has some invariance w.r.t. to the background, it would still need to "understand the context". A human mind would in fact make the connection that "the foot on the scale" and "human weighing himself" are connected, and since we know that the first influences the second by altering it, give us a sense of comedy. This is again the result of multiple priors, for instance some about how physics works. I'd dare to say that a model complex enough would actually be able to correctly segment the image, "e.g. man pressing his foot on the scale while the other man weighs himself", but would need to be really complex to understand the implications of this (the weight is altered) and even more complex to understand why the image is funny (so do something like sentiment analysis for images ?). \
 Interestingly enough, lately Google released a demo of an AI model able to understand puns and even explain them. Furthermore, we could argue that, in general, the perception that humans have of the world might be achieved when a model becomes complex enough (i.e. being human like arises from complexity).
+### 14 September 2021 (TF)
+
+#### question 1
+
+If we consider bias for each of the $W_k, W_q, W_v$ matrices and do not consider a layer to aggregate the heads at the end, we have $11*10*3*7=2310$ params.
+
+#### question 2
+
+Assuming we are working with an optimizer like adam (so we don't take huge steps even if our predictions is way off) and the last layer is linear, I think it would mostly depend from the dimension of the weights.  Having the weights set a 0 would probably cause a really slow convergence, since at each time the prediction is skewed towards the value of the sample we are optimizing  but only slightly, since the gradients would be small. In the opposite case (values much bigger than 1), if the value were to be much bigger, we would converge even more slowly since the descent pattern behaves like a giant zigzag. Setting them to something in the middle, like 1, would cause slow convergence again but not as bad as the first 2 cases. Respectively, the first one would overfit on training and underfit on test,  the second would underfit on both and the last one would perform ok on the training and maybe slightly underfit on the test set (still better than the other 2).
+
+#### question 3
+
+Let's look at this from a different angle. If we have some of the weights at 0 after an iteration, it means that the descent converged to a point in which such weights have no longer to be updated, e.g. the gradient w.r.t. to the weights is 0.  Furthermore, it would mean that the network is considering only part of the weights to output its prediction because they are the relevant ones. Such a case could be caused by a mix of L2 and learning rate: a high learning rate would overshoot to a point in which, if the actual hypothesis is really simple, the other weights, already made small by L2 would quickly become 0, so we are stuck in a local minimum. Furthermore, big batches could lead to few iterations and getting stuck in a local minimum.
+
+#### question 4
+
+It would mostly depend on the last layer. Bigger and smaller images would both work in the context of convolution, provided the dimension of the kernel, padding and stride are compatible. The issues could be with padding, if they are not adaptive, and the last layer. If it something like a softmax is used to achieve the $k$-length vector, a bigger image would not be a problem...
+
+#### question 5
+
+
+
+
+
+### 19 October 2021
+
+#### question 1
+
+$11*20 + 20*2+21*10+11*20$
+
+#### question 2
+
+ We could use the more general formula shown in slide nr. 12, where the perturbation is expressed as a $\delta \in [0,1]^n$ to which we apply a Frobenius Norm. If we set the norm to be a L-1 norm, we could maybe achieve a similar result to what happens when we use a L-1 norm in optimization (i.e. sparsity of the weights), if we consider each pixel of the perturbation to be a weight itself. Furthermore, if we multiply it for a constant we could achieve a maybe even sparser result (?).
+ 
+ #### question 3
+ 
+Again, let's reason on what the weight sparsity means before proceeding. If we have weights equal to 0 it means that they were either 0 at the end of the training, since they progressively got smaller, or they became 0 at some point during training and stayed that way because we reached a stationary point. One possibility would be that the function has some local minima at the extremes of the parameters' space, so with a really high learning rate we quickly reach one of the "corners" in which only a certain sets of weights is not 0. Furthermore, depending on how "deep" this point is in the energy landscape it could mean that, even with a really high learning rate, we are not able to get out of this pit.
+
+#### question 4 
+
+Convolution is not translation invariant but is translation equivariant.
+
+#### question 5
+
+Something something eigevenctors of a laplacian --> locality?
+
+#### question 6
+
+
+
