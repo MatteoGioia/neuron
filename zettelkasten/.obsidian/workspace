@@ -9,9 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Cloud Computing/CLD IV - Autonomic Computing.md",
-            "mode": "preview",
-            "backlinks": false
+            "file": "University/Blockchain and DLT/BDLT I - Intro.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
           }
         }
       }
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Cloud Computing/CLD IV - Autonomic Computing.md",
+                "file": "University/Blockchain and DLT/BDLT I - Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Cloud Computing/CLD IV - Autonomic Computing.md",
+                "file": "University/Blockchain and DLT/BDLT I - Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,15 +102,15 @@
   },
   "active": "13626037d55ba169",
   "lastOpenFiles": [
-    "University/Cloud Computing/CLD IV - Autonomic Computing.md",
-    "University/Cloud Computing/CLD V - Cloud Storage.md",
-    "University/Cloud Computing/CLD III - Virtualization.md",
-    "University/Cloud Computing/CLD II - Distributed Computing.md",
-    "University/Cloud Computing/CLD I - Cloud computing.md",
-    "University/Deep Learning and AI/Past exams.md",
-    "University/Big Data/BD XIII - Graph Link Analysis.md",
-    "University/Big Data/BD XII - Recommender Systems.md",
-    "University/Deep Learning and AI/DLAI VII - Cnn.md",
-    "University/Deep Learning and AI/DLAI VIII - Regularization.md"
+    "University/Big Data/BD I - Big Data Pheonomenon.md",
+    "University/Big Data/Big Data.md",
+    "University/Blockchain and DLT/BDLT I - Intro.md",
+    "University/Blockchain and DLT/Blockchain and DLT.md",
+    "University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
+    "University/Deep Learning and AI/DLAI V - Sgd.md",
+    "University/Deep Learning and AI/DLAI IX - Geometric.md",
+    "University/Deep Learning and AI/DLAI IX - Generative.md",
+    "University/Deep Learning and AI/DLAI IV - Non Linear.md",
+    "University/Deep Learning and AI/DLAI III - Linear Regression.md"
   ]
 }

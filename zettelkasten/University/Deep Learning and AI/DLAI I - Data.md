@@ -1,12 +1,11 @@
 # Data, features and more
+# MapReduce
 
-### Recall questions
+1. <details markdown=1><summary markdown="span"> What is MapReduce? What are the 3 main characteristics?</summary>
 
-
-1. <details markdown=1><summary markdown="span"> What is prior knowledge? </summary>
-    
     \
-    Prior knowledge describes what we already know about the data (e.g. probability distribution). We are interested in ==studying prior-based data==.
+    ==Programming model== for processing big data sets with paralllel, distributed agorithms on a cluster.
+    It ensures ==redundancy==, ==minimal data transfe==r and a ==simple computational model== to hide complexity.
 
 </details>
 
