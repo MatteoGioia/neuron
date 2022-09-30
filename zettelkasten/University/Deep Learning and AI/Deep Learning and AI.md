@@ -29,4 +29,8 @@ Lecturer: Emanuele Rodolà
 
 [[DLAI IX - Generative]]
 
+[[DLAI IX - Geometric]]
+
+[[DLAI X - Transformers]]
+
 [[DLAI XI - Adversarial]]

@@ -9,9 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zettelkasten/University/Big Data/BD XII - Recommender Systems.md",
+            "file": "zettelkasten/University/Advanced Machine Learning/AML I - Intro.md",
             "mode": "source",
-            "backlinks": false
+            "backlinks": false,
+            "source": true
           }
         }
       }
@@ -70,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Big Data/BD XII - Recommender Systems.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML I - Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Big Data/BD XII - Recommender Systems.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML I - Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,15 +103,15 @@
   },
   "active": "e9a779040ec914f9",
   "lastOpenFiles": [
-    "zettelkasten/University/Big Data/BD XII - Recommender Systems.md",
-    "zettelkasten/University/Big Data/BD X - Tree methods.md",
-    "zettelkasten/University/Big Data/BD XI - Evaluation Metrics.md",
-    "zettelkasten/University/Big Data/BD VII - Supervised Learning.md",
-    "zettelkasten/University/Big Data/BD VIII - Linear Regression.md",
-    "zettelkasten/University/Big Data/Big Data.md",
+    "README.md",
+    "zettelkasten/University/Advanced Machine Learning/AML I - Intro.md",
     "zettelkasten/University/Big Data/BD I - Big Data Pheonomenon.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM - Prj.md",
-    "zettelkasten/University/Cloud Computing/CLD V - Cloud Storage.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/ETM I - Intro to business.md"
+    "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
+    "zettelkasten/University/Big Data/Big Data.md",
+    "zettelkasten/University/Deep Learning and AI/Deep Learning and AI.md",
+    "zettelkasten/University/Economics of Tech and Mgmt/Economics of Tech and Mgmt.md",
+    "zettelkasten/University/University.md",
+    "zettelkasten/University/Big Data/BD XII - Recommender Systems.md",
+    "zettelkasten/University/Big Data/BD X - Tree methods.md"
   ]
 }

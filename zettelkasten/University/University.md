@@ -46,3 +46,9 @@ Why does the note style change all of a sudden? Read the [[index]] index!
 [[Deep Learning and AI]]
 
 [[Cloud Computing]]
+
+## Secondo anno LM
+
+### Primo semestre
+
+[[Advanced Machine Learning]]

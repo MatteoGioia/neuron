@@ -39,4 +39,12 @@ Lecturer: Idiano D'Adamo
 
 [[ETM XIV - Project plan]]
 
+[[ETM XV - Risk Management]]
+
+[[ETM XVI - Scheduling Resources]]
+
+[[ETM XVII - Reducing project duration]]
+
+[[ETM XVIII - Being an Effective Project Manager]]
+
 [[ETM - Prj]]
