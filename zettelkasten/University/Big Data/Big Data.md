@@ -34,3 +34,5 @@ Lecturer: Gabriele Tolomei
 [[BD XI - Evaluation Metrics]]
 
 [[BD XII - Recommender Systems]]
+
+[[BD XIII - Graph Link Analysis]]

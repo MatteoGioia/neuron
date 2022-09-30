@@ -1,5 +1,10 @@
 {
   "defaultViewMode": "preview",
   "newLinkFormat": "relative",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "livePreview": false,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-GB"
+  ]
 }
