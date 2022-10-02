@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zettelkasten/University/Advanced Machine Learning/AML I - Intro.md",
+            "file": "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "47488bb368c630d4",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML I - Intro.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML I - Intro.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,15 +102,15 @@
   },
   "active": "e9a779040ec914f9",
   "lastOpenFiles": [
+    "zettelkasten/University/Advanced Machine Learning/AML I - Linear classification.md",
+    "zettelkasten/University/Computer Vision/CV I - Basics of image processing.md",
+    "zettelkasten/University/Computer Vision/Computer Vision.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
+    "zettelkasten/University/Blockchain and DLT/Blockchain and DLT.md",
     "README.md",
     "zettelkasten/University/Advanced Machine Learning/AML I - Intro.md",
     "zettelkasten/University/Big Data/BD I - Big Data Pheonomenon.md",
     "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
-    "zettelkasten/University/Big Data/Big Data.md",
-    "zettelkasten/University/Deep Learning and AI/Deep Learning and AI.md",
-    "zettelkasten/University/Economics of Tech and Mgmt/Economics of Tech and Mgmt.md",
-    "zettelkasten/University/University.md",
-    "zettelkasten/University/Big Data/BD XII - Recommender Systems.md",
-    "zettelkasten/University/Big Data/BD X - Tree methods.md"
+    "zettelkasten/University/Big Data/Big Data.md"
   ]
 }
