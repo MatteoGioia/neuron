@@ -10,4 +10,4 @@ Lecturer: Fabio Galasso
 
 ### Appunti
 
-[[AML I - Intro]]
+[[AML I - Linear classification]]

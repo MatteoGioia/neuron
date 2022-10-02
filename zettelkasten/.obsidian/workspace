@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Blockchain and DLT/BDLT I - Intro.md",
+            "file": "University/Advanced Machine Learning/AML II - Gradient and backprop.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT I - Intro.md",
+                "file": "University/Advanced Machine Learning/AML II - Gradient and backprop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT I - Intro.md",
+                "file": "University/Advanced Machine Learning/AML II - Gradient and backprop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,15 +102,15 @@
   },
   "active": "13626037d55ba169",
   "lastOpenFiles": [
-    "University/Big Data/BD I - Big Data Pheonomenon.md",
-    "University/Big Data/Big Data.md",
+    "University/Advanced Machine Learning/AML I - Linear classification.md",
+    "University/Advanced Machine Learning/AML II - Gradient and backprop.md",
+    "University/Deep Learning and AI/DLAI VIII - Regularization.md",
+    "University/University.md",
+    "University/Advanced Machine Learning/Advanced Machine Learning.md",
+    "University/Deep Learning and AI/DLAI VII - Cnn.md",
     "University/Blockchain and DLT/BDLT I - Intro.md",
-    "University/Blockchain and DLT/Blockchain and DLT.md",
-    "University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
-    "University/Deep Learning and AI/DLAI V - Sgd.md",
-    "University/Deep Learning and AI/DLAI IX - Geometric.md",
-    "University/Deep Learning and AI/DLAI IX - Generative.md",
-    "University/Deep Learning and AI/DLAI IV - Non Linear.md",
-    "University/Deep Learning and AI/DLAI III - Linear Regression.md"
+    "University/Computer Vision/AML II temp.md",
+    "University/Computer Vision/Computer Vision.md",
+    "University/Big Data/BD I - Big Data Pheonomenon.md"
   ]
 }

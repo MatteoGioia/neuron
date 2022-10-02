@@ -52,3 +52,7 @@ Why does the note style change all of a sudden? Read the [[index]] index!
 ### Primo semestre
 
 [[Advanced Machine Learning]]
+
+[[Computer Vision]]
+
+[[Blockchain and DLT]]
