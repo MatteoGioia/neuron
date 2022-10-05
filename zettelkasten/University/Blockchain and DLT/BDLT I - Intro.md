@@ -19,7 +19,7 @@
 
 </details>
 
-3. <details markdown=1><summary markdown="span"> What is a smart contract? </summary>
+3. <details markdown=1><summary markdown="span"> What is a smart contract? What is the main characteristic of their code? </summary>
     
     \
 	It's "merely" a ==piece of code== that executes a function when called. It  also ==has its own balance==.
