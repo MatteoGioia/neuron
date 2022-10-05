@@ -11,4 +11,4 @@ Lecturer:  Manuel Marini
 
 ### Appunti
 
-[[CV I - Basics of image processing]]
+[[CV I - Basics of image acquisition]]
