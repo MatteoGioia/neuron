@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
+            "file": "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,15 +102,15 @@
   },
   "active": "e9a779040ec914f9",
   "lastOpenFiles": [
-    "zettelkasten/University/Advanced Machine Learning/AML I - Linear classification.md",
-    "zettelkasten/University/Computer Vision/CV I - Basics of image processing.md",
-    "zettelkasten/University/Computer Vision/Computer Vision.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
     "zettelkasten/University/Blockchain and DLT/Blockchain and DLT.md",
+    "zettelkasten/University/Computer Vision/Computer Vision.md",
+    "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
+    "zettelkasten/University/Advanced Machine Learning/AML I - Linear classification.md",
+    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
+    "zettelkasten/University/Computer Vision/CV I - Basics of image processing.md",
     "README.md",
     "zettelkasten/University/Advanced Machine Learning/AML I - Intro.md",
-    "zettelkasten/University/Big Data/BD I - Big Data Pheonomenon.md",
-    "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
-    "zettelkasten/University/Big Data/Big Data.md"
+    "zettelkasten/University/Big Data/BD I - Big Data Pheonomenon.md"
   ]
 }

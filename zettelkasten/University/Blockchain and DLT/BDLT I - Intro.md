@@ -33,8 +33,8 @@
 4. <details markdown=1><summary markdown="span"> Explain the meaning of the following image. What is the main difference between, say, the concept of privacy and a permissioned blockchain?</summary>
     
     \
-	...
-	Main difference: permissions regard which nodes can take part in the consensus
+	![](../../static/BDT/bdt3.png)
+	Main difference: ==permissions regard which nodes can take part in the consensus==, while visibility is abut which nodes ==can transact and view== the history.
 
 </details>
 

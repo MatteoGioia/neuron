@@ -4,7 +4,9 @@ The first lecture covers topics already discussed in:
 - [[FDS I - Intro]]
 - [[FDS II - Image Processing]]
 
-And also other introductory lectures regarding ML, which can be found here:....
+And also other introductory lectures regarding ML, which can be found here:
+- [[DLAI VIII - Regularization]]
+- [[DLAI V - Sgd]]
 
 ### Recall questions
 
@@ -18,14 +20,7 @@ And also other introductory lectures regarding ML, which can be found here:....
     - ==illumination==
     - ==deformation==
     - ==occlusion==
-    - ==intraclass variation==
-
-</details>
-
-2. <details markdown=1><summary markdown="span"> </summary>
-    
-    \
-    
+    - ==intra-class variation==
 
 </details>
 

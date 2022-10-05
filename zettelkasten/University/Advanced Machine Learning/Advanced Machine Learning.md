@@ -11,3 +11,5 @@ Lecturer: Fabio Galasso
 ### Appunti
 
 [[AML I - Linear classification]]
+
+[[AML II - Gradient and backprop]]
