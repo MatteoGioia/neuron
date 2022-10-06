@@ -34,3 +34,5 @@ Lecturer: Emanuele Rodolà
 [[DLAI X - Transformers]]
 
 [[DLAI XI - Adversarial]]
+
+[[Past exams]]

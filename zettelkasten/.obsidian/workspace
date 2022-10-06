@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Computer Vision/CV I - Basics of image acquisition.md",
+            "file": "University/Blockchain and DLT/BDLT II - Bitcoin.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Computer Vision/CV I - Basics of image acquisition.md",
+                "file": "University/Blockchain and DLT/BDLT II - Bitcoin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Computer Vision/CV I - Basics of image acquisition.md",
+                "file": "University/Blockchain and DLT/BDLT II - Bitcoin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,15 +103,15 @@
   },
   "active": "13626037d55ba169",
   "lastOpenFiles": [
+    "University/Distributed Systems/DS II - Reaching Consensus.md",
+    "University/Blockchain and DLT/BDLT II - Bitcoin.md",
+    "University/Distributed Systems/DS III - Bitcoin.md",
     "University/Blockchain and DLT/BDLT I - Intro.md",
-    "index.md",
-    "WhatsApp Video 2022-10-02 at 09.44.49.mp4",
-    "WhatsApp Video 2022-10-02 at 09.44.50.mp4",
     "University/Blockchain and DLT/Blockchain and DLT.md",
-    "University/Advanced Machine Learning/AML II - Gradient and backprop.md",
-    "University/Advanced Machine Learning/AML I - Linear classification.md",
-    "University/Deep Learning and AI/DLAI VIII - Regularization.md",
-    "University/University.md",
-    "University/Advanced Machine Learning/Advanced Machine Learning.md"
+    "University/Deep Learning and AI/Past exams.md",
+    "University/Deep Learning and AI/Deep Learning and AI.md",
+    "University/Cybersec/Cybersec 4 - Access Control Theory.md",
+    "University/Web Engineering/Lezione III - HTML.md",
+    "University/Ingegneria del software/Macchine a stati.md"
   ]
 }

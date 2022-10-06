@@ -12,3 +12,5 @@ Lecturer:  Manuel Marini
 ### Appunti
 
 [[CV I - Basics of image acquisition]]
+
+[[CV II - Color]]
