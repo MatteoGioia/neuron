@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Blockchain and DLT/BDLT II - Bitcoin.md",
+            "file": "University/Advanced Machine Learning/AML III - Convolutional.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT II - Bitcoin.md",
+                "file": "University/Advanced Machine Learning/AML III - Convolutional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT II - Bitcoin.md",
+                "file": "University/Advanced Machine Learning/AML III - Convolutional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,15 +102,15 @@
   },
   "active": "13626037d55ba169",
   "lastOpenFiles": [
-    "University/Distributed Systems/DS II - Reaching Consensus.md",
-    "University/Blockchain and DLT/BDLT II - Bitcoin.md",
-    "University/Distributed Systems/DS III - Bitcoin.md",
-    "University/Blockchain and DLT/BDLT I - Intro.md",
-    "University/Blockchain and DLT/Blockchain and DLT.md",
-    "University/Deep Learning and AI/Past exams.md",
-    "University/Deep Learning and AI/Deep Learning and AI.md",
-    "University/Cybersec/Cybersec 4 - Access Control Theory.md",
-    "University/Web Engineering/Lezione III - HTML.md",
-    "University/Ingegneria del software/Macchine a stati.md"
+    "University/Advanced Machine Learning/AML II - Gradient and backprop.md",
+    "University/Advanced Machine Learning/AML III - Convolutional.md",
+    "University/Foundations of Data Science/FDS V - Generative Models.md",
+    "University/Foundations of Data Science/FDS II - Image Processing.md",
+    "University/Foundations of Data Science/FDS I - Intro.md",
+    "University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
+    "University/Deep Learning and AI/DLAI V - Sgd.md",
+    "University/Deep Learning and AI/DLAI II - Linear Algebra Review.md",
+    "University/Deep Learning and AI/DLAI III - Linear Regression.md",
+    "University/Deep Learning and AI/DLAI IX - Geometric.md"
   ]
 }
