@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "University/Advanced Machine Learning/AML III - Convolutional.md",
+            "file": "University/Computer Vision/CV III - Histograms.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Advanced Machine Learning/AML III - Convolutional.md",
+                "file": "University/Computer Vision/CV III - Histograms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Advanced Machine Learning/AML III - Convolutional.md",
+                "file": "University/Computer Vision/CV III - Histograms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,15 +102,15 @@
   },
   "active": "13626037d55ba169",
   "lastOpenFiles": [
-    "University/Advanced Machine Learning/AML II - Gradient and backprop.md",
+    "University/Computer Vision/CV I - Basics of image acquisition.md",
+    "University/Computer Vision/CV III - Histograms.md",
+    "University/Computer Vision/CV II - Color.md",
     "University/Advanced Machine Learning/AML III - Convolutional.md",
+    "University/Advanced Machine Learning/AML II - Gradient and backprop.md",
     "University/Foundations of Data Science/FDS V - Generative Models.md",
     "University/Foundations of Data Science/FDS II - Image Processing.md",
     "University/Foundations of Data Science/FDS I - Intro.md",
     "University/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
-    "University/Deep Learning and AI/DLAI V - Sgd.md",
-    "University/Deep Learning and AI/DLAI II - Linear Algebra Review.md",
-    "University/Deep Learning and AI/DLAI III - Linear Regression.md",
-    "University/Deep Learning and AI/DLAI IX - Geometric.md"
+    "University/Deep Learning and AI/DLAI V - Sgd.md"
   ]
 }
