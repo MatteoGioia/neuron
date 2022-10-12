@@ -14,3 +14,5 @@ Lecturer:  Manuel Marini
 [[CV I - Basics of image acquisition]]
 
 [[CV II - Color]]
+
+[[CV III - Histograms]]

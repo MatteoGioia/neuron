@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zettelkasten/University/Computer Vision/CV II - Color.md",
-            "mode": "source",
+            "file": "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Computer Vision/CV II - Color.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Computer Vision/CV II - Color.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,15 +102,15 @@
   },
   "active": "9ed099caf947b2ee",
   "lastOpenFiles": [
-    "zettelkasten/University/Computer Vision/CV I - Basics of image acquisition.md",
-    "zettelkasten/University/Computer Vision/CV II - Color.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT II - Bitcoin.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
-    "zettelkasten/University/Blockchain and DLT/Blockchain and DLT.md",
-    "zettelkasten/University/Computer Vision/Computer Vision.md",
-    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
-    "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
     "zettelkasten/University/Advanced Machine Learning/AML I - Linear classification.md",
-    "zettelkasten/University/Computer Vision/CV I - Basics of image processing.md"
+    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
+    "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT II - Bitcoin.md",
+    "zettelkasten/University/Computer Vision/CV II - Color.md",
+    "zettelkasten/University/Computer Vision/CV I - Basics of image acquisition.md",
+    "zettelkasten/University/Computer Vision/CV III - Histograms.md",
+    "zettelkasten/University/Computer Vision/Computer Vision.md",
+    "zettelkasten/University/Blockchain and DLT/Blockchain and DLT.md"
   ]
 }

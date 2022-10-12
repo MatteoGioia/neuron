@@ -50,7 +50,7 @@ Also see :
 </details>
 
 
-5. <details markdown=1><summary markdown="span">  Why hashing matters in the bitcoin blockchain and how is it used? Why is it a ==good fit== for our PoW function?</summary>
+5. <details markdown=1><summary markdown="span">  Why hashing matters in the bitcoin blockchain and how is it used? Why is it a "good fit" for our PoW function?</summary>
     
     \
     ![](../../static/BDT/bit4.png)
@@ -63,21 +63,32 @@ Also see :
 6. <details markdown=1><summary markdown="span">  What is the incentive to solve a block? Why?</summary>
     
     \
+    Coins! This ensures that ==the work done to solve the PoW function is rewarded adequately.==
+    Note that nodes that make transactions will also reward mining nodes with ==transaction fees==, which can be made ==higher in order to give a transaction more precedence over the others==.
     
 
 </details>
 
 
-7. <details markdown=1><summary markdown="span"> Block time smth smth  </summary>
+7. <details markdown=1><summary markdown="span"> What is block time? What is the effect of a long/short block time?   </summary>
     
     \
+    Block time ==refers to how often a block is published==. Having: ==short block time== makes the process faster but more error prone (e.g can get the ==order of transactions wrong==), while a ==longer block time== does the opposite effect.
+
+</details>
+
+7. <details markdown=1><summary markdown="span">  Use the concept of the 51% attack to explain why proof of work effectively avoids malicious transactions (e.g. double spending).</summary>
+    
+    \
+	![](../../static/CV/bit5.png)
     
 
 </details>
 
-7. <details markdown=1><summary markdown="span">  </summary>
+8. <details markdown=1><summary markdown="span"> Why do we say the blockchain grants "pseudonimity"? </summary>
     
     \
-    
+    Because ==while account holders are not public, their addresses and their activities are.==
+    Privacy is still granted through the use of private and public keys.
 
 </details>
