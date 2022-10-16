@@ -80,7 +80,7 @@ Also see :
 7. <details markdown=1><summary markdown="span">  Use the concept of the 51% attack to explain why proof of work effectively avoids malicious transactions (e.g. double spending).</summary>
     
     \
-	![](../../static/CV/bit5.png)
+	![](../../static/BDT/bit5.png)
     
 
 </details>
