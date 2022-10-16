@@ -16,3 +16,5 @@ Lecturer:  Manuel Marini
 [[CV II - Color]]
 
 [[CV III - Histograms]]
+
+[[CV IV - Filters]]

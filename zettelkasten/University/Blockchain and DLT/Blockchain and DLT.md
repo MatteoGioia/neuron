@@ -12,3 +12,7 @@ Lecturer: Claudio di Ciccio
 ### Appunti
 
 [[BDLT I - Intro]]
+
+[[BDLT II - Bitcoin]]
+
+[[BDLT III - Bitcoin in depth]]

@@ -4,10 +4,6 @@ Also see [[DLAI VII - Cnn]]
 
 ### Recall questions on computational graphs
 
-1. <details markdown=1><summary markdown="span"></summary>
+See recall questions in pinned notes. 
+It might be useful to review deconvolution just in case.
 
-    \
-    
-	
-
-</details>
