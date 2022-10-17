@@ -5,7 +5,7 @@ Also see :
 - [[DS II - Reaching Consensus]]
 - [[BDLT II - Bitcoin]]
 
-### Recall questions
+### Recall questions pt.1
 
 1. <details markdown=1><summary markdown="span"> Describe the detailed behavior of each full node. </summary>
     
@@ -29,7 +29,6 @@ Also see :
 3. <details markdown=1><summary markdown="span"> Describe bitcoin as a state transition system. How do we express transaction fees? </summary>
     
     \
-
 	We can see the state of each node as follows:
 
 	![](../../static/BDT/bitd3.png)
@@ -72,5 +71,10 @@ Also see :
     - ==verify the PoW on such headers==
     - download only the ==branches with transactions relevant for them==
     
-
 </details>
+
+--- 
+
+(add timestamp utilization for validity)
+### Recall questions pt.2
+

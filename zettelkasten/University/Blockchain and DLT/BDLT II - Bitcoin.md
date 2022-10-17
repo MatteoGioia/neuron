@@ -34,7 +34,7 @@ Also see :
 </details>
 
 
-4. <details markdown=1><summary markdown="span"> Explain why the CAP theorem    matters for blockchains. What does the blockchain "give up", although not entirely? </summary>
+4. <details markdown=1><summary markdown="span"> Explain why the CAP theorem  matters for blockchains. What does the blockchain "give up", although not entirely? </summary>
     
     \
 	When dealing with distributed systems,  propagation in the network will almost (always) end up in ==conflicts==.
