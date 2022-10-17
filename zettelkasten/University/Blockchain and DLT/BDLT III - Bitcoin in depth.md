@@ -35,7 +35,7 @@ Also see :
 
 	Each node has a ==state defined by unspent transaction units. Every time a transaction is actually taking place, it replaces the existing transaction units with the new ones that were created==.
 
-	Transaction ==fees== are expressed ==implicitly,== in the sense that they are computed as the ==difference between the value sent to the redeemer and the change sent back to the user who created the transaction==.\
+	Transaction ==fees== are expressed ==implicitly,== in the sense that they are computed as the ==difference between the value sent to the redeemer and the change sent back to the user who created the transaction==.
     
 
 </details>
@@ -54,8 +54,14 @@ Also see :
 
 </details>
 
+5. <details markdown=1><summary markdown="span"> What about the validity of a transaction in a block?</summary>
+    
+    \
+	We also check that ==the block timestamp is greater than the median timestamp of previous 11 blocks, and less than the network-adjusted time + 2 hours.==
 
-5. <details markdown=1><summary markdown="span"> Explain how the PoW algorithm works. </summary>
+</details>
+
+6. <details markdown=1><summary markdown="span"> Explain how the PoW algorithm works. </summary>
     
     \
     The goal of the PoW of bitcoin ==is finding a hash for the current block s.t. it has a certain numbers of 0 in the prefix==. Once such hash is found, a node can the submit the block to the others (see question 1).
@@ -74,7 +80,5 @@ Also see :
 </details>
 
 --- 
-
-(add timestamp utilization for validity)
 ### Recall questions pt.2
 

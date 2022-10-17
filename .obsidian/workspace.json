@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "e183b2a6bb56d861",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbcc5cb9bb8478aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc509d0c5d98988b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "96fbb737985c85fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "f276ac42fe3c1e20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65ba8ca10078ef71",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "39a4f147226602e0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "47488bb368c630d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7804da3541720b7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a1ed4b3a09e4263",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d216db6fad7bed3a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 250.5,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "bc509d0c5d98988b",
+  "lastOpenFiles": [
+    "zettelkasten/University/Blockchain and DLT/BDLT II - Bitcoin.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+    "zettelkasten/University/Computer Vision/CV IV - Filtering.md",
+    "zettelkasten/University/Foundations of Data Science/FDS II - Image Processing.md",
+    "zettelkasten/University/Computer Vision/CV III - Histograms.md",
+    "zettelkasten/University/Computer Vision/CV II - Color.md",
+    "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
+    "zettelkasten/University/Advanced Machine Learning/AML I - Linear classification.md",
+    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md"
+  ]
+}
