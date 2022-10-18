@@ -17,4 +17,4 @@ Lecturer:  Manuel Marini
 
 [[CV III - Histograms]]
 
-[[CV IV - Filters]]
+[[CV IV - Filtering + Edge detection]]

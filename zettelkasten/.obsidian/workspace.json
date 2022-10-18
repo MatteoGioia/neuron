@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c63ad9a22a84cd28",
+            "id": "e3dcd3a71732040f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
-                "mode": "preview",
+                "file": "University/Computer Vision/CV V - Blobs.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+                "file": "University/Computer Vision/CV V - Blobs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+                "file": "University/Computer Vision/CV V - Blobs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,17 +111,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c63ad9a22a84cd28",
+  "active": "e3dcd3a71732040f",
   "lastOpenFiles": [
-    "University/Blockchain and DLT/BDLT IV - Ethereum.md",
+    "University/Computer Vision/CV III - Histograms.md",
+    "University/Computer Vision/CV IV - Filtering + Edge detection.md",
+    "University/Computer Vision/CV V - Blobs.md",
+    "University/Computer Vision/Computer Vision.md",
     "University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+    "University/Blockchain and DLT/BDLT IV - Ethereum.md",
     "University/TCC/Lezione II - Macchine di Turing.md",
     "University/TCC/Lezione IV - Macchine di Turing 3.md",
     "University/TCC/Lezione III - Macchine di Turing 2.md",
-    "University/TCC/Lezione I - Intro a TCC.md",
-    "University/Blockchain and DLT/BDLT II - Bitcoin.md",
-    "University/Advanced Machine Learning/AML III - Convolutional.md",
-    "University/Advanced Machine Learning/AML IV - Training neural networks.md",
-    "University/Advanced Machine Learning/AML II - Gradient and backprop.md"
+    "University/TCC/Lezione I - Intro a TCC.md"
   ]
 }
