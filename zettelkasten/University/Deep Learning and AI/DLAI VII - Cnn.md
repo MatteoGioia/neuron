@@ -94,7 +94,7 @@
 
 </details>
 
-13. <details markdown=1><summary markdown="span"> What are possible choices for padding/stride? </summary>
+13. <details markdown=1><summary markdown="span"> What are possible choices for padding/stride?  How does it affect receptive field (AML)?  </summary>
     
     \
     While there can be multiple choices, we can for instance do:
@@ -102,7 +102,8 @@
     - full zero padding 
     - arbitrary zero padding and stride
     - and so on...
-    
+
+	==From [[Advanced Machine Learning]]: more stride increases receptive field==
 
 </details>
 

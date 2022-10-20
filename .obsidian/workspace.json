@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bbcc5cb9bb8478aa",
+        "id": "643bd10b8c7b2ef6",
         "type": "tabs",
         "children": [
           {
-            "id": "bc509d0c5d98988b",
+            "id": "99aba2de55b05b1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,17 +111,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "bc509d0c5d98988b",
+  "active": "99aba2de55b05b1a",
   "lastOpenFiles": [
-    "zettelkasten/University/Blockchain and DLT/BDLT II - Bitcoin.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
-    "zettelkasten/University/Computer Vision/CV IV - Filtering.md",
-    "zettelkasten/University/Foundations of Data Science/FDS II - Image Processing.md",
-    "zettelkasten/University/Computer Vision/CV III - Histograms.md",
-    "zettelkasten/University/Computer Vision/CV II - Color.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
+    "zettelkasten/University/Blockchain and DLT/Blockchain and DLT.md",
+    "zettelkasten/University/Computer Vision/Computer Vision.md",
+    "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
     "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
+    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
     "zettelkasten/University/Advanced Machine Learning/AML I - Linear classification.md",
-    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md"
+    "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
+    "zettelkasten/University/Computer Vision/CV V - Blobs.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md"
   ]
 }

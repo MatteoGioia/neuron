@@ -18,3 +18,5 @@ Lecturer:  Manuel Marini
 [[CV III - Histograms]]
 
 [[CV IV - Filtering + Edge detection]]
+
+[[CV V - Blobs]]
