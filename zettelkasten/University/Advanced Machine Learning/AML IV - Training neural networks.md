@@ -64,21 +64,26 @@ Also see:
 </details>
 
 
-5. <details markdown=1><summary markdown="span"> ? </summary>
+5. <details markdown=1><summary markdown="span"> Describe some "less known" regularisation techniques. </summary>
     
     \
+    Some less known reg. techniques:
+    - ==dropconnect==: ==like dropout but with edges connecting to a node== ![](../../static/AML/tnn8.png)
+    - ==fractional max pooling==: use ==randomized pooling region at training time== and ==average predictions at test time==
+    - ==stochastic depth==
+    - ==cutout==: set some regions of the image to zero ![](../../static/AML/tnn9.png)
+    - ==mixup==: use ==blends of images== ![](../../static/AML/tnn10.png)
 
 </details>
 
 
-7. <details markdown=1><summary markdown="span"> Other regularization techniques besides L1/2 or Dropout ? </summary>
+---
+
+### Recall questions on transfer learning
+
+6. <details markdown=1><summary markdown="span">  </summary>
     
     \
-
-</details>
-
-8. <details markdown=1><summary markdown="span"> ? </summary>
-    
-    \
+ 
 
 </details>

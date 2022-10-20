@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -113,15 +113,15 @@
   },
   "active": "99aba2de55b05b1a",
   "lastOpenFiles": [
-    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
-    "zettelkasten/University/Blockchain and DLT/Blockchain and DLT.md",
-    "zettelkasten/University/Computer Vision/Computer Vision.md",
     "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
-    "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
-    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
-    "zettelkasten/University/Advanced Machine Learning/AML I - Linear classification.md",
     "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
+    "zettelkasten/University/Blockchain and DLT/Blockchain and DLT.md",
+    "zettelkasten/University/Computer Vision/CV VI - Fitting.md",
     "zettelkasten/University/Computer Vision/CV V - Blobs.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md"
+    "zettelkasten/University/Computer Vision/CV II - Color.md",
+    "zettelkasten/University/Computer Vision/Computer Vision.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md"
   ]
 }
