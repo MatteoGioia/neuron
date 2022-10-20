@@ -15,3 +15,5 @@ Lecturer: Fabio Galasso
 [[AML II - Gradient and backprop]]
 
 [[AML III - Convolutional]]
+
+[[AML IV - Training neural networks]]
