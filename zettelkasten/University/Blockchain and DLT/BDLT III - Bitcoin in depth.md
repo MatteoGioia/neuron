@@ -82,3 +82,9 @@ Also see :
 --- 
 ### Recall questions pt.2
 
+8. <details markdown=1><summary markdown="span"> What is a coinbase transaction? </summary>
+    
+    \
+	 **IMAGE GOES HERE**
+    
+</details>

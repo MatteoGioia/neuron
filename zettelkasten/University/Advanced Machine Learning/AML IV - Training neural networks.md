@@ -1,7 +1,7 @@
 # Training neural networks
 
 Also see:
-- aa
+- [[DLAI VIII - Regularization]]
 
 ### Recall questions 
 
@@ -39,6 +39,19 @@ Also see:
 
 
 5. <details markdown=1><summary markdown="span"> ? </summary>
+    
+    \
+
+</details>
+
+
+7. <details markdown=1><summary markdown="span"> Other regularization techniques besides L1/2 or Dropout ? </summary>
+    
+    \
+
+</details>
+
+8. <details markdown=1><summary markdown="span"> ? </summary>
     
     \
 
