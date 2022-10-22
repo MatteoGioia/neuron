@@ -81,9 +81,10 @@ Also see:
 
 ### Recall questions on transfer learning
 
-6. <details markdown=1><summary markdown="span">  </summary>
+6. <details markdown=1><summary markdown="span"> How can we decide whether it's appropriate to apply TL and which layers to tune?  </summary>
     
     \
+    We can take a decision based on ==the amount of data== and ==on how different this data is== from the one that was used to train the original network.
  
 
 </details>
