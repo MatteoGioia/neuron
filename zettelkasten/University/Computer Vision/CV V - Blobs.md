@@ -43,8 +43,34 @@
 
 </details>
 
-6. <details markdown=1><summary markdown="span">  </summary>
+5. <details markdown=1><summary markdown="span"> How can we detect blobs in an image?  Why do we need scale normalization? </summary>
     
     \
+    We can look for a =="superposition" of two ripples== when looking at the laplacian applied of the signal.
+
+	![](../../static/CV/blob1.png)
+
+	To make this ==process scale invariant, we must apply scale normalisation== so that the response of the laplacian ==does not decrease as scale increases==.
+
+	![](../../static/CV/blob2.png)
 
 </details>
+
+
+6. <details markdown=1><summary markdown="span"> How can we make the process of detecting blobs more efficient?</summary>
+    
+    \
+	==Combine==:
+	- approximation of ==laplacian as difference of gaussians==;
+	- application of ==DoG at different scales==
+
+</details>
+
+
+7. <details markdown=1><summary markdown="span"> How can make the detection process invariant to affine transformations?</summary>
+    
+    \
+     Read this: https://en.wikipedia.org/wiki/Harris_affine_region_detector#Affine-invariant_points
+
+</details>
+

@@ -19,6 +19,7 @@ Lecturer:  Manuel Marini
 
 [[CV IV - Filtering + Edge detection]]
 
+[[CV V - Blobs]]
+
 [[CV VI - Fitting]]
 
-[[CV V - Blobs]]
