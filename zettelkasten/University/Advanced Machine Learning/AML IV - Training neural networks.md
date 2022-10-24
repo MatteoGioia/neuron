@@ -85,6 +85,7 @@ Also see:
     
     \
     We can take a decision based on ==the amount of data== and ==on how different this data is== from the one that was used to train the original network.
- 
+
+	![](../../static/AML/tnn11.png)
 
 </details>

@@ -85,10 +85,12 @@ Also see :
 
 </details>
 
-8. <details markdown=1><summary markdown="span"> Why do we say the blockchain grants "pseudonimity"? </summary>
+8. <details markdown=1><summary markdown="span"> Why do we say the blockchain grants "pseudonimity"?  How is the public address computed? </summary>
     
     \
     Because ==while account holders are not public, their addresses and their activities are.==
     Privacy is still granted through the use of private and public keys.
+
+	Public address is computed as the result of applying RIPEMD160(SHA256(Public key))).
 
 </details>

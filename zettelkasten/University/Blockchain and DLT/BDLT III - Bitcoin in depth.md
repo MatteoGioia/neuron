@@ -7,7 +7,7 @@ Also see :
 
 ### Recall questions pt.1
 
-1. <details markdown=1><summary markdown="span"> Describe the detailed behavior of each full node. </summary>
+1. <details markdown=1><summary markdown="span"> Describe the detailed behavior of each full node receiving a transaction. </summary>
     
     \
     ![](../../static/BDT/bitd1.png)
@@ -45,8 +45,7 @@ Also see :
     
     \
 	The transition applies if and only if all of the following apply:
-	- for each input in the current state
-	- the UTXO is in the current state
+	- for each input in the current state the UTXO is in the current state
 	- the signature matches the owner of the UTXO
 	- the sum of denominations of all input UTXOs is higher than or equal to the sum of denominations in the output
 
@@ -79,12 +78,9 @@ Also see :
     
 </details>
 
---- 
-### Recall questions pt.2
-
 8. <details markdown=1><summary markdown="span"> What is a coinbase transaction? </summary>
     
     \
-	 **IMAGE GOES HERE**
+    A coinbase transaction is ==the first transaction of block, from the miner to itself==. it is a special transaction as it's signed by the miner for the miner!
     
 </details>

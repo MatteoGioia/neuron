@@ -7,7 +7,7 @@
     \
     In eth, ==a user does not have to have previous transaction in order to create new ones==. What he can do is simply create new ones. This is possible because ==each eth account as its own balance==.
 
-	**IMAGE HERE**
+	![](../../static/BDT/eth0.png)
 
 </details>
 
