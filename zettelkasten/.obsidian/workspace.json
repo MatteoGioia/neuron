@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f4ddaae3acb36e9f",
+            "id": "9cf466fb47e95c2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Advanced Machine Learning/AML V - Sequence models.md",
+                "file": "University/Advanced Machine Learning/AML G1 - Self supervised learning.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Advanced Machine Learning/AML V - Sequence models.md",
+                "file": "University/Advanced Machine Learning/AML G1 - Self supervised learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Advanced Machine Learning/AML V - Sequence models.md",
+                "file": "University/Advanced Machine Learning/AML G1 - Self supervised learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,20 +108,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "f4ddaae3acb36e9f",
+  "active": "9cf466fb47e95c2e",
   "lastOpenFiles": [
-    "University/Advanced Machine Learning/Advanced Machine Learning.md",
+    "University/Advanced Machine Learning/AML II - Gradient and backprop.md",
     "University/Advanced Machine Learning/AML I - Linear classification.md",
-    "University/Advanced Machine Learning/AML V - Sequence models.md",
+    "University/Advanced Machine Learning/AML G1 - Self supervised learning.md",
+    "University/Advanced Machine Learning/Advanced Machine Learning.md",
+    "University/Computer Vision/CV VIII - Recognition.md",
+    "University/Computer Vision/Computer Vision.md",
+    "University/Computer Vision/CV VII - Alignment.md",
     "University/Advanced Machine Learning/AML IV - Training neural networks.md",
-    "University/Computer Vision/CV VI - Fitting.md",
-    "University/Computer Vision/CV V - Blobs.md",
-    "University/Blockchain and DLT/Blockchain and DLT.md",
-    "University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
-    "University/Blockchain and DLT/BDLT IV - Ethereum.md",
-    "University/Computer Vision/Computer Vision.md"
+    "University/Advanced Machine Learning/AML V - Sequence models.md",
+    "University/Computer Vision/CV III - Histograms.md"
   ]
 }

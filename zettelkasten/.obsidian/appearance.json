@@ -3,5 +3,7 @@
   "theme": "moonstone",
   "translucency": false,
   "cssTheme": "Minimal",
-  "accentColor": ""
+  "accentColor": "",
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
 }

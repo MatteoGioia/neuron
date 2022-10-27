@@ -19,3 +19,5 @@ Lecturer: Fabio Galasso
 [[AML IV - Training neural networks]]
 
 [[AML V - Sequence models]]
+
+[[AML G1 - Self supervised learning]]

@@ -23,3 +23,6 @@ Lecturer:  Manuel Marini
 
 [[CV VI - Fitting]]
 
+[[CV VII - Alignment]]
+
+[[CV VIII - Recognition]]
