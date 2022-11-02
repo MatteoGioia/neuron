@@ -107,6 +107,15 @@
 11. <details markdown=1><summary markdown="span"> Describe the process of approving a block in eth. </summary>
     
     \
+    ![](../../static/BDT/eth7.png)
+	
+</details>
+
+
+12. <details markdown=1><summary markdown="span"> What type of data is kept in the eth blockchain? </summary>
+    
+    \
+    The ==chain data (blocks forming the chain) are always kept==, while ==state data (result of each transaction's state transition) can be pruned==.
     
 	
 </details>
