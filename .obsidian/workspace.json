@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
-                "mode": "preview",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,20 +109,17 @@
     "width": 250.5,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "99aba2de55b05b1a",
   "lastOpenFiles": [
-    "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models.md",
+    "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models 1.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
     "zettelkasten/University/Computer Vision/CV VI - Fitting.md",
     "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
     "zettelkasten/University/Blockchain and DLT/Blockchain and DLT.md",
     "zettelkasten/University/Computer Vision/Computer Vision.md",
     "zettelkasten/University/Computer Vision/CV V - Blobs.md",
     "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
-    "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
-    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md"
+    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md"
   ]
 }
