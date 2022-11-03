@@ -26,3 +26,5 @@ Lecturer:  Manuel Marini
 [[CV VII - Alignment]]
 
 [[CV VIII - Recognition]]
+
+[[CV IX - Segmentation]]

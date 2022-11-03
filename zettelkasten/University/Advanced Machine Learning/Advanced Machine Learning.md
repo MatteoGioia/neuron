@@ -20,4 +20,4 @@ Lecturer: Fabio Galasso
 
 [[AML V - Sequence models]]
 
-[[AML G1 - Self supervised learning]]
+[[AML Guest lectures]]

@@ -63,3 +63,26 @@ Also see:
 
 </details>
 
+6. <details markdown=1><summary markdown="span">  Why do we use GT forcing? Why is it more efficient? Is there any drawback?  </summary>
+    
+    \
+	More efficient: error predicted only for one character, gets better feedback for ..
+	Exposure bias
+	
+</details>
+
+
+7. <details markdown=1><summary markdown="span"> What is truncated backpropagation?  </summary>
+    
+    \
+
+
+</details>
+
+
+8. <details markdown=1><summary markdown="span"> What are the 2 main issues of RNNs? Hint: gradient. </summary>
+    
+    \
+
+
+</details>
