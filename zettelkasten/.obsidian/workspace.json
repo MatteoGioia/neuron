@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b9dd91b637da8204",
+            "id": "3555251da336d855",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT V - Consensus.md",
+                "file": "University/Advanced Machine Learning/AML VI - Transformer networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT V - Consensus.md",
+                "file": "University/Advanced Machine Learning/AML VI - Transformer networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT V - Consensus.md",
+                "file": "University/Advanced Machine Learning/AML VI - Transformer networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,17 +108,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b9dd91b637da8204",
+  "active": "3555251da336d855",
   "lastOpenFiles": [
-    "University/Blockchain and DLT/BDLT IV - Ethereum.md",
-    "University/Blockchain and DLT/BDLT V - Consensus.md",
-    "University/Blockchain and DLT/Blockchain and DLT.md",
+    "University/Advanced Machine Learning/AML I - Linear classification.md",
+    "University/Advanced Machine Learning/AML III - Convolutional.md",
+    "University/Advanced Machine Learning/AML IV - Training neural networks.md",
     "University/Advanced Machine Learning/AML V - Sequence models.md",
-    "University/Computer Vision/CV IX - Segmentation.md",
-    "University/Computer Vision/CV VIII - Recognition.md",
-    "University/Computer Vision/CV VII - Alignment.md",
-    "University/Computer Vision/CV V - Blobs.md",
-    "University/Computer Vision/Computer Vision.md",
-    "University/Advanced Machine Learning/Advanced Machine Learning.md"
+    "University/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "University/Advanced Machine Learning/Advanced Machine Learning.md",
+    "University/Blockchain and DLT/BDLT V - Consensus.md",
+    "University/Blockchain and DLT/BDLT IV - Ethereum.md",
+    "University/Blockchain and DLT/Blockchain and DLT.md",
+    "University/Computer Vision/CV IX - Segmentation.md"
   ]
 }

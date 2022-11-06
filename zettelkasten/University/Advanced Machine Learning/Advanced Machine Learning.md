@@ -18,6 +18,8 @@ Lecturer: Fabio Galasso
 
 [[AML IV - Training neural networks]]
 
-[[AML V - Sequence models 1]]
+[[AML V - Sequence models]]
+
+[[AML VI - Transformer networks]]
 
 [[AML Guest lectures]]
