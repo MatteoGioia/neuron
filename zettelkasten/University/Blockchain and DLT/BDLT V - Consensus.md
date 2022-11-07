@@ -6,7 +6,7 @@
     
     \
     No! In fact, either ==the block header== or the ==position of the nonce (hence the name hasharound)== is going to change depending on the block. \
-    A much better strategy for achieving faster solving times is to ==split computation among different nodes==. Note however that only the winning node is going to get the reward...
+    A much better strategy for achieving faster solving times is to ==split computation among different nodes, having each machine working on different partitions of possible nonces==. Note however that only the winning node is going to get the reward...
     ![](../../static/BDT/cons1.png)
 
 </details>
@@ -39,3 +39,44 @@
     What ethash does is ==relying on a DAG weighing in at 1GB, changing every 125 hours==.  This makes it harder... why?
     
 </details>
+
+
+6. <details markdown=1><summary markdown="span"> What changed in the ethereum blockchain with the London upgrade?  Hint: transaction fees.</summary>
+    
+    \
+   
+    
+</details>
+
+
+7. <details markdown=1><summary markdown="span"> Explain how the fees are regulated after the London upgrade.  </summary>
+    
+    \
+   
+    
+</details>
+
+
+8. <details markdown=1><summary markdown="span"> What is the proof of stake algorithm proposed for ethereum? What should it enforce in order to work?  Hint: slashing </summary>
+    
+    \
+   
+    
+</details>
+
+
+8. <details markdown=1><summary markdown="span"> What is the beacon? What is its main purpose? </summary>
+    
+    \
+	Make things faster: delegate smart contracts executions to shards
+    
+</details>
+
+
+9. <details markdown=1><summary markdown="span"> What is Gasper? Explain the joint use of Casper TFFG + LDM GHOST. </summary>
+    
+    \
+   
+    
+</details>
+
