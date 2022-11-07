@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "643bd10b8c7b2ef6",
+        "id": "39b78f5d3897fb03",
         "type": "tabs",
         "children": [
           {
-            "id": "99aba2de55b05b1a",
+            "id": "76c5ee5ffd8067de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
-                "mode": "source",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,17 +109,17 @@
     "width": 250.5,
     "collapsed": true
   },
-  "active": "99aba2de55b05b1a",
+  "active": "76c5ee5ffd8067de",
   "lastOpenFiles": [
-    "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models 1.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
-    "zettelkasten/University/Computer Vision/CV VI - Fitting.md",
     "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
-    "zettelkasten/University/Blockchain and DLT/Blockchain and DLT.md",
-    "zettelkasten/University/Computer Vision/Computer Vision.md",
-    "zettelkasten/University/Computer Vision/CV V - Blobs.md",
+    "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "zettelkasten/University/Computer Vision/CV IX - Segmentation.md",
+    "zettelkasten/University/Computer Vision/CV VIII - Recognition.md",
+    "zettelkasten/University/Computer Vision/CV VII - Alignment.md",
+    "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models.md",
+    "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models 1.md",
     "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md"
+    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
+    "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md"
   ]
 }
