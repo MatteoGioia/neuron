@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,8 +111,8 @@
   },
   "active": "76c5ee5ffd8067de",
   "lastOpenFiles": [
-    "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
     "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
     "zettelkasten/University/Computer Vision/CV IX - Segmentation.md",
     "zettelkasten/University/Computer Vision/CV VIII - Recognition.md",
     "zettelkasten/University/Computer Vision/CV VII - Alignment.md",
