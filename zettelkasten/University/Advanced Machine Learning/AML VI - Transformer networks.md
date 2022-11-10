@@ -106,6 +106,19 @@
 #### Transformer network applications
 
 
+9. <details markdown=1><summary markdown="span"> How can transformers be adapted to handle images? What are possible operations we can do? </summary>
+    
+    \
+	... \
+	Possible ops:
+	- prediction/classification
+	- image completion
+	- superresolution
+	- captioning
+
+</details>
+
+
 8. <details markdown=1><summary markdown="span"> </summary>
     
     \
