@@ -28,3 +28,5 @@ Lecturer:  Manuel Marini
 [[CV VIII - Recognition]]
 
 [[CV IX - Segmentation]]
+
+[[CV XI - Optical Flow]]
