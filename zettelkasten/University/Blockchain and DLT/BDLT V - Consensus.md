@@ -44,7 +44,9 @@
 6. <details markdown=1><summary markdown="span"> What changed in the ethereum blockchain with the London upgrade?  Hint: transaction fees.</summary>
     
     \
-   
+    ![](../../static/BDT/cons8.png)
+
+	In short, ==part of eth is now burnt== in order ==
     
 </details>
 
@@ -52,8 +54,12 @@
 7. <details markdown=1><summary markdown="span"> Explain how the fees are regulated after the London upgrade.  </summary>
     
     \
-   
-    
+	After london upgrade, ==fees are automatically regulated by the system==. An example follows:
+
+	![](../../static/BDT/cons9.png)
+
+	The ==target size is 15M gas units==, with a ==30M max cap==. If ==network utilisation does not decrease, the base fee is increased by 12.5==, otherwise it is ==decreased if network capacity goes below 50%==. 
+
 </details>
 
 
@@ -100,13 +106,21 @@
 </details>
 
 
-11. <details markdown=1><summary markdown="span"> What is Gasper? Explain the use of LDM GHOST to solve conflicts. Explain then how casper is used to finalize blocks (hint: checkpoints.) </summary>
+11. <details markdown=1><summary markdown="span"> Explain the use of LDM GHOST to solve conflicts. Explain then how casper is used to finalize blocks (hint: checkpoints). What is a supermajority? </summary>
     
     \
-	LDM GHOST is used to ==decide agreement on the next block in a chain==. It basically ==favours the block with the most attestations, only considering the most recent messages from each validator== (hence the greediness). 
+	LDM GHOST is used to ==decide agreement on the next block in a chain==. It basically ==favours the block with the most attestations, only considering the most recent messages from each validator== (hence the greediness). Here is an example of the mechanism (reads from bottom to top!):
+
+	 ![](../../static/BDT/cons10.png)
+
+	For what regards Casper instead:
 
 	![](../../static/BDT/cons6.png)
-    
+
+	It is also important that a ==“supermajority link” must exist between successive checkpoints A and B== (i.e., 2/3 of the total staked ETH voting that checkpoint B is the correct descendant of checkpoint A) ==to upgrade A to finalized and B to justified==.
+
+	![](../../static/BDT/cons11.png)
+
 </details>
 
 
@@ -118,7 +132,7 @@
 </details>
 
 
-13. <details markdown=1><summary markdown="span"> How does whistleblowing help against malicious nodes? What are possible cases of misbehaviour?  What is a particular case of misbehaviour that is not necessarily voluntary? </summary>
+13. <details markdown=1><summary markdown="span"> How does whistleblowing help against malicious nodes? What are possible cases of misbehaviour?  What is a particular case of misbehaviour that is not necessarily voluntary?  What happens to node that vote against the majority after 4 failed epochs? </summary>
     
     \
 	A ==whistleblowing validator sends a message to be included in the next block, in order to signal a node that is caught doing one of the following==:
@@ -126,5 +140,15 @@
 	![](../../static/BDT/cons7.png)
 
 	The offending node is going to be ==slashed and eventually removed==. Note that ==inactivity is also considered as sabotage==: after 4 failed epochs, nodes that vote against the majority are penalised.
+    
+</details>
+
+
+13. <details markdown=1><summary markdown="span"> What are forks? What is the difference between soft and hard forks?</summary>
+    
+    \
+	Forks:
+	- ==hard==: non backwards compatible, old nodes are "excluded from the new blockchain and go on their own;
+	- ==soft==: backwards compatible, i.e. nodes that ==refuse to acknowledge the fork simply ignore the updated protocol==.
     
 </details>
