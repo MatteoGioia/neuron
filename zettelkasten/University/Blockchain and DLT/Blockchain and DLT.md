@@ -20,3 +20,5 @@ Lecturer: Claudio di Ciccio
 [[BDLT IV - Ethereum]]
 
 [[BDLT V - Consensus]]
+
+[[BDLT VI - Solidity]]

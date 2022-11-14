@@ -119,7 +119,50 @@
 </details>
 
 
-8. <details markdown=1><summary markdown="span"> </summary>
+10. <details markdown=1><summary markdown="span"> </summary>
+    
+    \
+	
+
+</details>
+
+#### Transfer learning
+
+
+
+11. <details markdown=1><summary markdown="span"> What is the issue with bi-directionality in transformers?</summary>
+    
+    \
+	
+
+</details>
+
+
+12. <details markdown=1><summary markdown="span"> Which approach was  in BERT in order to address those previously mentioned issues when dealing with next word prediction?</summary>
+    
+    \
+	
+
+</details>
+
+
+13. <details markdown=1><summary markdown="span"> What about sentence order?</summary>
+    
+    \
+	
+
+</details>
+
+
+14. <details markdown=1><summary markdown="span"> What are ROBERTA and ELECTRA?</summary>
+    
+    \
+	
+
+</details>
+
+
+15. <details markdown=1><summary markdown="span"> What is distillation?</summary>
     
     \
 	

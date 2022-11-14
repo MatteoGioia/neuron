@@ -22,4 +22,6 @@ Lecturer: Fabio Galasso
 
 [[AML VI - Transformer networks]]
 
+[[AML VII - Graph Neural Networks]]
+
 [[AML Guest lectures]]
