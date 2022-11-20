@@ -144,7 +144,20 @@
 </details>
 
 
-13. <details markdown=1><summary markdown="span"> What are forks? What is the difference between soft and hard forks?</summary>
+13. <details markdown=1><summary markdown="span"> What is the total (minimum) number of validators needed per epoch? What assumptions are made on their behaviour (hint: bizantine). What is a key "countermeasure" to avoid too many bizantine nodes? </summary>
+    
+    \
+	![](../../static/BDT/cons12.png)
+
+	One key thing:
+
+	![](../../static/BDT/cons13.png)
+
+	Also note that ==nodes can voluntarily exit after serving 2048 epochs (~9 days)==, but will be given their stake back ==after 4 epochs==, in order to be able to slash malicious nodes that are trying to exit. 
+    
+</details>
+
+14. <details markdown=1><summary markdown="span"> What are forks? What is the difference between soft and hard forks?</summary>
     
     \
 	Forks:
@@ -152,3 +165,4 @@
 	- ==soft==: backwards compatible, i.e. nodes that ==refuse to acknowledge the fork simply ignore the updated protocol==.
     
 </details>
+
