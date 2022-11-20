@@ -109,20 +109,21 @@
 9. <details markdown=1><summary markdown="span"> How can transformers be adapted to handle images? What are possible operations we can do? </summary>
     
     \
-	... \
 	Possible ops:
-	- prediction/classification
-	- image completion
-	- superresolution
-	- captioning
+	- ==prediction/classification==
+	- ==conditional image completion==
+	- ==super-resolution== on celebA
+	- ==captioning== with Visual Transformers
 
 </details>
 
 
-10. <details markdown=1><summary markdown="span"> </summary>
+10. <details markdown=1><summary markdown="span"> What is relative self attention? </summary>
     
     \
-	
+	It's a variant of attention that computes the positional encoding as the result of ==another convolution==.
+
+	![](../../static/AML/tr14.png)
 
 </details>
 
@@ -133,7 +134,9 @@
 11. <details markdown=1><summary markdown="span"> What is the issue with bi-directionality in transformers?</summary>
     
     \
-	
+	We don't want ==words to "see themselves". Additionally, directionality is needed to generate well formed probability distributions==.
+
+	![](../../static/AML/tr15.png)
 
 </details>
 
@@ -141,15 +144,20 @@
 12. <details markdown=1><summary markdown="span"> Which approach was  in BERT in order to address those previously mentioned issues when dealing with next word prediction?</summary>
     
     \
+    In BERT, ==15% of the words are masked==, in the following way (to account for the fact that ==we do not see masking tokens in fine tuning==):
+    - 80% replaced with mask
+    - 10% replaced with ==random word==
+    - 10% replaced with ==same word==
 	
 
 </details>
 
 
-13. <details markdown=1><summary markdown="span"> What about sentence order?</summary>
+13. <details markdown=1><summary markdown="span"> What about sentence order (i.e. next sentence prediction)?</summary>
     
     \
-	
+	Use additional encodings:
+	![](../../static/AML/tr16.png)
 
 </details>
 
@@ -157,14 +165,16 @@
 14. <details markdown=1><summary markdown="span"> What are ROBERTA and ELECTRA?</summary>
     
     \
+    ==RoBERTa==: simply a ==BERT trained for more epochs and more data==, that outperformed original performance. \
+    ==ELECTRA==: ==pretrain BERT as discriminator== lead to less computations and better performance
 	
 
 </details>
 
 
-15. <details markdown=1><summary markdown="span"> What is distillation?</summary>
+15. <details markdown=1><summary markdown="span"> What is distillation? (hint: teacher, student)</summary>
     
     \
-	
+	![](../../static/AML/tr17.png)
 
 </details>
