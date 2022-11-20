@@ -8,59 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3555251da336d855",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Computer Vision/Computer Vision.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b33455f099f07bf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Advanced Machine Learning/Advanced Machine Learning.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e4dc23b8b405f73e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Blockchain and DLT/Blockchain and DLT.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "307dc9b6d5e63f34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT VI - Solidity.md",
+                "file": "University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT VI - Solidity.md",
+                "file": "University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Blockchain and DLT/BDLT VI - Solidity.md",
+                "file": "University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,15 +110,15 @@
   },
   "active": "307dc9b6d5e63f34",
   "lastOpenFiles": [
+    "University/Blockchain and DLT/BDLT VI - Solidity.md",
+    "University/Blockchain and DLT/BDLT V - Consensus.md",
     "University/Blockchain and DLT/Blockchain and DLT.md",
     "University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
-    "University/Advanced Machine Learning/AML V - Sequence models.md",
     "University/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "University/Advanced Machine Learning/AML V - Sequence models.md",
     "University/Advanced Machine Learning/Advanced Machine Learning.md",
     "University/Advanced Machine Learning/AML Guest lectures.md",
     "University/Blockchain and DLT/BDLT IV - Ethereum.md",
-    "University/Blockchain and DLT/BDLT V - Consensus.md",
-    "University/Computer Vision/CV X - Optical Flow.md",
-    "University/Computer Vision/CV VIII - Recognition.md"
+    "University/Computer Vision/CV X - Optical Flow.md"
   ]
 }
