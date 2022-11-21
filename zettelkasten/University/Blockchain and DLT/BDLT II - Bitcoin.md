@@ -77,7 +77,7 @@ Also see :
 
 </details>
 
-7. <details markdown=1><summary markdown="span">  Use the concept of the 51% attack to explain why proof of work effectively avoids malicious transactions (e.g. double spending).</summary>
+8. <details markdown=1><summary markdown="span">  Use the concept of the 51% attack to explain why proof of work effectively avoids malicious transactions (e.g. double spending).</summary>
     
     \
 	![](../../static/BDT/bit5.png)
@@ -85,7 +85,7 @@ Also see :
 
 </details>
 
-8. <details markdown=1><summary markdown="span"> Why do we say the blockchain grants "pseudonimity"?  How is the public address computed? </summary>
+9. <details markdown=1><summary markdown="span"> Why do we say the blockchain grants "pseudonimity"?  How is the public address computed? </summary>
     
     \
     Because ==while account holders are not public, their addresses and their activities are.==

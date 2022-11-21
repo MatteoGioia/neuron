@@ -7,7 +7,7 @@ Also see :
 
 ### Recall questions pt.1
 
-1. <details markdown=1><summary markdown="span"> Describe the detailed behavior of each full node receiving a transaction. </summary>
+1. <details markdown=1><summary markdown="span"> Describe the detailed behavior of each full node receiving a transaction.  What happens when a node finds the solution for a PoW?</summary>
     
     \
     ![](../../static/BDT/bitd1.png)
