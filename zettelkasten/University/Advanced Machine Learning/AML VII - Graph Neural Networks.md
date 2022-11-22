@@ -103,7 +103,7 @@ Setup:
     \
     The easiest way is to ==stack multiple GNNs layers==:
 
-	![](../.../static/AML/gnn10.png)
+	![](../../static/AML/gnn10.png)
 
 </details>
 
@@ -111,7 +111,7 @@ Setup:
 10. <details markdown=1><summary markdown="span"> What is the over-smoothing  problem?</summary>
     
     \
-    
+    Over-smoothing in GNNs means that ==all the nodes' embeddings converge to the same value!==. This is bad because we want to use embeddings to differentiate nodes.
 
 </details>
 
@@ -119,7 +119,11 @@ Setup:
 11. <details markdown=1><summary markdown="span">  How do we determine the receptive field of a GNN? How can it help in explaining over-smoothing? </summary>
     
     \
+    In GNNs with $k$ layers, a ==node has a receptive field of $k$-hops==. 
     
+	![](../../static/AML/gnn11.png)
+
+    In deeper GNNs networks, this means ==that nodes will end up having similar receptive fields and, in the end, similar embeddings==.
 
 </details>
 
@@ -127,7 +131,7 @@ Setup:
 12. <details markdown=1><summary markdown="span"> What is a good way of choosing the right number of layers then? </summary>
     
     \
-    
+    One good "rule of thumb" is: ==analyse the needed receptive field (e.g. diameter of the graph), then set number of layers to that number + a small increment (e.g. 2/3).
 
 </details>
 
@@ -135,7 +139,11 @@ Setup:
 13. <details markdown=1><summary markdown="span"> What are 2 techniques we can use to increase the expressive power of shallow GNNs?</summary>
     
     \
+    First strategy: ==make aggregation technique a deep NN== instead. This way, the receptive field stays the same but the network can be more "expressive".
     
+	![](../../static/AML/gnn12.png)
+
+	Second strategy: ==add layers that do not pass messages==, i.e. ==pre/post processing layers==.
 
 </details>
 
@@ -143,6 +151,9 @@ Setup:
 14. <details markdown=1><summary markdown="span"> What is the idea behind using skip connections to solve over-smoothing? What is a possible explanation on why it works?</summary>
     
     \
-     
+     We can use the ==embeddings in earlier layers that sometimes differentiate the nodes better and add them to other layers (by adding shortcuts)==.
+
+	This works really well as we can explore ==a mixture of models==:
+	![](../../static/AML/gnn13.png)
 
 </details>
