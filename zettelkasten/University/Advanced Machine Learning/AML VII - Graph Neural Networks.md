@@ -131,7 +131,7 @@ Setup:
 12. <details markdown=1><summary markdown="span"> What is a good way of choosing the right number of layers then? </summary>
     
     \
-    One good "rule of thumb" is: ==analyse the needed receptive field (e.g. diameter of the graph), then set number of layers to that number + a small increment (e.g. 2/3).
+    One good "rule of thumb" is: ==analyse the needed receptive field (e.g. diameter of the graph), then set number of layers to that number + a small increment (e.g. 2/3==).
 
 </details>
 

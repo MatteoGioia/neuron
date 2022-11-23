@@ -166,3 +166,9 @@
     
 </details>
 
+15. <details markdown=1><summary markdown="span"> What is effective balance? How does it influence the maximum amount of eth put at stake for each committee member?</summary>
+    
+    \
+	![](../../static/BDT/cons14.png)
+    
+</details>

@@ -111,15 +111,15 @@
   },
   "active": "9e487a049a8fba24",
   "lastOpenFiles": [
-    "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT VI - Solidity.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT II - Bitcoin.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
     "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT VI - Solidity.md",
     "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
-    "zettelkasten/index.md",
-    "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md"
+    "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
+    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
+    "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
+    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
+    "zettelkasten/University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md"
   ]
 }
