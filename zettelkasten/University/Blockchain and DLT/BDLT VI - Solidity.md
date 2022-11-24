@@ -10,12 +10,6 @@
 
 </details>
 
-
-2. <details markdown=1><summary markdown="span">  </summary>
-    
-    \
-    
-
-</details>
+The rest of these lectures were spent coding, so use the slides as reference.
 
 
