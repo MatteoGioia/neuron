@@ -24,4 +24,6 @@ Lecturer: Fabio Galasso
 
 [[AML VII - Graph Neural Networks]]
 
+[[AML VIII - Detection and Segmentation]]
+
 [[AML Guest lectures]]
