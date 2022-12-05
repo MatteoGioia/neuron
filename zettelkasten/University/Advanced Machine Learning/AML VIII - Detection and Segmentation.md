@@ -66,10 +66,14 @@
 
 ### Recall questions on object detection
 
-1. <details markdown=1><summary markdown="span"> What is a basic implementation of single objection detection? </summary>
+1. <details markdown=1><summary markdown="span"> What is a basic implementation of single objection detection?  What are we assuming here (that is often untrue)? </summary>
     
     \
-    
+    A simple implementation simply uses a ==classifier to identify the object== and a ==regressor to identify the bounding box==.
+
+	![](../../static/AML/seg7.png)
+
+	We are however assuming that the ==subject is only one==, and in reality this is not often the case!
 
 </details>
 
@@ -77,15 +81,19 @@
 2. <details markdown=1><summary markdown="span"> Why do we need a region proposal algorithm for multiple objects detection?  What are the ideal criteria we want to satisfy with this algorithm? </summary>
     
     \
-    
+    The fact is that we don't really ==need a region proposal algorithm because it works better, but because exhaustively searching each pixel of the image for possible objects is computationally expensive!==. \
+    Ideally, this algorithm should be:
+    - ==fast==
+    - ==have high recall==: remember that accuracy is not a good metric in obj. detection 
 
 </details>
 
 
-3. <details markdown=1><summary markdown="span"> Briefly describe the idea behind selective search? </summary>
+3. <details markdown=1><summary markdown="span"> Briefly describe the idea behind selective search. </summary>
     
     \
-    
+    The proposed method is based on ==aggregating similar pixels into regions called super pixels==. These regions will then act as ==proposals for the detection==.
+    ![](../../static/AML/seg8.png)
 
 </details>
 
@@ -93,7 +101,11 @@
 4. <details markdown=1><summary markdown="span"> What is the R-CNN model? What is its main drawback? </summary>
     
     \
-    
+	The idea is to ==use the the region proposal algorithm combined with multiple convnets that will output the feature maps used for classification and object boundaries==. 
+
+	![](../../static/AML/seg9.png)
+
+	The main issue is that ==this approach is very slow, as it applies many times the convolution to the image== (i.e. we could only pre-process it once!)
 
 </details>
 
@@ -101,7 +113,9 @@
 5. <details markdown=1><summary markdown="span"> What is fast R-CNN? Is it equivalent to applying the convolution over each crop? </summary>
     
     \
-    
+    The main idea behind Fast R-CNN is that ==now we "pre-process" the image only once, by passing it to a ConvNet==. Then, ==we apply the proposed original regions to the resulting feature map==, and then ==apply a convnet to each of these regions== (that will be ==smaller than the original ones==!)
+
+	![](../../static/AML/seg10.png)
 
 </details>
 
@@ -114,9 +128,28 @@
 </details>
 
 
-6. <details markdown=1><summary markdown="span"> What is fastER R-CNN? What tweak does it use? </summary>
+7. <details markdown=1><summary markdown="span"> What is fastER R-CNN? What tweak does it use?  Why do we need another layer after the proposals? </summary>
+    
+    \
+
+	Class imbalance
+
+</details>
+
+
+8. <details markdown=1><summary markdown="span"> What are single stage object detectors? Give a general description. </summary>
     
     \
     
 
 </details>
+
+
+9. <details markdown=1><summary markdown="span"> What is Mask R-CNN? Why is it "impressive but easy to implement"? Why can it also do pose estimation? </summary>
+    
+    \
+    
+
+</details>
+
+#### To finish, it is suggested to review the final slides for updates on SOTA

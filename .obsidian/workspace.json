@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
-                "mode": "preview",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bc9ff48154ef0c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zettelkasten/University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "47488bb368c630d4",
@@ -79,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
+                "file": "zettelkasten/University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,17 +122,17 @@
     "width": 250.5,
     "collapsed": true
   },
-  "active": "9e487a049a8fba24",
+  "active": "bc9ff48154ef0c2f",
   "lastOpenFiles": [
-    "zettelkasten/University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md",
     "zettelkasten/University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
-    "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "zettelkasten/University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md",
     "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
     "zettelkasten/University/Blockchain and DLT/BDLT VI - Solidity.md",
-    "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models.md",
-    "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
-    "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
-    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md"
+    "zettelkasten/University/Advanced Machine Learning/AML IX - Visual Search.md",
+    "zettelkasten/University/Advanced Machine Learning/AML I - Linear classification.md",
+    "zettelkasten/University/Advanced Machine Learning/Advanced Machine Learning.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
+    "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models.md"
   ]
 }

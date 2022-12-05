@@ -26,4 +26,6 @@ Lecturer: Fabio Galasso
 
 [[AML VIII - Detection and Segmentation]]
 
+[[AML IX - Visual Search]]
+
 [[AML Guest lectures]]

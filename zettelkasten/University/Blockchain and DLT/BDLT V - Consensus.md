@@ -46,7 +46,7 @@
     \
     ![](../../static/BDT/cons8.png)
 
-	In short, ==part of eth is now burnt== in order ==
+	In short, ==part of eth is now burnt== .
     
 </details>
 
