@@ -95,7 +95,7 @@
 
 ## Recall questions on semantic search
 
-9. <details markdown=1><summary markdown="span"> What is a good way to create descriptors for semantic search? </summary>
+10. <details markdown=1><summary markdown="span"> What is a good way to create descriptors for semantic search? </summary>
     
     \
 	![](../../static/AML/os10.png)
