@@ -145,7 +145,7 @@
 </details>
 
 
-8. <details markdown=1><summary markdown="span"> Describe more in detail the structure of a RPN. How many anchor boxes are used?  </summary>
+8. <details markdown=1><summary markdown="span"> Describe more in detail the structure of a RPN. How many anchor boxes are used?  What is the objectness score? </summary>
     
     \
     ![](../../static/AML/seg14.png)
