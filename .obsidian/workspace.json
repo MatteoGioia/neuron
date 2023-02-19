@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML IX - Visual Search.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML IX - Visual Search.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Advanced Machine Learning/AML IX - Visual Search.md",
+                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,17 +108,26 @@
     "width": 250.5,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
   "active": "bc9ff48154ef0c2f",
   "lastOpenFiles": [
-    "zettelkasten/University/Advanced Machine Learning/AML IV - Training neural networks.md",
-    "zettelkasten/University/Deep Learning and AI/DLAI VII - Cnn.md",
-    "zettelkasten/University/Advanced Machine Learning/AML III - Convolutional.md",
-    "zettelkasten/University/Advanced Machine Learning/AML II - Gradient and backprop.md",
-    "zettelkasten/University/Advanced Machine Learning/AML IX - Visual Search.md",
-    "zettelkasten/University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md",
-    "zettelkasten/University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT II - Bitcoin.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
     "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
     "zettelkasten/University/Blockchain and DLT/BDLT VI - Solidity.md",
-    "zettelkasten/University/Advanced Machine Learning/AML I - Linear classification.md"
+    "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models.md",
+    "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "zettelkasten/University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
+    "zettelkasten/University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md"
   ]
 }

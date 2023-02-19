@@ -144,7 +144,7 @@
 </details>
 
 
-13. <details markdown=1><summary markdown="span"> What is the total (minimum) number of validators needed per epoch? What assumptions are made on their behaviour (hint: bizantine). What is a key "countermeasure" to avoid too many bizantine nodes? </summary>
+14. <details markdown=1><summary markdown="span"> What is the total (minimum) number of validators needed per epoch? What assumptions are made on their behaviour (hint: bizantine). What is a key "countermeasure" to avoid too many bizantine nodes? </summary>
     
     \
 	![](../../static/BDT/cons12.png)
@@ -157,7 +157,7 @@
     
 </details>
 
-14. <details markdown=1><summary markdown="span"> What are forks? What is the difference between soft and hard forks?</summary>
+15. <details markdown=1><summary markdown="span"> What are forks? What is the difference between soft and hard forks?</summary>
     
     \
 	Forks:
@@ -166,7 +166,7 @@
     
 </details>
 
-15. <details markdown=1><summary markdown="span"> What is effective balance? How does it influence the maximum amount of eth put at stake for each committee member?</summary>
+16. <details markdown=1><summary markdown="span"> What is effective balance? How does it influence the maximum amount of eth put at stake for each committee member?</summary>
     
     \
 	![](../../static/BDT/cons14.png)
