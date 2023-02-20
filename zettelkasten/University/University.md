@@ -56,3 +56,7 @@ Why does the note style change all of a sudden? Read the [[index]] index!
 [[Computer Vision]]
 
 [[Blockchain and DLT]]
+
+### Secondo semestre
+
+[[Concurrent Systems]]
