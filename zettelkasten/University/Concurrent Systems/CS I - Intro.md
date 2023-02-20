@@ -93,29 +93,50 @@
 10. <details markdown=1><summary markdown="span">  Describe Peterson's algorithm for solving concurrency for 2 processes. </summary>
     
     \
+    ![](../../static/CS/cs2.png)
+    Note that this algorithm:
+    - satisfies ==mutual exclusion==;
+    - satisfies ==bounded bypass== with n=1;
+    - requires ==2 one-bit MRSW registers (flags)== and ==1 one-bit MRMR register (AFTER_YOU)==
+    - ==each lock/unlock requires 5 accesses== to the registers
 
 </details>
 
 11. <details markdown=1><summary markdown="span">  Prove that Peterson's algorithm satisfies safety and liveness for 2 processes.</summary>
     
     \
+    Proof for ==mutual exclusion==:
+    ![](../../static/CS/cs3.png)
+    ==Bounded bypass==:
+    ![](../../static/CS/cs4.png)
 
 </details>
 
 12. <details markdown=1><summary markdown="span">  How can we generalize Peterson's algorithm to n processes?  Explain the new proofs and which properties are satisfied.   </summary>
     
     \
+    ![](../../static/CS/cs5.png)
+	Proof for ==mutual exclusion==:
+	![](../../static/CS/cs6.png)
+	Proof for ==starvation freedom==:
+	![](../../static/CS/cs7.png)
 
 </details>
 
 13. <details markdown=1><summary markdown="span">  What are the costs of Peterson's algorithm in terms of  nr. of registers and accesses? </summary>
     
     \
+    Costs:
+    - $n$ MRSW registers of $\lceil log_2 n \rceil$ bits (FLAG)
+    - $n-1$ MRMW registers of  $\lceil log_2 n \rceil$ bits (AFTER_YOU)
+    - $(n-1) \times (n+2)$ accesses for locking and 1 access for unlocking
 
 </details>
 
 14. <details markdown=1><summary markdown="span">  Why does Pet. algorithm for k processes does not grant bounded bypass? Which version of liveness does it grant? </summary>
     
     \
+    It grants ==starvation freedom==. A simple case in which ==bounded bypass is not verified==:
+    ![](../../static/CS/cs8.png)
 
 </details>

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
+                "file": "zettelkasten/University/Concurrent Systems/CS I - Intro.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "47488bb368c630d4",
@@ -78,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
+                "file": "zettelkasten/University/Concurrent Systems/CS I - Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
+                "file": "zettelkasten/University/Concurrent Systems/CS I - Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,15 +120,15 @@
   },
   "active": "bc9ff48154ef0c2f",
   "lastOpenFiles": [
+    "zettelkasten/University/Concurrent Systems/Concurrent Systems.md",
+    "zettelkasten/University/Concurrent Systems/CS I - Intro.md",
+    "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
     "zettelkasten/University/Blockchain and DLT/BDLT IV - Ethereum.md",
     "zettelkasten/University/Blockchain and DLT/BDLT III - Bitcoin in depth.md",
     "zettelkasten/University/Blockchain and DLT/BDLT II - Bitcoin.md",
     "zettelkasten/University/Blockchain and DLT/BDLT I - Intro.md",
-    "zettelkasten/University/Blockchain and DLT/BDLT V - Consensus.md",
     "zettelkasten/University/Blockchain and DLT/BDLT VI - Solidity.md",
     "zettelkasten/University/Advanced Machine Learning/AML V - Sequence models.md",
-    "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md",
-    "zettelkasten/University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
-    "zettelkasten/University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md"
+    "zettelkasten/University/Advanced Machine Learning/AML VI - Transformer networks.md"
   ]
 }
