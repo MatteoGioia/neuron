@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "801ccf5cc8d85f73",
+        "id": "f080d3cf74dc3a10",
         "type": "tabs",
         "children": [
           {
-            "id": "29df8c1f1665df6e",
+            "id": "368afbaef108b504",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Concurrent Systems/CS I - Intro.md",
-                "mode": "source",
+                "file": "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Concurrent Systems/CS I - Intro.md",
+                "file": "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Concurrent Systems/CS I - Intro.md",
+                "file": "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,17 +117,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "29df8c1f1665df6e",
+  "active": "368afbaef108b504",
   "lastOpenFiles": [
-    "University/Distributed Systems/DS V - FLP.md",
-    "University/Concurrent Systems/CS I - Intro.md",
-    "University/Concurrent Systems/Concurrent Systems.md",
-    "University/Computer Vision/CV I - Basics of image acquisition.md",
-    "University/Computer Vision/Computer Vision.md",
+    "University/Bachelor/TCC/Lezione VI - Undecidability.md",
     "University/University.md",
-    "University/Advanced Machine Learning/AML IX - Visual Search.md",
-    "University/Advanced Machine Learning/AML VIII - Detection and Segmentation.md",
-    "University/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
-    "University/Advanced Machine Learning/AML VI - Transformer networks.md"
+    "University/Master/Natural Language Processing/Natural Language Processing.md",
+    "University/Master/Concurrent Systems/Concurrent Systems.md",
+    "University/Master/Economics of Tech and Mgmt/ETM VI - Pricing Decisions.md",
+    "University/Master/Autonomous Networking/AN XIII - QLearning.md",
+    "University/Master/Autonomous Networking/AN VII - Performance Evaluation.md",
+    "University/Master/Distributed Systems/DS VI - P2P.md",
+    "University/Master/Distributed Systems/DS IV - Tor.md",
+    "University/Master/Distributed Systems/DS III - Bitcoin.md"
   ]
 }

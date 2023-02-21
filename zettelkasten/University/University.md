@@ -9,54 +9,61 @@ Uni notes :)
 
 **IMPORTANT: all the credit for images/slides parts included goes to the various lecturers** 
 
-Why does the note style change all of a sudden? Read the [[index]] index!
+Legend for the notes:
+- **O** : old style
+- **F**: needs fix 
+- **N**: new style
+
+Why does the note style change all of a sudden? Read the [[index]]!
 
 ## Terzo Anno 
 
-[[Ingegneria del software]]
+[[Ingegneria del software]] **[F**/**O]** 
 
-[[Sviluppo Agile]]
+[[Sviluppo Agile]] **[O]** 
 
-[[Cybersec]]
+[[Cybersec]]  **[O]** 
 
-[[Web Engineering]]
+[[Web Engineering]]  **[O]** 
 
-[[TCC]]
+[[TCC]]  **[O]** 
 
-[[Algoritmica Avanzata]]
+[[Algoritmica Avanzata]]  **[F/O]** 
 
 ## Primo anno LM
 
 ### Primo semestre
 
-[[Machine Learning]]
+[[Machine Learning]] **[O]**
 
-[[Distributed Systems]]
+[[Distributed Systems]] **[O]**
 
-[[Foundations of Data Science]]
+[[Foundations of Data Science]] **[O]**
 
-[[Autonomous Networking]]
+[[Autonomous Networking]] **[O]**
 
 ### Secondo semestre
 
-[[Big Data]]
+[[Big Data]] **[N]**
 
-[[Economics of Tech and Mgmt]]
+[[Economics of Tech and Mgmt]] **[N]**
 
-[[Deep Learning and AI]]
+[[Deep Learning and AI]] **[N]**
 
-[[Cloud Computing]]
+[[Cloud Computing]] **[N]**
 
 ## Secondo anno LM
 
 ### Primo semestre
 
-[[Advanced Machine Learning]]
+[[Advanced Machine Learning]] **[N]**
 
-[[Computer Vision]]
+[[Computer Vision]] **[N]**
 
-[[Blockchain and DLT]]
+[[Blockchain and DLT]] **[N]**
 
 ### Secondo semestre
 
-[[Concurrent Systems]]
+[[Concurrent Systems]] **[N]**
+
+[[Natural Language Processing]] **[N]**
