@@ -9,3 +9,7 @@ Lecturer:  Daniele Gorla
 [[CS I - Intro]]
 
 [[CS II  - Faster concurrency]]
+
+[[CS III - Stronger & Weaker models]]
+
+[[CS IV - Semaphores]]

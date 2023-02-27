@@ -3,18 +3,16 @@ dirtree:
   display: False
 ---
 
-# University
-
-Uni notes :)
+# University notes
 
 **IMPORTANT: all the credit for images/slides parts included goes to the various lecturers** 
 
 Legend for the notes:
-- **O** : old style
+- **O**: old style
 - **F**: needs fix 
 - **N**: new style
 
-Why does the note style change all of a sudden? Read the [[index]]!
+Why does the note style change all of a sudden? Read the [[Index]]!
 
 ## Terzo Anno 
 
@@ -32,7 +30,7 @@ Why does the note style change all of a sudden? Read the [[index]]!
 
 ## Primo anno LM
 
-### Primo semestre
+#### Primo semestre
 
 [[Machine Learning]] **[O]**
 
@@ -42,7 +40,7 @@ Why does the note style change all of a sudden? Read the [[index]]!
 
 [[Autonomous Networking]] **[O]**
 
-### Secondo semestre
+#### Secondo semestre
 
 [[Big Data]] **[N]**
 
@@ -54,7 +52,7 @@ Why does the note style change all of a sudden? Read the [[index]]!
 
 ## Secondo anno LM
 
-### Primo semestre
+#### Primo semestre
 
 [[Advanced Machine Learning]] **[N]**
 
@@ -62,7 +60,7 @@ Why does the note style change all of a sudden? Read the [[index]]!
 
 [[Blockchain and DLT]] **[N]**
 
-### Secondo semestre
+#### Secondo semestre
 
 [[Concurrent Systems]] **[N]**
 
