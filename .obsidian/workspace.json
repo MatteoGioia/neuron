@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d9daafbc5d23e407",
+        "id": "857c2563669c84e0",
         "type": "tabs",
         "children": [
           {
-            "id": "42395388556c4b95",
+            "id": "79db8625d81c495d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,19 +110,21 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "42395388556c4b95",
+  "active": "79db8625d81c495d",
   "lastOpenFiles": [
-    "zettelkasten/static/CS/swm11.png",
-    "zettelkasten/static/CS/swm10.png",
-    "zettelkasten/static/CS/swm9.png",
-    "zettelkasten/static/CS/swm8.png",
-    "zettelkasten/static/CS/swm7.png",
-    "zettelkasten/static/CS/swm6.png",
-    "zettelkasten/static/CS/swm5.png",
-    "zettelkasten/static/CS/swm4.png",
-    "zettelkasten/static/CS/swm3.png",
-    "zettelkasten/static/CS/swm2.png",
-    "zettelkasten/static/CS/swm1.png",
+    "zettelkasten/University/Master/Natural Language Processing/NLP I - First topic.md",
+    "zettelkasten/University/Master/Natural Language Processing/Natural Language Processing.md",
+    "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
+    "zettelkasten/static/CS/sm9.png",
+    "zettelkasten/static/CS/sm8.png",
+    "zettelkasten/static/CS/sm7.png",
+    "zettelkasten/static/CS/sm6.png",
+    "zettelkasten/static/CS/sm5.png",
+    "zettelkasten/static/CS/sm4.png",
+    "zettelkasten/static/CS/sm3.png",
+    "zettelkasten/static/CS/sm2.png",
+    "zettelkasten/static/CS/sm14.png",
+    "zettelkasten/static/CS/sm13.png",
     "zettelkasten/University/Deep Learning and AI/DLAI IX - Generative.md",
     "zettelkasten/University/Deep Learning and AI/Deep Learning and AI.md",
     "zettelkasten/University/Deep Learning and AI/DLAI IX - Geometric.md",

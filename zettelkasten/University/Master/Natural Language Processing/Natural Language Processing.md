@@ -6,4 +6,4 @@ Lecturer:  Iacopo Masi, Stefano Faralli
 
 ### Appunti
 
-[[NLP I - Regex]]
+[[NLP I - First topic]]
