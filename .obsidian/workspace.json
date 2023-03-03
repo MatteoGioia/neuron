@@ -11,8 +11,13 @@
             "id": "79db8625d81c495d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "zettelkasten/University/Master/Concurrent Systems/CS I - Intro.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "zettelkasten/University/Master/Concurrent Systems/CS I - Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "zettelkasten/University/Master/Concurrent Systems/CS I - Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

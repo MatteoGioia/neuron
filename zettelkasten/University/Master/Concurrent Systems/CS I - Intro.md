@@ -75,7 +75,7 @@
     - may be located in ==any point== between its start and end time: $t(opInv) \in [t_{start}(OpInv),t_{end}(OpInv)]$
     - does ==not happen together without any other operation==, so $t$ is ==injective==: $t(OpInv) \neq t(OpInv')$ whenever $OpInv \neq OpInv'$
 
-	For read operations, we also ==require it to returns the closest preceding value ==written in the register, or the ==initial value (if no WRITE has occurred)==.
+	For read operations, we also ==require it to returns the closest preceding value== written in the register, or the ==initial value (if no WRITE has occurred)==.
 
 </details>
 
