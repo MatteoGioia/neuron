@@ -30,7 +30,7 @@
     \
     ![](fc3.png)
 
-	Note that ==without competition, this algorithm completes in $O(1)==.
+	Note that ==without competition, this algorithm completes in $O(1)$==.
 	It of course grants mutual exclusion:
 
 	![](fc4.png)

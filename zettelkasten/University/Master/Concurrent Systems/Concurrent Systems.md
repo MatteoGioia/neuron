@@ -13,3 +13,5 @@ Lecturer:  Daniele Gorla
 [[CS III - Stronger & Weaker models]]
 
 [[CS IV - Semaphores]]
+
+[[CS V - Dining Philosophers & Software Transactional Memory]]

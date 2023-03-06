@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS I - Intro.md",
+                "file": "zettelkasten/University/Master/Concurrent Systems/Concurrent Systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
+          },
+          {
+            "id": "c550bf59d2f5cf0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zettelkasten/University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "47488bb368c630d4",
@@ -78,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS I - Intro.md",
+                "file": "zettelkasten/University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS I - Intro.md",
+                "file": "zettelkasten/University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,21 +132,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "79db8625d81c495d",
+  "active": "c550bf59d2f5cf0f",
   "lastOpenFiles": [
+    "zettelkasten/static/CS/smt5.png",
+    "zettelkasten/static/CS/smt4.png",
+    "zettelkasten/static/CS/smt3.png",
+    "zettelkasten/static/CS/smt2.png",
+    "zettelkasten/static/CS/smt1.png",
+    "zettelkasten/University/Master/Concurrent Systems/Concurrent Systems.md",
+    "zettelkasten/University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
+    "zettelkasten/static/CS/df5.png",
+    "zettelkasten/static/CS/df4.png",
+    "zettelkasten/static/CS/df3.png",
+    "zettelkasten/static/CS/df2.png",
+    "zettelkasten/static/CS/df1.png",
+    "zettelkasten/University/Master/Concurrent Systems/CS IV - Semaphores.md",
+    "zettelkasten/University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
+    "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
+    "zettelkasten/University/Master/Concurrent Systems/CS I - Intro.md",
     "zettelkasten/University/Master/Natural Language Processing/NLP I - First topic.md",
     "zettelkasten/University/Master/Natural Language Processing/Natural Language Processing.md",
-    "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
     "zettelkasten/static/CS/sm9.png",
-    "zettelkasten/static/CS/sm8.png",
-    "zettelkasten/static/CS/sm7.png",
-    "zettelkasten/static/CS/sm6.png",
-    "zettelkasten/static/CS/sm5.png",
-    "zettelkasten/static/CS/sm4.png",
-    "zettelkasten/static/CS/sm3.png",
-    "zettelkasten/static/CS/sm2.png",
-    "zettelkasten/static/CS/sm14.png",
-    "zettelkasten/static/CS/sm13.png",
     "zettelkasten/University/Deep Learning and AI/DLAI IX - Generative.md",
     "zettelkasten/University/Deep Learning and AI/Deep Learning and AI.md",
     "zettelkasten/University/Deep Learning and AI/DLAI IX - Geometric.md",
