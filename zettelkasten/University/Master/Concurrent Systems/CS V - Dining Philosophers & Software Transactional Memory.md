@@ -146,10 +146,13 @@
 	
 </details>
 
-9. <details markdown=1><summary markdown="span"> </summary>
+9. <details markdown=1><summary markdown="span"> Describe the Vector Clock based STM system. </summary>
     
     \
-    
-    
+     ![](../../../static/CS/smt6.png)
+
+	Operation implementation:
+
+	![](../../../static/CS/smt7.png)
 	
 </details>
