@@ -57,7 +57,7 @@ easily recognizable
 
 Example of some linear filtering applied to a ==3 x 3 patch==
 
-![](../../../FDS/ifiltering.png)
+![](../../../static/FDS/ifiltering.png)
 
 ==Image filtering allows== to:
 1. ==reduce noise== = smoothing
@@ -80,33 +80,33 @@ the filtered is flipped on the $x,y$ axis and is then "swiped" onto the image.
 Notice that by convention the indexes start from the center of the patch, so $[0,0]$ will be the center, $[-1,-1]$ the top left corner and so on...
 - in a 3x3 patch, $-1 \leq l,k \leq 1$ 
 
-![](../../../FDS/2dconv.png)
+![](../../../static/FDS/2dconv.png)
 
 A special case is a 1-D filter applied to a 2-D image: in this situation $f[m,n] = I \otimes g = \sum_{k} I[m-k,n] \cdot g[k]$
 
-![](../../../FDS/1dfilter.png)
+![](../../../static/FDS/1dfilter.png)
 
 
 ### Filters in 2D convolution
 
 Example of a filter that does nothing
 
-![](../../../FDS/filex1.png)
+![](../../../static/FDS/filex1.png)
 
 Example of shifting:
 
-![](../../../FDS/filex2.png)
+![](../../../static/FDS/filex2.png)
 
 Example of blurring:
 
-![](../../../FDS/filex3.png)
+![](../../../static/FDS/filex3.png)
 
 ==The following properties are true for the convolution==:
 - ==homogeneity==: $\ T[aX] = aT[X]$
 - ==additivity== $\ T[X_1 + X_2] = T[X_1] + T[X_2]$
 - ==**superposition**== $\ T[aX_1 + bX_2] = aT[X_1] + bT[X_2]$ (necessary for a linear system)
 
-![](../../../FDS/filex4.png)
+![](../../../static/FDS/filex4.png)
 
 ### More about noise reduction
 
@@ -131,16 +131,16 @@ Two ==common ways== of doing that are:
 
 The first one is really basic as it's a filter made to reduce a patch to an average of its pixels:
 
-![](../../../FDS/boxfilter.png)
+![](../../../static/FDS/boxfilter.png)
 
 A gaussian filter can be used to obtain a better effect:
 
-![](../../../FDS/gaussian2.png)
+![](../../../static/FDS/gaussian2.png)
 
 The ==gaussian filter works better as it gives "more importance" to nearby pixel rather than distant ones== when reducing noise
 - this also makes sense from a probabilistic standpoint
 
-![](../../../FDS/gaussianvsbox.png)
+![](../../../static/FDS/gaussianvsbox.png)
 
 ### Efficient implementation
 
@@ -148,7 +148,7 @@ Both the gaussian and box filter can be implemented efficiently by convolving th
 
 For example, a box filter can be efficiently implemented by doing:
 
-![](../../../FDS/boxeff.png)
+![](../../../static/FDS/boxeff.png)
 
 And a general $n$-dimensional gaussian can be seen as a 1-d gaussian applied $n$ times on the dimensions:
 - 2D gaussian = $g(x,y) = (\frac{1}{2\pi \sigma^2})^{(-\frac{x^2 * y^2}{2 \sigma^2})}$
@@ -162,7 +162,7 @@ One way of doing ==pattern matching== is to ==scale the filter to match accordin
 
 Before ==downsampling== though it is ==necessary to apply a Gaussian to avoid aliasing==
 
-![](../../../FDS/multiscale.png)
+![](../../../static/FDS/multiscale.png)
 
 Two questions of interest are:
 - which information is preserved over scales
@@ -172,7 +172,7 @@ In such cases, a ==gaussian works best because the information in the center of 
 
 Another important consideration is that ==when smoothing with a gaussian, the high frequencies contained in the image signal get reduced, so we both reduce noise and can fit the image information in a smaller size==:
 
-![](../../../FDS/fourierwave.png)
+![](../../../static/FDS/fourierwave.png)
 
 ### Edge detection with derivatives
 
@@ -189,7 +189,7 @@ Ideally, we want to:
 - detected correctly where the edge is
 - give one single response per edge
 
-![](../../../FDS/edgedet1.png)
+![](../../../static/FDS/edgedet1.png)
 
 ### 1D edge detection
 
@@ -197,15 +197,15 @@ In the following, the ==focus is edge detection on 1D images==, altough is possi
 
 One easy way of ==detecting edges is using derivatives==. In the following image, a steep change in the function means that the we are passing across an edge:
 
-![](../../../FDS/edgedet2.png)
+![](../../../static/FDS/edgedet2.png)
 
 So, what we can do is ==smooth the image with a gaussian to eliminate most of the noise and then apply a filter which is an approximation of the derivative==:
 
-![](../../../FDS/edgedet3.png)
+![](../../../static/FDS/edgedet3.png)
 
 To make it easier, ==since the filter and the gaussian are both linear we can apply the derivative first and then do the convolution $\frac{d}{dx}(g \otimes f) = (\frac{d}{dx}g) \otimes f$==:
 
-![](../../../FDS/edgedet4.png)
+![](../../../static/FDS/edgedet4.png)
 
 Another common technique is to ==set a treshold, either an hyper-parameter or a parameter that gets tuned during iteration, to distinguish noise from actual edges==.
 
@@ -223,7 +223,7 @@ The partial derivatives can be approximated to this filters:
 
 Where $D_x$, $D_y$ are approximated with these filters:
 
-![](../../../FDS/filters2d.png)
+![](../../../static/FDS/filters2d.png)
 
 ==On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.==
 
@@ -233,7 +233,7 @@ Following the same reasoning as before, since Gaussian filters are linear, the d
 
 Another ==useful technique used to detect edges is checking the gradient of the image. In an image, the gradient direction is perpendicular to edges and the magnitude measures the edge strength==.
 
-![](../../../FDS/gradient1.png)
+![](../../../static/FDS/gradient1.png)
 
 The process goes as follow:
 1. ==calculate the gradient==
@@ -247,7 +247,7 @@ Canny edge detector:
 2. ==consider only the edges above a certain treshold==
 3. ==thinning (non maximum suppression, a computer vision method that selects a single entity out of many overlapping entities) to reduce thick edges==
 
-![](../../../FDS/cannyedge.png)
+![](../../../static/FDS/cannyedge.png)
 
 ### Using gradient to detect edges pt.2
 
@@ -261,7 +261,7 @@ The partial derivatives can be approximated to this filters:
 
 Where $D_x$, $D_y$ are approximated with these filters:
 
-![](../../../FDS/filters2d.png)
+![](../../../static/FDS/filters2d.png)
 
 On a 2D image, the x-axis derivative emphasizes the edges on the y (since it removes noise on the x axis) and viceversa.
 
@@ -274,12 +274,12 @@ The canny edge detector is quite complex: ==using the 2nd derivative we can make
 - ==no treshold to check== (we look at 0 crossings instead)
 - also we don't have to apply many gaussian and derivatives with different sigmas
 
-![](../../../FDS/dog.png)
+![](../../../static/FDS/dog.png)
 
 The ==laplacian (difference of 2 gaussians) approximates nicely the 2nd derivative mixed with a gaussian==
 - the way to ==do this efficiently is through the use of a gaussian pyramid==
 
-![](../../../FDS/piramidl.png)
+![](../../../static/FDS/piramidl.png)
 
 As stated before, a ==smaller $\sigma$ will help with detection of finer edges, while a bigger one will help with bigger edges.==
 
@@ -293,7 +293,7 @@ We can ==use the intuition that edges are made up of points, which are probably 
 
 ==Using the transform, we can look at the parameter space and search points where many straight lines intersect. The points associated with such straight lines will correspond to an edge==
 
-![](../../../FDS/hough.png)
+![](../../../static/FDS/hough.png)
 
 Basically, when multiple points in the parameter space intersect, they "vote" for a line. Many votes will indicate an edge. 
 
@@ -320,7 +320,7 @@ In the past, most paradigm made these basic assumptions:
 
 We ==represent each view of an object with a global descriptor and recognize object that match with the global descriptors==.
 
-![](../../../FDS/objid1.png)
+![](../../../static/FDS/objid1.png)
 
 Some ==modes of variation are also easy to deal with by supplying the ML model with enough data==.
 ==Others can be built into the descriptors==, i.e. we can build descriptors invariant to them through normalisation (see later examples for clarification). 
@@ -331,7 +331,7 @@ In 3d RGB histograms, even removing or rotating the object yields almost no sign
 in the resulting graph. This means we could use the histogram as a robust global descriptor that is invariant
 to occlusion and rotation.
 
-![](../../../FDS/colorhist.png)
+![](../../../static/FDS/colorhist.png)
 
 We can also flatten RGB histograms in joint color histograms and use them (refer to assigment 1).
 
@@ -341,7 +341,7 @@ Color tone is another way of recognizing object. This can be done by normalizing
 so even if a line is shone on an object the descriptor is not influenced. This could be, again, a good descriptor invariant to 
 illumination.
 
-![](../../../FDS/normint.png)
+![](../../../static/FDS/normint.png)
 
 ### EXTRA: Using only 2 colors to represent an object (WIP)
 
@@ -393,7 +393,7 @@ training image if their similarity is above a treshold $t$.
 
 A confusion matrix is a suitable way of showing the choices of our model:
 
-![](../../../FDS/confusion.png)
+![](../../../static/FDS/confusion.png)
 
 In this image, a good score is linked to:
 - ==high true positives (TP) and true negatives (TN)==
@@ -413,13 +413,13 @@ In this image, a good score is linked to:
 
 A quick recap:
 
-![](../../../FDS/recap.png)
+![](../../../static/FDS/recap.png)
 
 ### ROC and AUROC
 
 The ==receiver operator curve (ROC) is a good way to visualise the performance of our model:==
 
-![](../../../FDS/roc.png)
+![](../../../static/FDS/roc.png)
 
 The ==best model is the one that fits the application==
 - high false positives could be very expensive so we might want a low FPR
@@ -437,7 +437,7 @@ If we have an ==AUROC of:==
 When ==doing Object identification True Negatives are not really defined, so the Precision-recall curve is preferred==
 - i.e. infinite true negatives could be defined on a image 
 
-![](../../../FDS/prc.png)
+![](../../../static/FDS/prc.png)
 
 ### Log loss and brier score
 

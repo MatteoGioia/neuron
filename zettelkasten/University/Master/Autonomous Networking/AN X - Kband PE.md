@@ -4,11 +4,11 @@
 
 - What can be said about the performance of the greedy action selection? And for greedy?
 
-![](../../../AN/kpe1.png)
+![](../../../static/AN/kpe1.png)
 
 - What changes if we start with optimistic values?
 
-![](../../../AN/kpe2.png)
+![](../../../static/AN/kpe2.png)
 
 - What are the ideal use cases for greedy and optimistic initial values?
 
@@ -18,12 +18,12 @@
 
 - How do we measure uncertainty? What is the upper confidence bound (UCB)?
 
-![](../../../AN/kpe3.png)
+![](../../../static/AN/kpe3.png)
 
 - Explain the formula for action selection using UCB. What is $c$?
 
-![](../../../AN/kpe4.png)
+![](../../../static/AN/kpe4.png)
 
 - What can be said about UCB performance? What happens if the problem is nonstationary?
 
-![](../../../AN/kpe5.png)
+![](../../../static/AN/kpe5.png)

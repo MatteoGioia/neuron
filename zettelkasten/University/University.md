@@ -16,49 +16,49 @@ Why does the note style change all of a sudden? Read the [[Index]]!
 
 ## Terzo Anno 
 
-[[Ingegneria del software]] **[F**/**O]** 
+[[Bachelor/Ingegneria del software/Ingegneria del software]] **[F**/**O]** 
 
-[[Sviluppo Agile]] **[O]** 
+[[Bachelor/Sviluppo Agile/Sviluppo Agile]] **[O]** 
 
-[[Cybersec]]  **[O]** 
+[[Bachelor/Cybersec/Cybersec]]  **[O]** 
 
-[[Web Engineering]]  **[O]** 
+[[Bachelor/Web Engineering/Web Engineering]]  **[O]** 
 
-[[TCC]]  **[O]** 
+[[Bachelor/TCC/TCC]]  **[O]** 
 
-[[Algoritmica Avanzata]]  **[F/O]** 
+[[Bachelor/Algoritmica Avanzata/Algoritmica Avanzata]]  **[F/O]** 
 
 ## Primo anno LM
 
 #### Primo semestre
 
-[[Machine Learning]] **[O]**
+[[Master/Machine Learning/Machine Learning]] **[O]**
 
-[[Distributed Systems]] **[O]**
+[[Master/Distributed Systems/Distributed Systems]] **[O]**
 
-[[Foundations of Data Science]] **[O]**
+[[Master/Foundations of Data Science/Foundations of Data Science]] **[O]**
 
-[[Autonomous Networking]] **[O]**
+[[Master/Autonomous Networking/Autonomous Networking]] **[O]**
 
 #### Secondo semestre
 
-[[Big Data]] **[N]**
+[[Master/Big Data/Big Data]] **[N]**
 
-[[Economics of Tech and Mgmt]] **[N]**
+[[Master/Economics of Tech and Mgmt/Economics of Tech and Mgmt]] **[N]**
 
-[[Deep Learning and AI]] **[N]**
+[[Master/Deep Learning and AI/Deep Learning and AI]] **[N]**
 
-[[Cloud Computing]] **[N]**
+[[Master/Cloud Computing/Cloud Computing]] **[N]**
 
 ## Secondo anno LM
 
 #### Primo semestre
 
-[[Advanced Machine Learning]] **[N]**
+[[Master/Advanced Machine Learning/Advanced Machine Learning]] **[N]**
 
-[[Computer Vision]] **[N]**
+[[Master/Computer Vision/Computer Vision]] **[N]**
 
-[[Blockchain and DLT]] **[N]**
+[[Master/Blockchain and DLT/Blockchain and DLT]] **[N]**
 
 #### Secondo semestre
 

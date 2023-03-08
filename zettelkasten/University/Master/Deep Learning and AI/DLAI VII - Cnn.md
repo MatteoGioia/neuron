@@ -103,7 +103,7 @@
     - arbitrary zero padding and stride
     - and so on...
 
-	==From [[Advanced Machine Learning]]: more stride increases receptive field==
+	==From [[../Advanced Machine Learning/Advanced Machine Learning]]: more stride increases receptive field==
 
 </details>
 

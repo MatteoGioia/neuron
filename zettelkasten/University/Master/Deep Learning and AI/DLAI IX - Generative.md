@@ -3,7 +3,7 @@
 ### Recall questions
 
 Also see:
-- [[BD VI - Dimensionality Reduction]]
+- [[../Big Data/BD VI - Dimensionality Reduction]]
 - notes on entropy and divergence
 
 1. <details markdown=1><summary markdown="span"> What is the idea behind generative models ? </summary>

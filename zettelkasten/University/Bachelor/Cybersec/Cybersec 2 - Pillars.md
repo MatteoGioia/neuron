@@ -4,7 +4,7 @@
 
 ### Scopes of cybersec
 
-==Dependability== (cfr. [[Non functional requirements]]) fatta di: 
+==Dependability== (cfr. [[../Ingegneria del software/Non functional requirements]]) fatta di: 
 
 ==Safety==: protezione di persone e ambiente
 

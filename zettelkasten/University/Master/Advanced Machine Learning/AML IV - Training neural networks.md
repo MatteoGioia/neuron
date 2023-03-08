@@ -1,7 +1,7 @@
 # Training neural networks
 
 Also see:
-- [[DLAI VIII - Regularization]]
+- [[../Deep Learning and AI/DLAI VIII - Regularization]]
 
 ### Recall questions 
 
@@ -42,7 +42,7 @@ Also see:
     \
     ==Normalising is a standard step in most pipelines==. It is useful because it ensures that there are no outliers in the data that could compromise learning.
 
-	More about this in [[DLAI VIII - Regularization]]
+	More about this in [[../Deep Learning and AI/DLAI VIII - Regularization]]
 
 </details>
 

@@ -6,11 +6,11 @@
 
 - What is an ensemble? What are the main reasons to use them?
 
-![](../../../ML/ens1.png)
+![](../../../static/ML/ens1.png)
 
 - What can be said about variance and error rate of ensemble methods? What is a necessary requirement for the latter?
 
-![](../../../ML/ens2.png)
+![](../../../static/ML/ens2.png)
 
 - What are 4 common ways of training ensembles?
 
@@ -20,11 +20,11 @@
 
 - What does bagging stand for? What does it reduce?
 
-![](../../../ML/ens3.png)
+![](../../../static/ML/ens3.png)
 
 - What is bootstrapping? How is the data that is not extracted in the boostrapping rounds used?
 
-![](../../../ML/ens4.png)
+![](../../../static/ML/ens4.png)
 
 - What is a 0.632 boostrap? Why is it called this way?
 
@@ -34,11 +34,11 @@
 
 - How does averaging work instead?
 
-![](../../../ML/ens5.png)
+![](../../../static/ML/ens5.png)
 
 - What are the benefits and downsides of bagging? What happens when there are instances difficult to classify?
 
-![](../../../ML/ens6.png)
+![](../../../static/ML/ens6.png)
 
 ### Boosting
 
@@ -46,7 +46,7 @@
 
 - How does boosting use weighted bootstrapping?
 
-![](../../../ML/ens7.png)
+![](../../../static/ML/ens7.png)
 
 - How is the final vote decided?
 
@@ -54,11 +54,11 @@
 
 - How many classifiers are trained? What is the importance (or authority) of a classifier?
 
-![](../../../ML/ens8.png)
+![](../../../static/ML/ens8.png)
 
 - How is the final vote decided?
 
-![](../../../ML/ens9.png)
+![](../../../static/ML/ens9.png)
 
 <small> Ask for clarification !! </small>
 
@@ -66,7 +66,7 @@
 
 - How do random forests work? Are they used for a specific ML model?
 
-![](../../../ML/ens10.png)
+![](../../../static/ML/ens10.png)
 
 - Why do we say that random forests have "2 sources of randomness"?
 
@@ -88,4 +88,4 @@
 
 ### To recap
 
-![](../../../ML/ens11.png)
+![](../../../static/ML/ens11.png)

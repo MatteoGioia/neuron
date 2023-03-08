@@ -51,7 +51,7 @@ The ==gradient of a scalar field is a vector field that points in the direction 
 The ==gradient is computed using the derivative of the function. We'll compute the gradient (derivative) of the error and do small steps into the negative
 direction to find minima.==
 
-![](../../../ML/gradientdescent.png)
+![](../../../static/ML/gradientdescent.png)
 
 ## Tuning Parameters
 
@@ -73,11 +73,11 @@ Another common Loss$(W) = \frac{1}{2|D|}\sum_{h \in D}\sum_{j=1 \ldots k}((y_{j}
 We ==cannot use the same step function we used for perceptrons as it is not differentiable==. One solution is 
 to find a similar one, called ==Sigmoid function==, which closely emulates its behaviour and its differentiable.
 
-![](../../../ML/sigmoid.png)
+![](../../../static/ML/sigmoid.png)
 
 The activation functions also acts a limiter of the nodes' output.
 
-![](../../../ML/sigmoid2.png)
+![](../../../static/ML/sigmoid2.png)
 
 <small> in the following the threshold is identified with $T$ or $\theta$ </small>
 
@@ -86,11 +86,11 @@ The activation functions also acts a limiter of the nodes' output.
 When ==doing the derivative, we compute the inner values of the sum separately since we consider only one input-output pair==
 - this makes for easier computation as we can just compute the overall gradient by summing them up and then dividing by $n$
 
-![](../../../ML/singleMSE.png)
+![](../../../static/ML/singleMSE.png)
 
 For instance, ==loss on single output is computed as==:
 
-![](../../../ML/singleMSE2.png)
+![](../../../static/ML/singleMSE2.png)
 
 ### Using error to tune weights
 
@@ -100,16 +100,16 @@ To fix this, ==we can use gradient descent to adjust weights at each iteration: 
 - basically ==each weight is updated proportionally to the partial derivative==
 - in simpler terms, is updated using only the fraction of the gradient that can be imputed to that particular weight.
 
-![](../../../ML/gradientder.png)
+![](../../../static/ML/gradientder.png)
 
 Where $\delta_j$ is the derivative of the error cause by a node $n_j$ when computing the convolution.
 For example, we can visualize the contribution of a single $w_{ij}$ as follows:
 
-![](../../../ML/wjcon.png)
+![](../../../static/ML/wjcon.png)
 
 We can now compute the partial derivatives:
 
-![](../../../ML/derivatives1.png)
+![](../../../static/ML/derivatives1.png)
 
 We only need to compute the last partial derivative, that depends on the layer of the node.
 
@@ -117,11 +117,11 @@ We only need to compute the last partial derivative, that depends on the layer o
 
 In the case of any output node $n_j$, we only have $B$ to derivate:
 
-![](../../../ML/lossout.png)
+![](../../../static/ML/lossout.png)
 
 And so the loss function of single node is:
 
-![](../../../ML/derivatives2.png)
+![](../../../static/ML/derivatives2.png)
 
 ### Computing the derivative of MSE for inner nodes
 
@@ -151,7 +151,7 @@ Hyperparameters: network arch, loss function, $\eta$
 
 Parameters: synaptic weigths and thresholds.
 
-![](../../../ML/backprop1.png)
+![](../../../static/ML/backprop1.png)
 
 Note that this algorithm, although it works, has some flaws (due to the network's architecture) that will be fixed only when discussing about DNN.
 

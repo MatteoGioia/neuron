@@ -25,7 +25,7 @@ Tutte le definizioni di sopra, per quanto corrette, non sono valide prese singol
 Esistono tanti ==modi di misurare la qualità== e alcuni di essi sono ==standardizzati==.
 
 Un esempio di standard qualitativo è definito da ==ISO 25010== detto ==SQuaRE== (Systems and software Quality Requirements and evaluation:
-![](../../../Agile/quality.png)
+![](../../../static/Agile/quality.png)
 
 ### Project quality management
 
@@ -77,7 +77,7 @@ In questo step si identificano ==i rischi legati al prodotto== e in seguito veng
 
 Nel caso di del mondo ==automotive== è importante l'==ASIL== (Automotive Safety Integrity Level), uno standard che permette di identificare e valutare in modo sistematico i rischi legati al prodotto in questione.
 
-![](../../../Agile/automotive_asil.png)
+![](../../../static/Agile/automotive_asil.png)
 
 ### Perchè seguire lo standard
 

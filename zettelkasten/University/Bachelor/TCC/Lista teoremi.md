@@ -17,7 +17,7 @@ Supponiamo che un linguaggio $L$ sia accettato da una macchina di Turing $M$ a $
 - un componente del controllo finito memorizza lo stato di $M$
 - $k$ componenti del controllo finito memorizzanoil contenuto dei simboli letti
 
-![](../../../TCC/multitape_TM_eq.png)
+![](../../../static/TCC/multitape_TM_eq.png)
 
 Le mosse di $M$ sono implementate da $N$ nel seguente modo. $N$ visita tutti i $k$ marker che indicano la posizione delle testine di $M$ e salva il simbolo che stanno leggendo. $N$ conosce inoltre lo stato di $M$, quindi sa le mosse che verrebbero eseguite da quest'ultima.
 </details>
@@ -54,7 +54,7 @@ Per processare la ID corrente sul primo nastro, la $TM$ $M_D$:
 
 All'effettivo questa macchina non fa altro che "enumerare" le scelte come fossero nodi di un albero e le esamina con ==una ricerca breadth first==.
 
-![](../../../TCC/ntm_emulated.png)
+![](../../../static/TCC/ntm_emulated.png)
 
 Dobbiamo ora mostrare che $M_D$ accetta sempre se lo fa $M_N$, questo perchè l'altro lato dell'implicazione $\leftarrow$ è provato per costruzione in quanto $M_D$ accetta solo se $M_N$ lo fa.
 
@@ -80,7 +80,7 @@ Per soddisfare la ==seconda condizione==, possiamo costruire una $M_2$ dalla $M$
 
 Per soddisfare invece la condizione 1, si costruisce $M_1$ a partire da $M_2$. 
 
-![](../../../TCC/restricted_TM_costr.png)
+![](../../../static/TCC/restricted_TM_costr.png)
 
 Le ultime due transizioni servono a gestire il caso particolare in cui si trova a inizio input e quindi bisogna scavallare per evitare che la $TM$ si muova appunto a sinistra.
 </details>
@@ -122,7 +122,7 @@ Supponiamo che ci siano $r-1$ simboli di nastro usati dalla stack machine $SC$, 
 
 Avremo quindi ==2 contatori con all'interno il contenuto dei 2 stack==, uno a testa, mentre il ==terzo sarà usato come supporto== agli altri nelle operazioni di moltiplicazione e divisione per $r$.
 
-![](../../../TCC/3_stack_2_equiv.png)
+![](../../../static/TCC/3_stack_2_equiv.png)
 
 Per effettuare una ==operazione di pop== sostituiremo $i$ con $i / r$ senza considerare il resto. Iniziando con il terzo contatore a 0, riduciamo ripetutamente $i$ di $r$ e incrementiamo il terzo contatore di 1. Quando il contatore che aveva $i$ al suo interno diventa 0 ci fermiamo e poi lo reicrementiamo fino a quando il suo valore diventa quello ora memorizzato nel contatore di supporto, che nel contempo riportiamo a 0.
 
@@ -159,7 +159,7 @@ La dimostrazione è semplice: se abbiamo la garanzia che la $TM$ si fermi per st
 - gli stati di accettazione nella $M$ originale vengono trasformati in stati di non accettazione
 - quelli di non accettazione invece ora possono proseguire in uno stato di accettazione con una nuova transizione
 
-![](../../../TCC/l_rec_complementary.png)
+![](../../../static/TCC/l_rec_complementary.png)
 </details>
 
 ==Complemento di un linguaggio $RE$== (th):
@@ -286,7 +286,7 @@ Costruiamo un algoritmo di riduzione $RED$ che converte un input $(M,w)$ nel cod
 
 Avremo in output una $TM$ che accetta sempre (qualunque sia l'input) se la coppia $(M,w)$ è accettata da $U$, altrimenti rifiuterà sempre. Avendo compiuto una riduzione,conlcudiamo quindi che $L_{ne}$ è difficile almeno quanto $L_u$ e quindi non si può trovare in $R$.
 
-![](../../../TCC/reduction_from_universal_to_nonempty.png)
+![](../../../static/TCC/reduction_from_universal_to_nonempty.png)
 </details>
 
 ### Teorema di Rice
@@ -299,7 +299,7 @@ Avremo in output una $TM$ che accetta sempre (qualunque sia l'input) se la coppi
 <details>
 Dimostriamo ora il teorema: sia $P$ una proprietà non banale e supponiamo che il linguaggio vuoto non sia in $P$ - ovvero che ci sia almeno una macchina che riconosce un linguggio con tale proprietà. Sia $L$ tale linguaggio e $L = L(M_L)$. Se riduciamo $L_u$ a $L_p$ proviamo che questo è indecidibile.
 
-![](../../../TCC/rice_theorem_proof1.png)
+![](../../../static/TCC/rice_theorem_proof1.png)
 
 La riduzione prende in input una coppia $(M,w)$ e produce il codice per $M_1$:
 - se $M$ accetta $w$, allora $L(M_1) = L$

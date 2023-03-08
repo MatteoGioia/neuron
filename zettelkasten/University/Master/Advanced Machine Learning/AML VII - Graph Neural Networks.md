@@ -1,7 +1,7 @@
 # GNNs
 
 Also see:
-- [[DLAI IX - Geometric]]
+- [[../Deep Learning and AI/DLAI IX - Geometric]]
 
 Setup:
 

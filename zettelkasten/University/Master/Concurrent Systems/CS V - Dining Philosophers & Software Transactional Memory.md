@@ -1,3 +1,5 @@
+Also see [[../Distributed Systems/DS I - Intro]]
+
 # Dining Philosophers 
 
 ### Recall questions on Dining Philosophers

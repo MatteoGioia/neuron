@@ -1,6 +1,6 @@
 # Clustering 
 
-Also see #[[ML XII - Clustering]] and #[[DLAI I - Data]]
+Also see #[[../Machine Learning/ML XII - Clustering]] and #[[../Deep Learning and AI/DLAI I - Data]]
 
 ### Recall questions
 

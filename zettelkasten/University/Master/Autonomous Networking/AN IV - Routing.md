@@ -38,18 +38,18 @@ This type of protocols ==consumes a lot of energy==, since its's ==always runnin
 - has ==aging information on routes (to avoid loops)==
 - ==delays unstable routes updates==
 
-![](../../../AN/DSDV.png)
+![](../../../static/AN/DSDV.png)
 
 As stated before, DSDV also ==deals with routing loops==. For instance, as shown in the image, if (B,C) breaks but A still has a route with cost 2 to reach C, A and B will continuously exchange this information (since both now believe there is a way to reach C) in loop.
 
-![](../../../AN/routingloop.png)
+![](../../../static/AN/routingloop.png)
 
 In DSDV, ==each route in the table has a sequence number originated by the destination==.
 - nodes now know old and new routes
 - ==newer routes are preferred==
 - ==if a route breaks, any other route that passes through that one gets a $\infty$ and an updated sequence number== 
 
-![](../../../AN/DSDVup.png)
+![](../../../static/AN/DSDVup.png)
 
 Since route (C,D) is broken, the info is updated an any information from A or B is refused since it's too old.
 
@@ -100,12 +100,12 @@ will be invoked again.
 A Route Request is sent by the initiator and contains an empty list to fill with all the IDs of the intermediate nodes
 - the intermediate nodes just append their ID and rebroadcast the package 
 
-![](../../../AN/dsr1.png)
+![](../../../static/AN/dsr1.png)
 
 When the target node is reached, it sends a Route Reply that will be then cached by the initiator
 - the route to the initiator is calculated through source routing (basically the same path taken by the first request packet that arrives is used again)
 
-![](../../../AN/dsr2.png)
+![](../../../static/AN/dsr2.png)
 
 ### Ad Hoc On Demand Vector Routing
 
@@ -117,7 +117,7 @@ The main improvement is that instead of keeping a complete list of routes in mem
 
 It also ==prefers newer info when building routes during the path discovery procedure.==
 
-![](../../../AN/AODV.png)
+![](../../../static/AN/AODV.png)
 
 During the path discovery, nodes learn both the forward and reverse paths.
 
@@ -142,4 +142,4 @@ Alternative strategies:
 
 This techniques also suffer from the risk of sending a node into a ==dead end!==
 
-![](../../../AN/deadend.png)
+![](../../../static/AN/deadend.png)

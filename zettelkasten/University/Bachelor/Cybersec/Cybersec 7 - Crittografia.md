@@ -114,6 +114,6 @@ L'idea è quella di sostituire le lettere con caratteri diversi in punti diversi
 Il ==cifrario di Vigenère== fa proprio questo: ==la chiave è una stringa==
 mappata a dei numeri:
 
-![](../../../CYS/vigenere.png)
+![](../../../static/CYS/vigenere.png)
 
 Sebbene all'apparenza il cifrario sia robusto, essendo le chiavi in spazi di dimensione $26^14 \approx 2^{66}$ e quindi il bruteforce molto difficile, la debolezza sta nella chiave stessa. Una volta ==indovinata la lunghezza della chiave==, infatti, basta dividere la stringa in pezzi di uguale lunghezza a quella della chiave e trattarli come piccoli pezzi codificati con ==cifrario di Cesare==.

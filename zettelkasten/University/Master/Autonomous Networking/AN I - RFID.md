@@ -71,14 +71,14 @@ Binary splitting:
 
 In this example, a set of 8 tags replies to the reader:
 
-![](../../../AN/binaryspl.png)
+![](../../../static/AN/binaryspl.png)
 
 ### Query tree
 
 In ==this protocol, the tags split based on their ID. The reader sends a string and only the tags with such string as a prefix in their ID answer to the query==.
 - the process is the same of binary splitting, except the starting string is NULL
 
-![](../../../AN/querytree.png)
+![](../../../static/AN/querytree.png)
 
 ### Performance of tree protocols
 
@@ -98,7 +98,7 @@ For ==Binary Splitting and QS $SE = 0.38$==
 
 ==In aloha protocols the time is slotted, and the slots are grouped into frames. Each tag then picks a random slot to respond.==
 
-![](../../../AN/fslaloha.png)
+![](../../../static/AN/fslaloha.png)
 
 Performance of ==FSA is $SE = 0.37$==, the rest is collision and idle queries
 
@@ -108,7 +108,7 @@ The protocol used in RFID is EPC GEN 2 class 1, and is based upon FSA. It also s
 
 The key aspect of ==TTM is that idle responses (no response) lasts less than identification or collision responses==.
 
-![](../../../AN/TTM.png)
+![](../../../static/AN/TTM.png)
 
 - RX_threshold: time at which reader should receive the first bit of tag transmission
 - R1, R2: reps. tag an reader reaction time
@@ -120,7 +120,7 @@ $TIME_{SE} = \frac{R_{ident}}{\beta R_{idle} + R_{ident} + R_{coll}} = \frac{n(1
 - $R_{ident} = n(1 - \frac{1}{N})^{n-1}$
 - $R_{coll} = N - R_{idle} - R_{ident}$
 
-![](../../../AN/fsaperf.png)
+![](../../../static/AN/fsaperf.png)
 
 Ideally, ==knowing how many tags are in the environment leads to higher performance. Overestimating is also 
 more efficent than underestimating.==
@@ -131,7 +131,7 @@ more efficent than underestimating.==
 ==To reduce the number of time used for collision and idle slots, slots can be executed following a tree:
 after a collision, a new child frame is created and only the colliding tags partecipate in this new slot==.
 
-![](../../../AN/TSA.png)
+![](../../../static/AN/TSA.png)
 
 A good way to estimate TSA performance is to count the number of nodes into the TSA tree.
 
@@ -154,7 +154,7 @@ So we need a way to estimate the total number of tags!
 
 ==One way of estimating the total number of tags is using Chebyshev's inequality:==
 
-![](../../../AN/chebyshev.png)
+![](../../../static/AN/chebyshev.png)
 
 Where given $N$ and a possible value of $n$, the expected number of slots with $r$ tags is estimated as $a_{r}^{N,n} = N \times \binom{n}{r}  (\frac{1}{N})^r (1 -frac{1}{N})^{n-r}$ 
 
@@ -169,8 +169,8 @@ What the procotol does is:
 - ==using BS to dive tags into groups, whose size can be easily estimated==
 - ==use TSA to identify tags in the groups==
 
-![](../../../AN/BSTSA.png)
+![](../../../static/AN/BSTSA.png)
 
 ==Performance is evaluated as the mix (average?) of BS performance up to the last split and TSA performance on each group:==
 
-![](../../../AN/BSTSAperf.png)
+![](../../../static/AN/BSTSAperf.png)

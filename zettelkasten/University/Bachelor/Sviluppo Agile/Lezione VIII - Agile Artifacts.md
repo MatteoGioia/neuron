@@ -11,7 +11,7 @@
 
 ### Tema, epiche e user stories
 
-![](../../../Agile/scrum_artifacts.png)
+![](../../../static/Agile/scrum_artifacts.png)
 
 ==Tema==: una particolare area di interesse del progetto
 
