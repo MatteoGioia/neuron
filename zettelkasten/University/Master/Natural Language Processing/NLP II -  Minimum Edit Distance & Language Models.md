@@ -40,7 +40,31 @@
 
 </details>
 
-5. <details markdown=1><summary markdown="span">   </summary>
+5. <details markdown=1><summary markdown="span">  What is Zipf's law?  </summary>
+    
+    \
+
+</details>
+
+6. <details markdown=1><summary markdown="span">  What is the difference between closed and open vocabulary? </summary>
+    
+    \
+
+</details>
+
+7. <details markdown=1><summary markdown="span">  What is the difference between intrinsic and extrinsic evaluation metrics? </summary>
+    
+    \
+
+</details>
+
+6. <details markdown=1><summary markdown="span">  </summary>
+    
+    \
+
+</details>
+
+6. <details markdown=1><summary markdown="span">  </summary>
     
     \
 
