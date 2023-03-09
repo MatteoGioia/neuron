@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
-                "mode": "source",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,6 +120,14 @@
   },
   "active": "344046b3c336e639",
   "lastOpenFiles": [
+    "zettelkasten/static/NLP/lm6.png",
+    "zettelkasten/static/NLP/lm5.png",
+    "zettelkasten/static/NLP/lm4.png",
+    "zettelkasten/static/NLP/lm3.png",
+    "zettelkasten/static/NLP/lm2.png",
+    "zettelkasten/static/NLP/lm1.png",
+    "zettelkasten/static/NLP",
+    "zettelkasten/University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
     "zettelkasten/static/CS/ato3.png",
     "zettelkasten/static/CS/ato2.png",
     "zettelkasten/static/CS/ato1.png",
@@ -140,16 +148,9 @@
     "zettelkasten/University/Master/Distributed Systems/DS IX - A brief overview of consistent hashing.md",
     "zettelkasten/University/Master/Distributed Systems/DS III - Bitcoin.md",
     "zettelkasten/University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
-    "zettelkasten/University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
     "zettelkasten/University/Master/Concurrent Systems/Concurrent Systems.md",
     "zettelkasten/static/CS/smt7.png",
     "zettelkasten/static/CS/smt6.png",
-    "zettelkasten/static/CS/smt5.png",
-    "zettelkasten/static/CS/smt4.png",
-    "zettelkasten/static/CS/smt3.png",
-    "zettelkasten/static/CS/smt2.png",
-    "zettelkasten/static/CS/smt1.png",
-    "zettelkasten/static/CS/df5.png",
     "zettelkasten/University/Master/Concurrent Systems/CS IV - Semaphores.md",
     "zettelkasten/University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
     "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
