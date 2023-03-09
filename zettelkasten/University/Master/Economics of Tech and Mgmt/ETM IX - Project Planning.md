@@ -1,6 +1,6 @@
 # Modern project management
 
-Also see: [[Project Planning]]
+Also see: [[../../Bachelor/Ingegneria del software/Project Planning]]
 
 ### Recall questions
 

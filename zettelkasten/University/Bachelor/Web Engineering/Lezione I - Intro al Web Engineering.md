@@ -16,7 +16,7 @@ Oggi si prediligono le RIA, Rich Internet Application
 
 **Accessibilità** dei siti web, tutti i tipi di utenti possono usare le webapp
 
-**Usabilità** dei siti web, cfr. [[Non functional requirements]] 
+**Usabilità** dei siti web, cfr. [[../Ingegneria del software/Non functional requirements]] 
 
 **XBroswer Compatibility**, siti funzionanti su tutti i broswer
 - **Mobile First**, priorità ai dispositivi mobili

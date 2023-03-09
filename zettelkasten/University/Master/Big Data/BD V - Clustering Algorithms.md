@@ -17,14 +17,14 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 2. <details markdown=1><summary markdown="span"> Describe the flat hard clustering framework. </summary>
 
     \
-    ![](../../../BIG/cl1.png)
+    ![](../../../static/BIG/cl1.png)
 
 </details>
 
 3. <details markdown=1><summary markdown="span"> What is the objective function for the hard clustering framework? What particular property does it have? </summary>
 
     \
-    ![](../../../BIG/cl2.png) \
+    ![](../../../static/BIG/cl2.png) \
     Furthermore, since we have a discrete assigment matrix $A$, our ==function is non-convex, so it allows for multiple local minima==.
 
 </details>
@@ -44,14 +44,14 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 5. <details markdown=1><summary markdown="span"> How does the assignment step work? </summary>
 
     \
-    ![](../../../BIG/cl3.png)
+    ![](../../../static/BIG/cl3.png)
 
 </details>
 
 6. <details markdown=1><summary markdown="span"> How does the update step work? </summary>
 
     \
-    ![](../../../BIG/cl4.png) \
+    ![](../../../static/BIG/cl4.png) \
     Also see slide 30-40 for detailed steps.  
 
 </details>
@@ -66,8 +66,8 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 8. <details markdown=1><summary markdown="span"> What is the setup of k-means? And the objective function? What is the SSD? </summary>
 
     \
-    ![](../../../BIG/cl5.png)
-    ![](../../../BIG/cl6.png)
+    ![](../../../static/BIG/cl5.png)
+    ![](../../../static/BIG/cl6.png)
 
 </details>
 
@@ -81,7 +81,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 10. <details markdown=1><summary markdown="span"> Describe the steps of k-means. What are possible stopping criteria? </summary>
 
     \
-    ![](../../../BIG/cl7.png) 
+    ![](../../../static/BIG/cl7.png) 
     Possible stopping criterions are:
     - ==fixed number of iterations==
     - ==cluster assignment stops changing==
@@ -123,7 +123,7 @@ We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
 
     \
     Idea: ==spread the centroids== to avoid sub-optimal clusters.
-    ![](../../../BIG/cl8.png)
+    ![](../../../static/BIG/cl8.png)
 
 </details>
 

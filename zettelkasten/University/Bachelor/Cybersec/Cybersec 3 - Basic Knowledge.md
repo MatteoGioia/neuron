@@ -4,7 +4,7 @@
 
 ### Quick CLANG (and GCC) steps recap
 
-![](../../../CYS/Clang_compiling.png)
+![](../../../static/CYS/Clang_compiling.png)
 
 Ricorda anche:
 - linking statico: librerie esterne incluse nei binaries

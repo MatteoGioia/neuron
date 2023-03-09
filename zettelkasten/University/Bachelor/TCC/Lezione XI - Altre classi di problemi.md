@@ -12,7 +12,7 @@
 
 ### Diagramma delle classi di complessità
 
-![](../../../TCC/additional-complexity-classes.png)
+![](../../../static/TCC/additional-complexity-classes.png)
 
 Come è possibile vedere nel disegno, esistono molte classi di complessità oltre quelle già mostrate. Nel dettaglio, andremo a vedere:
 - ==$co-NP$==, la classe dei ==complementi dei linguaggi in $NP$==;
@@ -24,7 +24,7 @@ Come è possibile vedere nel disegno, esistono molte classi di complessità oltr
 
 La classe $co-NP$ è interessante in quanto sebbene $P$ sia noto essere ==chiuso per quanto riguarda il complemento==, non lo è per $NP$, tant'è vero che ==si pensa sia proprio una classe a parte==, assunto che $P = NP$.
 
-![](../../../TCC/npvsconp.png)
+![](../../../static/TCC/npvsconp.png)
 
 Due esempi celebri di problemi complemento che sono reputati essere in $co-NP$ sono i seguenti:
 - $USAT$: si tratta del problema di mostrare che ==una espressione booleana è insoddisfacibile== (include nella formulazione anche le espressioni malformate) e si crede ==non sia in $NP$==, tuttavia non esiste una dimostrazione per tale affermazione.
@@ -62,7 +62,7 @@ Definiamo ora rispettivamente le classi $PS$ e $NPS$:
 
 È opportuno inoltre considerare qualoria sia possibile che una $TM \in PS$ possa non trovarsi nei linguaggi ricorsivi, in quanto abbiamo detto che usa un numero polinomiale di spazi ma nulla sull'accettazione. Ebbene, possiamo mostrare due teoremi che insieme implicano che:
 
-![](../../../TCC/actually_in_rec.png)
+![](../../../static/TCC/actually_in_rec.png)
 
 Il primo teorema dice che: 
 > Se $M$ è una $TM$ polynomial space bounded da $p(n)$, allora esiste una costante $c$ t.c. se $M$ accetta il suo input $w$ di lunghezza $n$ lo fa in $c^{1+p(n)}$ mosse.
@@ -119,7 +119,7 @@ Anche qui è opportuna un considerazione sullo spazio: non ci saranno mai più d
 chiamate ricorsive sullo stack, quindi anche qui il numero di celle è polynomial space bounded. Ogni frame richiede $O(p(n))$ spazio, in quanto le due $ID$ occupano $1 + p(n)$ celle (essendo $N$ p.s.b da $p(n)$) e, se scriviamo $m$ in binario, $log_2 c^{1 + p(n)} = O(p(n))$ celle per $m$.
 Quindi facciamo $O(p(n))$ chiamate, ognuna che occupa $O(p(n)$ celle, per uno spazio complessivo di $O(p^2(n))$.
 
-![](../../../TCC/complexity_spaces_adv.png)
+![](../../../static/TCC/complexity_spaces_adv.png)
 
 ### $PS$-completezza
 
@@ -164,7 +164,7 @@ Diremo che una variabile che compare nello scope di un qualche quantificatore è
 5. $(\forall x) (E)$: si rimpiazzano tutti i valori di $x$ con $0,1$, ottenendo rispettivamente $E_0,E_1$. Queste due espressioni non hanno variabili libere e inoltre sono di lunghezza $n-6$ quindi possono essere valutate. Il risultato sarà vero solo se entrambe $E_0,E_1$ sono vere, falso altrimenti.
 6. $(\exists x) (E)$: come prima, ma il risultato sarà vero solo se una o entrambe $E_0,E_1$ sono vere, falso se entrambe sono false.
 
-![esempioqbf](../../../TCC/qbf_solved.png)
+![esempioqbf](../../../static/TCC/qbf_solved.png)
 
 ### $QBF$ e $PS$-completezza
 

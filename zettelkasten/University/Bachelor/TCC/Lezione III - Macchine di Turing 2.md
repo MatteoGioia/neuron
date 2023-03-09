@@ -21,7 +21,7 @@ Le ==mosse== di una $TM$ $M$ sono indicate da:
 
 Alcuni esempi di descrizioni istantanee:
 
-![](../../../TCC/ist_desc.png)
+![](../../../static/TCC/ist_desc.png)
 
 ### Descrizioni Tabellari di Macchine di Turing 
 
@@ -29,7 +29,7 @@ Le transizioni $\delta$ Macchina di Turing (cfr. #[[Lezione II - Macchine di Tur
 
 Questa macchina, ad esempio, rimpiazza i simboli della grammatica con $X,Y$:
 
-![](../../../TCC/turing_ex1.png)
+![](../../../static/TCC/turing_ex1.png)
 
 ### Descrizioni con Diagrammi di Transizione di Macchine di Turing
 
@@ -39,7 +39,7 @@ Un altro modo di descrivere le macchine di Turing è fare uso di macchine a stat
 - i ==label== indicano il contenuto delle transizioni
   - i.e. $0 / X \to$ significa che viene rimpiazzato il simbolo 0 con X e si va a DX
 
-![](../../../TCC/turing_diagram.png)
+![](../../../static/TCC/turing_diagram.png)
 
 --- 
 
@@ -68,11 +68,11 @@ Modello esteso della macchina con un controllo finito che riporta ==lo stato e u
 
 Viene implementato trasformando lo stato in una ==tupla== $[q,M_1,M_2,\ldots ]$ dove $M_i$ sono i dati.
 
-![](../../../TCC/storage_turing_machine.png)
+![](../../../static/TCC/storage_turing_machine.png)
 
 Un esempio è questa macchina di Turing che legge una stringa appartenente o all'insieme $\{0,1^n\}$ o a quello $\{1,0^n\}$
 
-![](../../../TCC/turing_machine_state_example.png)
+![](../../../static/TCC/turing_machine_state_example.png)
 
 ### Tracce multiple
 
@@ -80,8 +80,8 @@ Altro modello esteso della macchina di Turing che invece ==legge multiple tracce
 
 Ogni simbolo del nastro è una ==tupla== $[X_1,X_2, \ldots ]$ dove X indica il simbolo letto.
 
-![](../../../TCC/multiple_tracks_TM.png)
+![](../../../static/TCC/multiple_tracks_TM.png)
 
 Esempio di macchina di turing che  riconosce stringhe palindrome (?)
 
-![](../../../TCC/multiple_tracks_TM_ex.png)
+![](../../../static/TCC/multiple_tracks_TM_ex.png)

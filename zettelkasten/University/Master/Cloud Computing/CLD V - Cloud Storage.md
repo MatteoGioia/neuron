@@ -6,7 +6,7 @@
     
     \
     We want ==multi step operations that complete without any interruption==. Two types are:
-    - ==all or nothing==: ex 2PC protocol (see #[[DS II - Reaching Consensus]])
+    - ==all or nothing==: ex 2PC protocol (see #[[../Distributed Systems/DS II - Reaching Consensus]])
     - ==before or after==: the result of every write/read is the same no matter the order.
 
 </details>
@@ -136,7 +136,7 @@
 15. <details markdown=1><summary markdown="span"> What is the architecture of the HFS? </summary>
     
     \
-	The model is a ==classic master/slave model==, as also seen in [[BD II - MapReduce]] and [[BD III - Spark]]
+	The model is a ==classic master/slave model==, as also seen in [[../Big Data/BD II - MapReduce]] and [[../Big Data/BD III - Spark]]
     
 </details>
 
@@ -273,7 +273,7 @@ Part on ==databases starts here==
 29. <details markdown=1><summary markdown="span"> How does the partitioning system work </summary>
     
     \
-	See [[DS IX - A brief overview of consistent hashing]]
+	See [[../Distributed Systems/DS IX - A brief overview of consistent hashing]]
     
 
 </details>

@@ -28,14 +28,14 @@ Notice ==that a process can be mistakenly inserted in the crashed ones and remov
 
 >Completeness: there is a time after which every process that has crashed is permanently suspected by a correct process
 
-![](../../../DS/fd1.png)
+![](../../../static/DS/fd1.png)
 
 ==Completeness alone doesn't mean much though, since a detector that always reports processes as crashed is complete==.
 For this reason, we also define accuracy.
 
 >Accuracy: there is a time after which a correct process is never suspected by any correct process
 
-![](../../../DS/fd2.png)
+![](../../../static/DS/fd2.png)
 
 Both ==strong and weak accuracy are difficult to achieve==, as they require a correct process to be never suspected but, as we said, it is not uncommon for a correct process to be suspected and then removed.
 
@@ -43,7 +43,7 @@ For this reason, we ==define eventual accuracy==, so that is enough that the acc
 
 >Eventual accuracy: We need not require accuracy property to be satisfied by each process at all the time. Instead, we require the accuracy property to be eventually satisfied
 
-![](../../../DS/fd3.png)
+![](../../../static/DS/fd3.png)
 
 ### Taxonomy of failure detectors
 

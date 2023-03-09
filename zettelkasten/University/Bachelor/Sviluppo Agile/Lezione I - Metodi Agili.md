@@ -17,20 +17,20 @@ Waterfall: See **section to add: The waterfall is a lie**
 
 V-Model: ogni fase è corredata da quella di validazione tramite testing 
 
-![](../../../Agile/vmodel.png)
+![](../../../static/Agile/vmodel.png)
 
 Rational Unified Process (RUP): multiple iterazioni
 
 Agile development: fatto di sprints
 
-![](../../../Agile/agile.png)
+![](../../../static/Agile/agile.png)
 
 DevOps: mix di 
 - Dev: sviluppo software
 - Ops: information-technology operations (i.e task di mantenimento dell'infrastruttura o
        di configurazione del sw)
 
-![](../../../Agile/devops.png)
+![](../../../static/Agile/devops.png)
 
 ---
 

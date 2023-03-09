@@ -14,7 +14,7 @@ Proof that CELOSS is convex: (https://math.stackexchange.com/questions/1582452/l
 2. <details markdown=1><summary markdown="span"> Express the polynomial model with matrices to prove it is still linear w.r.t. to the parameters. How many data points do we need (and why)?</summary>
     
     \
-    ![](../../../DEEP/poly1.png) \
+    ![](../../../static/DEEP/poly1.png) \
     We can still solve this with MSE, but it is ==necessary that $k < n$==. Alternatively, we can say we need $k+1$ data points, e.g. infinite lines pass through one data point.
 
 </details>
@@ -32,7 +32,7 @@ Proof that CELOSS is convex: (https://math.stackexchange.com/questions/1582452/l
 4. <details markdown=1><summary markdown="span"> What happens if we increase the degree of the polynomial? </summary>
     
     \
-    ![](../../../DEEP/poly2.png) \
+    ![](../../../static/DEEP/poly2.png) \
     What happens is that adding complexity leads to overfitting and loss of generalization.
 
 </details>
@@ -48,7 +48,7 @@ Proof that CELOSS is convex: (https://math.stackexchange.com/questions/1582452/l
 6. <details markdown=1><summary markdown="span"> What happens to the loss when we do logistic regression? Is it still linear? </summary>
     
     \
-    ![](../../../DEEP/poly3.png) \
+    ![](../../../static/DEEP/poly3.png) \
     Note that ==$\sigma$ has a saturation effect, as it maps $R \to (0,1)$==.
 
 </details>
@@ -57,8 +57,8 @@ Proof that CELOSS is convex: (https://math.stackexchange.com/questions/1582452/l
    
     \
     The new ==loss function (cross entropy loss) is convex==:
-    ![](../../../DEEP/poly4.png) \
-    ![](../../../DEEP/poly5.png)
+    ![](../../../static/DEEP/poly4.png) \
+    ![](../../../static/DEEP/poly5.png)
 
 </details>
 
@@ -72,6 +72,6 @@ Proof that CELOSS is convex: (https://math.stackexchange.com/questions/1582452/l
     
     \
     The ==parameters enter the gradient in a non linear way==. So the $\nabla l_{\Theta} = 0$ is not a linear system but a ==trascendental equation==, for which we have no close form solution.
-    ![](../../../DEEP/poly6.png) 
+    ![](../../../static/DEEP/poly6.png) 
 
 </details>

@@ -15,3 +15,6 @@ Lecturer:  Daniele Gorla
 [[CS IV - Semaphores]]
 
 [[CS V - Dining Philosophers & Software Transactional Memory]]
+
+[[CS VI - More on Atomicity, Linearizability and Alternatives]]
+

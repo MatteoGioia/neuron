@@ -11,7 +11,7 @@ Also see:
     \
     The ==directional derivative is zero along isocurves==. In fact, the function value does not change on the isocurve, so it makes sense that the derivative (gradient) is 0. \
     The directional derivative can be computed as the product of the gradient with the vector and since the result is 0, they are clearly orthogonal.
-    ![](../../../DEEP/sgd1.png)
+    ![](../../../static/DEEP/sgd1.png)
   
 </details>
 
@@ -37,7 +37,7 @@ Also see:
     \
     Optimal values can be found via ==line search algorithms==, however in practice we do something else (next question). \
     No, step length refers to $\alpha || \nabla f||$
-    ![](../../../DEEP/sgd2.png)
+    ![](../../../static/DEEP/sgd2.png)
 
 </details>
 
@@ -45,7 +45,7 @@ Also see:
     
     \
     The learning rate can be ==adaptive or follow a schedule==. For instance, it can decrease according to a decay parameter $\rho$. 
-    ![](../../../DEEP/sgd3.png) \
+    ![](../../../static/DEEP/sgd3.png) \
     (Not sure about the graphs)
   
 </details>
@@ -54,7 +54,7 @@ Also see:
     
     \
     The idea of momentum is to accumulate past gradients "energy". It is expressed as:
-    ![](../../../DEEP/sgd4.png)
+    ![](../../../static/DEEP/sgd4.png)
 
     Step lenght $\alpha$ how aligned is the sequence of gradients and it is $\frac{1}{1 - \lambda} \alpha ||\nabla f||$
     
@@ -63,7 +63,7 @@ Also see:
 7. <details markdown=1><summary markdown="span"> What is the generalised form of gradient descent? </summary>
     
     \
-    ![](../../../DEEP/sgd5.png) 
+    ![](../../../static/DEEP/sgd5.png) 
     
     We can also have $\Gamma$ be a diagonal matrix.
     
@@ -88,7 +88,7 @@ Also see:
     
     \
     We use a small batch as representative of the entire dataset and compute the loss on that batch.
-    ![](../../../DEEP/sgd7.png)
+    ![](../../../static/DEEP/sgd7.png)
     
 </details>
 
@@ -96,6 +96,6 @@ Also see:
     
     \
     It depends (as usual)!
-    ![](../../../DEEP/sgd6.png)
+    ![](../../../static/DEEP/sgd6.png)
 
 </details>

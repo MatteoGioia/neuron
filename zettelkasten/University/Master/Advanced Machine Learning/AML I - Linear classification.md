@@ -1,12 +1,12 @@
 # Advanced ML
 
 The first lecture covers topics already discussed in:
-- [[FDS I - Intro]]
-- [[FDS II - Image Processing]]
+- [[../Foundations of Data Science/FDS I - Intro]]
+- [[../Foundations of Data Science/FDS II - Image Processing]]
 
 And also other introductory lectures regarding ML, which can be found here:
-- [[DLAI VIII - Regularization]]
-- [[DLAI V - Sgd]]
+- [[../Deep Learning and AI/DLAI VIII - Regularization]]
+- [[../Deep Learning and AI/DLAI V - Sgd]]
 
 ### Recall questions
 

@@ -1,6 +1,6 @@
 # Tree methods and ensembles
 
-Also see [[ML III - Supervised Learning]]  and [[ML VIII - Ensemble methods]]
+Also see [[../Machine Learning/ML III - Supervised Learning]]  and [[../Machine Learning/ML VIII - Ensemble methods]]
 
 ### Recall questions
 

@@ -3,10 +3,10 @@
 ### Recall questions
 
 While the content of the slides is different, it is strongly advised to look at:
-- #[[ML III - Supervised Learning]]
-- #[[ML V - Data PreProcessing and Feature Engineering]]
-- #[[ML VI - Performance Evaluation]]  
-- #[[FDS VI - Bias and Variance]]
+- #[[../Machine Learning/ML III - Supervised Learning]]
+- #[[../Machine Learning/ML V - Data PreProcessing and Feature Engineering]]
+- #[[../Machine Learning/ML VI - Performance Evaluation]]  
+- #[[../Foundations of Data Science/FDS VI - Bias and Variance]]
 
 1. <details markdown=1><summary markdown="span"> Why can't we learn the true function from labeled data? What do we learn instead?</summary>
     

@@ -9,7 +9,7 @@ Also see:
 
     \
     We want to ==reduce the number of free parameters, in the sense of degree of freedom==. \
-    This is also mentioned in #[[BD VIII - Linear Regression]]
+    This is also mentioned in #[[../Big Data/BD VIII - Linear Regression]]
 
 </details>
 
