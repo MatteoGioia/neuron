@@ -51,7 +51,7 @@
     
 </details>
 
-4. <details markdown=1><summary markdown="span">  What is the readers/writers problem? What does it generalize?  </summary>
+4. <details markdown=1><summary markdown="span">  What is the readers/writers problem? What are the "rules" of the "game"? What does it generalize?  </summary>
     
     \
     Problem description:
