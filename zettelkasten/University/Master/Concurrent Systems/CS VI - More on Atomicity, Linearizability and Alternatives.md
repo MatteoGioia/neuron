@@ -75,7 +75,6 @@ Also see [[DS I - Intro]]
 8. <details markdown=1><summary markdown="span"> What is a serialisable history? Does this one have compositionality? </summary>
     
     \
-
 	![](../../../static/CS/ato6.png)
 
     A complete history $\hat{H}$ is sequentially serialisable if $\exists \hat{S}$ :

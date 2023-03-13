@@ -50,18 +50,35 @@
 5. <details markdown=1><summary markdown="span">  Describer how the bakery algorithm works (hint: ticket). As usual, prove mutual exclusion and ...</summary>
     
     \
-    Every process gets a ticket, the smallest pair grants access to the C.S. (typo in image, $MY_TICKET[i]$ should be $MY_TURN[i]$):
+    Every process gets a ticket, the smallest pair grants access to the C.S. (typo in image, $MY\_TICKET[i]$ should be $MY\_TURN[i]$):
     ![](../../../static/CS/swm8.png)
 
 	Proofs for:
 	- lemma 1:  ![](../../../static/CS/swm9.png)
-	- lemma 2:    ![](../../../static/CS/swm8.png)
-	- mutual exclusion and ==bounded bypass with bound $2n-2$==:
+	- lemma 2:    ![](../../../static/CS/swm14.png)
+	- mutual exclusion and ==bounded bypass with bound $n-1$==: ![](../../../static/CS/swm15.png)
 
 </details>
 
-6. <details markdown=1><summary markdown="span">   </summary>
+6. <details markdown=1><summary markdown="span">  What is Aravind's algorithm? What problem does it solve? Explain the proofs for mutex and bounded bypass. </summary>
     
     \
+    ![](../../../static/CS/swm10.png)
+
+	This solves the problem that ==registers in the bakery's algorithm are unbounded==, and can be potentially increased to the point of overflowing.
+
+	Proof for mutex:
+	![](../../../static/CS/swm11.png)
+
+	Proof for bounded bypass:
+	![](../../../static/CS/swm12.png)
+	![](../../../static/CS/swm13.png)
+
+</details>
+
+7. <details markdown=1><summary markdown="span">  Bonus exercise: improvement for aravind's algorithm.  </summary>
+    
+    \
+    ![](../../../static/CS/bns1.png)
     
 </details>
