@@ -18,3 +18,7 @@ Lecturer:  Daniele Gorla
 
 [[CS VI - More on Atomicity, Linearizability and Alternatives]]
 
+[[CS VII - Concurrency without mutual exclusion]]
+
+[[CS VIII - Enhancing Mutex Free Liveness]]
+

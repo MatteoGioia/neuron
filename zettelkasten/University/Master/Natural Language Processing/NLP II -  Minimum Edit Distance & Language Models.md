@@ -9,17 +9,7 @@ List of potential exercises:
 
 ### Brief Recap on Minimum Edit Distance
 
-1. <details markdown=1><summary markdown="span">  Describe the Minimum Edit Distance problem. Provide a solution using Dynamic Programming. </summary>
-    
-    \
-
-</details>
-
-2. <details markdown=1><summary markdown="span">  Why would we add weights to the minimum edit distance problem? </summary>
-    
-    \
-
-</details>
+For this section, review the algorithm presented in 1.6 (Spelling and Mistakes correction).
 
 ### Recall questions on Language Models
 

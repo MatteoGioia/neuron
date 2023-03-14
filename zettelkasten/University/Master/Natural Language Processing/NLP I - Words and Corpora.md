@@ -50,19 +50,28 @@
 6. <details markdown=1><summary markdown="span"> Describe the byte-pair encoding process. What are the 2 main components? </summary>
   
     \
+    The byte pair encoding is comprised of two elements:+
+    - token ==learner==: ![](../../static/NLP/wac3.png)
+    - token ==parser==
 
+	See the slides for a full example.
 
 </details>
 
 7. <details markdown=1><summary markdown="span"> What is word normalization?   Describe possible steps it could include and the way they work.  </summary>
     
     \
+	Word normalisation is the task of putting ==words in a "standard" format==. Some examples include:
+	- making all words ==lowercase==;
+	- ==lemmatization by stemming==, for example with a Porter Stemmer;
+	- and so on...
 
 </details>
 
 
-7. <details markdown=1><summary markdown="span"> Q. on sentence segmentation.  </summary>
+7. <details markdown=1><summary markdown="span"> What is sentence segmentation?  </summary>
     
     \
+    Sentence segmentation is the task of ==identifying sentences' boundaries from text==.
 
 </details>
