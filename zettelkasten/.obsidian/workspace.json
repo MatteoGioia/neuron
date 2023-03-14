@@ -8,13 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d91fc92d297841f0",
+            "id": "3bc09f8d46c18b84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
-                "mode": "source",
+                "file": "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "af88959f76e5821b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+                "file": "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+                "file": "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,18 +130,29 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d91fc92d297841f0",
+  "active": "3bc09f8d46c18b84",
   "lastOpenFiles": [
-    "static/CS/ato3.png",
-    "static/CS/ato2.png",
-    "static/CS/ato1.png",
+    "static/CS/emfl9.png",
+    "static/CS/Screenshot 2023-03-14 alle 11.27.10.png",
+    "static/CS/emfl8.png",
+    "static/CS/Screenshot 2023-03-14 alle 11.26.33.png",
+    "static/CS/emfl7.png",
+    "static/CS/Screenshot 2023-03-14 alle 11.24.58.png",
+    "static/CS/emfl6.png",
+    "static/CS/Screenshot 2023-03-14 alle 11.22.10.png",
+    "static/CS/emfl5.png",
+    "static/CS/Screenshot 2023-03-14 alle 11.20.57.png",
+    "static/CS/emfl4.png",
+    "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
+    "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
+    "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
+    "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
     "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
     "University/Bachelor/Algoritmica Avanzata/Lezione I - Somme Prefisse.md",
     "University/Bachelor/Algoritmica Avanzata/Head or tails.md",
     "University/Bachelor/Algoritmica Avanzata/Algoritmica Avanzata.md",
     "University/Bachelor/Algoritmica Avanzata",
     "University/Master/Algoritmica Avanzata/Algoritmica Avanzata.md",
-    "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
     "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
     "University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
     "University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
@@ -137,7 +161,6 @@
     "University/Master/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
     "University/Master/Deep Learning and AI/DLAI V - Sgd.md",
     "University/Master/Concurrent Systems/CS IV - Semaphores.md",
-    "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
     "University/Master/Concurrent Systems/CS I - Intro.md",
     "University/Master/Concurrent Systems/Concurrent Systems.md"
   ]
