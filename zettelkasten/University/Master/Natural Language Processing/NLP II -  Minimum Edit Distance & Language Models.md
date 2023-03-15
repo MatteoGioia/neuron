@@ -5,7 +5,7 @@
 
 List of potential exercises:
 - computing the MED
-- computing probabilities for a N-gram model
+- computing probabilities for a N-gram model (see final slides)
 
 ### Brief Recap on Minimum Edit Distance
 
@@ -81,13 +81,26 @@ For this section, review the algorithm presented in 1.6 (Spelling and Mistakes c
 
 </details>
 
-6. <details markdown=1><summary markdown="span">  </summary>
+8. <details markdown=1><summary markdown="span"> What is smoothing? Why is it necessary? </summary>
+    
+    \
+    Countering sparsity
+
+</details>
+
+9. <details markdown=1><summary markdown="span"> Describe the steps for laplacian smoothing. What is the main drawback of using it? </summary>
     
     \
 
 </details>
 
-6. <details markdown=1><summary markdown="span">  </summary>
+10. <details markdown=1><summary markdown="span"> What is the add-k smoothing?  </summary>
+    
+    \
+
+</details>
+
+12. <details markdown=1><summary markdown="span"> Describe model combination methods. Which techniques are available?  </summary>
     
     \
 

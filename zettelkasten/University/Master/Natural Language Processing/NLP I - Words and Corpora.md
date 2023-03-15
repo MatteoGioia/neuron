@@ -51,7 +51,7 @@
   
     \
     The byte pair encoding is comprised of two elements:+
-    - token ==learner==: ![](../../static/NLP/wac3.png)
+    - token ==learner==: ![](../../../static/NLP/wac3.png)
     - token ==parser==
 
 	See the slides for a full example.

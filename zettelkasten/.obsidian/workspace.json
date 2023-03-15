@@ -13,21 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
-                "mode": "source",
+                "file": "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "af88959f76e5821b",
+            "id": "c236b7fc7928d2e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
+                "file": "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1e025737ae5b590d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -91,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+                "file": "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+                "file": "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,21 +145,28 @@
   },
   "active": "3bc09f8d46c18b84",
   "lastOpenFiles": [
-    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
-    "static/NLP/wac3.png",
-    "static/NLP/Screenshot 2023-03-14 alle 11.43.10.png",
-    "static/CS/Screenshot 2023-03-14 alle 11.43.10.png",
+    "static/NLP/pos6.png",
+    "static/NLP/Screenshot 2023-03-15 alle 11.54.05.png",
+    "static/NLP/pos5.png",
+    "static/NLP/Screenshot 2023-03-15 alle 11.48.24.png",
     "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+    "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
+    "University/Master/Foundations of Data Science/FDS III - Regression.md",
+    "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
+    "University/Master/Foundations of Data Science/FDS IV - Classification.md",
+    "static/NLP/pos4.png",
+    "static/NLP/Screenshot 2023-03-15 alle 11.44.12.png",
+    "static/NLP/pos3.png",
+    "static/NLP/Screenshot 2023-03-15 alle 11.41.16.png",
+    "static/NLP/pos2.png",
+    "static/NLP/Screenshot 2023-03-15 alle 11.39.16.png",
+    "static/NLP/pos1.png",
+    "University/Master/Natural Language Processing/Natural Language Processing.md",
+    "University/University.md",
+    "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
+    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
     "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
-    "static/CS/emfl9.png",
-    "static/CS/Screenshot 2023-03-14 alle 11.27.10.png",
-    "static/CS/emfl8.png",
-    "static/CS/Screenshot 2023-03-14 alle 11.26.33.png",
-    "static/CS/emfl7.png",
-    "static/CS/Screenshot 2023-03-14 alle 11.24.58.png",
-    "static/CS/emfl6.png",
-    "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
     "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
     "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
     "University/Bachelor/Algoritmica Avanzata/Lezione I - Somme Prefisse.md",
@@ -156,7 +176,6 @@
     "University/Master/Algoritmica Avanzata/Algoritmica Avanzata.md",
     "University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
     "University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
-    "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/Master/Natural Language Processing/NLP I - Regex.md",
     "University/Master/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
     "University/Master/Deep Learning and AI/DLAI V - Sgd.md",
