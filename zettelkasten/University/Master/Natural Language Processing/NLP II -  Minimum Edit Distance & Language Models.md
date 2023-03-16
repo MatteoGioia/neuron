@@ -6,6 +6,7 @@
 List of potential exercises:
 - computing the MED
 - computing probabilities for a N-gram model (see final slides)
+- exercises on Laplacian smoothing
 
 ### Brief Recap on Minimum Edit Distance
 

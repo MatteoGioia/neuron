@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e6d03f8019b811d1",
+        "id": "96dc0eb03d758ba6",
         "type": "tabs",
         "children": [
           {
-            "id": "344046b3c336e639",
+            "id": "6b8bf05260bd324f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "500302fdcf67a666",
+            "id": "1131e33ceae886d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,25 +131,26 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "500302fdcf67a666",
+  "active": "1131e33ceae886d1",
   "lastOpenFiles": [
-    "zettelkasten/static/NLP/wac2.png",
-    "zettelkasten/static/NLP/wac1.png",
+    "zettelkasten/University/Master/Natural Language Processing/NLP III - Speech tagging.md",
     "zettelkasten/University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+    "zettelkasten/static/NLP/pos9.png",
+    "zettelkasten/static/NLP/pos8.png",
+    "zettelkasten/static/NLP/pos7.png",
+    "zettelkasten/static/NLP/pos6.png",
+    "zettelkasten/static/NLP/pos5.png",
+    "zettelkasten/static/NLP/pos4.png",
+    "zettelkasten/static/NLP/pos3.png",
+    "zettelkasten/static/NLP/pos2.png",
+    "zettelkasten/static/NLP/pos1.png",
+    "zettelkasten/University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
+    "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
     "zettelkasten/University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
-    "zettelkasten/static/CS/ato6.png",
-    "zettelkasten/static/CS/ato5.png",
-    "zettelkasten/static/CS/ato4.png",
+    "zettelkasten/University/Master/Concurrent Systems/CS IV - Semaphores.md",
+    "zettelkasten/static/NLP/wac2.png",
     "zettelkasten/University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
     "zettelkasten/University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
-    "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
-    "zettelkasten/University/Master/Concurrent Systems/CS IV - Semaphores.md",
-    "zettelkasten/static/CS/mfc7.png",
-    "zettelkasten/static/CS/mfc6.png",
-    "zettelkasten/static/CS/mfc5.png",
-    "zettelkasten/static/CS/mfc4.png",
-    "zettelkasten/static/CS/mfc3.png",
-    "zettelkasten/static/CS/mfc2.png",
     "zettelkasten/University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
     "zettelkasten/University/Master/Concurrent Systems/CS I - Intro.md",
     "zettelkasten/static/NLP",
@@ -167,8 +168,6 @@
     "zettelkasten/University/Master/Deep Learning and AI/DLAI VII - Cnn.md",
     "zettelkasten/University/Master/Deep Learning and AI/DLAI IV - Non Linear.md",
     "zettelkasten/University/Master/Deep Learning and AI/DLAI III - Linear Regression.md",
-    "zettelkasten/University/Master/Distributed Systems/DS IX - A brief overview of consistent hashing.md",
-    "zettelkasten/University/Master/Distributed Systems/DS III - Bitcoin.md",
-    "zettelkasten/University/Master/Concurrent Systems/Concurrent Systems.md"
+    "zettelkasten/University/Master/Distributed Systems/DS IX - A brief overview of consistent hashing.md"
   ]
 }

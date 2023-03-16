@@ -1,5 +1,10 @@
 # Speech tagging 
 
+### Exercises
+
+List of exercises:
+- viterbi algorithm
+
 ### Recall questions 
 
 1. <details markdown=1><summary markdown="span"> What is the part of speech classification? Why is it necessary/useful ? </summary>
@@ -27,7 +32,7 @@
 
 </details>
 
-3. <details markdown=1><summary markdown="span">  Describe the idea behind Stochastic PoS tagging. What are the main simplifications?  What do we do "in practice"? </summary>
+4. <details markdown=1><summary markdown="span">  Describe the idea behind Stochastic PoS tagging. What are the main simplifications?  </summary>
     
     \
     The idea behind PoS stochastic tagging is to predict tag ==performing a MLE==: ![](../../../static/NLP/pos1.png)
@@ -42,6 +47,28 @@
 
 	If we have a ==tagged corpus==, we can now estimate probabilities using the relative frequency: ![](../../../static/NLP/pos6.png)
 
+</details>
+
+5. <details markdown=1><summary markdown="span">  What is a Hidden Markov Model? Why do we use it?</summary>
+    
+    \
+    Although we presented a way to "estimate" both the likelihood and the prior, we still ==need to find the global PoS tag sequence which maximises the final product==!
+
+	To achieve our goal, we can use a ==Hidden Markov Model==: ![](../../../static/NLP/pos7.png)
+
+	The great thing about HMM is that they ==respect our previous assumptions==:
+	- ==the probability of ending in the next state only depends from the current state (Markov Assumption / Bi-gram assumption)== ![](../../../static/NLP/pos8.png)
+	- ==the probability of a word being emitted depends only from its tag (output independence)== ![](../../../static/NLP/pos9.png)
+
+</details>
+
+6. <details markdown=1><summary markdown="span">  How do we apply the HMM in practice?</summary>
+    
+    \
+    In practice, ==given a training dataset, i.e. a PoS tagged corpus==, ==$Q$ is the tagset, $O$ is the set of words==, $\pi$ is computed by counting how many times a PoS tag occurs at the start of a sentence.
+
+	The probabilities can be computed as show in q.4
+	
 </details>
 
 3. <details markdown=1><summary markdown="span">  </summary>
