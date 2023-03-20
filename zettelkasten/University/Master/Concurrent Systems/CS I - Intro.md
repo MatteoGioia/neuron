@@ -36,7 +36,7 @@
 
 </details>
 
-5. <details markdown=1><summary markdown="span"> Explain the mutual exclusion problem and which assumptions we make. </summary>
+5. <details markdown=1><summary markdown="span"> Explain the mutual exclusion problem and which assumptions regarding CSs we make. </summary>
     
     \
 	In the mutex problem we want to ==design an entry protocol (lock) and an exit protocol (unlock)== such that, when ==used to encapsulate a C.S.== (for a given shared object), ==ensure that at most one process at a time is in a C.S. (for that shared object).== \

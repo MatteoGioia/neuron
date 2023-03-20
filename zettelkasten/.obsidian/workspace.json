@@ -8,39 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3bc09f8d46c18b84",
+            "id": "c4780b548a5d1544",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
+                "file": "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c236b7fc7928d2e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1e025737ae5b590d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
-                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -104,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
+                "file": "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
+                "file": "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,31 +117,33 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3bc09f8d46c18b84",
+  "active": "c4780b548a5d1544",
   "lastOpenFiles": [
-    "static/NLP/pos6.png",
-    "static/NLP/Screenshot 2023-03-15 alle 11.54.05.png",
-    "static/NLP/pos5.png",
-    "static/NLP/Screenshot 2023-03-15 alle 11.48.24.png",
+    "University/Master/Concurrent Systems/CS I - Intro.md",
+    "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
+    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
+    "static/NLP/syn10.png",
+    "static/NLP/Screenshot 2023-03-17 alle 11.51.56.png",
+    "static/NLP/syn9.png",
+    "static/NLP/Screenshot 2023-03-17 alle 11.48.59.png",
+    "static/NLP/syn8.png",
+    "static/NLP/Screenshot 2023-03-17 alle 11.46.10.png",
+    "static/NLP/syn7.png",
+    "static/NLP/Screenshot 2023-03-17 alle 11.42.01.png",
+    "static/NLP/syn6.png",
+    "static/NLP/Screenshot 2023-03-17 alle 11.41.43.png",
+    "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
     "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+    "University/Master/Big Data/BD IX - Logistic Regression.md",
     "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
     "University/Master/Foundations of Data Science/FDS III - Regression.md",
-    "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
     "University/Master/Foundations of Data Science/FDS IV - Classification.md",
-    "static/NLP/pos4.png",
-    "static/NLP/Screenshot 2023-03-15 alle 11.44.12.png",
-    "static/NLP/pos3.png",
-    "static/NLP/Screenshot 2023-03-15 alle 11.41.16.png",
-    "static/NLP/pos2.png",
-    "static/NLP/Screenshot 2023-03-15 alle 11.39.16.png",
-    "static/NLP/pos1.png",
     "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/University.md",
     "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
     "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
     "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
-    "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
     "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
     "University/Bachelor/Algoritmica Avanzata/Lezione I - Somme Prefisse.md",
     "University/Bachelor/Algoritmica Avanzata/Head or tails.md",
@@ -179,7 +155,6 @@
     "University/Master/Natural Language Processing/NLP I - Regex.md",
     "University/Master/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md",
     "University/Master/Deep Learning and AI/DLAI V - Sgd.md",
-    "University/Master/Concurrent Systems/CS IV - Semaphores.md",
-    "University/Master/Concurrent Systems/CS I - Intro.md"
+    "University/Master/Concurrent Systems/CS IV - Semaphores.md"
   ]
 }

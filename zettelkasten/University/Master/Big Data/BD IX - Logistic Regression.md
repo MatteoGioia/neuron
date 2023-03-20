@@ -1,7 +1,7 @@
 # Logistic Regression
 
 Also see:
-- [[../Foundations of Data Science/FDS IV - Classification]]
+- [[FDS IV - Classification]]
 
 Note that in the steps about going from MLE to Cross entropy it is assumed that the random distribution has samples with values (-1, +1), so the final formulation is different from the one shown in FDS ==although equivalent==.
 

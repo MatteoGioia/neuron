@@ -71,9 +71,16 @@ List of exercises:
 	
 </details>
 
-3. <details markdown=1><summary markdown="span">  </summary>
+7. <details markdown=1><summary markdown="span"> What is MaxEnt? How is the probability for a certain class computed?  </summary>
     
     \
+    MaxEnt belongs to the family of classifiers known as the ==exponential or log-linear classifiers==. It works by extracting a set of ==features $f_1 \dots f_n$ from the input== and combining them linearly.
+
+	The goal is to maximise the following probability: ![](../../../static/NLP/pos10.png)
    
 
 </details>
+
+--- 
+
+Finally note that the class can also be predicted using logistic regression, see [[BD IX - Logistic Regression]]

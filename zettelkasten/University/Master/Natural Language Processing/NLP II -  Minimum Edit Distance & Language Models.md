@@ -85,24 +85,37 @@ For this section, review the algorithm presented in 1.6 (Spelling and Mistakes c
 8. <details markdown=1><summary markdown="span"> What is smoothing? Why is it necessary? </summary>
     
     \
-    Countering sparsity
+    Smoothing is necessary ==to counter sparsity and take into account unigrams not seen in training==.
 
 </details>
 
 9. <details markdown=1><summary markdown="span"> Describe the steps for laplacian smoothing. What is the main drawback of using it? </summary>
     
     \
+    Laplacian smoothing consists in ==simply adding 1 to the count of each unigram==; it is in fact also know as ==add one smoothing==.
+
+	![](../../../static/NLP/lm7.png)
+
+	The issue with Laplacian smoothing is that is a very ==imprecise (?) instrument, in the sense that it shifts a lot of probability mass to the zeros==, resulting in heavy discounts for the existing probabilities. 
 
 </details>
 
 10. <details markdown=1><summary markdown="span"> What is the add-k smoothing?  </summary>
     
     \
+    Add-k smoothing is a ==generalized version of Laplacian smoothing in which a $k$ value is added instead==: ![](../../../static/NLP/lm8.png)
+
+    It still suffers from the same issue of Laplacian smoothing, but it can be mitigated through hyper-parameters tuning.
 
 </details>
 
 12. <details markdown=1><summary markdown="span"> Describe model combination methods. Which techniques are available?  </summary>
     
     \
+    We have different alternatives:
+    - ==linear interpolation==: ![](../../../static/NLP/lm10.png)
+    - ==katz back-off==: ![](../../../static/NLP/lm11.png)
+    - ==stupid back-off==: ![](../../../static/NLP/lm9.png)
+    - ==absolute discount==: ![](../../../static/NLP/lm12.png)
 
 </details>
