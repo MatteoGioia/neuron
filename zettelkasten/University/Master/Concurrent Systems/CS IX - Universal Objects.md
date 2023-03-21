@@ -85,7 +85,7 @@
 
 </details>
 
-1. <details markdown=1><summary markdown="span">  How can we use binary consensus to implement multi-valued consensus? Explain bounded...</summary>
+8. <details markdown=1><summary markdown="span">  How can we use binary consensus to implement multi-valued consensus? Explain bounded...</summary>
     
     \
 	Implementation: ![](../../../static/CS/uob9.png)

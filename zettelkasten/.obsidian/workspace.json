@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "e6ea1dffbde950fb",
+        "id": "1e55e4d3563543b7",
         "type": "tabs",
         "children": [
           {
-            "id": "c4780b548a5d1544",
+            "id": "32870c414ec3ca2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Concurrent Systems/Concurrent Systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a3cdfc1d644e1151",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Master/Concurrent Systems/CS IX - Universal Objects.md",
+                "file": "University/Master/Natural Language Processing/NLP V - Semantics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS IX - Universal Objects.md",
+                "file": "University/Master/Natural Language Processing/NLP V - Semantics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS IX - Universal Objects.md",
+                "file": "University/Master/Natural Language Processing/NLP V - Semantics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,25 +117,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a3cdfc1d644e1151",
+  "active": "32870c414ec3ca2a",
   "lastOpenFiles": [
     "University/Master/Concurrent Systems/Concurrent Systems.md",
+    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
+    "University/Master/Natural Language Processing/NLP V - Semantics.md",
+    "University/Master/Concurrent Systems/CS X - Binary consensus.md",
+    "static/CS/cons8.png",
+    "static/CS/Screenshot 2023-03-21 alle 15.44.48.png",
+    "static/CS/cons7.png",
+    "static/CS/cons7.pnh.png",
+    "static/CS/Screenshot 2023-03-21 alle 15.43.57.png",
+    "static/CS/cons6.jpg",
+    "static/CS/cons5.jpg",
+    "static/CS/cons4.jpg",
+    "static/CS/cons3.png",
+    "static/CS/Screenshot 2023-03-21 alle 15.02.37.png",
     "University/Master/Concurrent Systems/CS IX - Universal Objects.md",
     "University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
     "University/Master/Concurrent Systems/CS IV - Semaphores.md",
     "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
     "University/Master/Concurrent Systems/CS I - Intro.md",
-    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
-    "static/NLP/syn10.png",
-    "static/NLP/Screenshot 2023-03-17 alle 11.51.56.png",
-    "static/NLP/syn9.png",
-    "static/NLP/Screenshot 2023-03-17 alle 11.48.59.png",
-    "static/NLP/syn8.png",
-    "static/NLP/Screenshot 2023-03-17 alle 11.46.10.png",
-    "static/NLP/syn7.png",
-    "static/NLP/Screenshot 2023-03-17 alle 11.42.01.png",
-    "static/NLP/syn6.png",
-    "static/NLP/Screenshot 2023-03-17 alle 11.41.43.png",
     "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
     "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
     "University/Master/Big Data/BD IX - Logistic Regression.md",
@@ -167,8 +155,6 @@
     "University/Bachelor/Algoritmica Avanzata/Algoritmica Avanzata.md",
     "University/Bachelor/Algoritmica Avanzata",
     "University/Master/Algoritmica Avanzata/Algoritmica Avanzata.md",
-    "University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
-    "University/Master/Natural Language Processing/NLP I - Regex.md",
-    "University/Master/Deep Learning and AI/DLAI VI - Multi Layer Perceptron.md"
+    "University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md"
   ]
 }
