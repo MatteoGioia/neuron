@@ -11,3 +11,7 @@ Lecturer:  Iacopo Masi, Stefano Faralli
 [[NLP II -  Minimum Edit Distance & Language Models]]
 
 [[NLP III - Speech tagging]]
+
+[[NLP IV - Syntax]]
+
+[[NLP V - Semantics]]
