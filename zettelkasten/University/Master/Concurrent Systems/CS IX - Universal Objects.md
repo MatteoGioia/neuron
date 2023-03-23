@@ -39,7 +39,7 @@
 4. <details markdown=1><summary markdown="span"> Explain this code attempting to implement the universal object. What is the main issue? </summary>
     
     \
-    Every process that ==wants to invoke operations of object $Z$$ locally run==: ![](../../../static/CS/uob1.png)
+    Every process that ==wants to invoke operations of object $Z$ locally run==: ![](../../../static/CS/uob1.png)
 
 	And they also have their ==own local copy of $Z$ called $z_i$==, initialised at the same value and used to ==replicate the same operations== performed by all processes on $Z$
 

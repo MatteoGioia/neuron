@@ -49,7 +49,7 @@ Also see [[DS VII - Failure Detector]]
 
 </details>
 
-5. <details markdown=1><summary markdown="span">  Describe the properties of the new failure detector needed to upgrade obstruction freedom to wait freedom. </summary>
+6. <details markdown=1><summary markdown="span">  Describe the properties of the new failure detector needed to upgrade obstruction freedom to wait freedom. </summary>
     
     \
     To upgrade obstruction freedom even further, we need an ==eventually perfect failure detector== $\diamond P$, that provides every process with a ==local variable $suspected$== s.t.:
@@ -58,7 +58,7 @@ Also see [[DS VII - Failure Detector]]
     
 </details>
 
-6. <details markdown=1><summary markdown="span"> Prove that the eventually perfect FD2 is stronger than the one presented before (Omega) FD1. Is it possible to also prove the opposite (FD1 > FD2)? </summary>
+7. <details markdown=1><summary markdown="span"> Prove that the eventually perfect FD2 is stronger than the one presented before (Omega) FD1. Is it possible to also prove the opposite (FD1 > FD2)? </summary>
     
     \
     We say that ==FD1 is stronger than FD2 if there exists an algorithm that builds FD2 from  instances of FD1 and atomic R/W registers==. 
@@ -69,7 +69,7 @@ Also see [[DS VII - Failure Detector]]
     
 </details>
 
-5. <details markdown=1><summary markdown="span"> How can we effectively upgrade obstruction freedom to wait freedom then? Describe the algorithm used and the proof for its validity. </summary>
+8. <details markdown=1><summary markdown="span"> How can we effectively upgrade obstruction freedom to wait freedom then? Describe the algorithm used and the proof for its validity. </summary>
     
     \
 	We assume a ==weak timestamp generator==, i.e. a function such that, if it returns a positive value $t$ to some process, only a finite number of processes can obtain a timestamp smaller than or equal to $t$.
