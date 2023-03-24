@@ -1,6 +1,6 @@
 # Linear Regression
 
-Also see #[[../Foundations of Data Science/FDS III - Regression]]
+Also see [[FDS III - Regression]]
 
 ### Recall questions
 

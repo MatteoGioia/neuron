@@ -1,1 +1,1 @@
-See [[../Foundations of Data Science/FDS II - Image Processing]]
+See [[FDS II - Image Processing]]

@@ -1,7 +1,7 @@
 # Training neural networks
 
 Also see:
-- [[../Deep Learning and AI/DLAI VIII - Regularization]]
+- [[DLAI VIII - Regularization]]
 
 ### Recall questions 
 

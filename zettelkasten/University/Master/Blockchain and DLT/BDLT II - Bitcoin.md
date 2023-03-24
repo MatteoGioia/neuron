@@ -1,8 +1,8 @@
 # Bitcoin
 
 Also see :
-- [[../Distributed Systems/DS III - Bitcoin]]
-- [[../Distributed Systems/DS II - Reaching Consensus]]
+- [[DS III - Bitcoin]]
+- [[DS II - Reaching Consensus]]
 
 ### Recall questions
 

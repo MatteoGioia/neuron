@@ -1,6 +1,6 @@
 # Clustering algorithms
 
-We focus on partitioning based clustering. Also see #[[BD IV - Clustering]]
+We focus on partitioning based clustering. Also see [[BD IV - Clustering]]
 
 ### Recall questions
 

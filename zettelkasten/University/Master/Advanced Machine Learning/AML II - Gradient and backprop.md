@@ -1,6 +1,6 @@
 # Gradient and backprop
 
-Also see [[../Deep Learning and AI/DLAI VI - Multi Layer Perceptron]]
+Also see [[DLAI VI - Multi Layer Perceptron]]
 
 ### Recall questions on computational graphs
 

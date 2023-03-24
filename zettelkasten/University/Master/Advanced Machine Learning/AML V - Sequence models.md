@@ -1,8 +1,8 @@
 # Sequential
 
 Also see:
-- [[../Deep Learning and AI/DLAI X - Transformers]]
-- [[../Machine Learning/ML XI - RNN]]
+- [[DLAI X - Transformers]]
+- [[ML XI - RNN]]
 
 ### Recall questions
 

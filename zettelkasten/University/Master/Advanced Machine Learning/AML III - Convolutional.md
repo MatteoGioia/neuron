@@ -1,6 +1,6 @@
 # Convolutional NN
 
-Also see [[../Deep Learning and AI/DLAI VII - Cnn]]
+Also see [[DLAI VII - Cnn]]
 
 ### Recall questions on computational graphs
 

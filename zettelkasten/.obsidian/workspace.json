@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP V - Semantics.md",
-                "mode": "source",
+                "file": "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP V - Semantics.md",
+                "file": "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP V - Semantics.md",
+                "file": "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,11 +119,32 @@
   },
   "active": "32870c414ec3ca2a",
   "lastOpenFiles": [
-    "University/Master/Natural Language Processing/Natural Language Processing.md",
-    "University/Master/Natural Language Processing/NLP V - Semantics.md",
-    "University/Master/Concurrent Systems/Concurrent Systems.md",
-    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
-    "University/Master/Concurrent Systems/CS X - Binary consensus.md",
+    "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
+    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
+    "University/Master/Machine Learning/ML XII - Clustering.md",
+    "University/Master/Machine Learning/ML XI - RNN.md",
+    "University/Master/Machine Learning/ML X - Deep Learning.md",
+    "University/Master/Machine Learning/ML VIII - Ensemble methods.md",
+    "University/Master/Machine Learning/ML VII - SVM.md",
+    "University/Master/Machine Learning/ML V - Data PreProcessing and Feature Engineering.md",
+    "University/Master/Machine Learning/ML VI - Performance Evaluation.md",
+    "University/Master/Machine Learning/ML IX - PML.md",
+    "University/Master/Machine Learning/ML IV - Neural Networks.md",
+    "University/Master/Machine Learning/ML IIIb - Perceptron.md",
+    "University/Master/Machine Learning/ML III - Supervised Learning.md",
+    "University/Master/Machine Learning/ML II - Building a ML System.md",
+    "University/Master/Machine Learning/ML I - Intro.md",
+    "University/Master/Machine Learning/Machine Learning.md",
+    "University/Master/Foundations of Data Science/FDS VI - Bias and Variance.md",
+    "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
+    "University/Master/Foundations of Data Science/FDS IV - Classification.md",
+    "University/Master/Foundations of Data Science/FDS III - Regression.md",
+    "University/Master/Foundations of Data Science/FDS II - Image Processing.md",
+    "University/Master/Foundations of Data Science/FDS I - Intro.md",
+    "University/Master/Economics of Tech and Mgmt/ETM - Prj.md",
+    "University/Master/Distributed Systems/DS XI - Algorand.md",
+    "University/Master/Distributed Systems/DS X - A brief overview of CDN_Akamai.md",
+    "University/Master/Distributed Systems/DS VIII - Wifi and Privacy.md",
     "static/CS/cons8.png",
     "static/CS/Screenshot 2023-03-21 alle 15.44.48.png",
     "static/CS/cons7.png",
@@ -134,27 +155,6 @@
     "static/CS/cons4.jpg",
     "static/CS/cons3.png",
     "static/CS/Screenshot 2023-03-21 alle 15.02.37.png",
-    "University/Master/Concurrent Systems/CS IX - Universal Objects.md",
-    "University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
-    "University/Master/Concurrent Systems/CS IV - Semaphores.md",
-    "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
-    "University/Master/Concurrent Systems/CS I - Intro.md",
-    "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
-    "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
-    "University/Master/Big Data/BD IX - Logistic Regression.md",
-    "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
-    "University/Master/Foundations of Data Science/FDS III - Regression.md",
-    "University/Master/Foundations of Data Science/FDS IV - Classification.md",
-    "University/University.md",
-    "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
-    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
-    "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
-    "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
-    "University/Bachelor/Algoritmica Avanzata/Lezione I - Somme Prefisse.md",
-    "University/Bachelor/Algoritmica Avanzata/Head or tails.md",
-    "University/Bachelor/Algoritmica Avanzata/Algoritmica Avanzata.md",
-    "University/Bachelor/Algoritmica Avanzata",
-    "University/Master/Algoritmica Avanzata/Algoritmica Avanzata.md",
-    "University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md"
+    "University/Bachelor/Algoritmica Avanzata"
   ]
 }

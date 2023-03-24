@@ -1,6 +1,6 @@
 # Bias and Variance
 
-Highly suggested to also read #[[../Machine Learning/ML VI - Performance Evaluation]]
+Highly suggested to also read #[[ML VI - Performance Evaluation]]
 
 ## Recall questions
 
