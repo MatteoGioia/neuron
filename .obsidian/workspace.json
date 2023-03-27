@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP V - Semantics.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP V - Semantics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
+                "file": "zettelkasten/University/Master/Natural Language Processing/NLP V - Semantics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,25 +119,27 @@
   },
   "active": "1131e33ceae886d1",
   "lastOpenFiles": [
+    "zettelkasten/static/NLP/sem8.png",
+    "zettelkasten/University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
+    "zettelkasten/static/NLP/vsm8.png",
+    "zettelkasten/static/NLP/vsm7.png",
+    "zettelkasten/static/NLP/vsm6.png",
+    "zettelkasten/static/NLP/vsm5.png",
+    "zettelkasten/static/NLP/vsm4.png",
+    "zettelkasten/static/NLP/vsm3.png",
+    "zettelkasten/static/NLP/vsm2.png",
+    "zettelkasten/static/NLP/vsm1.png",
     "zettelkasten/University/Master/Natural Language Processing/NLP V - Semantics.md",
-    "zettelkasten/University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
+    "zettelkasten/University/Master/Concurrent Systems/CS IV - Semaphores.md",
     "zettelkasten/University/Master/Concurrent Systems/CS X - Binary consensus.md",
+    "zettelkasten/University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
     "zettelkasten/University/Master/Concurrent Systems/CS IX - Universal Objects.md",
     "zettelkasten/University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
     "zettelkasten/University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
-    "zettelkasten/University/Master/Concurrent Systems/CS IV - Semaphores.md",
     "zettelkasten/static/NLP/sem7.png",
     "zettelkasten/static/NLP/sem6.png",
-    "zettelkasten/static/NLP/sem5.png",
-    "zettelkasten/static/NLP/sem4.png",
-    "zettelkasten/static/NLP/sem3.png",
-    "zettelkasten/static/NLP/sem2.png",
-    "zettelkasten/static/NLP/sem1.png",
     "zettelkasten/University/Master/Concurrent Systems/CS V - Dining Philosophers & Software Transactional Memory.md",
     "zettelkasten/University/Master/Concurrent Systems/CS III - Stronger & Weaker models.md",
-    "zettelkasten/static/CS/uob10.png",
-    "zettelkasten/static/CS/uob9.png",
-    "zettelkasten/static/CS/uob8.png",
     "zettelkasten/University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
     "zettelkasten/University/Master/Natural Language Processing/NLP III - Speech tagging.md",
     "zettelkasten/University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
@@ -153,8 +155,6 @@
     "zettelkasten/University/Bachelor/TCC/Lezione VII - Undecidability II.md",
     "zettelkasten/University/Bachelor/TCC/Lezione III - Macchine di Turing 2.md",
     "zettelkasten/University/Bachelor/Web Engineering/Lezione II - Markup Languages.md",
-    "zettelkasten/University/Bachelor/Web Engineering/Lezione I - Intro al Web Engineering.md",
-    "zettelkasten/University/Bachelor/Web Engineering/Lezione III - HTML.md",
-    "zettelkasten/University/Master/Deep Learning and AI/DLAI VII - Cnn.md"
+    "zettelkasten/University/Bachelor/Web Engineering/Lezione I - Intro al Web Engineering.md"
   ]
 }

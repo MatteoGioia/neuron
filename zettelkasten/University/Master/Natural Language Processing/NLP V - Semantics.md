@@ -86,13 +86,14 @@ List of exercises:
     
     \
     Entity linking is the ==task of assigning a unique identity to entities== (such as famous individuals,  locations, or companies) mentioned in text: ![](../../../static/NLP/sem7.png)
-	
+
+	It can be performed with ==text based approaches or graph based approaches==.
 
 </details>
 
-7. <details markdown=1><summary markdown="span"> </summary>
+10. <details markdown=1><summary markdown="span"> What is ontology learning? </summary>
     
     \
-	
+	![](../../../static/NLP/sem8.png)
 
 </details>
