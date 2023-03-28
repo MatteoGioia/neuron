@@ -4,7 +4,7 @@ Sezione dedicata agli appunti di Language Processing
 
 Lecturer:  Iacopo Masi, Stefano Faralli
 
-### Appunti
+### Appunti pt.1
 
 [[NLP I - Words and Corpora]]
 
@@ -15,3 +15,11 @@ Lecturer:  Iacopo Masi, Stefano Faralli
 [[NLP IV - Syntax]]
 
 [[NLP V - Semantics]]
+
+[[NLP VI - Vector semantics]]
+
+NLP Tasks - Bonus lecture
+
+### Appunti pt.2
+
+[[NLP VII -]]

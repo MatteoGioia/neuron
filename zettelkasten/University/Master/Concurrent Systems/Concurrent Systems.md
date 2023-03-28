@@ -4,7 +4,7 @@ Sezione dedicata agli appunti di Concurrent Systems a.k.a Operative Systems 2 El
 
 Lecturer:  Daniele Gorla
 
-### Appunti
+### Appunti pt.1
 
 [[CS I - Intro]]
 
@@ -25,3 +25,7 @@ Lecturer:  Daniele Gorla
 [[CS IX - Universal Objects]]
 
 [[CS X - Binary consensus]]
+
+### Appunti pt.2
+
+[[CS XI - Labeled Transition Systems]]
