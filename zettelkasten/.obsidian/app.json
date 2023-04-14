@@ -26,5 +26,9 @@
     "downscalePercent": 100
   },
   "livePreview": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheckLanguages": [
+    "it",
+    "en-GB"
+  ]
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/Natural Language Processing.md",
+                "file": "University/Master/Natural Language Processing/NLP VII - Distributional Semantics, Latent Semantic Analysis and Word2Vec.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/Natural Language Processing.md",
+                "file": "University/Master/Natural Language Processing/NLP VII - Distributional Semantics, Latent Semantic Analysis and Word2Vec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/Natural Language Processing.md",
+                "file": "University/Master/Natural Language Processing/NLP VII - Distributional Semantics, Latent Semantic Analysis and Word2Vec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,20 +120,23 @@
   },
   "active": "ef4fb5d2a9720824",
   "lastOpenFiles": [
-    "University/Master/Natural Language Processing/NLP VII -.md",
-    "University/Master/Natural Language Processing/Natural Language Processing.md",
-    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
+    "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
+    "University/Master/Natural Language Processing/NLP VII - Distributional Semantics, Latent Semantic Analysis and Word2Vec.md",
+    "University/Master/Foundations of Data Science/FDS III - Regression.md",
+    "University/Master/Foundations of Data Science/FDS IV - Classification.md",
+    "static/NLP/lsa6.png",
+    "static/NLP/lsa5.png",
     "University/Master/Concurrent Systems/CS XI - Labeled Transition Systems.md",
+    "static/NLP/lsa4.png",
+    "static/NLP/lsa3.png",
+    "static/NLP/lsa2.png",
+    "Pasted image 20230411115246.png",
+    "static/NLP/lsa1.png",
+    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
+    "University/Master/Natural Language Processing/Natural Language Processing.md",
     "static/CS/lts7.png",
     "static/CS/Screenshot 2023-03-28 alle 15.28.04.png",
     "static/CS/lts6.png",
-    "static/CS/Screenshot 2023-03-28 alle 15.25.53.png",
-    "static/CS/lts5.png",
-    "static/CS/Screenshot 2023-03-28 alle 15.21.22.png",
-    "static/CS/lts4.png",
-    "static/CS/Screenshot 2023-03-28 alle 15.12.57.png",
-    "static/CS/lts3.png",
-    "static/CS/Screenshot 2023-03-28 alle 14.54.06.png",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
     "University/Master/Concurrent Systems/CS X - Binary consensus.md",
     "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearizability and Alternatives.md",
@@ -153,9 +156,6 @@
     "University/Master/Machine Learning/ML II - Building a ML System.md",
     "University/Master/Machine Learning/ML I - Intro.md",
     "University/Master/Machine Learning/Machine Learning.md",
-    "University/Master/Foundations of Data Science/FDS VI - Bias and Variance.md",
-    "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
-    "University/Master/Foundations of Data Science/FDS IV - Classification.md",
     "University/Bachelor/Algoritmica Avanzata"
   ]
 }

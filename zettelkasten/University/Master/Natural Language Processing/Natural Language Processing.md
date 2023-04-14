@@ -22,4 +22,4 @@ NLP Tasks - Bonus lecture
 
 ### Appunti pt.2
 
-[[NLP VII -]]
+[[NLP VII - Distributional Semantics, Latent Semantic Analysis and Word2Vec]]
