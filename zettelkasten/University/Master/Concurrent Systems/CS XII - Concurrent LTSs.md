@@ -8,61 +8,87 @@ Exercises list:
 1. <details markdown=1><summary markdown="span"> What is lacking in the original definition of LTSs? What are possible solutions (2)? </summary>
     
     \
+    The current LTS model lacks:
+    - ==simultaneous execution of processes==
+    - ==inter-process interaction==
+
+	We can fix this using:
+	- ==parallel composition + interleaving semantics==
+	- ==producer/consumer paradigm==
 
 </details>
 
-1. <details markdown=1><summary markdown="span"> What are events and co-events?</summary>
+2. <details markdown=1><summary markdown="span"> What are events and co-events?</summary>
     
     \
+	Given a set of names ==$N$ that denotes events==:
+	- ==$a \in N$ denotes the consumption of event $a$==
+	- ==$\bar{a} \in A$ denotes the production of event $a$==
+
+	==$a,\bar{a}$ are two complementary actions== used by $p_i$'s to ==synch on action $a$==
+   
+</details>
+
+3. <details markdown=1><summary markdown="span"> Is synchronization visible from the outside?</summary>
+    
+    \
+    No, it only ==produces an event that we denote with $\tau$.==
+
+	The set of ==possible action thus becomes $A = N \cup \bar{N} \cup \{\tau\}$==
 
    
 </details>
 
-1. <details markdown=1><summary markdown="span"> Is synchronization visible from the outside?</summary>
+4. <details markdown=1><summary markdown="span"> How can we restrict names to make them behave similarly to "local" variables in code? </summary>
     
     \
+    We use the ==restriction operator $P/a$ to restrict the scope of name $a$ to process $P$.==
 
    
 </details>
 
-1. <details markdown=1><summary markdown="span"> How can we restrict names to make them behave similarly to "local" variables in code? </summary>
+5. <details markdown=1><summary markdown="span"> Describe and explain the new formalism and the updated set of inference rules. </summary>
     
     \
+    New formalism: ![](../../../static/CS/clts1.png)
+
+	New inference rules: ![](../../../static/CS/clts2.png)
 
    
 </details>
 
-1. <details markdown=1><summary markdown="span"> Describe and explain the updated set of inference rules? </summary>
+6. <details markdown=1><summary markdown="span"> Prove the image finiteness theorem. </summary>
     
     \
-
+	Image finitess theorem (i.e. ==inference tree height is limited==): 
+	![](../../../static/CS/clts3.png) ![](../../../static/CS/clts4.png) ![](../../../static/CS/clts5.png)
    
 </details>
 
-1. <details markdown=1><summary markdown="span"> Prove the image finiteness theorem. </summary>
+7. <details markdown=1><summary markdown="span"> What are re-namings? Prove that non-conflicting re-namings do not influence the original LTS.</summary>
     
     \
+    Renamings are ==functions $\sigma \ : N \to N$== (i.e. that change names).
+    We let:
+    - $\sigma(\bar{a}) = \bar{\sigma(a)}$
+    - $\sigma(\tau) = \tau$
 
+	The rules are applied as follows: ![](../../../static/CS/clts6.png)
+
+	We can then prove the following theorem: ![](../../../static/CS/clts7.png) ![](../../../static/CS/clts8.png)
    
 </details>
 
-1. <details markdown=1><summary markdown="span"> What are re-namings? Prove that non-conflicting re-namings do not influence the original LTS.</summary>
+8. <details markdown=1><summary markdown="span"> Prove that restricting the only transition for a process makes it bi-similar to 0. </summary>
     
     \
-
+	Proof: ![](../../../static/CS/clts9.png)
    
 </details>
 
-1. <details markdown=1><summary markdown="span"> Prove that restricting the only transition for a process makes it bi-similar to 0. </summary>
+9. <details markdown=1><summary markdown="span"> Prove the idempotency of sum. </summary>
     
     \
-
-   
-</details>
-
-1. <details markdown=1><summary markdown="span"> Prove the idempotency of sum. </summary>
-    
-    \
-
+	Proof: ![](../../../static/CS/clts10.png)
    
 </details>

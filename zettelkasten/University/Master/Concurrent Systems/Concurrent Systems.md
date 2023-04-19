@@ -29,3 +29,5 @@ Lecturer:  Daniele Gorla
 ### Appunti pt.2
 
 [[CS XI - Labeled Transition Systems]]
+
+[[CS XII - Concurrent LTSs]]
