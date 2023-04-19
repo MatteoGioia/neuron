@@ -115,7 +115,7 @@ List of exercises:
 
 </details>
 
-4. <details markdown=1><summary markdown="span">  How do we compute the ¨ "individual" probabilities? </summary>
+4. <details markdown=1><summary markdown="span">  How do we compute the "individual" probabilities? </summary>
     
     \
     First we ==compare the embedding of $w$ as a center word in position $i$== (same position as in the vocabulary $V$), computing: ![](../../../static/NLP/lsa5.png)

@@ -16,7 +16,7 @@ Lecturer:  Daniele Gorla
 
 [[CS V - Dining Philosophers & Software Transactional Memory]]
 
-[[CS VI - More on Atomicity, Linearizability and Alternatives]]
+[[CS VI - More on Atomicity, Linearisability and Alternatives]]
 
 [[CS VII - Concurrency without mutual exclusion]]
 
@@ -29,3 +29,7 @@ Lecturer:  Daniele Gorla
 ### Appunti pt.2
 
 [[CS XI - Labeled Transition Systems]]
+
+[[CS XII - Concurrent LTSs]]
+
+[[CS XIII - Weakening bi-similarity]]

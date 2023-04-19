@@ -48,7 +48,7 @@ Also see [[DS I - Intro]]
     \
     Makes ==linearising much easier, as we can now compose multiple smaller object that we know are linearisable.==
 
-	--aggiungere immagine--
+	![](../../../static/CS/ato3_1.jpg) ![](../../../static/CS/ato3_2.jpg)
 
 </details>
 

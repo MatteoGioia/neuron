@@ -3,6 +3,8 @@
 Exercises list:
 - TBA
 
+CCS: language to model concurrent LTS
+
 ### Recall questions 
 
 1. <details markdown=1><summary markdown="span"> What is lacking in the original definition of LTSs? What are possible solutions (2)? </summary>
@@ -61,6 +63,23 @@ Exercises list:
 </details>
 
 1. <details markdown=1><summary markdown="span"> Prove the idempotency of sum. </summary>
+    
+    \
+
+   
+</details>
+
+==REMOVE==
+
+1. <details markdown=1><summary markdown="span"> Describe an implementation for semaphores using CCS. </summary>
+    
+    \
+
+   
+</details>
+
+
+1. <details markdown=1><summary markdown="span"> What is congruence? Why is it important to prove that bi-similarity is a congruence? Outline the proof for the congruence of bi-similarity theorem. </summary>
     
     \
 
