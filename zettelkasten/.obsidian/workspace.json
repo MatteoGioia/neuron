@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+                "file": "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+                "file": "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+                "file": "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,21 +119,22 @@
   },
   "active": "45e7785236286189",
   "lastOpenFiles": [
-    "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
+    "static/CS/clts18.png",
+    "static/CS/Screenshot 2023-04-19 alle 15.52.21.png",
+    "static/CS/clts17.png",
+    "static/CS/Screenshot 2023-04-19 alle 15.51.59.png",
+    "static/CS/clts16.png",
+    "static/CS/Screenshot 2023-04-19 alle 15.51.43.png",
+    "static/CS/clts15.png",
+    "static/CS/Screenshot 2023-04-19 alle 15.51.31.png",
+    "static/CS/clts14.png",
+    "static/CS/Screenshot 2023-04-19 alle 15.48.53.png",
+    "static/CS/clts13.png",
     "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+    "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
     "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
     "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
-    "static/CS/clts9.png",
-    "static/CS/clts8.png",
-    "static/CS/clts7.png",
-    "static/CS/clts6.png",
-    "static/CS/clts5.png",
-    "static/CS/clts4.png",
-    "static/CS/clts3.png",
-    "static/CS/clts2.png",
-    "static/CS/clts10.png",
-    "static/CS/clts1.png",
     "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
     "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/Master/Cloud Computing/CLD IV - Autonomic Computing.md",

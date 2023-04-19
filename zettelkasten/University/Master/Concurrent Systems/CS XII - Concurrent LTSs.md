@@ -95,17 +95,27 @@ CCS: language to model concurrent LTS
    
 </details>
 
-1. <details markdown=1><summary markdown="span"> Describe an implementation for semaphores using CCS. </summary>
+10. <details markdown=1><summary markdown="span"> Describe an implementation for semaphores using CCS. </summary>
     
     \
+    We can write down the formulation for a semaphore as shown here: ![](../../../static/CS/clts11.png)
 
+	Note that the binary semaphore can be simulated by 2 unary semaphores in parallel, i.e. $(S^{(1)} | S^{(1)})$
    
 </details>
 
 
-1. <details markdown=1><summary markdown="span"> What is congruence? Why is it important to prove that bi-similarity is a congruence? Outline the proof for the congruence of bi-similarity theorem. </summary>
+11. <details markdown=1><summary markdown="span"> What is congruence? Why is it important to prove that bi-similarity is a congruence? Outline the proof for the congruence of bi-similarity theorem. </summary>
     
     \
+    Congruence effectively ==allows us to use equivalent (in our case bi-similar) LTS interchangeably==.  To effectively prove this property, we ==first need to define an execution context==: ![](../../../static/CS/clts12.png)
 
-   
+	The updated formalism for CCS including contexts is now: ![](../../../static/CS/clts13.png)
+
+	We can now prove that: ![](../../../static/CS/clts14.png)
+
+	To prove this theorem, it is easier to deconstruct it in smaller pieces:
+	![](../../../static/CS/clts15.png)![](../../../static/CS/clts16.png)![](../../../static/CS/clts17.png)![](../../../static/CS/clts18.png)
+
+
 </details>
