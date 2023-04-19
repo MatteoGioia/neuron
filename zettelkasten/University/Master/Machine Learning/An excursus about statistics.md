@@ -21,7 +21,7 @@ In the following, we'll focus on 2 main questions:
 
 ### Hyp. accuracy and confidence intervals
 
-To answer the first question, we are going to comput the ==confidence interval==. In  fact, the true error rate of our hypotesis $h(x)$ can't be computed, but we can get an idea of the interval in which it lies. 
+To answer the first question, we are going to compute the ==confidence interval==. In  fact, the true error rate of our hypotesis $h(x)$ can't be computed, but we can get an idea of the interval in which it lies. 
 
 ![](../../../static/ML/confint.png)
 
