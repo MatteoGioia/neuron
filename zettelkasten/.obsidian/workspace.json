@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
+                "file": "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
+                "file": "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
+                "file": "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,21 +119,32 @@
   },
   "active": "45e7785236286189",
   "lastOpenFiles": [
-    "static/CS/clts18.png",
-    "static/CS/Screenshot 2023-04-19 alle 15.52.21.png",
-    "static/CS/clts17.png",
-    "static/CS/Screenshot 2023-04-19 alle 15.51.59.png",
-    "static/CS/clts16.png",
-    "static/CS/Screenshot 2023-04-19 alle 15.51.43.png",
-    "static/CS/clts15.png",
-    "static/CS/Screenshot 2023-04-19 alle 15.51.31.png",
-    "static/CS/clts14.png",
-    "static/CS/Screenshot 2023-04-19 alle 15.48.53.png",
-    "static/CS/clts13.png",
-    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+    "static/NLP/sw2v12.png",
+    "static/NLP/Screenshot 2023-04-21 alle 19.21.22.png",
+    "static/NLP/Screenshot 2023-04-21 alle 19.17.45.png",
+    "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx",
+    "static/NLP/sw2v11.png",
+    "static/NLP/Screenshot 2023-04-21 alle 19.11.10.png",
+    "static/NLP/sw2v10.png",
+    "static/NLP/sw2v10.pn.png.sb-aa97f9eb-VxBbyO",
+    "static/NLP/sw2v10.pn.png",
+    "static/NLP/Screenshot 2023-04-21 alle 19.01.38.png",
+    "static/NLP/sw2v9.png",
+    "static/NLP/Screenshot 2023-04-21 alle 18.13.10.png",
+    "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV",
+    "static/NLP/sw2v8.png",
+    "static/NLP/sw2v5.png.sb-aa97f9eb-aUYeJG",
+    "static/NLP/sw2v2.png.sb-aa97f9eb-sf1L0z",
     "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
+    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+    "University/University.md",
     "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
     "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
+    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
+    "University/Master/Natural Language Processing/NLP V - Semantics.md",
+    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
+    "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
+    "University/Master/Concurrent Systems/CS XI - Labeled Transition Systems.md",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
     "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
     "University/Master/Natural Language Processing/Natural Language Processing.md",
@@ -145,17 +156,11 @@
     "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
     "University/Master/Concurrent Systems/CS IX - Universal Objects.md",
     "University/Master/Concurrent Systems/CS X - Binary consensus.md",
-    "University/Master/Concurrent Systems/CS XI - Labeled Transition Systems.md",
     "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
     "University/Master/Foundations of Data Science/FDS III - Regression.md",
     "University/Master/Foundations of Data Science/FDS IV - Classification.md",
-    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
     "University/Master/Concurrent Systems/CS VII - Concurrency without mutual exclusion.md",
     "University/Master/Machine Learning/ML XII - Clustering.md",
-    "University/Master/Machine Learning/ML XI - RNN.md",
-    "University/Master/Machine Learning/ML X - Deep Learning.md",
-    "University/Master/Machine Learning/ML VIII - Ensemble methods.md",
-    "University/Master/Machine Learning/ML VII - SVM.md",
     "University/Bachelor/Algoritmica Avanzata"
   ]
 }
