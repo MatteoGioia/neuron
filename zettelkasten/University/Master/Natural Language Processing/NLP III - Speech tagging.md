@@ -10,25 +10,23 @@ List of exercises:
 1. <details markdown=1><summary markdown="span"> What is the part of speech classification? Why is it necessary/useful ? </summary>
     
     \
-   The goal of PoS (Part Of Speech) is ==classifying different words into classes==. This classification can help to ==understand context, to find mistakes= and so on.
+    The goal of PoS (Part Of Speech) is ==classifying different words into classes==. This classification can help to ==understand context, to find mistakes== and so on.
 
 </details>
 
 2. <details markdown=1><summary markdown="span"> What are closed/open classes?  </summary>
-    
+
     \
     Two main classes:
     - closed: ==new words for this class are unlikely to be coined==, e.g. prepositions;
     - open: ==new words for this class will likely be coined==, e.g. nouns or verbs.
-   
 
 </details>
 
-3. <details markdown=1><summary markdown="span"> What is the main difficulty when determining PoS? </summary>
+3. <details markdown=1><summary markdown="span">  What is the main difficulty when determining PoS? </summary>
     
     \
-   The main difficulty of tagging words is ==ambiguity==. The word "will"
-   is a good example: it could be a name, a noun or even a verb depending on position and how is written.
+    The main difficulty of tagging words is ==ambiguity==. The word "will" is a good example: it could be a name, a noun or even a verb depending on position and how is written.
 
 </details>
 
@@ -83,4 +81,4 @@ List of exercises:
 
 --- 
 
-Finally note that the class can also be predicted using logistic regression, see [[BD IX - Logistic Regression]]
+Note that the class can also be predicted using logistic regression, see [[BD IX - Logistic Regression]]

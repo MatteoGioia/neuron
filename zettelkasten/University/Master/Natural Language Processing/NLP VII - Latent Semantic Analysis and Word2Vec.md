@@ -14,7 +14,7 @@ List of exercises:
     \
     Two compact and short representations:
     - ==latent semantics analysis==
-    - -==word2vec==
+    - ==word2vec==
 	
 
 </details>
@@ -44,7 +44,7 @@ List of exercises:
 
 	Where:
 	-  ==$U^T U  = Id$ is the ortho-normality constraint==: all pairs of ==dimensions in U and V are uncorrelated, so that each dimension conveys  unique information==;
-	- ==$==S$ is a diagonal matrix containing the ordered singular values==, denoting the ==importance of each axis in the new space==.
+	- ==$S$ is a diagonal matrix containing the ordered singular values==, denoting the ==importance of each axis in the new space==.
 
 	This decomposition, however, ==does not model our $k$ hidden topics yet==.
 
