@@ -25,3 +25,5 @@ NLP Tasks - Bonus lecture
 [[NLP VII - Latent Semantic Analysis and Word2Vec]]
 
 [[NLP VIII - Scaling Word2Vec]]
+
+[[NLP IX - Recurrent Networks (Refresh)]]

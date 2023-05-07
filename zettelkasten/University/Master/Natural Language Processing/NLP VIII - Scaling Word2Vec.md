@@ -77,8 +77,13 @@ List of exercises:
 	
 </details>
 
-1. <details markdown=1><summary markdown="span">  </summary>
+7. <details markdown=1><summary markdown="span">  What is FastText? Which "problem" does it solve and how? </summary>
     
     \
+    Word2Vec does not take into account the fact that a single ==lemma can be inflexed in multiple ways==. This creates some kind of "repetition", where words coming from the same lemma have a similar representation.
+
+	FastText tackles this issue by ==diving each word into "subwords"==, while the ==final word's embedding is the sum of each individual subword's vector==. With this formulation, ==rare words also get a better representation as their parts might appear more often==.
+
+	![](../../../static/NLP/sw2v13.png)
    
 </details>
