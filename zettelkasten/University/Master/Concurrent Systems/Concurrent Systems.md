@@ -34,3 +34,6 @@ Lecturer:  Daniele Gorla
 
 [[CS XIII - Weakening bi-similarity]]
 
+[[CS XIV - Verifying bi-similaririty via inference]]
+
+[[CS XV - Veryfing bi-similarity with logic]]

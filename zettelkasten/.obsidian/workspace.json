@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "45e7785236286189",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "e7e71154f8ff80f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
+                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
+                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
+                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,36 +127,38 @@
   },
   "active": "e7e71154f8ff80f1",
   "lastOpenFiles": [
-    "static/CS/inf1.png",
-    "static/CS/Screenshot 2023-05-08 alle 15.22.57.png",
-    "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
-    "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
+    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+    "University/Master/Natural Language Processing/Natural Language Processing.md",
+    "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+    "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
+    "static/CS/form7.png",
+    "static/CS/Screenshot 2023-05-09 alle 12.07.13.png",
+    "static/CS/form6.png",
+    "static/CS/Screenshot 2023-05-09 alle 12.04.46.png",
+    "static/CS/form5.png",
+    "static/CS/Screenshot 2023-05-09 alle 12.04.27.png",
+    "static/CS/form4.png",
+    "static/CS/Screenshot 2023-05-09 alle 11.59.50.png",
+    "static/CS/form3.png",
+    "static/CS/Screenshot 2023-05-09 alle 11.57.39.png",
+    "University/Master/Concurrent Systems/Concurrent Systems.md",
     "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
     "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
+    "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
+    "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
     "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
-    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
     "University/Master/Natural Language Processing/NLP V - Semantics.md",
     "University/Master/Concurrent Systems/CS XI - Labeled Transition Systems.md",
     "University/Master/Natural Language Processing/NLP IV - Syntax.md",
     "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
     "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
     "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
-    "University/Master/Natural Language Processing/Natural Language Processing.md",
-    "static/NLP/sw2v12.png",
-    "static/NLP/Screenshot 2023-04-21 alle 19.21.22.png",
-    "static/NLP/Screenshot 2023-04-21 alle 19.17.45.png",
     "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx",
-    "static/NLP/sw2v11.png",
-    "static/NLP/Screenshot 2023-04-21 alle 19.11.10.png",
-    "static/NLP/sw2v10.png",
     "static/NLP/sw2v10.pn.png.sb-aa97f9eb-VxBbyO",
-    "static/NLP/sw2v10.pn.png",
-    "static/NLP/Screenshot 2023-04-21 alle 19.01.38.png",
     "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV",
     "static/NLP/sw2v5.png.sb-aa97f9eb-aUYeJG",
     "static/NLP/sw2v2.png.sb-aa97f9eb-sf1L0z",
     "University/University.md",
-    "University/Master/Concurrent Systems/Concurrent Systems.md",
     "University/Master/Cloud Computing/CLD IV - Autonomic Computing.md",
     "University/Master/Cloud Computing/CLD III - Virtualization.md",
     "University/Master/Cloud Computing/CLD II - Distributed Computing.md",
@@ -181,7 +169,6 @@
     "University/Master/Concurrent Systems/CS X - Binary consensus.md",
     "University/Master/Foundations of Data Science/FDS V - Generative Models.md",
     "University/Master/Foundations of Data Science/FDS III - Regression.md",
-    "University/Master/Foundations of Data Science/FDS IV - Classification.md",
     "University/Bachelor/Algoritmica Avanzata"
   ]
 }
