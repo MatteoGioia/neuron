@@ -27,3 +27,5 @@ NLP Tasks - Bonus lecture
 [[NLP VIII - Scaling Word2Vec]]
 
 [[NLP IX - Recurrent Networks (Refresh)]]
+
+[[NLP X - Machine Translation]]
