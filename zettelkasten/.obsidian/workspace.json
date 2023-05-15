@@ -141,6 +141,7 @@
   },
   "active": "2d2e44cf58d8d181",
   "lastOpenFiles": [
+    "static/NLP/rec1.png",
     "University/Bachelor/TCC/Lista teoremi.md",
     "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
     "University/Master/Natural Language Processing/NLP IV - Syntax.md",
@@ -182,7 +183,6 @@
     "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearisability and Alternatives.md",
     "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
     "University/Master/Concurrent Systems/CS IX - Universal Objects.md",
-    "University/Master/Concurrent Systems/CS X - Binary consensus.md",
     "University/Bachelor/Algoritmica Avanzata"
   ]
 }
