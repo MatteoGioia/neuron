@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "f1c2b72290c5c72b",
+        "id": "7c61e6095e5b3e0c",
         "type": "tabs",
         "children": [
           {
-            "id": "e7e71154f8ff80f1",
+            "id": "5b061344785c840a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/Natural Language Processing.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2d2e44cf58d8d181",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
+                "file": "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
+                "file": "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
+                "file": "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,26 +126,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2d2e44cf58d8d181",
+  "active": "5b061344785c840a",
   "lastOpenFiles": [
-    "static/NLP/rec1.png",
-    "University/Bachelor/TCC/Lista teoremi.md",
-    "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
-    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
+    "static/CS/algo9.png",
+    "static/CS/Screenshot 2023-05-15 alle 13.00.13.png",
+    "static/CS/algo8.png",
+    "static/CS/Screenshot 2023-05-15 alle 12.51.26.png",
+    "static/CS/algo7.png",
+    "static/CS/Screenshot 2023-05-15 alle 12.43.24.png",
+    "static/CS/algo6.png",
+    "static/CS/algo5.png",
+    "static/CS/Screenshot 2023-05-15 alle 12.30.29.png",
+    "static/CS/Screenshot 2023-05-15 alle 12.30.22.png",
+    "static/CS/algo4.png",
     "University/Master/Natural Language Processing/Natural Language Processing.md",
+    "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
+    "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
+    "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
+    "University/Bachelor/TCC/Lista teoremi.md",
+    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
     "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
     "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
-    "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
-    "static/CS/form7.png",
-    "static/CS/Screenshot 2023-05-09 alle 12.07.13.png",
-    "static/CS/form6.png",
-    "static/CS/Screenshot 2023-05-09 alle 12.04.46.png",
-    "static/CS/form5.png",
-    "static/CS/Screenshot 2023-05-09 alle 12.04.27.png",
-    "static/CS/form4.png",
-    "static/CS/Screenshot 2023-05-09 alle 11.59.50.png",
-    "static/CS/form3.png",
-    "static/CS/Screenshot 2023-05-09 alle 11.57.39.png",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
     "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
     "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
@@ -182,7 +170,6 @@
     "static/CS/Screenshot 2023-04-18 alle 10.42.03.zip",
     "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearisability and Alternatives.md",
     "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
-    "University/Master/Concurrent Systems/CS IX - Universal Objects.md",
     "University/Bachelor/Algoritmica Avanzata"
   ]
 }
