@@ -37,3 +37,5 @@ Lecturer:  Daniele Gorla
 [[CS XIV - Verifying bi-similaririty via inference]]
 
 [[CS XV - Veryfing bi-similarity with logic]]
+
+[[CS XVI - Relational Coarsest Partition Problem]]
