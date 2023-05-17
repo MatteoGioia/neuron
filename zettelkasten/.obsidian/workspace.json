@@ -13,8 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+                "file": "University/Master/Natural Language Processing/NLP IX - Transformers.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4136574f44570c0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+                "file": "University/Master/Natural Language Processing/NLP IX - Transformers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+                "file": "University/Master/Natural Language Processing/NLP IX - Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,14 +140,17 @@
   },
   "active": "487c6e045b8090e9",
   "lastOpenFiles": [
+    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "University/Master/Natural Language Processing/NLP IX - Transformers.md",
+    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
+    "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
     "static/NLP/lstm2.png",
     "static/NLP/lstm1.png",
     "static/NLP/nmt3.png",
     "static/NLP/nmt2.png",
     "static/NLP/nmt1.png",
     "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
-    "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
-    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
     "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
     "static/CS/algo9.png",
@@ -142,12 +158,10 @@
     "static/CS/algo7.png",
     "static/CS/algo6.png",
     "static/CS/algo5.png",
-    "static/CS/algo4.png",
     "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
     "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
     "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
     "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
-    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
     "University/Master/Natural Language Processing/NLP V - Semantics.md",
     "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
     "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
@@ -168,7 +182,6 @@
     "static/CS/Screenshot 2023-04-18 alle 10.42.03.zip",
     "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearisability and Alternatives.md",
     "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
-    "University/Master/Concurrent Systems/CS IX - Universal Objects.md",
     "University/Bachelor/Algoritmica Avanzata"
   ]
 }
