@@ -27,7 +27,7 @@
 
 </details>
 
-1. <details markdown=1><summary markdown="span"> Prove soundness and completeness of our rules. </summary>
+4. <details markdown=1><summary markdown="span"> Prove soundness and completeness of our rules. </summary>
     
     \
     Refer to the slides for the full proof.
