@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP IX - Transformers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4136574f44570c0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
+                "file": "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -83,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -99,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP IX - Transformers.md",
+                "file": "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP IX - Transformers.md",
+                "file": "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,8 +128,11 @@
   },
   "active": "487c6e045b8090e9",
   "lastOpenFiles": [
-    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
+    "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
+    "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
     "University/Master/Natural Language Processing/NLP IX - Transformers.md",
+    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
     "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
     "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
     "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
@@ -158,10 +149,7 @@
     "static/CS/algo7.png",
     "static/CS/algo6.png",
     "static/CS/algo5.png",
-    "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
     "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
-    "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
-    "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
     "University/Master/Natural Language Processing/NLP V - Semantics.md",
     "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
     "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
