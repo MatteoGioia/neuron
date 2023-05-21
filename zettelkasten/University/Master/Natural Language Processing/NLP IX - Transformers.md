@@ -1,6 +1,6 @@
 Also see:
 - [[AML VI - Transformer networks]]
-### Recall questions 
+### Recall questions on transformers 
 
 1. <details markdown=1><summary markdown="span">  Describe the main limitations of recurrent models before transformers.</summary>
     
@@ -22,3 +22,5 @@ Also see:
     \
    
 </details>
+
+### Recall questions BERT, pre-training
