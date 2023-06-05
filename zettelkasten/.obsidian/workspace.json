@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "109b34fe8ae7967f",
+        "id": "610d869858a3f549",
         "type": "tabs",
         "children": [
           {
-            "id": "487c6e045b8090e9",
+            "id": "e8c80261acf46caa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 655
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -87,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,23 +118,26 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "487c6e045b8090e9",
+  "active": "e8c80261acf46caa",
   "lastOpenFiles": [
-    "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
-    "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
-    "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
+    "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/Master/Natural Language Processing/NLP IX - Transformers.md",
-    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
-    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
-    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
     "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+    "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
+    "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
+    "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
+    "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
+    "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
+    "University/Master/Concurrent Systems/CS XI - Labeled Transition Systems.md",
+    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
     "static/NLP/lstm2.png",
     "static/NLP/lstm1.png",
     "static/NLP/nmt3.png",
     "static/NLP/nmt2.png",
     "static/NLP/nmt1.png",
     "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
-    "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
     "static/CS/algo9.png",
     "static/CS/algo8.png",
@@ -151,9 +146,6 @@
     "static/CS/algo5.png",
     "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
     "University/Master/Natural Language Processing/NLP V - Semantics.md",
-    "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
-    "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
-    "University/Master/Concurrent Systems/CS XI - Labeled Transition Systems.md",
     "University/Master/Natural Language Processing/NLP IV - Syntax.md",
     "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
     "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",

@@ -25,7 +25,7 @@ CCS: language to model concurrent LTS
     \
 	Given a set of names ==$N$ that denotes events==:
 	- ==$a \in N$ denotes the consumption of event $a$==
-	- ==$\bar{a} \in A$ denotes the production of event $a$==
+	- ==$\bar{a} \in N$ denotes the production of event $a$==
 
 	==$a,\bar{a}$ are two complementary actions== used by $p_i$'s to ==synch on action $a$==
    
