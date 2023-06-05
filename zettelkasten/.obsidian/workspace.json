@@ -13,6 +13,13 @@
             "state": {
               "type": "empty",
               "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -66,6 +73,7 @@
     ],
     "direction": "horizontal",
     "width": 655
+    "width": 300
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -81,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +130,11 @@
   },
   "active": "e8c80261acf46caa",
   "lastOpenFiles": [
+    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
     "University/Master/Natural Language Processing/Natural Language Processing.md",
-    "University/Master/Natural Language Processing/NLP IX - Transformers.md",
+    "University/Master/Natural Language Processing/NLP X - Transformers.md",
     "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+    "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
     "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
     "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
     "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
@@ -149,7 +161,6 @@
     "University/Master/Natural Language Processing/NLP IV - Syntax.md",
     "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
     "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
-    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
     "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx",
     "static/NLP/sw2v10.pn.png.sb-aa97f9eb-VxBbyO",
     "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV",
@@ -161,7 +172,6 @@
     "University/Master/Cloud Computing/CLD II - Distributed Computing.md",
     "static/CS/Screenshot 2023-04-18 alle 10.42.03.zip",
     "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearisability and Alternatives.md",
-    "University/Master/Concurrent Systems/CS VIII - Enhancing Mutex Free Liveness.md",
     "University/Bachelor/Algoritmica Avanzata"
   ]
 }
