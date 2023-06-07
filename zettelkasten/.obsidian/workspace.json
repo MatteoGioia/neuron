@@ -4,19 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "610d869858a3f549",
+        "id": "cd57ceb1b4da3344",
         "type": "tabs",
         "children": [
           {
-            "id": "e8c80261acf46caa",
+            "id": "919db5cd75d3f9e4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
+                "file": "University/Master/Natural Language Processing/NLP X - Transformers.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a3bf59b8d92dc179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -72,8 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 655
-    "width": 300
+    "width": 655,
+    "collapsed": true
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -89,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
+                "file": "University/Master/Natural Language Processing/NLP X - Transformers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
+                "file": "University/Master/Natural Language Processing/NLP X - Transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,21 +139,23 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e8c80261acf46caa",
+  "active": "919db5cd75d3f9e4",
   "lastOpenFiles": [
-    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
-    "University/Master/Natural Language Processing/Natural Language Processing.md",
+    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
     "University/Master/Natural Language Processing/NLP X - Transformers.md",
+    "static/NLP/tf1.png",
     "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+    "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
     "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
+    "University/Master/Natural Language Processing/Natural Language Processing.md",
+    "University/Master/Natural Language Processing/NLP IX - Transformers.md",
     "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
     "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
     "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
     "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
     "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
     "University/Master/Concurrent Systems/CS XI - Labeled Transition Systems.md",
-    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
-    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
     "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
     "static/NLP/lstm2.png",
     "static/NLP/lstm1.png",
@@ -155,12 +168,11 @@
     "static/CS/algo8.png",
     "static/CS/algo7.png",
     "static/CS/algo6.png",
-    "static/CS/algo5.png",
-    "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
     "University/Master/Natural Language Processing/NLP V - Semantics.md",
     "University/Master/Natural Language Processing/NLP IV - Syntax.md",
     "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
     "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
     "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx",
     "static/NLP/sw2v10.pn.png.sb-aa97f9eb-VxBbyO",
     "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV",
@@ -169,9 +181,7 @@
     "University/University.md",
     "University/Master/Cloud Computing/CLD IV - Autonomic Computing.md",
     "University/Master/Cloud Computing/CLD III - Virtualization.md",
-    "University/Master/Cloud Computing/CLD II - Distributed Computing.md",
     "static/CS/Screenshot 2023-04-18 alle 10.42.03.zip",
-    "University/Master/Concurrent Systems/CS VI - More on Atomicity, Linearisability and Alternatives.md",
     "University/Bachelor/Algoritmica Avanzata"
   ]
 }
