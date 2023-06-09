@@ -17,6 +17,13 @@ For a clearer explanation on Inverse Transform Sampling, see: https://www.youtub
    
 </details>
 
+2. <details markdown=1><summary markdown="span"> What is a popular model that uses a concept similar to forget gates? </summary>
+    
+    \
+    ==CNNs with skip-connections==.
+    
+</details>
+
 ## Recall questions on LSTM
 
 1. <details markdown=1><summary markdown="span"> Explain how the LSTM model works. What is the role of each gate function?  </summary>

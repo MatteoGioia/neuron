@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP X - Transformers.md",
-                "mode": "source",
+                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP X - Transformers.md",
+                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP X - Transformers.md",
+                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,13 +141,17 @@
   },
   "active": "919db5cd75d3f9e4",
   "lastOpenFiles": [
-    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
     "University/Master/Natural Language Processing/NLP X - Transformers.md",
-    "static/NLP/tf1.png",
     "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
+    "static/NLP/tf2.png",
+    "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
+    "Pasted image 20230609155417.png",
+    "static/NLP/pt1.png",
+    "static/NLP/Schermata del 2023-06-09 15-53-06.png",
+    "static/NLP/tf1.png",
     "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
     "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
-    "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
     "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/Master/Natural Language Processing/NLP IX - Transformers.md",
     "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
@@ -164,10 +168,6 @@
     "static/NLP/nmt1.png",
     "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
-    "static/CS/algo9.png",
-    "static/CS/algo8.png",
-    "static/CS/algo7.png",
-    "static/CS/algo6.png",
     "University/Master/Natural Language Processing/NLP V - Semantics.md",
     "University/Master/Natural Language Processing/NLP IV - Syntax.md",
     "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
