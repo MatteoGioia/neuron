@@ -28,6 +28,4 @@ NLP Tasks - Bonus lecture
 
 [[NLP IX - Recurrent Networks (Refresh)]]
 
-[[NLP X - Machine Translation]]
-
-[[NLP XI - Contrastive Methods & CLIP]]
+[[NLP X - Transformers]]

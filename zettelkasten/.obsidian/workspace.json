@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "919db5cd75d3f9e4",
+            "id": "5bfd89f62c80776e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a3bf59b8d92dc179",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
+                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -83,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 655,
-    "collapsed": true
+    "width": 655
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+                "file": "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,20 +125,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "919db5cd75d3f9e4",
+  "active": "5bfd89f62c80776e",
   "lastOpenFiles": [
     "University/Master/Natural Language Processing/NLP X - Transformers.md",
     "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
+    "University/Master/Advanced Machine Learning/AML V - Sequence models.md",
+    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
+    "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
     "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
-    "static/NLP/tf2.png",
+    "University/Master/Natural Language Processing/NLP V - Semantics.md",
+    "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
+    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
+    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
+    "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
+    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
+    "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
+    "static/NLP/tf2.png",
     "Pasted image 20230609155417.png",
     "static/NLP/pt1.png",
     "static/NLP/Schermata del 2023-06-09 15-53-06.png",
     "static/NLP/tf1.png",
-    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
-    "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
-    "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/Master/Natural Language Processing/NLP IX - Transformers.md",
     "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
     "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
@@ -160,7 +153,6 @@
     "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
     "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
     "University/Master/Concurrent Systems/CS XI - Labeled Transition Systems.md",
-    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
     "static/NLP/lstm2.png",
     "static/NLP/lstm1.png",
     "static/NLP/nmt3.png",
@@ -168,11 +160,6 @@
     "static/NLP/nmt1.png",
     "University/Master/Natural Language Processing/NLP X - Machine Translation.md",
     "University/Master/Concurrent Systems/Concurrent Systems.md",
-    "University/Master/Natural Language Processing/NLP V - Semantics.md",
-    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
-    "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
-    "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
-    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
     "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx",
     "static/NLP/sw2v10.pn.png.sb-aa97f9eb-VxBbyO",
     "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV",
