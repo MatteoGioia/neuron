@@ -109,9 +109,9 @@ List of exercises:
     - the ==center word $w_t$==
     - ==$m$ words of each side== as the context, i.e. $w_{t+1}, w_{t+2}$ and $w_{t-1}, w_{t-2}$.
 
-	The goal is to ==maximise the likelihood $p(w_{t-2}, w_{t-1}, w_t, w_{t+1}, w_{t+2} | w_t = word; \theta)$==.
+	The goal is to ==maximise the likelihood $p(w_{t-2}, w_{t-1}, w_{t+1}, w_{t+2} | w_t = word; \theta)$==.
 
-	To simplify things, we assume ==conditional independence==: $p(w_{t-2}, w_{t-1}, w_t, w_{t+1}, w_{t+2} | w_t = word; \theta) \approx \prod_{-m, \leq j \leq m} p(c_{t+j} | w_t; \theta)$
+	To simplify things, we assume ==conditional independence==: $p(w_{t-2}, w_{t-1}, w_{t+1}, w_{t+2} | w_t = word; \theta) \approx \prod_{-m, \leq j \leq m} p(c_{t+j} | w_t; \theta)$
 
 </details>
 

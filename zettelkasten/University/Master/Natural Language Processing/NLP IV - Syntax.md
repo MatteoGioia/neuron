@@ -49,7 +49,7 @@ List of exercises:
 5. <details markdown=1><summary markdown="span"> What is an alternative strategy to perform parsing more efficiently? Describe the CKY algorithm. </summary>
     
     \
-   An alternative strategy for parsing is ==dynamic programming==, which saves ==intermediate parsing steps== in a table to avoid computing them again.
+	An alternative strategy for parsing is ==dynamic programming==, which saves ==intermediate parsing steps== in a table to avoid computing them again.
 
 	The CKY algorithm uses DP to parse a ==sentence given a CFG in CNF==: ![](../../../static/NLP/syn8.png)
 

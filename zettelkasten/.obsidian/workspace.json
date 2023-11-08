@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 655
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -133,9 +133,9 @@
     "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
     "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
     "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
-    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
-    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
-    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
+    "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
+    "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
+    "University/Master/Concurrent Systems/CS XI - Labeled Transition Systems.md",
     "static/NLP/lstm2.png",
     "static/NLP/lstm1.png",
     "static/NLP/nmt3.png",
