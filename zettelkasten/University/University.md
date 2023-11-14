@@ -65,3 +65,7 @@ Why does the note style change all of a sudden? Read the [[Index]]!
 [[Concurrent Systems]] **[N]**
 
 [[Natural Language Processing]] **[N]**
+
+## Primo anno PHD
+
+[[3D Scenes]] **[N]**
