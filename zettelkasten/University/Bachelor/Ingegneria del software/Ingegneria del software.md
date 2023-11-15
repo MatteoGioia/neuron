@@ -1,7 +1,4 @@
----
-dirtree:
-  display: False
----
+
 
 # Ingegneria del software
 

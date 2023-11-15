@@ -27,8 +27,5 @@
   },
   "livePreview": false,
   "alwaysUpdateLinks": true,
-  "spellcheckLanguages": [
-    "it",
-    "en-GB"
-  ]
+  "spellcheckLanguages": null
 }

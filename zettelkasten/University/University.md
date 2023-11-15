@@ -1,7 +1,4 @@
----
-dirtree:
-  display: False
----
+
 
 # University notes
 
@@ -68,4 +65,16 @@ Why does the note style change all of a sudden? Read the [[Index]]!
 
 ## Primo anno PHD
 
-[[3D Scenes]] **[N]**
+Da aggiustare, creare link di primo livello per 3D e hyperbolic
+### 3D 
+
+[[3D Scene graphs]] **[N]**
+
+[[3D - Misc]]
+
+[[Point clouds]]
+
+### Hyperbolic
+
+[[Hyperbolic - Misc]]
+

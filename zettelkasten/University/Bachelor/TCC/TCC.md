@@ -1,7 +1,4 @@
----
-dirtree:
-  display: False
----
+
 
 # Teoria della Calcolabilità e Complessità
 

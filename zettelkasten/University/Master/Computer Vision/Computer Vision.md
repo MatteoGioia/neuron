@@ -1,7 +1,4 @@
----
-dirtree:
-  display: False
----
+
 
 # Deep Learning and Artificial Intelligence
 

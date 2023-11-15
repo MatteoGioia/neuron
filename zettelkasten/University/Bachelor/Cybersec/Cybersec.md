@@ -1,7 +1,4 @@
----
-dirtree:
-  display: False
----
+
 
 Sezione dedicata agli appunti per il seminario di (introduzione alla) Cybersecurity.
 

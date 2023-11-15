@@ -1,7 +1,4 @@
----
-dirtree:
-  display: False
----
+
 
 # Foundations of Data Science
 
