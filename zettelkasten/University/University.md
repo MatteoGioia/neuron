@@ -63,18 +63,9 @@ Why does the note style change all of a sudden? Read the [[Index]]!
 
 [[Natural Language Processing]] **[N]**
 
-## Primo anno PHD
+##  PHD
 
-Da aggiustare, creare link di primo livello per 3D e hyperbolic
-### 3D 
+[[3D]]
 
-[[3D Scene graphs]] **[N]**
-
-[[3D - Misc]]
-
-[[Point clouds]]
-
-### Hyperbolic
-
-[[Hyperbolic - Misc]]
+[[Hyperbolic and CV]]
 

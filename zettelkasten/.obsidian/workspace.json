@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cd57ceb1b4da3344",
+        "id": "447e03669bc11eb0",
         "type": "tabs",
         "children": [
           {
-            "id": "5bfd89f62c80776e",
+            "id": "23159a34c0862eab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/University.md",
-                "mode": "source",
+                "file": "University/PhD/3D/3D Scenes.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#contrastive",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 655
+    "width": 417.0050811767578
   },
   "right": {
     "id": "ea27dea70de39b82",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/University.md",
+                "file": "University/PhD/3D/3D Scenes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,19 +103,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/University.md",
+                "file": "University/PhD/3D/3D Scenes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "e504d42e936ad763",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
               }
             }
           }
@@ -135,53 +125,53 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5bfd89f62c80776e",
+  "active": "23159a34c0862eab",
   "lastOpenFiles": [
-    "University/Master/Natural Language Processing/Natural Language Processing.md",
-    "University/University.md",
-    "University/PhD/Hyperbolic/Hyperbolic - Misc.md",
+    "University/PhD/Hyperbolic/Hyperbolic.md",
+    "University/PhD/3D/3D.md",
+    "University/PhD/3D/3D Scenes.md",
     "University/PhD/3D/Point clouds.md",
-    "University/PhD/3D/3D Scene graphs.md",
     "University/PhD/3D/3D - Misc.md",
+    "University/PhD/Hyperbolic/Hyperbolic and CV.md",
+    "University/University.md",
+    "University/Master/Big Data/Big Data.md",
     "University/PhD/Hyperbolic",
-    "University/Master/Advanced Machine Learning/Advanced Machine Learning.md",
-    "University/Master/Natural Language Processing/NLP II -  Minimum Edit Distance & Language Models.md",
     "University/PhD/3D",
+    "University/PhD/3D scenes/3D Scenes.md",
+    "University/Master/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
+    "University/Master/Advanced Machine Learning/AML III - Convolutional.md",
+    "University/Master/Advanced Machine Learning/Advanced Machine Learning.md",
+    "University/Master/Blockchain and DLT/BDLT I - Intro.md",
+    "University/PhD/3D scenes",
     "University/PhD",
+    "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
+    "University/Master/Concurrent Systems/CS X - Binary consensus.md",
+    "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
+    "University/Master/Blockchain and DLT/BDLT IV - Ethereum.md",
+    "University/Master/Distributed Systems/DS IX - A brief overview of consistent hashing.md",
+    "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
+    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
+    "University/Master/Natural Language Processing/Natural Language Processing.md",
     "University/Master/Natural Language Processing/NLP X - Transformers.md",
     "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
-    "University/Master/Advanced Machine Learning/AML V - Sequence models.md",
-    "University/Master/Natural Language Processing/NLP VIII - Scaling Word2Vec.md",
-    "University/Master/Natural Language Processing/NLP VII - Latent Semantic Analysis and Word2Vec.md",
-    "University/Master/Advanced Machine Learning/AML VI - Transformer networks.md",
-    "University/Master/Natural Language Processing/NLP V - Semantics.md",
-    "University/Master/Natural Language Processing/NLP VI - Vector semantics.md",
-    "University/Master/Natural Language Processing/NLP IV - Syntax.md",
-    "University/Master/Natural Language Processing/NLP III - Speech tagging.md",
-    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
-    "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
-    "static/NLP/tf2.png",
-    "Pasted image 20230609155417.png",
-    "static/NLP/pt1.png",
-    "static/NLP/Schermata del 2023-06-09 15-53-06.png",
-    "static/NLP/tf1.png",
-    "University/Master/Natural Language Processing/NLP IX - Transformers.md",
     "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
     "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
     "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
-    "University/Master/Concurrent Systems/CS XIII - Weakening bi-similarity.md",
-    "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
     "static/NLP/lstm2.png",
     "static/NLP/lstm1.png",
     "static/NLP/nmt3.png",
     "static/NLP/nmt2.png",
     "static/NLP/nmt1.png",
+    "static/CS/algo9.png",
+    "static/CS/algo8.png",
+    "static/CS/algo7.png",
+    "static/CS/algo6.png",
+    "static/CS/algo5.png",
     "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx",
     "static/NLP/sw2v10.pn.png.sb-aa97f9eb-VxBbyO",
     "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV",
     "static/NLP/sw2v5.png.sb-aa97f9eb-aUYeJG",
     "static/NLP/sw2v2.png.sb-aa97f9eb-sf1L0z",
-    "static/CS/Screenshot 2023-04-18 alle 10.42.03.zip",
-    "University/Bachelor/Algoritmica Avanzata"
+    "static/CS/Screenshot 2023-04-18 alle 10.42.03.zip"
   ]
 }
