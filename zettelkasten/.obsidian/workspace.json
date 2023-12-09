@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "447e03669bc11eb0",
+        "id": "655c52759abac801",
         "type": "tabs",
         "children": [
           {
-            "id": "23159a34c0862eab",
+            "id": "8ddae135507ddc15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "University/PhD/3D/3D Scenes.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -125,15 +125,33 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "23159a34c0862eab",
+  "active": "8ddae135507ddc15",
   "lastOpenFiles": [
-    "University/PhD/Hyperbolic/Hyperbolic.md",
     "University/PhD/3D/3D.md",
+    "University/PhD/Ideas/ECCV Fast Forward.md",
+    "University/PhD/Ideas/Ideas.md",
     "University/PhD/3D/3D Scenes.md",
+    "University/PhD/3D/Nerf.md",
     "University/PhD/3D/Point clouds.md",
-    "University/PhD/3D/3D - Misc.md",
-    "University/PhD/Hyperbolic/Hyperbolic and CV.md",
     "University/University.md",
+    "University/Master/Deep Learning and AI/DLAI V - Sgd.md",
+    "Untitled.canvas",
+    "University/Master/Cloud Computing/CLD I - Cloud computing.md",
+    "static/IDEAS/idea1.png",
+    "static/IDEAS",
+    "static/cartella senza nome",
+    "University/Master/Autonomous Networking/AN XIII - QLearning.md",
+    "University/Master/Autonomous Networking/AN XII - Softmax.md",
+    "University/Master/Autonomous Networking/AN XI - MDP.md",
+    "University/Master/Autonomous Networking/AN X - Kband PE.md",
+    "University/Master/Autonomous Networking/AN VIII - Reinforcement Learning.md",
+    "University/PhD/Hyperbolic/Hyperbolic and CV.md",
+    "University/PhD/Ideas",
+    "University/Bachelor/Web Engineering/Lezione I - Intro al Web Engineering.md",
+    "University/Master/Blockchain and DLT/BDLT V - Consensus.md",
+    "University/Master/Blockchain and DLT/BDLT VI - Solidity.md",
+    "University/PhD/Hyperbolic/Hyperbolic.md",
+    "University/PhD/3D/3D - Misc.md",
     "University/Master/Big Data/Big Data.md",
     "University/PhD/Hyperbolic",
     "University/PhD/3D",
@@ -144,19 +162,6 @@
     "University/Master/Blockchain and DLT/BDLT I - Intro.md",
     "University/PhD/3D scenes",
     "University/PhD",
-    "University/Master/Concurrent Systems/CS XII - Concurrent LTSs.md",
-    "University/Master/Concurrent Systems/CS X - Binary consensus.md",
-    "University/Master/Concurrent Systems/CS II  - Faster concurrency.md",
-    "University/Master/Blockchain and DLT/BDLT IV - Ethereum.md",
-    "University/Master/Distributed Systems/DS IX - A brief overview of consistent hashing.md",
-    "University/Master/Natural Language Processing/NLP XI - Contrastive Methods & CLIP.md",
-    "University/Master/Natural Language Processing/NLP I - Words and Corpora.md",
-    "University/Master/Natural Language Processing/Natural Language Processing.md",
-    "University/Master/Natural Language Processing/NLP X - Transformers.md",
-    "University/Master/Natural Language Processing/NLP IX - Recurrent Networks (Refresh).md",
-    "University/Master/Concurrent Systems/CS XVI - Relational Coarsest Partition Problem.md",
-    "University/Master/Concurrent Systems/CS XV - Veryfing bi-similarity with logic.md",
-    "University/Master/Concurrent Systems/CS XIV - Verifying bi-similaririty via inference.md",
     "static/NLP/lstm2.png",
     "static/NLP/lstm1.png",
     "static/NLP/nmt3.png",
@@ -166,12 +171,8 @@
     "static/CS/algo8.png",
     "static/CS/algo7.png",
     "static/CS/algo6.png",
-    "static/CS/algo5.png",
     "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx",
     "static/NLP/sw2v10.pn.png.sb-aa97f9eb-VxBbyO",
-    "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV",
-    "static/NLP/sw2v5.png.sb-aa97f9eb-aUYeJG",
-    "static/NLP/sw2v2.png.sb-aa97f9eb-sf1L0z",
-    "static/CS/Screenshot 2023-04-18 alle 10.42.03.zip"
+    "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV"
   ]
 }

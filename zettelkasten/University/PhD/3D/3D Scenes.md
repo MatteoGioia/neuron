@@ -32,6 +32,7 @@ Resources on 3D scenes
 	- paper: https://arxiv.org/pdf/2112.02990.pdf
 	- code:
 	- tags: #4D #3dsceneunderstanding 
-- **TBA**
+- **Modeling Dynamic Environments with Scene Graph Memory**:
+	- paper: https://arxiv.org/abs/2305.17537
 
 
