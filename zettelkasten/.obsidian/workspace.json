@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "University/PhD/3D/3D Scenes.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#contrastive",
+                "query": "tag:#3dscenegraph",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,10 +127,18 @@
   },
   "active": "8ddae135507ddc15",
   "lastOpenFiles": [
-    "University/PhD/3D/3D.md",
-    "University/PhD/Ideas/ECCV Fast Forward.md",
+    "University/PhD/Ideas/P_1.md",
+    "University/PhD/Ideas/P_2.md",
     "University/PhD/Ideas/Ideas.md",
+    "static/IDEAS/id1_2.png",
     "University/PhD/3D/3D Scenes.md",
+    "static/IDEAS/id2_2.png",
+    "static/IDEAS/Schermata del 2023-12-10 18-54-09.png",
+    "static/IDEAS/id2_1.png",
+    "static/IDEAS/Schermata del 2023-12-10 18-50-42.png",
+    "static/IDEAS/id1_1.png",
+    "static/IDEAS/Schermata del 2023-12-09 19-21-39.png",
+    "University/PhD/3D/3D.md",
     "University/PhD/3D/Nerf.md",
     "University/PhD/3D/Point clouds.md",
     "University/University.md",
@@ -159,18 +167,10 @@
     "University/Master/Advanced Machine Learning/AML VII - Graph Neural Networks.md",
     "University/Master/Advanced Machine Learning/AML III - Convolutional.md",
     "University/Master/Advanced Machine Learning/Advanced Machine Learning.md",
-    "University/Master/Blockchain and DLT/BDLT I - Intro.md",
     "University/PhD/3D scenes",
     "University/PhD",
     "static/NLP/lstm2.png",
     "static/NLP/lstm1.png",
-    "static/NLP/nmt3.png",
-    "static/NLP/nmt2.png",
-    "static/NLP/nmt1.png",
-    "static/CS/algo9.png",
-    "static/CS/algo8.png",
-    "static/CS/algo7.png",
-    "static/CS/algo6.png",
     "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx",
     "static/NLP/sw2v10.pn.png.sb-aa97f9eb-VxBbyO",
     "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV"
