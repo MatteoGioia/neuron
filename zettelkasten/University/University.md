@@ -65,8 +65,4 @@ Why does the note style change all of a sudden? Read the [[Index]]!
 
 ##  PHD
 
-[[3D]]
-
-[[Hyperbolic and CV]]
-
 [[Ideas]]
