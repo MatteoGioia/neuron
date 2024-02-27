@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/University.md",
+                "file": "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/University.md",
+                "file": "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/University.md",
+                "file": "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,15 +127,19 @@
   },
   "active": "6efb573b8e542adb",
   "lastOpenFiles": [
+    "University/PhD/Ideas/Diffusion for PathGuiding.md",
+    "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
+    "University/PhD/Ideas/Ideas.md",
+    "University/Bachelor/Sviluppo Agile/Lezione I - Metodi Agili.md",
+    "University/PhD/Ideas/P_1.md",
+    "University/PhD/Ideas/P_2.md",
     "University/PhD/Ideas/Res learning.md",
+    "University/University.md",
+    "University/Bachelor/Ingegneria del software/Ingegneria del software.md",
     "University/PhD/3D/Point clouds.md",
     "static/IDEAS/dinov2.png",
     "static/IDEAS/mocov3.png",
-    "University/PhD/Ideas/Ideas.md",
-    "University/PhD/Ideas/P_1.md",
-    "University/PhD/Ideas/P_2.md",
     "University/PhD/3D/3D.md",
-    "University/University.md",
     "University/PhD/Hyperbolic/Hyperbolic.md",
     "University/PhD/Hyperbolic/Hyperbolic and CV.md",
     "University/PhD/3D/3D Scenes.md",
@@ -160,11 +164,8 @@
     "University/Bachelor/Web Engineering/Lezione I - Intro al Web Engineering.md",
     "University/Master/Blockchain and DLT/BDLT V - Consensus.md",
     "University/Master/Blockchain and DLT/BDLT VI - Solidity.md",
-    "University/PhD/3D/3D - Misc.md",
-    "University/Master/Big Data/Big Data.md",
     "University/PhD/Hyperbolic",
     "University/PhD/3D",
-    "University/PhD/3D scenes/3D Scenes.md",
     "University/PhD/3D scenes",
     "University/PhD",
     "static/NLP/lstm2.png",

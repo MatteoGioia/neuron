@@ -4,8 +4,6 @@ List of possible ideas
 
 ###
 
-[[P_1]]
+[[Diffusion for PathGuiding]]
 
-[[P_2]]
-
-[[Res learning]]
+[[Two Stage Diffusion for Scene Generation with SDFs and Raymarching]]
