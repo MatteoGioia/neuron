@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
+                "file": "University/PhD/Ideas/Scene-Alive, generating alive scenes conditioning 3D Diffusion.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
+                "file": "University/PhD/Ideas/Scene-Alive, generating alive scenes conditioning 3D Diffusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
+                "file": "University/PhD/Ideas/Scene-Alive, generating alive scenes conditioning 3D Diffusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,9 +127,10 @@
   },
   "active": "6efb573b8e542adb",
   "lastOpenFiles": [
-    "University/PhD/Ideas/Diffusion for PathGuiding.md",
-    "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
     "University/PhD/Ideas/Ideas.md",
+    "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
+    "University/PhD/Ideas/Scene-Alive, generating alive scenes conditioning 3D Diffusion.md",
+    "University/PhD/Ideas/Diffusion for PathGuiding.md",
     "University/Bachelor/Sviluppo Agile/Lezione I - Metodi Agili.md",
     "University/PhD/Ideas/P_1.md",
     "University/PhD/Ideas/P_2.md",
@@ -163,7 +164,6 @@
     "University/PhD/Ideas",
     "University/Bachelor/Web Engineering/Lezione I - Intro al Web Engineering.md",
     "University/Master/Blockchain and DLT/BDLT V - Consensus.md",
-    "University/Master/Blockchain and DLT/BDLT VI - Solidity.md",
     "University/PhD/Hyperbolic",
     "University/PhD/3D",
     "University/PhD/3D scenes",
