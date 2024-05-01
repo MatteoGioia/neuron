@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "655c52759abac801",
+        "id": "e28d31e499a49ce2",
         "type": "tabs",
         "children": [
           {
-            "id": "6efb573b8e542adb",
+            "id": "dfe8e8671e13af95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
+                "file": "University/PhD/Quantum Computing/QC - Lecture 4.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
+                "file": "University/PhD/Quantum Computing/QC - Lecture 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
+                "file": "University/PhD/Quantum Computing/QC - Lecture 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,17 +125,33 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6efb573b8e542adb",
+  "active": "dfe8e8671e13af95",
   "lastOpenFiles": [
+    "University/PhD/Quantum Computing/QC - Lecture 3.md",
+    "University/PhD/Quantum Computing/QC - Lecture 4.md",
+    "University/PhD/Quantum Computing/Quantum Computing.md",
+    "University/PhD/Quantum Computing/QC - Lecture 2.md",
+    "static/IQC/Screenshot 2024-04-23 alle 12.54.30.png",
+    "static/IQC/qc2.png",
+    "static/IQC/Screenshot 2024-04-23 alle 12.30.21.png",
+    "static/IQC/qc1.png",
+    "static/IQC/Screenshot 2024-04-23 alle 12.26.37.png",
+    "static/IQC",
+    "static/cartella senza nome",
+    "Untitled.canvas",
+    "University/PhD/Quantum Computing/QC - Lecture 1.md",
+    "University/Master/Big Data/BD I - Big Data Pheonomenon.md",
+    "University/University.md",
+    "University/Master/Big Data/Big Data.md",
+    "University/PhD/Quantum Computing",
+    "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
     "University/PhD/Ideas/Self supervised 3D Scene Understanding.md",
     "University/PhD/Ideas/Diffusion for PathGuiding.md",
-    "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md",
     "University/PhD/Ideas/Ideas.md",
     "University/Bachelor/Sviluppo Agile/Lezione I - Metodi Agili.md",
     "University/PhD/Ideas/P_1.md",
     "University/PhD/Ideas/P_2.md",
     "University/PhD/Ideas/Res learning.md",
-    "University/University.md",
     "University/Bachelor/Ingegneria del software/Ingegneria del software.md",
     "University/PhD/3D/Point clouds.md",
     "static/IDEAS/dinov2.png",
@@ -148,31 +164,15 @@
     "static/IDEAS/id2_2.png",
     "static/IDEAS/id2_1.png",
     "static/IDEAS/id1_2.png",
-    "static/IDEAS/id1_1.png",
     "University/PhD/Ideas/ECCV Fast Forward.md",
     "University/Master/Deep Learning and AI/DLAI V - Sgd.md",
-    "Untitled.canvas",
     "University/Master/Cloud Computing/CLD I - Cloud computing.md",
-    "static/IDEAS/idea1.png",
     "static/IDEAS",
-    "static/cartella senza nome",
-    "University/Master/Autonomous Networking/AN XIII - QLearning.md",
-    "University/Master/Autonomous Networking/AN XII - Softmax.md",
-    "University/Master/Autonomous Networking/AN XI - MDP.md",
-    "University/Master/Autonomous Networking/AN X - Kband PE.md",
-    "University/Master/Autonomous Networking/AN VIII - Reinforcement Learning.md",
     "University/PhD/Ideas",
-    "University/Bachelor/Web Engineering/Lezione I - Intro al Web Engineering.md",
-    "University/Master/Blockchain and DLT/BDLT V - Consensus.md",
     "University/PhD/Hyperbolic",
     "University/PhD/3D",
     "University/PhD/3D scenes",
     "University/PhD",
-    "static/NLP/lstm2.png",
-    "static/NLP/lstm1.png",
-    "static/NLP/nmt3.png",
-    "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx",
-    "static/NLP/sw2v10.pn.png.sb-aa97f9eb-VxBbyO",
-    "static/NLP/sw2v8.png.sb-aa97f9eb-mQyMWV"
+    "static/NLP/sw2v11.png.sb-aa97f9eb-lCyDhx"
   ]
 }

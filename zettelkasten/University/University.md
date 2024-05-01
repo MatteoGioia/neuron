@@ -66,3 +66,5 @@ Why does the note style change all of a sudden? Read the [[Index]]!
 ##  PHD
 
 [[Ideas]]
+
+[[Quantum Computing]]
