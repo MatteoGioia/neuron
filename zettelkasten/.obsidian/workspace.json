@@ -1,0 +1,148 @@
+{
+  "main": {
+    "id": "eba744bb7e240de1",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef1092331897962f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8647cfe2e5073812",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/PhD/Quantum Computing/QC - Lecture 1.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "34ecf22eb62441ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "2cb41facd0c83488",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c8843e544c654b6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "763036759f07044a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7801a5fb87660148",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 420
+  },
+  "right": {
+    "id": "0c462b44df364994",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee0bd4d590ee245b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9de6a60569134f3e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "University/PhD/Quantum Computing/QC - Lecture 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4d901a952dcb497e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "University/PhD/Quantum Computing/QC - Lecture 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "8647cfe2e5073812",
+  "lastOpenFiles": [
+    "static/IQC/qc12.png",
+    "static/IQC/Schermata del 2024-05-01 19-14-59.png",
+    "static/IQC/qc11.png",
+    "static/IQC/Schermata del 2024-05-01 19-11-11.png",
+    "static/IQC/qc10.png",
+    "static/IQC/Schermata del 2024-05-01 19-10-20.png",
+    "static/IQC/qc9.png",
+    "static/IQC/Schermata del 2024-05-01 18-25-21.png",
+    "static/IQC/qc8.png",
+    "static/IQC/Schermata del 2024-05-01 18-24-13.png",
+    "static/IQC/qc7.png",
+    "University/PhD/Quantum Computing/Quantum Computing.md",
+    "University/PhD/Quantum Computing/QC - Lecture 1.md",
+    "University/PhD/Meetings/ReSSL/Meet II - 4 April 2024.md",
+    "University/PhD/Ideas/Ideas.md",
+    "University/PhD/Ideas/Diffusion for PathGuiding.md",
+    "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md"
+  ]
+}
