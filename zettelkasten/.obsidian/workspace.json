@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/PhD/Quantum Computing/QC - Lecture 1.md",
+                "file": "University/PhD/Quantum Computing/QC - Lecture 2.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420
+    "width": 370
   },
   "right": {
     "id": "0c462b44df364994",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/PhD/Quantum Computing/QC - Lecture 1.md",
+                "file": "University/PhD/Quantum Computing/QC - Lecture 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/PhD/Quantum Computing/QC - Lecture 1.md",
+                "file": "University/PhD/Quantum Computing/QC - Lecture 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,19 +127,24 @@
   },
   "active": "8647cfe2e5073812",
   "lastOpenFiles": [
-    "static/IQC/qc12.png",
-    "static/IQC/Schermata del 2024-05-01 19-14-59.png",
-    "static/IQC/qc11.png",
-    "static/IQC/Schermata del 2024-05-01 19-11-11.png",
-    "static/IQC/qc10.png",
-    "static/IQC/Schermata del 2024-05-01 19-10-20.png",
-    "static/IQC/qc9.png",
-    "static/IQC/Schermata del 2024-05-01 18-25-21.png",
-    "static/IQC/qc8.png",
-    "static/IQC/Schermata del 2024-05-01 18-24-13.png",
-    "static/IQC/qc7.png",
-    "University/PhD/Quantum Computing/Quantum Computing.md",
+    "static/IQC/qc19.png",
+    "static/IQC/qc18.png",
+    "static/IQC/Screenshot 2024-05-20 alle 10.41.50.png",
+    "static/IQC/Screenshot 2024-05-20 alle 10.41.39.png",
+    "static/IQC/qc17.png",
+    "static/IQC/Screenshot 2024-05-20 alle 10.38.50.png",
+    "static/IQC/qc16.png",
+    "static/IQC/Screenshot 2024-05-20 alle 10.36.21.png",
+    "static/IQC/qc15.png",
+    "static/IQC/Screenshot 2024-05-20 alle 10.32.36.png",
+    "static/IQC/qc14.png",
+    "static/IQC/Screenshot 2024-05-20 alle 10.28.52.zip",
     "University/PhD/Quantum Computing/QC - Lecture 1.md",
+    "University/PhD/Quantum Computing/QC - Lecture 2.md",
+    "University/PhD/Quantum Computing/QC - Lecture 5.md",
+    "University/PhD/Quantum Computing/QC - Lecture 4.md",
+    "University/PhD/Quantum Computing/QC - Lecture 3.md",
+    "University/PhD/Quantum Computing/Quantum Computing.md",
     "University/PhD/Meetings/ReSSL/Meet II - 4 April 2024.md",
     "University/PhD/Ideas/Ideas.md",
     "University/PhD/Ideas/Diffusion for PathGuiding.md",

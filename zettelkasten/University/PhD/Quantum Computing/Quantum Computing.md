@@ -10,3 +10,9 @@ Lecturer: Paolo Zuliani
 [[QC - Lecture 1]]
 
 [[QC - Lecture 2]]
+
+[[QC - Lecture 3]]
+
+[[QC - Lecture 4]]
+
+[[QC - Lecture 5]]
