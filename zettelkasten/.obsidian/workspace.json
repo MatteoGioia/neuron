@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ef1092331897962f",
+        "id": "1b913d39f7fcf2e7",
         "type": "tabs",
         "children": [
           {
-            "id": "8647cfe2e5073812",
+            "id": "d3c67b2f049d8e24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/PhD/Quantum Computing/QC - Lecture 2.md",
-                "mode": "preview",
+                "file": "University/PhD/Modern Web Search/Lecture III.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370
+    "width": 430
   },
   "right": {
     "id": "0c462b44df364994",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/PhD/Quantum Computing/QC - Lecture 2.md",
+                "file": "University/PhD/Modern Web Search/Lecture III.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/PhD/Quantum Computing/QC - Lecture 2.md",
+                "file": "University/PhD/Modern Web Search/Lecture III.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,8 +125,38 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8647cfe2e5073812",
+  "active": "d3c67b2f049d8e24",
   "lastOpenFiles": [
+    "University/PhD/Modern Web Search/Lecture II.md",
+    "University/PhD/Modern Web Search/Lecture III.md",
+    "University/PhD/Modern Web Search/Lecture I.md",
+    "University/University.md",
+    "University/PhD/Quantum Computing.md",
+    "University/PhD/Modern Web Search",
+    "University/PhD/Quantum Computing/QC - Lecture 4.md",
+    "University/PhD/Quantum Computing/QC - Lecture 3.md",
+    "University/PhD/Quantum Computing/QC - Lecture 2.md",
+    "University/PhD/Quantum Computing/QC - Lecture 1.md",
+    "University/PhD/From Research To Innovation/Project Proposal.md",
+    "University/PhD/Quantum Computing/Quantum Computing.md",
+    "University/PhD/From Research To Innovation",
+    "University/PhD/ICVSS/ICVSS.md",
+    "University/PhD/ICVSS/Scaling Language and World Models.md",
+    "University/PhD/ICVSS/Pixels in your feet.md",
+    "University/PhD/ICVSS/Object Recognition and Reconstruction in the era of LLMs.md",
+    "University/PhD/ICVSS/Lifelong learning for Visual Representations.md",
+    "University/PhD/ICVSS/Generative Models in Computer Vision.md",
+    "University/PhD/ICVSS/Fundamentals of Neural Inverse Rendering.md",
+    "University/PhD/ICVSS/End2End Autonomous Driving.md",
+    "University/PhD/ICVSS/Dumb Ideas.md",
+    "University/PhD/ICVSS/Digital Humans.md",
+    "University/PhD/ICVSS/Always be learning.md",
+    "University/PhD/ICVSS/AI in art.md",
+    "University/PhD/ICVSS/A data diet for Robot Learning.md",
+    "University/PhD/Deep Generative View on Continual Learning/DGVCL - Lecture 2.md",
+    "University/PhD/Deep Generative View on Continual Learning/DGVCL - Lecture 1.md",
+    "University/PhD/ICVSS",
+    "University/PhD/Deep Generative View on Continual Learning",
     "static/IQC/qc19.png",
     "static/IQC/qc18.png",
     "static/IQC/Screenshot 2024-05-20 alle 10.41.50.png",
@@ -137,17 +167,6 @@
     "static/IQC/Screenshot 2024-05-20 alle 10.36.21.png",
     "static/IQC/qc15.png",
     "static/IQC/Screenshot 2024-05-20 alle 10.32.36.png",
-    "static/IQC/qc14.png",
-    "static/IQC/Screenshot 2024-05-20 alle 10.28.52.zip",
-    "University/PhD/Quantum Computing/QC - Lecture 1.md",
-    "University/PhD/Quantum Computing/QC - Lecture 2.md",
-    "University/PhD/Quantum Computing/QC - Lecture 5.md",
-    "University/PhD/Quantum Computing/QC - Lecture 4.md",
-    "University/PhD/Quantum Computing/QC - Lecture 3.md",
-    "University/PhD/Quantum Computing/Quantum Computing.md",
-    "University/PhD/Meetings/ReSSL/Meet II - 4 April 2024.md",
-    "University/PhD/Ideas/Ideas.md",
-    "University/PhD/Ideas/Diffusion for PathGuiding.md",
-    "University/PhD/Ideas/Two Stage Diffusion for Scene Generation with SDFs and Raymarching.md"
+    "static/IQC/Screenshot 2024-05-20 alle 10.28.52.zip"
   ]
 }
