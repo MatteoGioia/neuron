@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/PhD/Modern Web Search/Lecture III.md",
+                "file": "University/PhD/Online Learning in Games and Markets/Lecture IV.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430
+    "width": 315
   },
   "right": {
     "id": "0c462b44df364994",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/PhD/Modern Web Search/Lecture III.md",
+                "file": "University/PhD/Online Learning in Games and Markets/Lecture IV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/PhD/Modern Web Search/Lecture III.md",
+                "file": "University/PhD/Online Learning in Games and Markets/Lecture IV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,9 +127,16 @@
   },
   "active": "d3c67b2f049d8e24",
   "lastOpenFiles": [
-    "University/PhD/Modern Web Search/Lecture II.md",
-    "University/PhD/Modern Web Search/Lecture III.md",
+    "University/PhD/Online Learning in Games and Markets/Lecture I.md",
+    "University/PhD/Online Learning in Games and Markets/Lecture II.md",
+    "University/PhD/Online Learning in Games and Markets/Lecture IV.md",
+    "University/PhD/Online Learning in Games and Markets/Lecture III.md",
     "University/PhD/Modern Web Search/Lecture I.md",
+    "University/PhD/Modern Web Search/SOTA of Explainability in Retrieval.md",
+    "University/PhD/Online Learning in Games and Markets",
+    "University/PhD/Modern Web Search/Lecture III.md",
+    "University/PhD/Modern Web Search/Lecture IV.md",
+    "University/PhD/Modern Web Search/Lecture II.md",
     "University/University.md",
     "University/PhD/Quantum Computing.md",
     "University/PhD/Modern Web Search",
@@ -149,12 +156,6 @@
     "University/PhD/ICVSS/Fundamentals of Neural Inverse Rendering.md",
     "University/PhD/ICVSS/End2End Autonomous Driving.md",
     "University/PhD/ICVSS/Dumb Ideas.md",
-    "University/PhD/ICVSS/Digital Humans.md",
-    "University/PhD/ICVSS/Always be learning.md",
-    "University/PhD/ICVSS/AI in art.md",
-    "University/PhD/ICVSS/A data diet for Robot Learning.md",
-    "University/PhD/Deep Generative View on Continual Learning/DGVCL - Lecture 2.md",
-    "University/PhD/Deep Generative View on Continual Learning/DGVCL - Lecture 1.md",
     "University/PhD/ICVSS",
     "University/PhD/Deep Generative View on Continual Learning",
     "static/IQC/qc19.png",
